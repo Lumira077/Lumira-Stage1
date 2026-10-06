@@ -138,3 +138,18 @@ RAID 재구성·정상화·외부 복원 검증 후 수동 시작한다. 재시�
 - [PostgreSQL 17 SQL dump](https://www.postgresql.org/docs/17/backup-dump.html)
 - [pg_restore](https://www.postgresql.org/docs/17/app-pgrestore.html)
 - [Synology Docker 이미지 관리](https://kb.synology.com/ko-kr/DSM/help/Docker/Docker?version=6)
+
+## DSM GUI가 멈출 때 준비한 CLI 방식
+
+현재 NAS 경로는 `/volume1/lumira-db`이며 패키지와 `scripts/deploy-dsm.sh`를 업로드했다.
+이 스크립트는 Compose 설치 없이 기존 Docker CLI를 사용한다. 새 관리자 비밀 생성과 배포는
+사용자가 직접 최종 실행해야 하며, 현재 DSM에 수동 작업 초안만 준비되어 있다.
+
+```sh
+cd /volume1/lumira-db
+CREATE_LOCAL_ADMIN_SECRET=yes SYNTHETIC_ONLY=yes sh scripts/deploy-dsm.sh
+```
+
+관리자 비밀은 NAS 안에서 생성되고 출력되지 않는다. 기존 비밀이나 DB가 있으면 중단한다.
+이미지를 추가로 다운로드하지 않고 현재 NAS에 있는 공식 이미지의 RepoDigest를 사용한다.
+스크립트의 성공 메시지는 초기화·기본 권한·동일 호스트 복원까지의 결과이며 API/TLS/독립 백업은 별도다.
