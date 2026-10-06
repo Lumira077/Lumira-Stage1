@@ -1,0 +1,51 @@
+name: NAS database package
+on:
+  push:
+    paths: ['infra/nas-db/**', '.github/workflows/nas-db.yml']
+  pull_request:
+    paths: ['infra/nas-db/**', '.github/workflows/nas-db.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  postgres-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    defaults:
+      run:
+        working-directory: infra/nas-db
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shell syntax and isolated ephemeral test secret
+        run: |
+          for f in scripts/*.sh; do sh -n "$f"; done
+          umask 077
+          mkdir -p secrets
+          openssl rand -hex 32 > secrets/db_admin_password
+          chmod 600 secrets/db_admin_password
+      - name: Start in disposable CI environment
+        run: |
+          PREFLIGHT_MODE=synthetic SYNTHETIC_ONLY=yes STORAGE_STATE=degraded sh scripts/deploy.sh
+          # The flags above exercise the explicitly limited mode, not a claim about NAS health.
+          for n in $(seq 1 60); do
+            if [ "$(docker inspect --format '{{.State.Health.Status}}' lumira-postgres-dev)" = healthy ]; then exit 0; fi
+            sleep 2
+          done
+          exit 1
+      - name: Verify DB roles, resources and no public ports
+        run: sh scripts/verify.sh
+      - name: Restart and verify persistence
+        run: |
+          docker restart lumira-postgres-dev
+          for n in $(seq 1 60); do
+            if [ "$(docker inspect --format '{{.State.Health.Status}}' lumira-postgres-dev)" = healthy ]; then break; fi
+            sleep 2
+          done
+          sh scripts/verify.sh
+      - name: Dump and restore three databases
+        run: |
+          backup=$(sh scripts/backup.sh)
+          sh scripts/restore-smoke.sh "$backup"
+      - name: Remove ephemeral CI resources only
+        if: always()
+        run: docker compose down
