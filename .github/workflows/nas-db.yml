@@ -49,3 +49,19 @@ jobs:
       - name: Remove ephemeral CI resources only
         if: always()
         run: docker compose down
+
+  dsm-cli-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    defaults:
+      run:
+        working-directory: infra/nas-db
+    steps:
+      - uses: actions/checkout@v4
+      - name: Obtain official image
+        run: docker pull postgres:17-bookworm
+      - name: Verify reviewed DSM CLI deployment in isolated CI
+        run: CREATE_LOCAL_ADMIN_SECRET=yes SYNTHETIC_ONLY=yes sh scripts/deploy-dsm.sh
+      - name: Stop ephemeral CI test container
+        if: always()
+        run: docker stop -t 30 lumira-postgres-dev || true
