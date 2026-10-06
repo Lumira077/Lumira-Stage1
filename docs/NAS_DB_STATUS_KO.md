@@ -27,3 +27,17 @@ DSM에 root 소유 작업 정의가 남는다. 관리자 작업을 잘못 편집
 CI 성공은 NAS 설치, RAID 복구, 실기 연결 또는 독립 백업 성공의 증거가 아니다.
 
 연결 Jira: KR1-472 / KR1-474 / KR1-475 / KR1-476 / KR1-494 / KR1-496.
+
+## 별도 시험 서버 검증 결과
+
+2026-10-06 GitHub Actions [37476807793](https://github.com/Lumira077/Lumira-Stage1/actions/runs/37476807793),
+소스 커밋 `c374e5ba53fa72e5a84b0af2c0cf683dd2267f60`: **전체 성공**.
+
+- 공식 PostgreSQL 컨테이너 초기화 및 health 확인
+- 3 DB, NOLOGIN 권한 그룹, 교차 DB CONNECT 차단
+- CPU 1코어 상당 quota, 메모리 1GiB, 연결20, shared_buffers128MB, 공개 포트 없음
+- 재시작 후 3 DB의 migration 행 유지
+- DB별 custom dump 생성·checksum·새 임시 DB 복원 및 migration 버전 비교
+
+시험 환경은 GitHub Ubuntu runner다. NAS DSM/Docker 버전 호환성, NAS 영속 볼륨 권한,
+실제 API 계정/TLS, 업무 데이터 정합성, 외부 독립 저장소 복원은 미검증이다.
