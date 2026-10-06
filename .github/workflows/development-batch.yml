@@ -1,8 +1,9 @@
-name: Epic 07-16 and 18-20 offline development
+name: Epic 01-17 offline verification
 on:
   push:
     paths:
       - 'Development/**'
+      - 'scripts/**'
       - 'Epic-07/**'
       - 'Epic-08/**'
       - 'Epic-09/**'
@@ -29,29 +30,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Partial utilities and work contracts
-        run: python Development/runtime/run.py
-      - name: Epic 01 to 06 Python regression
+      - name: All offline suites and contracts
+        run: python scripts/verify_all.py
+      - name: Stage1 and design simulations
         run: |
-          python Epic-01/integration/run.py
-          python Epic-02/runtime/run.py
-          python Epic-03/runtime/run.py
-          python Epic-04/runtime/run.py
-          python Epic-05/runtime/run.py
-          python Epic-06/runtime/run.py
-      - name: Stage1 contracts and Epic17 design prototype
-        run: |
-          python -m unittest discover -s Development/Stage1/tests -v
           python Development/Stage1/mock_transport.py
-          python -m unittest discover -s Development/Stage1/bringup/tests -v
           python Development/Stage1/bringup/probe.py --mode simulate
-          python -m unittest discover -s Epic-17/tests -v
           python Epic-17/runtime/run.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: development-batch-evidence
           path: |
+            artifacts/verification/
             Development/evidence/report.json
             Epic-01/integration/evidence/report.json
             Epic-02/runtime/evidence/report.json

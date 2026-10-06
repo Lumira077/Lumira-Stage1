@@ -1,3 +1,13 @@
+# Lumira Stage1 — 프로그램·운영·실기 연결
+
+[운영 설명서와 연결 이미지](docs/OPERATIONS_KO.md) · [실제 모터 연결 상세](docs/MOTOR_CONNECTION_KO.md) · [자동시험](https://github.com/Lumira077/Lumira-Stage1/actions)
+
+![PC–Pi–UNO 연결](docs/images/network.svg)
+
+빠른 검증: `python3 scripts/verify_all.py`. 현재 로컬595개 시험 통과, 실제 모터 펌웨어/실기 시험은 미완료입니다.
+
+---
+
 # KER-Robot
 KER Robot Development Site
 
