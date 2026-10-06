@@ -1,0 +1,44 @@
+{
+  "id": "F2112-S02",
+  "jira_key": "KR1-875",
+  "source_scope": "이벤트 표: speech_start=입 표현, user_interrupt=발화/모션 중단 요청, network_error=중립·안내, motion_fault=안전 대기.",
+  "work_now": "표정·제스처 제안 타임라인과 상태 전환 구현",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2112/F2112-S02/deliverable.json",
+  "acceptance": "100ms 동기화 초안 목표는 실제 로봇 측정 전",
+  "remaining": "ASR/TTS·모션 피드백·시간 기준; Python·브라우저",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "프로토타입 또는 설계 입력 작성"
+}

@@ -1,0 +1,16 @@
+{
+  "feature": "F2018",
+  "release_ready": false,
+  "actual_models": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "fusion macro-F1/UAR·ECE·coverage/selective risk·missing/conflict unknown·시간 skew·p50/p95 지연·타 사용자 결합 0건",
+  "pending": "실제 3 modality adapter/calibration·ROS/event bus/F2010 표현 연결·physical latency 미연결. example 품질/시간/confidence threshold는 운영 승인 대상.",
+  "required": [
+    "actual_model_quality_calibration",
+    "privacy_auth_epoch_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

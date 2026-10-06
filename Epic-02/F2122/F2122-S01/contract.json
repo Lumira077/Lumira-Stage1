@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2122",
+  "data_proposal": "LocalModelManifest: runtime, model_hash, quantization, ram_required_mb, supported_hardware; ToolProposal: allowed_action",
+  "interface_proposal": "LocalModelGate.validate/propose; 운영 inference는 llama.cpp/보드별 runtime의 별도 adapter",
+  "acceptance": "선정 모델을 실제 보드에서 실행해 RAM/first token/속도/발열 목표와 승인 Tool 검증을 통과한다.",
+  "metrics": "peak RAM·tokens/s·TTFT·온도/전력·fallback·Tool 거절",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

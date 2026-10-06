@@ -1,0 +1,21 @@
+{
+  "id": "F2098-S04",
+  "jira": "KR1-756",
+  "parent": "KR1-752",
+  "title": "[F2098-S04] 내부 배치·배선·Connector·Harness 설계 DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: 전원/모터/고속data harness·keying·strain relief·service loop를 설계",
+  "data": "connector pinout·voltage·wire·harness length",
+  "boundary": "오결선·bend·RF/EMI·정비중 접촉",
+  "metrics": "pinout 검토·굽힘/인장·통신오류",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "bom_review",
+  "actual_external_calls": 0
+}

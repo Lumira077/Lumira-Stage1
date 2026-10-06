@@ -1,0 +1,21 @@
+{
+  "id": "F2180-S04",
+  "jira": "KR1-1008",
+  "parent": "KR1-1007",
+  "title": "[F2180-S04] IR Deck·Executive Summary·기술 Demo Package 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: IR story·제품Demo·실제시험근거·재무모델을 한version으로 묶기",
+  "data": "deck·onepager·demo video ref·claims·financial version",
+  "boundary": "과장효과·수치불일치·Demo미재현·공개IP",
+  "metrics": "메시지일관성·수치근거·검토승인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,13 @@
+# [F2092-S01] Safety MCU·Motor Interface·I/O 제어 Architecture 요구사양·Interface·BOM 설계
+
+Jira: https://lumira077.atlassian.net/browse/KR1-723
+
+성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: Linux AI와 Safety MCU의 CAN-FD/RS485·enable/watchdog·I/O 책임을 분리
+
+데이터: ICD·message seq·fault·hardware enable·MCU version
+
+검증: AI freeze·bus off·restart·watchdog
+
+지표: 독립정지·통신무결성·제어주기
+
+현재는 task.json 작업계약/증적 요구입니다. 실제 단계 수행 완료는 아닙니다. 상위 contract.json 및 Development/runtime/review.py를 함께 사용합니다. 실제 대상에 맞춘 adapter·검토·시험·승인은 후속입니다.

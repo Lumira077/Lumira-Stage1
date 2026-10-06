@@ -1,0 +1,21 @@
+{
+  "id": "F2170-S03",
+  "jira": "KR1-962",
+  "parent": "KR1-959",
+  "title": "[F2170-S03] 구동·센서·전원·기계안전 특허 발굴·출원 명세서·도면·Claim 작성·출원",
+  "work": "실시예/도면/claim·전문가검토·공식제출/접수증: 구동/센서/전원/독립Safety MCU 구조와효과를 claim 후보로 정리",
+  "data": "circuit/mechanical revision·fault experiment·effect",
+  "boundary": "일반구성·미검증안전효과·권리귀속",
+  "metrics": "구조/효과근거·도면·발명자확인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,594 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "F2002 loopback development API",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8082"
+    }
+  ],
+  "security": [
+    {
+      "devToken": []
+    }
+  ],
+  "paths": {
+    "/profiles": {
+      "get": {
+        "operationId": "listProfiles",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "profile_id",
+                      "owner_id",
+                      "subject_id",
+                      "data",
+                      "revision"
+                    ],
+                    "properties": {
+                      "profile_id": {
+                        "type": "string"
+                      },
+                      "owner_id": {
+                        "type": "string"
+                      },
+                      "subject_id": {
+                        "type": "string"
+                      },
+                      "data": {
+                        "$ref": "#/components/schemas/ProfileData"
+                      },
+                      "revision": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Conflict or stale revision"
+          },
+          "422": {
+            "description": "Validation error"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        }
+      },
+      "post": {
+        "operationId": "createProfile",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "profile_id",
+                    "owner_id",
+                    "subject_id",
+                    "data",
+                    "revision"
+                  ],
+                  "properties": {
+                    "profile_id": {
+                      "type": "string"
+                    },
+                    "owner_id": {
+                      "type": "string"
+                    },
+                    "subject_id": {
+                      "type": "string"
+                    },
+                    "data": {
+                      "$ref": "#/components/schemas/ProfileData"
+                    },
+                    "revision": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Conflict or stale revision"
+          },
+          "422": {
+            "description": "Validation error"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "data",
+                  "mutation_id"
+                ],
+                "properties": {
+                  "data": {
+                    "$ref": "#/components/schemas/ProfileData"
+                  },
+                  "mutation_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/profiles/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "get": {
+        "operationId": "getProfile",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "profile_id",
+                    "owner_id",
+                    "subject_id",
+                    "data",
+                    "revision"
+                  ],
+                  "properties": {
+                    "profile_id": {
+                      "type": "string"
+                    },
+                    "owner_id": {
+                      "type": "string"
+                    },
+                    "subject_id": {
+                      "type": "string"
+                    },
+                    "data": {
+                      "$ref": "#/components/schemas/ProfileData"
+                    },
+                    "revision": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Conflict or stale revision"
+          },
+          "422": {
+            "description": "Validation error"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        }
+      },
+      "patch": {
+        "operationId": "updateProfile",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "profile_id",
+                    "owner_id",
+                    "subject_id",
+                    "data",
+                    "revision"
+                  ],
+                  "properties": {
+                    "profile_id": {
+                      "type": "string"
+                    },
+                    "owner_id": {
+                      "type": "string"
+                    },
+                    "subject_id": {
+                      "type": "string"
+                    },
+                    "data": {
+                      "$ref": "#/components/schemas/ProfileData"
+                    },
+                    "revision": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Conflict or stale revision"
+          },
+          "422": {
+            "description": "Validation error"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "changes",
+                  "revision",
+                  "mutation_id"
+                ],
+                "properties": {
+                  "changes": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [],
+                    "properties": {
+                      "language": {
+                        "type": "string",
+                        "enum": [
+                          "ko-KR",
+                          "en-US"
+                        ]
+                      },
+                      "nickname": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 40
+                      },
+                      "preferred_name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 40
+                      },
+                      "purpose": {
+                        "type": "string",
+                        "enum": [
+                          "companion",
+                          "education",
+                          "care",
+                          "home"
+                        ]
+                      },
+                      "preferences": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [
+                          "voice_id",
+                          "speech_rate",
+                          "volume",
+                          "expression_level",
+                          "gesture_level"
+                        ],
+                        "properties": {
+                          "voice_id": {
+                            "type": "string",
+                            "enum": [
+                              "device_default",
+                              "demo_voice_a"
+                            ]
+                          },
+                          "speech_rate": {
+                            "type": "number",
+                            "minimum": 0.7,
+                            "maximum": 1.3
+                          },
+                          "volume": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 100
+                          },
+                          "expression_level": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 3
+                          },
+                          "gesture_level": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 3
+                          }
+                        }
+                      },
+                      "consent": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [
+                          "long_term_memory",
+                          "conversation_storage",
+                          "biometric_identity",
+                          "cloud_transfer",
+                          "policy_version"
+                        ],
+                        "properties": {
+                          "long_term_memory": {
+                            "type": "boolean"
+                          },
+                          "conversation_storage": {
+                            "type": "boolean"
+                          },
+                          "biometric_identity": {
+                            "type": "boolean"
+                          },
+                          "cloud_transfer": {
+                            "type": "boolean"
+                          },
+                          "policy_version": {
+                            "type": "string",
+                            "enum": [
+                              "prototype-2026-10-v1"
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    "minProperties": 1
+                  },
+                  "revision": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "mutation_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "deleteProfile",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "deleted"
+                  ],
+                  "properties": {
+                    "deleted": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Conflict or stale revision"
+          },
+          "422": {
+            "description": "Validation error"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "revision"
+                ],
+                "properties": {
+                  "revision": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "devToken": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Local token maps to fixed demo actor; no production identity provider"
+      }
+    },
+    "schemas": {
+      "ProfileData": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "language",
+          "nickname",
+          "preferred_name",
+          "purpose",
+          "preferences",
+          "consent"
+        ],
+        "properties": {
+          "language": {
+            "type": "string",
+            "enum": [
+              "ko-KR",
+              "en-US"
+            ]
+          },
+          "nickname": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+          },
+          "preferred_name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+          },
+          "purpose": {
+            "type": "string",
+            "enum": [
+              "companion",
+              "education",
+              "care",
+              "home"
+            ]
+          },
+          "preferences": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "voice_id",
+              "speech_rate",
+              "volume",
+              "expression_level",
+              "gesture_level"
+            ],
+            "properties": {
+              "voice_id": {
+                "type": "string",
+                "enum": [
+                  "device_default",
+                  "demo_voice_a"
+                ]
+              },
+              "speech_rate": {
+                "type": "number",
+                "minimum": 0.7,
+                "maximum": 1.3
+              },
+              "volume": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "expression_level": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "gesture_level": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              }
+            }
+          },
+          "consent": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "long_term_memory",
+              "conversation_storage",
+              "biometric_identity",
+              "cloud_transfer",
+              "policy_version"
+            ],
+            "properties": {
+              "long_term_memory": {
+                "type": "boolean"
+              },
+              "conversation_storage": {
+                "type": "boolean"
+              },
+              "biometric_identity": {
+                "type": "boolean"
+              },
+              "cloud_transfer": {
+                "type": "boolean"
+              },
+              "policy_version": {
+                "type": "string",
+                "enum": [
+                  "prototype-2026-10-v1"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

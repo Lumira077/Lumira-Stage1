@@ -1,0 +1,21 @@
+{
+  "id": "F2079-S04",
+  "jira": "KR1-634",
+  "parent": "KR1-630",
+  "title": "[F2079-S04] AI 사용량 계측 및 비용 제어 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: 토큰/음성/영상/Cloud 사용량을 idempotent 원가계측으로 구성",
+  "data": "usage id·units·price version·credit·budget",
+  "boundary": "중복계측·추정/확정 차이·할당초과",
+  "metrics": "원가오차·집계지연·한도차단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "UsageLedger",
+  "actual_external_calls": 0
+}

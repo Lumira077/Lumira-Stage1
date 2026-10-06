@@ -1,0 +1,188 @@
+{
+  "epic": "Epic-09",
+  "jira": "KR1-374",
+  "features": [
+    {
+      "feature": "F2048",
+      "jira": "KR1-375",
+      "epic": "Epic-09",
+      "epic_jira": "KR1-374",
+      "title": "[F2048] 복약 및 일정 알림",
+      "work": "사용자 승인 복약/일정의 timezone 반복·snooze·확인·재알림을 구현",
+      "data": "schedule id·local time·timezone·occurrence·ack",
+      "boundary": "DST·시계변경·중복전달·연결 단절",
+      "metrics": "중복 알림 0건·누락률·도달시간",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": "Reminder",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+      "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2049",
+      "jira": "KR1-380",
+      "epic": "Epic-09",
+      "epic_jira": "KR1-374",
+      "title": "[F2049] 비접촉 rPPG 생체신호 측정",
+      "work": "rPPG capture 품질·움직임/조명 평가와 품질 미달 시 값 보류를 구성",
+      "data": "ROI·signal quality·duration·estimate·timestamp",
+      "boundary": "가림·motion·조명·피부톤·frame drop",
+      "metrics": "참조센서 비교오차·측정가능률·quality reject",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": "wellness_value",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+      "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2050",
+      "jira": "KR1-385",
+      "epic": "Epic-09",
+      "epic_jira": "KR1-374",
+      "title": "[F2050] 낙상 및 이상행동 감지",
+      "work": "pose/time context 기반 낙상 후보와 사용자 확인·오탐 억제를 구성",
+      "data": "event id·pose sequence·confidence·confirm state",
+      "boundary": "앉기/눕기·가림·무반응·sensor offline",
+      "metrics": "오탐/미탐·검출 지연·개인정보 노출",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+      "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2051",
+      "jira": "KR1-390",
+      "epic": "Epic-09",
+      "epic_jira": "KR1-374",
+      "title": "[F2051] 긴급 호출 및 보호자 알림",
+      "work": "승인 보호자 경로의 긴급 이벤트·전송·재시도·수신 확인을 구성",
+      "data": "alert id·channel ref·attempt·delivery receipt·ack",
+      "boundary": "통신 단절·중복·수신 거절·미확인",
+      "metrics": "수신 확인률·전달지연·미확인 escalation",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+      "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2052",
+      "jira": "KR1-395",
+      "epic": "Epic-09",
+      "epic_jira": "KR1-374",
+      "title": "[F2052] 정서 케어와 명상 안내",
+      "work": "선호·피로·사용자 중단을 반영한 정서 대화/명상과 지원 전환을 구성",
+      "data": "session·approved content·preference·stop",
+      "boundary": "위기표현·싫어요·무반응·과도한 몰입",
+      "metrics": "중단 반영시간·콘텐츠 적합성·지원 연결",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+      "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2053",
+      "jira": "KR1-400",
+      "epic": "Epic-09",
+      "epic_jira": "KR1-374",
+      "title": "[F2053] 건강·정서 리포트",
+      "work": "알림/활동/정서 관측을 출처/불확실성과 함께 요약하고 공유 권한을 적용",
+      "data": "report period·aggregate·coverage·scope",
+      "boundary": "데이터 부족·잘못된 소유자·철회·과도한 진단",
+      "metrics": "요약 정확성·공유권한·원문 노출 0건",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+      "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 24,
+  "release_ready": false
+}

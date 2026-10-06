@@ -1,0 +1,21 @@
+{
+  "id": "F2132-S03",
+  "jira": "KR1-790",
+  "parent": "KR1-787",
+  "title": "[F2132-S03] Main Camera 사양·위치·시야각 검증 Bench·통합·안전 시험",
+  "work": "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험: 1080pHDR UVC 기본/RGB-D 옵션의 FOV·설치거리·calibration을 검증",
+  "data": "camera mode·FOV·pose·USB bandwidth·calibration",
+  "boundary": "역광·가림·근거리·camera 이동",
+  "metrics": "얼굴/손 coverage·depth 오차·bandwidth",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

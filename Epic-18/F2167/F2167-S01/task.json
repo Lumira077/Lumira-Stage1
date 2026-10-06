@@ -1,0 +1,21 @@
+{
+  "id": "F2167-S01",
+  "jira": "KR1-945",
+  "parent": "KR1-944",
+  "title": "[F2167-S01] 핵심기술 Patent Portfolio·Claim Map 설계 대상기술·권리화 목표 정의",
+  "work": "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표: 제품Feature→기술효과→발명군→독립/종속 claim map과 국가/예산을 구성",
+  "data": "Feature·invention·effect·claim element·priority",
+  "boundary": "증거없는효과·중복·회피설계·공백",
+  "metrics": "Feature coverage·claim support·승인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

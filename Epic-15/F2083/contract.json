@@ -1,0 +1,34 @@
+{
+  "feature": "F2083",
+  "jira": "KR1-661",
+  "epic": "Epic-15",
+  "epic_jira": "KR1-655",
+  "title": "[F2083] 생활 공간 의미 지도",
+  "work": "방/가구/물체/보관장소/금지구역의 의미지도와 revision을 구성",
+  "data": "entity id·relations·map ref·pose·access scope",
+  "boundary": "가구변경·관계충돌·프라이버시·미확인 위치",
+  "metrics": "관계정확성·업데이트 일관성·접근권한",
+  "stage_work": [
+    "Interface/TF·clock·state·제어주기·QoS·Simulation 설계",
+    "ROS2/제어/센서·actuator adapter 구현 및 version 관리",
+    "실물/통신/한계·고장주입·물리 ACK·안전 시험",
+    "실환경 반복임무·Parameter Freeze·운용제한/rollback"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "Matter SDK",
+      "https://project-chip.github.io/connectedhomeip-doc/"
+    ],
+    [
+      "MoveIt 2",
+      "https://moveit.picknik.ai/"
+    ]
+  ],
+  "intervention": "승인 IoT device/fabric·Gateway 계정·실제 승강기구/하중/CoM·support polygon·공간지도/권한·장기시험·안전한 작업범위",
+  "dependencies": "Stage2 공간/IoT onboarding → 승인 intent/Scene → Stage3 이동조작 → Stage4 높이/전도/접근성/장기 임무. Epic-07 지도·Epic-08 조작·Epic-11 앱·Epic-13 안전·Epic-16 HW 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

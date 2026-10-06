@@ -1,0 +1,21 @@
+{
+  "id": "F2125-S03",
+  "jira": "KR1-785",
+  "parent": "KR1-782",
+  "title": "[F2125-S03] 4~6채널 MEMS Mic Array HW Bench·통합·안전 시험",
+  "work": "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험: 4~6채널 MEMS Mic Array의 동기/beamforming/AEC/AGC/DOA 경로를 검증",
+  "data": "channel map·sample rate·reference·DOA",
+  "boundary": "speaker leakage·fan/motor·channel dropout",
+  "metrics": "SNR·AEC/DOA 오차·동기·지연",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

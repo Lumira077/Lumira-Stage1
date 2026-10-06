@@ -1,0 +1,29 @@
+[
+  {
+    "sku": "ACC-HAT",
+    "type": "physical",
+    "purpose": "의상/외형 비교, 마이크·카메라 가림 검토",
+    "state": "candidate_not_for_sale",
+    "quote": null,
+    "compatibility_verified": false,
+    "ip_verified": false
+  },
+  {
+    "sku": "ACC-BAND",
+    "type": "physical",
+    "purpose": "부드러운 장착·탈락·센서 시야 검토",
+    "state": "candidate_not_for_sale",
+    "quote": null,
+    "compatibility_verified": false,
+    "ip_verified": false
+  },
+  {
+    "sku": "FACE-PACK",
+    "type": "digital",
+    "purpose": "표정팩, 기본 스킨 fallback·권리 검토",
+    "state": "candidate_not_for_sale",
+    "quote": null,
+    "compatibility_verified": false,
+    "ip_verified": false
+  }
+]

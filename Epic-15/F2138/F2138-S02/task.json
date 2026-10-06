@@ -1,0 +1,21 @@
+{
+  "id": "F2138-S02",
+  "jira": "KR1-693",
+  "parent": "KR1-691",
+  "title": "[F2138-S02] 높이별 무게중심·전도·작업영역 안전 알고리즘·제어기·HW 연동 구현",
+  "work": "ROS2/제어/센서·actuator adapter 구현 및 version 관리: 높이/하중/팔 자세별 CoM·support polygon·속도제한을 구성",
+  "data": "CoM·load·height·support polygon·slope",
+  "boundary": "급정지·편하중·경사·maximum reach",
+  "metrics": "전도margin·허용작업영역·중단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

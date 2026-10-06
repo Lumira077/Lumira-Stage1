@@ -1,0 +1,21 @@
+{
+  "id": "F2156-S01",
+  "jira": "KR1-803",
+  "parent": "KR1-802",
+  "title": "[F2156-S01] NFC Fashion·Accessory 인식 HW 요구사양·Interface·BOM 설계",
+  "work": "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: NFC tag 인식·장착/교체·duplicate/위조·테마 안전모드를 구성",
+  "data": "reader·tag ref·SKU·mount state·license",
+  "boundary": "RF interference·duplicate·미인증tag·떨어짐",
+  "metrics": "인식률·안전모드·적용추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2197-S04",
+  "jira": "KR1-1068",
+  "parent": "KR1-1064",
+  "title": "[F2197-S04] Stage 2 Home·Office 고객·Partner Channel 확장 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: Home/Office 파트너의상품성/수수료/지원·공동판매를 설계",
+  "data": "partner id·terms·commission·channel·support",
+  "boundary": "무승인계약·책임공백·고객중복·지원부족",
+  "metrics": "채널조건·pipeline·유료전환",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

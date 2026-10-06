@@ -1,0 +1,21 @@
+{
+  "id": "F2186-S02",
+  "jira": "KR1-1025",
+  "parent": "KR1-1024",
+  "title": "[F2186-S02] 투자 Due Diligence·Q&A 대응 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: 실사 Q&A의근거/책임자/공유범위·미결쟁점을 관리",
+  "data": "question id·answer version·evidence·reviewer",
+  "boundary": "민감공유·근거없음·답변모순·기한",
+  "metrics": "Q&Acoverage·일치성·미결쟁점",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2099-S03",
+  "jira": "KR1-760",
+  "parent": "KR1-757",
+  "title": "[F2099-S03] 열·소음·진동·EMI 대응 설계 Bench·통합·안전 시험",
+  "work": "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험: 열원·fan/motor/speaker진동·EMI/ESD 대책을 설계/측정",
+  "data": "temperature·noise·vibration·EMI test ref",
+  "boundary": "장시간열·전자파·공진·mic 오염",
+  "metrics": "열/소음/진동 KPI·EMI 사전시험",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

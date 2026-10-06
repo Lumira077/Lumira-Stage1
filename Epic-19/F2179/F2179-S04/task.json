@@ -1,0 +1,21 @@
+{
+  "id": "F2179-S04",
+  "jira": "KR1-1006",
+  "parent": "KR1-1003",
+  "title": "[F2179-S04] 5개년 재무모델·자금사용계획·Unit Economics 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: 5년수익·원가·구독·A/S·인건비·CAPEX·현금흐름 시나리오를 계산",
+  "data": "assumptions·units·price·cost·cash·currency",
+  "boundary": "가격/원가변화·refund·salesdelay·회계기간",
+  "metrics": "cashflow·contribution margin·runway·sensitivity",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "cashflow",
+  "actual_external_calls": 0
+}

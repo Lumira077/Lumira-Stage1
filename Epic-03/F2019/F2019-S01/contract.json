@@ -1,0 +1,18 @@
+{
+  "schema": "emotion-v1",
+  "feature": "F2019",
+  "data": "owner/epoch·event id·timestamp·label의 최소 metadata, retention/window·samples/coverage·개인 baseline/정정 version 제안. 원본 음성/영상/문장/얼굴 template 제외.",
+  "interface": "F2018 후보 → retention/consent gate → owner-isolated trend summary; F2002 동의 epoch·F2004 활성 사용자·삭제 이벤트 계약. 실제 서비스 인증/이벤트·저장소 adapter 미연결.",
+  "labels": [
+    "happy",
+    "sad",
+    "angry",
+    "anxious",
+    "neutral"
+  ],
+  "unknown": "abstention, not a trained class",
+  "metrics": "window coverage·min samples·baseline drift·정정 반영·TTL/철회/삭제 처리 지연·타 사용자 정보 노출/철회 후 복원 0건",
+  "approval": "pending",
+  "thresholds": "example only: quality .5, confidence .6, margin .15, TTL 2 sec, skew .3 sec; retention 60 sec, min samples 3",
+  "evaluation": "subject-separated train/calibration/test; subgroup and confusion matrix; no clinical ground truth claim"
+}

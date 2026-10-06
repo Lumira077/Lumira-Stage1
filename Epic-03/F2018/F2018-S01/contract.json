@@ -1,0 +1,18 @@
+{
+  "schema": "emotion-v1",
+  "feature": "F2018",
+  "data": "EmotionObservation(owner,epoch,modality,timestamp,scores,quality,model_version,origin,schema), modality coverage·합의/충돌·후보/unknown·evidence; 원본 media/text 제외.",
+  "interface": "시간 정렬·owner/epoch 검증 → reliability-weighted score fusion → inferred_not_confirmed result. F2010 대화/표현에는 감정 후보와 확인 질문만 전달하며 실행 명령을 생성하지 않는다.",
+  "labels": [
+    "happy",
+    "sad",
+    "angry",
+    "anxious",
+    "neutral"
+  ],
+  "unknown": "abstention, not a trained class",
+  "metrics": "fusion macro-F1/UAR·ECE·coverage/selective risk·missing/conflict unknown·시간 skew·p50/p95 지연·타 사용자 결합 0건",
+  "approval": "pending",
+  "thresholds": "example only: quality .5, confidence .6, margin .15, TTL 2 sec, skew .3 sec; retention 60 sec, min samples 3",
+  "evaluation": "subject-separated train/calibration/test; subgroup and confusion matrix; no clinical ground truth claim"
+}

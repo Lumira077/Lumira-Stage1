@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2023",
+  "data": "owner/epoch/turn·generation·cue id/channel/offset·audio playback clock·alignment version·queue bound·cancel generation·채널별 ACK/실제 재생 및 관절 feedback.",
+  "interface": "F2020 face/F2021 audio/F2022 motion cue → timeline proposal queue → renderer/player/controller ACK. F2012 cancel/활성 사용자 변경 시 큐 폐기·generation 무효화·세 채널 cancel ACK.",
+  "metrics": "face/audio/motion onset/skew/drift p50/p95·late/drop·취소 요청→ACK/물리정지·잔여출력·clock reversal",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

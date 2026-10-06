@@ -1,0 +1,21 @@
+{
+  "id": "F2050-S03",
+  "jira": "KR1-388",
+  "parent": "KR1-385",
+  "title": "[F2050-S03] 낙상 및 이상행동 감지 전문가·사용자 Pilot 검증",
+  "work": "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가: pose/time context 기반 낙상 후보와 사용자 확인·오탐 억제를 구성",
+  "data": "event id·pose sequence·confidence·confirm state",
+  "boundary": "앉기/눕기·가림·무반응·sensor offline",
+  "metrics": "오탐/미탐·검출 지연·개인정보 노출",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

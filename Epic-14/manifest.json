@@ -1,0 +1,484 @@
+{
+  "epic": "Epic-14",
+  "jira": "KR1-584",
+  "features": [
+    {
+      "feature": "F2214",
+      "jira": "KR1-585",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2214] AI Router 및 Model Cost Optimization",
+      "work": "route/model 가격버전·품질 gate·Local 확대의 비용 정책을 설계",
+      "data": "model/route·price version·units·quality·budget",
+      "boundary": "가격누락·품질미달·budget 소진·network outage",
+      "metrics": "단위비용·품질 유지·Local 비중",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2215",
+      "jira": "KR1-590",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2215] AI Credit 및 Quota Management",
+      "work": "credit weight·월한도·예약/확정/취소·grace/차단을 구성",
+      "data": "usage id·credit units·reservation·quota epoch",
+      "boundary": "동시요청·중복·retry·월경계",
+      "metrics": "credit 정합성·초과 차단·중복차감 0건",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "UsageLedger",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2216",
+      "jira": "KR1-595",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2216] Subscription Plan Management",
+      "work": "plan version·trial·upgrade/downgrade·proration·권한시점을 관리",
+      "data": "plan id·effective time·credit·price·entitlement",
+      "boundary": "월중변경·취소·가격버전·과거요금제",
+      "metrics": "변경일관성·일할계산·권한시점",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2217",
+      "jira": "KR1-600",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2217] Payment Gateway Integration",
+      "work": "Test PG 승인/실패/취소/환불·webhook 서명·idempotency를 연결",
+      "data": "payment id·order·currency·amount·provider receipt",
+      "boundary": "중복/역순 webhook·timeout·부분환불",
+      "metrics": "중복청구 0건·금액일치·실제 receipt",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2218",
+      "jira": "KR1-605",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2218] Monthly Settlement 및 Revenue Analytics",
+      "work": "월 매출·환불·PG 수수료·AI원가를 통화별 대사",
+      "data": "ledger·settlement period·tax ref·fees·provider usage",
+      "boundary": "기간경계·정산차이·통화 혼합·반올림",
+      "metrics": "대사차이·마감시간·근거 연결",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2219",
+      "jira": "KR1-610",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2219] Billing Anomaly Detection",
+      "work": "중복청구·비정상 credit·결제실패율·정산차이 룰을 구성",
+      "data": "billing event·rule version·severity·amount",
+      "boundary": "의도적 retry·false positive·late settlement",
+      "metrics": "탐지 정확성·금액영향·중복 event",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2220",
+      "jira": "KR1-615",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2220] Jira 및 n8n Billing Exception Automation",
+      "work": "billing exception event를 dedup key로 Jira/n8n proposal에 연결",
+      "data": "exception id·correlation·severity·ticket ref",
+      "boundary": "중복 event·webhook retry·sync loop·Secret 노출",
+      "metrics": "동일 event 1건·sync 지연·회복률",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2077",
+      "jira": "KR1-620",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2077] 구독 플랜 및 권한 관리",
+      "work": "공통 entitlement 조회를 plan/사용자/모델/epoch에 맞춰 구성",
+      "data": "plan version·feature scopes·device·effective time",
+      "boundary": "구독만료·철회·offline grace·cache stale",
+      "metrics": "권한정확성·revoke 지연·우회 0건",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2078",
+      "jira": "KR1-625",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2078] 콘텐츠 카탈로그 및 배포",
+      "work": "콘텐츠 license·age band·검수·version·cache/rollback을 구성",
+      "data": "content id·license·rating·version·manifest",
+      "boundary": "권리만료·유해콘텐츠·손상파일·호환성",
+      "metrics": "배포정합성·검수coverage·rollback",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2079",
+      "jira": "KR1-630",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2079] AI 사용량 계측 및 비용 제어",
+      "work": "토큰/음성/영상/Cloud 사용량을 idempotent 원가계측으로 구성",
+      "data": "usage id·units·price version·credit·budget",
+      "boundary": "중복계측·추정/확정 차이·할당초과",
+      "metrics": "원가오차·집계지연·한도차단",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "UsageLedger",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2080",
+      "jira": "KR1-635",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2080] 결제·청구·구독 갱신 및 PG 연동",
+      "work": "PG·구독 갱신·청구·receipt·취소/환불 lifecycle을 구성",
+      "data": "invoice id·subscription·payment·refund·state",
+      "boundary": "역순/중복 webhook·재시도·갱신중 해지",
+      "metrics": "금액/상태 정합성·중복 0건",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2081",
+      "jira": "KR1-640",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2081] 콘텐츠 추천 및 구독 서비스 분석",
+      "work": "동의/age/권한·비용·사용량에 기반한 추천과 분석을 구성",
+      "data": "content/plan candidate·consent·reason·cost",
+      "boundary": "동의없음·아동 과금유도·권리만료·cold start",
+      "metrics": "추천근거·노출/수락/이탈·적합성",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2158",
+      "jira": "KR1-645",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2158] Fashion·Accessory 상품·Catalog 운영",
+      "work": "Fashion/Accessory SKU·모델 호환·재고·NFC·테마권리를 관리",
+      "data": "SKU·compatibility·NFC tag ref·stock·license",
+      "boundary": "비호환·위조tag·재고0·테마권리 만료",
+      "metrics": "catalog 정합성·인증·적용이력",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2163",
+      "jira": "KR1-650",
+      "epic": "Epic-14",
+      "epic_jira": "KR1-584",
+      "title": "[F2163] 사용량 기반 구독·추가 Service Recommendation",
+      "work": "동의 usage 기반 추가 서비스 추천과 해지/수락 이력을 구성",
+      "data": "aggregate usage·plan·consent·reason·outcome",
+      "boundary": "민감추론·무동의·과도한 upsell·거절",
+      "metrics": "근거 추적·수락/거절·부적합 제안",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ],
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ]
+      ],
+      "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+      "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 56,
+  "release_ready": false
+}

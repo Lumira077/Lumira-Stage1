@@ -1,0 +1,21 @@
+{
+  "id": "F2195-S02",
+  "jira": "KR1-1059",
+  "parent": "KR1-1058",
+  "title": "[F2195-S02] Stage 1 D2C 판매·예약·결제·구독 운영 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: 예약/주문/결제/배송/설치/구독/환불의D2C상태를 설계",
+  "data": "order id·customer consent·SKU·payment·device",
+  "boundary": "재고0·중복결제·해지·설치미완료",
+  "metrics": "주문/계약/기기정합성·환불·활성",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

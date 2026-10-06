@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2021",
+  "data": "bounded text·locale·voice/model/hash/license·supported style·rate/volume·sample rate·audio duration/word/viseme timestamps·turn/epoch·cancel token·Cloud 동의.",
+  "interface": "F2010 대화 출력 → 안전/동의/voice locale 검사 → TTS adapter → playback ACK/reference audio → F2126 AEC/F2023 타임라인/F2130 립싱크. 현재 audio 합성/재생 미연결.",
+  "metrics": "first audio/p50/p95·MOS/명료도·언어/style 지원·audio underrun·취소 잔여재생·Cloud 미동의 전송 0건",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2047-S04",
+  "jira": "KR1-348",
+  "parent": "KR1-344",
+  "title": "[F2047-S04] 사람 근접 조작 안전 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: 사람 근접 조작의 감속·정지·작업영역 제한을 독립 안전경로와 연결",
+  "data": "human distance·trajectory·safety state·ACK",
+  "boundary": "가림·센서 stale·끼임·AI hang",
+  "metrics": "최소거리·정지시간·restart interlock",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

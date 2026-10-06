@@ -1,0 +1,44 @@
+{
+  "id": "F2119-S03",
+  "jira_key": "KR1-911",
+  "source_scope": "제작업체 검토·시험 사출/조립·검사·내구 증적 필요. 원가·수율 추정 구분.",
+  "work_now": "업체 검토·시험 제작·실측 치수/수율/재시험 계획",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2119/F2119-S03/deliverable.json",
+  "acceptance": "금형·수율·양산 승인·견적 미실시",
+  "remaining": "제작업체·정상 CAD·실제 샘플·견적; Onshape·DFM 검토",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

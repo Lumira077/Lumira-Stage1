@@ -1,0 +1,25 @@
+{
+  "revision": "EP17-20261006-R1",
+  "overall_height_mm": 600,
+  "height_status": "reference_not_verified_internal_dimensions",
+  "screens": "face and chest touch separate",
+  "conversation_priority": true,
+  "stage1_slam": false,
+  "movement": "restricted small-area; obstacle/cliff detection",
+  "axes": {
+    "neck": 2,
+    "shoulder_per_arm": 2,
+    "wrist_per_arm": 1,
+    "waist": 1
+  },
+  "elbow": "fixed proposed connection in current layout",
+  "fingers": "flexible, non-actuated",
+  "charge": "wired; movement inhibited while cable connected",
+  "wall_mm": {
+    "original": 5,
+    "body_candidate": 3,
+    "head_arm_candidate": "2–2.5"
+  },
+  "detailed_cad": "next phase; existing Onshape import has faults",
+  "manufacturing_approved": false
+}

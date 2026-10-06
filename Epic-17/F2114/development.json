@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2114",
+  "jira_key": "KR1-883",
+  "title": "[F2114] CMF(Material/Color/Finish) 설계",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "외장 플라스틱과 유연 손의 소재·색상·마감 후보를 표면/세척/제조 조건과 연결한다.",
+  "specific_deliverables": [
+    "기본 5mm와 경량 후보·재료·세척·표면 요구",
+    "몸체/머리/팔/손·그릴·버튼 소재/마감 매트릭스 작성",
+    "샘플 청소·마찰·손촉감·음향·변색·접근성 시험 계획",
+    "재료·색 코드·마감·증적·업체 승인 양식 인계"
+  ],
+  "gate": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+  "tools_and_dependencies": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-33"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2114-S01",
+      "jira_key": "KR1-884",
+      "source_scope": "청소·내구·광택·열·오염·접촉·의상 마찰 요구. 후보 소재와 검증 자료 구분.",
+      "work_now": "기본 5mm와 경량 후보·재료·세척·표면 요구",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2114/F2114-S01/deliverable.json",
+      "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+      "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2114-S02",
+      "jira_key": "KR1-885",
+      "source_scope": "CMF 후보표: 외장 ABS/PC계 후보, 연질부 후보, 직물 액세서리. 실제 재료 등급·도장·코팅 미확정.",
+      "work_now": "몸체/머리/팔/손·그릴·버튼 소재/마감 매트릭스 작성",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2114/F2114-S02/deliverable.json",
+      "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+      "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2114-S03",
+      "jira_key": "KR1-886",
+      "source_scope": "샘플로 색·표면·스크래치·세척·열·접착/마찰 확인. 난연 등급은 성적서 확인 전 미확정.",
+      "work_now": "샘플 청소·마찰·손촉감·음향·변색·접근성 시험 계획",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2114/F2114-S03/deliverable.json",
+      "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+      "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2114-S04",
+      "jira_key": "KR1-887",
+      "source_scope": "부위별 소재/색/마감·샘플 번호·공급 증적·보류 항목.",
+      "work_now": "재료·색 코드·마감·증적·업체 승인 양식 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2114/F2114-S04/deliverable.json",
+      "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+      "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

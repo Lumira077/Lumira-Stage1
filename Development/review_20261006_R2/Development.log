@@ -1,0 +1,6 @@
+{"source_commit": "local-uncommitted", "scope": "offline_partial_utilities_and_spec_tooling", "tests": 80, "passed": true, "failures": 0, "errors": 0, "feature_contracts_checked": 148, "subtask_contracts_checked": 557, "partial_utility_feature_mappings": 23, "actual_hardware_calls": 0, "actual_provider_calls": 0, "actual_participants": 0, "actual_notifications": 0, "actual_payments": 0, "actual_patent_filings": 0, "actual_outreach": 0, "release_ready": false, "pending": ["real adapters and integrated service implementation", "hardware and user validation", "production identity/KMS/OTA signatures/bootloader", "PG/notification/Cloud/CAD/search/CRM service connections", "expert legal/financial/content/safety reviews", "verified real execution receipts and releases"]}
+................................................................................
+----------------------------------------------------------------------
+Ran 80 tests in 0.017s
+
+OK

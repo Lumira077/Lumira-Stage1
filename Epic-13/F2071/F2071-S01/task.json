@@ -1,0 +1,21 @@
+{
+  "id": "F2071-S01",
+  "jira": "KR1-530",
+  "parent": "KR1-529",
+  "title": "[F2071-S01] 사용자 동의 및 개인정보 설정 위험분석·보안요구·검증계획",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 목적별 consent version·철회·보유·삭제 전파를 구성",
+  "data": "subject·purpose·consent version·epoch·retention",
+  "boundary": "철회 후 queued job·다른 사용자·백업 복원",
+  "metrics": "철회 반영시간·삭제 검증·목적외 수집 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

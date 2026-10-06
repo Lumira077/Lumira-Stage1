@@ -1,0 +1,34 @@
+{
+  "feature": "F2046",
+  "jira": "KR1-339",
+  "epic": "Epic-08",
+  "epic_jira": "KR1-318",
+  "title": "[F2046] 간단 심부름 임무 실행",
+  "work": "심부름 요청을 탐색/이동/파지/운반/전달 단계와 취소·지원 요청으로 분해",
+  "data": "task id·steps·object·recipient·precondition",
+  "boundary": "대상 없음·사용자 변경·중단·partial failure",
+  "metrics": "임무 성공률·복구율·중복 실행 0건",
+  "stage_work": [
+    "Interface/TF·clock·state·제어주기·QoS·Simulation 설계",
+    "ROS2/제어/센서·actuator adapter 구현 및 version 관리",
+    "실물/통신/한계·고장주입·물리 ACK·안전 시험",
+    "실환경 반복임무·Parameter Freeze·운용제한/rollback"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "MoveIt 2",
+      "https://moveit.picknik.ai/"
+    ],
+    [
+      "DYNAMIXEL SDK",
+      "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+    ]
+  ],
+  "intervention": "실제 양팔/5-Finger·URDF/SRDF·joint mapping/encoder·손끝 calibration·허용하중/힘·시험물체·독립 E-stop·안전 지지면",
+  "dependencies": "팔/손 HW·물체 pose → 파지/force/slip → 한손/양손·협조 → 심부름. Epic-05 인지·Epic-06 제어·Epic-07 이동·Epic-13 안전·Epic-16 HW 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

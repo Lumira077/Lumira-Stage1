@@ -1,0 +1,61 @@
+name: Epic 07-16 and 18-20 offline development
+on:
+  push:
+    paths:
+      - 'Development/**'
+      - 'Epic-07/**'
+      - 'Epic-08/**'
+      - 'Epic-09/**'
+      - 'Epic-10/**'
+      - 'Epic-11/**'
+      - 'Epic-12/**'
+      - 'Epic-13/**'
+      - 'Epic-14/**'
+      - 'Epic-15/**'
+      - 'Epic-16/**'
+      - 'Epic-17/**'
+      - 'Epic-18/**'
+      - 'Epic-19/**'
+      - 'Epic-20/**'
+      - '.github/workflows/development-batch.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Partial utilities and work contracts
+        run: python Development/runtime/run.py
+      - name: Epic 01 to 06 Python regression
+        run: |
+          python Epic-01/integration/run.py
+          python Epic-02/runtime/run.py
+          python Epic-03/runtime/run.py
+          python Epic-04/runtime/run.py
+          python Epic-05/runtime/run.py
+          python Epic-06/runtime/run.py
+      - name: Stage1 contracts and Epic17 design prototype
+        run: |
+          python -m unittest discover -s Development/Stage1/tests -v
+          python Development/Stage1/mock_transport.py
+          python -m unittest discover -s Development/Stage1/bringup/tests -v
+          python Development/Stage1/bringup/probe.py --mode simulate
+          python -m unittest discover -s Epic-17/tests -v
+          python Epic-17/runtime/run.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: development-batch-evidence
+          path: |
+            Development/evidence/report.json
+            Epic-01/integration/evidence/report.json
+            Epic-02/runtime/evidence/report.json
+            Epic-03/runtime/evidence/report.json
+            Epic-04/runtime/evidence/report.json
+            Epic-05/runtime/evidence/report.json
+            Epic-06/runtime/evidence/report.json

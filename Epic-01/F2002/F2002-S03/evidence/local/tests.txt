@@ -1,0 +1,20 @@
+{"run": 14, "failed": 0, "errors": 0}
+test_real_f2001_service_import (test_integration.Bridge.test_real_f2001_service_import) ... ok
+test_ack_storage_excludes_payload (test_integration.Integration.test_ack_storage_excludes_payload) ... ok
+test_all_five_modules (test_integration.Integration.test_all_five_modules) ... ok
+test_boolean_ack_revision_rejected (test_integration.Integration.test_boolean_ack_revision_rejected) ... ok
+test_delete_no_dispatch (test_integration.Integration.test_delete_no_dispatch) ... ok
+test_disconnect_no_dispatch (test_integration.Integration.test_disconnect_no_dispatch) ... ok
+test_failure_partial_retry (test_integration.Integration.test_failure_partial_retry) ... ok
+test_foreign_actor_no_dispatch (test_integration.Integration.test_foreign_actor_no_dispatch) ... ok
+test_invalid_ack_not_ready (test_integration.Integration.test_invalid_ack_not_ready) ... ok
+test_mute_and_motion_off (test_integration.Integration.test_mute_and_motion_off) ... ok
+test_repeat_apply_no_duplicate (test_integration.Integration.test_repeat_apply_no_duplicate) ... ok
+test_restart_retry_uses_persisted_acks (test_integration.Integration.test_restart_retry_uses_persisted_acks) ... ok
+test_revoke_blocks_old_context (test_integration.Integration.test_revoke_blocks_old_context) ... ok
+test_simulated_caps (test_integration.Integration.test_simulated_caps) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.027s
+
+OK

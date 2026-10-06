@@ -1,0 +1,10 @@
+{
+  "Jira": "read/write used; preserve HTML/media/status/assignee",
+  "GitHub": "read only; main lacks Epic-17; no push or CI executed",
+  "Figma": "Previous links retained as references; not required for current PPT workflow",
+  "Onshape": "existing document with imported faults; no plugin found; detailed CAD next phase",
+  "local": "Python stdlib + browser prototype + test runner executed",
+  "images": "existing draft placement images referenced, not manufacturing drawings",
+  "PowerPoint": "Selected primary design-review and handover format; editable PPTX",
+  "browser_validation": "Chromium download failed; browser runtime validation pending"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2032",
+  "data": "URDF/joint map·radian measured position/velocity/effort·command timestamp/seq·calibration/home·position/velocity/acceleration/jerk/current/temp·stop latch/operator reset/watchdog·feedback ACK.",
+  "interface": "Epic-04 gesture/Epic-05 head proposal → validation/safety/ros2_control FollowJointTrajectory → actual actuator driver/encoder feedback. 현 MockMotor는 한 joint의 메모리 position만 갱신한다.",
+  "metrics": "tracking error·제어 jitter·position/velocity/acceleration/jerk·전류/온도·watchdog/정지시간·실제 stop ACK·reset evidence",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

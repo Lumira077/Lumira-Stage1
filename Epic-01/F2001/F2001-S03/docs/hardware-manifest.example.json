@@ -1,0 +1,16 @@
+{
+  "mode": "hardware",
+  "status": "not_run",
+  "robot_serial": null,
+  "firmware_commit": null,
+  "control_model": null,
+  "approved_by_R3_R4_Q1": null,
+  "measured_sound_limit_dBA": null,
+  "joint_angle_limits_deg": null,
+  "joint_speed_limits_deg_s": null,
+  "joint_torque_limits_Nm": null,
+  "approved_stop_strategy": null,
+  "measured_stop_time_ms": null,
+  "physical_power_loss_evidence": null,
+  "note": "Recording template only. No hardware adapter is implemented. Filling this template does not authorize or prove a hardware test."
+}

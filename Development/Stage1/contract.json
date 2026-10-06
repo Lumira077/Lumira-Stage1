@@ -1,0 +1,17 @@
+{
+  "schema": "sprint1-v0.1",
+  "namespace": "/ker/sim/sprint1/",
+  "topics": [
+    "dialogue_event",
+    "expression_state",
+    "gesture_request",
+    "joint_states",
+    "safety_state"
+  ],
+  "max_bytes": 4096,
+  "max_ttl_ms": 200,
+  "safety_age_ms": 100,
+  "clock": "same-host monotonic in mock only",
+  "hardware_execution": false,
+  "production_typed_interfaces": "pending"
+}

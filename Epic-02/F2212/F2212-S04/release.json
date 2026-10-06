@@ -1,0 +1,18 @@
+{
+  "feature": "F2212",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "복구 시간·대체율·중복 출력 0건·auth/429 오류·circuit 상태",
+  "metric_scope": "local simulated operations only",
+  "pending": "실제 Provider retry/circuit breaker·stream cancellation·timeout 제어·부분 오디오 복귀 미연결"
+}

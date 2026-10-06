@@ -1,0 +1,57 @@
+name: Epic-06 ROS2 core prototype
+on:
+  push:
+    paths: ['Epic-06/**', '.github/workflows/epic06-core.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Epic-06 synthetic contract suite
+        run: python Epic-06/runtime/run.py
+      - name: Mock command and stop demo
+        run: python Epic-06/runtime/demo.py
+      - name: Epic-05 regression
+        run: python Epic-05/runtime/run.py
+      - name: Epic-04 regression
+        run: python Epic-04/runtime/run.py
+      - name: Epic-03 regression
+        run: python Epic-03/runtime/run.py
+      - name: Epic-02 regression
+        run: python Epic-02/runtime/run.py
+      - name: Epic-01 regression
+        run: python Epic-01/integration/run.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: epic06-contract-evidence
+          path: |
+            Epic-06/runtime/evidence/
+            Epic-05/runtime/evidence/
+            Epic-04/runtime/evidence/
+            Epic-03/runtime/evidence/
+            Epic-02/runtime/evidence/
+            Epic-01/integration/evidence/
+  ros-transport:
+    runs-on: ubuntu-latest
+    container: ros:jazzy-ros-base
+    steps:
+      - uses: actions/checkout@v4
+      - name: ROS2 Jazzy DDS mock transport
+        shell: bash
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          export ROS_DOMAIN_ID=67
+          export ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST
+          python3 Epic-06/ros2/ker_core/test_ros_transport.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: epic06-ros-transport-evidence
+          path: Epic-06/ros2/evidence/

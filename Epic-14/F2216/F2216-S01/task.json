@@ -1,0 +1,21 @@
+{
+  "id": "F2216-S01",
+  "jira": "KR1-596",
+  "parent": "KR1-595",
+  "title": "[F2216-S01] Subscription Plan Management 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: plan version·trial·upgrade/downgrade·proration·권한시점을 관리",
+  "data": "plan id·effective time·credit·price·entitlement",
+  "boundary": "월중변경·취소·가격버전·과거요금제",
+  "metrics": "변경일관성·일할계산·권한시점",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

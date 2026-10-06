@@ -1,0 +1,21 @@
+{
+  "id": "F2163-S02",
+  "jira": "KR1-652",
+  "parent": "KR1-650",
+  "title": "[F2163-S02] 사용량 기반 구독·추가 Service Recommendation 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 동의 usage 기반 추가 서비스 추천과 해지/수락 이력을 구성",
+  "data": "aggregate usage·plan·consent·reason·outcome",
+  "boundary": "민감추론·무동의·과도한 upsell·거절",
+  "metrics": "근거 추적·수락/거절·부적합 제안",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

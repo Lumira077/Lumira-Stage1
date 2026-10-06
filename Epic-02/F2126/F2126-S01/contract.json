@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2126",
+  "data_proposal": "AudioFrame: channels, reference, sample_rate, timestamp; DOA: spacing_m, delay_samples, confidence, calibration_version",
+  "interface_proposal": "AudioLab.beam/subtract_reference/doa; 실제 adaptive AEC·beamformer는 WebRTC/승인 DSP adapter",
+  "acceptance": "실제 TTS 재생·잡음·거리/방향 조건에서 AEC/DOA/STT 품질 목표를 충족하며 DOA를 사용자 인증으로 사용하지 않는다.",
+  "metrics": "ERLE·double-talk 왜곡·DOA MAE·STT CER/WER 개선·frame loss",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

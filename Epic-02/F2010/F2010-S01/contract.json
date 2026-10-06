@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2010",
+  "data_proposal": "DialogueRequest: turn_id, epoch, language, context_refs, decision; Reply: text, backend, policy_version, output_plan",
+  "interface_proposal": "Dialogue.answer(request) → safe reply; F2021 text/voice plan 및 cancel token 연결",
+  "acceptance": "실제 다중 Provider에서 문맥이 유지되고 모델별 지연·비용·실패·안전 출력 증적이 남는다.",
+  "metrics": "응답 적합성·문맥 유지·first token/end-to-end p95·중복/위험 출력",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

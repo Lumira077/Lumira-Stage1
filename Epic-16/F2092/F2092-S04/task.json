@@ -1,0 +1,21 @@
+{
+  "id": "F2092-S04",
+  "jira": "KR1-726",
+  "parent": "KR1-722",
+  "title": "[F2092-S04] Safety MCU·Motor Interface·I/O 제어 Architecture DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: Linux AI와 Safety MCU의 CAN-FD/RS485·enable/watchdog·I/O 책임을 분리",
+  "data": "ICD·message seq·fault·hardware enable·MCU version",
+  "boundary": "AI freeze·bus off·restart·watchdog",
+  "metrics": "독립정지·통신무결성·제어주기",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

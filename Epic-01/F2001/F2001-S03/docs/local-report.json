@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "work_item": "KR1-5",
+  "feature": "F2001",
+  "mode": "simulated",
+  "hardware_connected": false,
+  "release_ready": false,
+  "s03_acceptance": "pending_hardware_and_Q1_R1_review",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "s03_commit": "local-uncommitted",
+    "s02_commit": "2043fbca9248d8a7043bdaec7b7418721f655b97",
+    "s02_hashes_verified": true,
+    "firmware": null,
+    "robot_serial": null,
+    "control_model": null
+  },
+  "tests": {
+    "run": 42,
+    "failed": 0,
+    "errors": 0,
+    "cases": [
+      {
+        "test": "test_integration.Integration.test_HTTP_guarded_application",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_01_new_registration",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_02_guardian",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_03_guest",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_04_consent_refusal",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_05_setting_accuracy",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_06_saved_step_process_restart",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_07_network_fixture_reconnect",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_08_client_reconnect_authorization",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_09_repeated_complete_and_greeting",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_10_unauthorized_access",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_11_cancel_expiry",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_12_database_failure",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_13_each_output_failure_recovery",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_14_preview_stop_discards_delayed_output",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_15_restart_no_automatic_output",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_ONB_16_local_offline_text",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_cancel_session_invalidates_preview_bundle",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_delayed_preview_after_expiry_rejected",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_multiple_guests_use_distinct_application_scope",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_preview_bundle_validation_no_partial_queue",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_integration.Integration.test_unconfirmed_critical_recognition",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_arbitrary_joint_commands_rejected",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_boolean_epoch_is_rejected",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_boolean_is_not_volume",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_confirmation_requires_real_boolean",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_disconnect_suppression",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_expired_command_never_executes",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_expression_limit",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_mute_and_duplicate",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_physical_claim_in_simulated_ack_is_rejected",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_rate_limit",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_real_adapter_rejected",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_rearm_never_replays_old_queue",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_request_key_conflict",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_restart_invalidates_queued_outputs",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_stop_ack_failure_still_suppresses",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_stop_latched_until_inspection",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_unapproved_motion",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_uncertain_ack_fails_closed",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_volume_cap",
+        "status": "passed",
+        "mode": "simulated"
+      },
+      {
+        "test": "test_safety.Safety.test_wrong_actor_hidden",
+        "status": "passed",
+        "mode": "simulated"
+      }
+    ]
+  },
+  "hardware_tests": {
+    "status": "not_run",
+    "reason": "No authenticated hardware adapter, robot or approved physical safety parameters",
+    "required": [
+      "real pairing/ownership",
+      "STT noisy environment/recognition confirmation",
+      "speaker dB/mute/onset",
+      "joint limits/speed/torque/stop time",
+      "power interruption during storage/output",
+      "controller/sensor fault and safe-state validation"
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "ONB-01",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-02",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-03",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-04",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-05",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-06",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-07",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-08",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-09",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-10",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-11",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-12",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-13",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-14",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-15",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    },
+    {
+      "id": "ONB-16",
+      "software_status": "passed",
+      "evidence_scope": "software/fixture; see docs/traceability.md",
+      "real_robot_status": "not_run"
+    }
+  ],
+  "performance": {
+    "scope": "local in-process SQLite and simulated ACK; excludes network, real audio onset and physical motion",
+    "step_save": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.07612950048496714,
+      "p95": 0.11809799980255775,
+      "max": 0.23001699992164504,
+      "failure_rate": 0,
+      "proposed_target_ms": 500,
+      "target_status": "passed"
+    },
+    "registration_to_simulated_ACK": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 1.3350394997360127,
+      "p95": 1.6527070001757238,
+      "max": 1.8828439997378155,
+      "failure_rate": 0,
+      "proposed_target_ms": 1000,
+      "target_status": "passed"
+    },
+    "greeting_text_and_simulated_dispatch": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.2206170001954888,
+      "p95": 0.34981599947059294,
+      "max": 0.4512999994403799,
+      "failure_rate": 0,
+      "proposed_target_ms": null,
+      "target_status": "not_defined"
+    },
+    "real_voice_onset": "not_measured"
+  },
+  "s02_HTTP_regression": "passed",
+  "software_gate": "passed"
+}

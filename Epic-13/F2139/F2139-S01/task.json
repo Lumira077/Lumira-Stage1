@@ -1,0 +1,21 @@
+{
+  "id": "F2139-S01",
+  "jira": "KR1-560",
+  "parent": "KR1-559",
+  "title": "[F2139-S01] 경량 Arm·연질 외장·라운드 Mechanical Safety 위험분석·보안요구·검증계획",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 경량 팔·연질 외장·라운드·끼임 간격·낙하 구조를 기구로 설계",
+  "data": "mass·radius·gap·material·drawing revision",
+  "boundary": "접촉·모서리·손끼임·낙하",
+  "metrics": "위험평가·접촉/끼임 시험·도면 추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

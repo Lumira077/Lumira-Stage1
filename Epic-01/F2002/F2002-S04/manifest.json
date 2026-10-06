@@ -1,0 +1,15 @@
+{
+  "feature": "F2002",
+  "candidate_version": "0.1.0",
+  "source_commit": "resolve from CI GITHUB_SHA",
+  "python": ">=3.11",
+  "profile_schema": 1,
+  "context_contract": "f2002-context-v1",
+  "F2001_S02_commit": "2043fbca9248d8a7043bdaec7b7418721f655b97",
+  "firmware": null,
+  "robot_model": null,
+  "production_config": null,
+  "assets": null,
+  "mode": "simulated",
+  "release_ready": false
+}

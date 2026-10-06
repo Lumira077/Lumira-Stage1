@@ -1,0 +1,21 @@
+{
+  "id": "F2187-S04",
+  "jira": "KR1-1031",
+  "parent": "KR1-1028",
+  "title": "[F2187-S04] Valuation·Cap Table·Term Sheet 조건협상 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: valuation·pre/post-money·optionpool·희석·조건을scenario로 비교",
+  "data": "cap table·shares·investment·terms·scenario",
+  "boundary": "optionpool효과·계산오류·권한조건·후속round",
+  "metrics": "희석/주식수정합성·조건검토근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "dilution",
+  "actual_external_calls": 0
+}

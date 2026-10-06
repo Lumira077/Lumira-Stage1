@@ -1,0 +1,22 @@
+{
+  "work_item": "KR1-6",
+  "candidate_commit": "0000000000000000000000000000000000000000",
+  "evidence_digest": "43da91af7daba8e5e04541267a2ec7c1c5f8591e2d6f8d648415e72accff8199",
+  "release_ready": false,
+  "status": "blocked",
+  "blockers": [
+    "CANDIDATE_NOT_HARDWARE",
+    "S03_REAL_ROBOT_ACCEPTANCE_PENDING",
+    "REAL_USER_VALIDATION_PENDING",
+    "USER_STUDY_VERSION_MISMATCH",
+    "PRODUCTION_ROLLBACK_PENDING",
+    "OPERATIONS_BASELINE_PENDING",
+    "OPEN_OR_UNKNOWN_BLOCKER_DEFECTS",
+    "Q1_VERIFIED_APPROVAL_PENDING",
+    "R1_VERIFIED_APPROVAL_PENDING"
+  ],
+  "notes": [
+    "A key must come from an authorized reviewer channel; a self-generated key is not reviewer authorization.",
+    "No deployment or Jira status transition is performed by this evaluator."
+  ]
+}

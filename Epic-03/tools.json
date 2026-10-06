@@ -1,0 +1,48 @@
+{
+  "connected": [
+    "Atlassian Jira",
+    "GitHub",
+    "Python unittest",
+    "GitHub Actions"
+  ],
+  "references": [
+    {
+      "feature": "F2015",
+      "name": "MediaPipe Face Landmarker",
+      "url": "https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2016",
+      "name": "SpeechBrain classifier API",
+      "url": "https://speechbrain.readthedocs.io/en/latest/API/speechbrain.inference.classifiers.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2017",
+      "name": "Transformers text classification",
+      "url": "https://huggingface.co/docs/transformers/tasks/sequence_classification",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2018",
+      "name": "ONNX Runtime",
+      "url": "https://onnxruntime.ai/docs/",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2019",
+      "name": "Python datetime/time reference",
+      "url": "https://docs.python.org/3/library/time.html",
+      "status": "reference_only_not_installed_or_connected"
+    }
+  ],
+  "intervention": [
+    "camera_microphone_edgeboard_and_adapter",
+    "model_weight_license_hash_selection",
+    "consented_representative_dataset_and_calibration",
+    "approved_quality_latency_abstention_thresholds",
+    "production_auth_consent_epoch_delete_events",
+    "actual_users_Q1_R1_review_rollback"
+  ]
+}

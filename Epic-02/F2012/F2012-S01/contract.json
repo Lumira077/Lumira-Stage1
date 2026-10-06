@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2012",
+  "data_proposal": "CancelRequest: turn_id, epoch, modules; Ack: module, cancelled_epoch, playback_position, status",
+  "interface_proposal": "InterruptController.cancel/ack/accept_output; F2021·로봇 소비자에서 실제 취소 ACK 필요",
+  "acceptance": "실기 TTS/동작 취소 지연 목표와 미취소 출력 0건을 충족하고 ACK 누락 시 재개하지 않는다.",
+  "metrics": "barge-in/stop→실제 무음/정지 p95·미확인 ACK·late drop",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

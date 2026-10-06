@@ -1,0 +1,27 @@
+{
+  "data_type": "synthetic_fixture",
+  "user_test_performed": false,
+  "metrics": {
+    "denominator": 2,
+    "success_count": 1,
+    "success_rate": 0.5,
+    "median_duration_s": 30.0,
+    "duration_denominator": 2,
+    "assistance_total": 1,
+    "scope": "input observations only; fixture is not user evidence"
+  },
+  "freeze": {
+    "ready_for_human_review": false,
+    "blocking_reasons": [
+      "missing:cad",
+      "missing:bom",
+      "missing:cmf",
+      "missing:ui",
+      "missing:harness",
+      "missing:physical_test",
+      "missing:usability",
+      "open:CAD-IMPORT-FAULT"
+    ],
+    "release_approved": false
+  }
+}

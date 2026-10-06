@@ -1,0 +1,16 @@
+{
+  "document": "https://cad.onshape.com/documents/5b1167ed05807695d03fc3a6/w/ff539dcebef82ae99cf3add2",
+  "status": "previous import with errors",
+  "fix_performed": false,
+  "next_checks": [
+    "faulty parts",
+    "solid/manifold",
+    "hollow nominal wall",
+    "part IDs/revisions",
+    "dimensions/tolerance",
+    "hardware clearances",
+    "harness loops",
+    "mass/COM",
+    "export/reimport"
+  ]
+}

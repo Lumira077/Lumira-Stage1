@@ -1,0 +1,27 @@
+{
+  "mode": "synthetic_fixture",
+  "extractor": "explicit-preference-rules-v1",
+  "search": "normalized-substring-and-bigram-v1",
+  "extraction": {
+    "cases": 18,
+    "true_positive": 8,
+    "false_positive": 0,
+    "false_negative": 0,
+    "blocked_inputs": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "exact_content_matches": 8,
+    "exact_content_accuracy": 1.0
+  },
+  "retrieval": {
+    "cases": 4,
+    "top1_correct": 4,
+    "top1_accuracy": 1.0,
+    "wrong_returned_memory_rate": 0.0
+  },
+  "limitations": [
+    "No LLM, semantic vector search, prompt evaluation, speech recognition or real-user quality measurements.",
+    "Small handcrafted examples do not demonstrate generalization or comprehensive sensitive-data detection."
+  ],
+  "dataset_sha256": "2b2356fbf0429355532e0a7854a331b0140585a01a4d6076a83cc419c464895f"
+}

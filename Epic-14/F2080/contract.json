@@ -1,0 +1,34 @@
+{
+  "feature": "F2080",
+  "jira": "KR1-635",
+  "epic": "Epic-14",
+  "epic_jira": "KR1-584",
+  "title": "[F2080] 결제·청구·구독 갱신 및 PG 연동",
+  "work": "PG·구독 갱신·청구·receipt·취소/환불 lifecycle을 구성",
+  "data": "invoice id·subscription·payment·refund·state",
+  "boundary": "역순/중복 webhook·재시도·갱신중 해지",
+  "metrics": "금액/상태 정합성·중복 0건",
+  "stage_work": [
+    "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+    "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+    "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+    "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "n8n Jira",
+      "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+    ],
+    [
+      "OpenTelemetry",
+      "https://opentelemetry.io/docs/collector/"
+    ]
+  ],
+  "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+  "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

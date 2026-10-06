@@ -1,0 +1,44 @@
+{
+  "id": "F2104-S03",
+  "jira_key": "KR1-836",
+  "source_scope": "인터뷰와 첫 사용/일상 대화/알림 과제. 설치성·가시성·가격 수용성 기록.",
+  "work_now": "첫 사용·일상 대화·설치성·구매 의향 인터뷰 과제 정의",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2104/F2104-S03/deliverable.json",
+  "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+  "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

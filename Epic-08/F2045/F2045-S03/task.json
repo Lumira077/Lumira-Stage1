@@ -1,0 +1,21 @@
+{
+  "id": "F2045-S03",
+  "jira": "KR1-337",
+  "parent": "KR1-334",
+  "title": "[F2045-S03] 안전 파지 및 놓기 통합·경계조건·안전 시험",
+  "work": "실물/통신/한계·고장주입·물리 ACK·안전 시험: 접근→접촉→파지→운반→지지면 확인→놓기 상태를 구성",
+  "data": "grasp pose·force·support·feedback·object id",
+  "boundary": "slip·과압·지지면 없음·전원 단절",
+  "metrics": "파지/놓기 성공률·파손/낙하 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

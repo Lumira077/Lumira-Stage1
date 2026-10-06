@@ -1,0 +1,16 @@
+{
+  "feature": "F2127",
+  "release_ready": false,
+  "actual_model_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "active speaker precision/recall·ID switch·TV/echo 오탐·획득/전환/재획득 p95·DOA/vision angular error·time skew/unknown",
+  "pending": "실제 DOA/VAD/AEC·head 획득·camera tracker/립 활동·지속 추적 상태/전환 hysteresis·auth/epoch event 미연결. 방향 일치는 실제 화자 확정/사용자 인증이 아니며 TV source를 자동 검출하지 않는다.",
+  "required": [
+    "actual_perception_tracking_quality",
+    "privacy_auth_consent_epoch_delete_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

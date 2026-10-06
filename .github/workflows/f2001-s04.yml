@@ -1,0 +1,47 @@
+name: F2001-S04 operations and release evidence
+on:
+  push:
+    paths:
+      - 'Epic-01/F2001/F2001-S02/**'
+      - 'Epic-01/F2001/F2001-S03/**'
+      - 'Epic-01/F2001/F2001-S04/**'
+      - '.github/workflows/f2001-s04.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  software-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: S03 regression including HTTP and 100 latency samples
+        working-directory: Epic-01/F2001/F2001-S03
+        run: python -m onboarding_lab.runner --out results --samples 100
+      - name: S04 software tests and synthetic operations evidence
+        working-directory: Epic-01/F2001/F2001-S04
+        run: python -m onboarding_ops.runner --out results
+      - name: Assert synthetic evidence cannot release
+        working-directory: Epic-01/F2001/F2001-S04
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          gate=json.loads(Path('results/release-gate.json').read_text())
+          report=json.loads(Path('results/report.json').read_text())
+          assert gate['release_ready'] is False and gate['status']=='blocked'
+          assert report['software_gate']=='passed' and report['logging_dropped_events']==0
+          assert json.loads(Path('results/study-evaluation.json').read_text())['actual_retest_participants']==0
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: f2001-s04-software-evidence
+          path: |
+            Epic-01/F2001/F2001-S04/results/
+            Epic-01/F2001/F2001-S03/results/
+          retention-days: 30
+          if-no-files-found: error

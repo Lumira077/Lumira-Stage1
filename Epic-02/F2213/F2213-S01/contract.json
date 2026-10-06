@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2213",
+  "data_proposal": "Telemetry: provider_code, status, latency_ms, usage_tokens, cost_units; conversation/user/secret 문자열 제외",
+  "interface_proposal": "QualityTelemetry.record/snapshot; 운영 F2079/F2080 원가·F2205 정책 버전 참조",
+  "acceptance": "Provider·모델·요금제별 대시보드가 운영 데이터로 검증되며 민감 로그와 추정 비용을 분리한다.",
+  "metrics": "성공률·p50/p95·usage·cost·미확정 사용량·필터 차단율",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

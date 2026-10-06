@@ -1,0 +1,111 @@
+{
+  "scope": {
+    "start": 0,
+    "end": 2000,
+    "as_of": 4000,
+    "version": "0.4.0",
+    "route": null,
+    "mode": "simulated",
+    "dropout_window_seconds": 1800,
+    "cohort": "sessions started within [start,end); follow-up through as_of; events of the start version/mode only"
+  },
+  "started_sessions": 5,
+  "registered_sessions": 2,
+  "ready_sessions": 3,
+  "cancelled_sessions": 1,
+  "registration_completion": {
+    "numerator": 2,
+    "denominator": 3,
+    "value": 0.6666666666666666
+  },
+  "ready_completion": {
+    "numerator": 3,
+    "denominator": 5,
+    "value": 0.6
+  },
+  "duration": {
+    "samples": 3,
+    "p50_seconds": 40.0,
+    "p95_seconds": 40.0
+  },
+  "resume_success": {
+    "numerator": 3,
+    "denominator": 3,
+    "value": 1.0
+  },
+  "apply_failure": {
+    "numerator": 1,
+    "denominator": 4,
+    "value": 0.25
+  },
+  "support_request": {
+    "numerator": 1,
+    "denominator": 5,
+    "value": 0.2
+  },
+  "duplicate_sessions": 0,
+  "steps": {
+    "consent": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "error_events": 0
+    },
+    "language": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "error_events": 0
+    },
+    "preferences": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "error_events": 0
+    },
+    "profile": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "error_events": 0
+    },
+    "purpose": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "error_events": 0
+    },
+    "registration": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "error_events": 0
+    },
+    "review": {
+      "dropout": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "error_events": 0
+    }
+  },
+  "notes": [
+    "Guest is excluded from registration denominator; included in ready denominator.",
+    "Consent refusal is not an error. Normal cancellation is counted separately and excluded from dropout.",
+    "Attempt rates use distinct attempt IDs; session completion rates use unique sessions.",
+    "Observed mode is a provenance label, not proof of user consent or real deployment."
+  ]
+}

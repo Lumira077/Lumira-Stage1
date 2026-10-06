@@ -1,0 +1,21 @@
+{
+  "id": "F2192-S04",
+  "jira": "KR1-1050",
+  "parent": "KR1-1048",
+  "title": "[F2192-S04] Stage 1~4 Go-to-Market·Launch Calendar 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: Stage별기술준비 gate·고객모집/전시/출시/온보딩 calendar를 구성",
+  "data": "Stage·release gate·campaign·budget·verified dates",
+  "boundary": "기술지연·미확정행사·예산초과·공급지연",
+  "metrics": "gate일치·예산/책임·일정근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

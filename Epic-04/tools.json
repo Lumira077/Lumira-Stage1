@@ -1,0 +1,84 @@
+{
+  "connected": [
+    "Atlassian Jira",
+    "GitHub",
+    "Python unittest",
+    "GitHub Actions"
+  ],
+  "references": [
+    {
+      "feature": "F2020",
+      "name": "Qt Quick (후속 renderer 후보)",
+      "url": "https://doc.qt.io/qt-6/qtquick-index.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2021",
+      "name": "Piper current repository (runtime/voice 라이선스·한국어/style 검토 필요)",
+      "url": "https://github.com/OHF-Voice/piper1-gpl",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2022",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2022",
+      "name": "FollowJointTrajectory action 계약",
+      "url": "https://github.com/ros-controls/control_msgs/blob/master/control_msgs/action/FollowJointTrajectory.action",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2023",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2024",
+      "name": "Transformers classification 후속 intent 후보",
+      "url": "https://huggingface.co/docs/transformers/tasks/sequence_classification",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2025",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2129",
+      "name": "Qt Quick (후속 renderer 후보)",
+      "url": "https://doc.qt.io/qt-6/qtquick-index.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2130",
+      "name": "Rhubarb Lip Sync 후속 offline 후보",
+      "url": "https://github.com/DanielSWolf/rhubarb-lip-sync",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2130",
+      "name": "Qt Quick (후속 renderer 후보)",
+      "url": "https://doc.qt.io/qt-6/qtquick-index.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2131",
+      "name": "Qt Quick (후속 renderer 후보)",
+      "url": "https://doc.qt.io/qt-6/qtquick-index.html",
+      "status": "reference_only_not_installed_or_connected"
+    }
+  ],
+  "intervention": [
+    "display_speaker_joint_edgeboard_specs_URDF_calibration_feedback",
+    "TTS_voice_provider_alignment_licenses",
+    "licensed_persona_skin_song_assets",
+    "ROS_cancel_stop_watchdog_clock_adapters",
+    "approved_motion_sync_quality_thresholds",
+    "actual_user_Q1_R1_privacy_RnD_schedule_review"
+  ]
+}

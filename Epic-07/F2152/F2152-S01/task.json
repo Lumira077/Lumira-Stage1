@@ -1,0 +1,21 @@
+{
+  "id": "F2152-S01",
+  "jira": "KR1-314",
+  "parent": "KR1-313",
+  "title": "[F2152-S01] Network·SLAM Mapping·방 이름 설정 Wizard 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: 연결→지도 작성→방 이름/금지구역→저장·재개 Wizard를 구성",
+  "data": "network ref·map revision·room id·zone·step",
+  "boundary": "불완전지도·가구변경·네트워크 끊김·중복 방 이름",
+  "metrics": "온보딩 완료율·재개 일관성·설정 보존",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

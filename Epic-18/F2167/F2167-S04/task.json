@@ -1,0 +1,21 @@
+{
+  "id": "F2167-S04",
+  "jira": "KR1-948",
+  "parent": "KR1-944",
+  "title": "[F2167-S04] 핵심기술 Patent Portfolio·Claim Map 설계 OA·해외·유지·사업화 관리",
+  "work": "OA/해외/연차료·FTO/라이선스·권리상태 후속관리: 제품Feature→기술효과→발명군→독립/종속 claim map과 국가/예산을 구성",
+  "data": "Feature·invention·effect·claim element·priority",
+  "boundary": "증거없는효과·중복·회피설계·공백",
+  "metrics": "Feature coverage·claim support·승인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

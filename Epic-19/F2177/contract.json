@@ -1,0 +1,32 @@
+{
+  "feature": "F2177",
+  "jira": "KR1-995",
+  "epic": "Epic-19",
+  "epic_jira": "KR1-994",
+  "title": "[F2177] 투자유치 목표·Round·Milestone Financing 전략",
+  "work": "Stage별개발/인증/양산/시장진입 자금과round·milestone·대체조달을 구성",
+  "data": "uses of funds·cashflow·round·milestone·scenario",
+  "boundary": "조달지연·원가상승·일정지연·매출미달",
+  "metrics": "cash runway·milestonecoverage·승인",
+  "stage_work": [
+    "목표시장/자금·KPI·가정/예산·실행계획 확정",
+    "자료/CRM/재무/제안 Package·권한/근거 구축",
+    "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+    "실제성과/의사결정·개선/후속계획·승인 근거"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [
+    1
+  ],
+  "tools": [
+    [
+      "Python Decimal",
+      "https://docs.python.org/3/library/decimal.html"
+    ]
+  ],
+  "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+  "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

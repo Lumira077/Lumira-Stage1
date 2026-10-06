@@ -1,0 +1,60 @@
+name: F2003 personalized long-term memory validation
+on:
+  push:
+    paths:
+      - 'Epic-01/F2003/**'
+      - 'Epic-01/F2002/**'
+      - 'Epic-01/F2001/**'
+      - '.github/workflows/f2003.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  software-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: S01 memory contract example
+        working-directory: Epic-01/F2003/F2003-S01
+        run: python -m memory_contract examples/memory.json
+      - name: F2001 integration regression
+        working-directory: Epic-01/F2001/F2001-S03
+        run: python -m onboarding_lab.runner --out results --samples 100
+      - name: F2001 operations regression
+        working-directory: Epic-01/F2001/F2001-S04
+        run: python -m onboarding_ops.runner --out results
+      - name: F2002 profile regression
+        working-directory: Epic-01/F2002/F2002-S04
+        run: python -m profile_ops.runner --out results --samples 100
+      - name: F2003 all work packages, fixed quality and performance
+        working-directory: Epic-01/F2003/F2003-S04
+        run: python -m memory_ops.runner --out results --samples 100
+      - name: Assert source provenance, privacy restoration and release block
+        working-directory: Epic-01/F2003/F2003-S04
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          report=json.loads(Path('results/report.json').read_text())
+          assert report['source_commit']==os.environ['GITHUB_SHA']
+          assert report['total']>=83 and report['failed']==0 and report['errors']==0
+          assert report['software_gate']=='passed' and report['dependency_hashes_verified'] is True
+          assert json.loads(Path('results/release-gate.json').read_text())['release_ready'] is False
+          assert json.loads(Path('results/study.json').read_text())['actual_participants']==0
+          assert json.loads(Path('results/sandbox-restore.json').read_text())['deletion_not_resurrected'] is True
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: f2003-software-evidence
+          retention-days: 30
+          if-no-files-found: error
+          path: |
+            Epic-01/F2003/F2003-S04/results/
+            Epic-01/F2002/F2002-S04/results/
+            Epic-01/F2001/F2001-S03/results/
+            Epic-01/F2001/F2001-S04/results/

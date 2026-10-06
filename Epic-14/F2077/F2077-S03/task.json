@@ -1,0 +1,21 @@
+{
+  "id": "F2077-S03",
+  "jira": "KR1-623",
+  "parent": "KR1-620",
+  "title": "[F2077-S03] 구독 플랜 및 권한 관리 통합·보안·부하·복구 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: 공통 entitlement 조회를 plan/사용자/모델/epoch에 맞춰 구성",
+  "data": "plan version·feature scopes·device·effective time",
+  "boundary": "구독만료·철회·offline grace·cache stale",
+  "metrics": "권한정확성·revoke 지연·우회 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

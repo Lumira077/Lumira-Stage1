@@ -1,0 +1,55 @@
+name: F2002 profile and preferences validation
+on:
+  push:
+    paths:
+      - 'Epic-01/F2002/**'
+      - 'Epic-01/F2001/**'
+      - '.github/workflows/f2002.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  software-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate S01 profile contract example
+        working-directory: Epic-01/F2002/F2002-S01
+        run: python -m profile_contract examples/profile.json
+      - name: F2001 integration regression
+        working-directory: Epic-01/F2001/F2001-S03
+        run: python -m onboarding_lab.runner --out results --samples 100
+      - name: F2001 operations regression
+        working-directory: Epic-01/F2001/F2001-S04
+        run: python -m onboarding_ops.runner --out results
+      - name: F2002 all four work packages and performance
+        working-directory: Epic-01/F2002/F2002-S04
+        run: python -m profile_ops.runner --out results --samples 100
+      - name: Verify evidence provenance and release block
+        working-directory: Epic-01/F2002/F2002-S04
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          report=json.loads(Path('results/report.json').read_text())
+          assert report['failed']==0 and report['errors']==0 and report['total']>=67
+          assert report['source_commit']==os.environ['GITHUB_SHA']
+          assert report['proposed_latency_targets']['status']=='passed'
+          assert json.loads(Path('results/release-gate.json').read_text())['release_ready'] is False
+          assert json.loads(Path('results/study.json').read_text())['actual_participants']==0
+          assert json.loads(Path('results/sandbox-restore.json').read_text())['deletion_and_revocation_reapplied'] is True
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: f2002-software-evidence
+          retention-days: 30
+          if-no-files-found: error
+          path: |
+            Epic-01/F2002/F2002-S04/results/
+            Epic-01/F2001/F2001-S03/results/
+            Epic-01/F2001/F2001-S04/results/

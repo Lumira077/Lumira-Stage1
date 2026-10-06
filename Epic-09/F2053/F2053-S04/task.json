@@ -1,0 +1,21 @@
+{
+  "id": "F2053-S04",
+  "jira": "KR1-404",
+  "parent": "KR1-400",
+  "title": "[F2053-S04] 건강·정서 리포트 운영·지표·Release 전환",
+  "work": "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단: 알림/활동/정서 관측을 출처/불확실성과 함께 요약하고 공유 권한을 적용",
+  "data": "report period·aggregate·coverage·scope",
+  "boundary": "데이터 부족·잘못된 소유자·철회·과도한 진단",
+  "metrics": "요약 정확성·공유권한·원문 노출 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

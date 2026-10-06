@@ -1,0 +1,711 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "F2003 local development memory API",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8083"
+    }
+  ],
+  "security": [
+    {
+      "devToken": []
+    }
+  ],
+  "paths": {
+    "/memories": {
+      "get": {
+        "operationId": "listMemories",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        }
+      },
+      "post": {
+        "operationId": "createCandidate",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "data",
+                  "mutation_id"
+                ],
+                "properties": {
+                  "data": {
+                    "$ref": "#/components/schemas/MemoryCandidate"
+                  },
+                  "mutation_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/memories/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$"
+          }
+        }
+      ],
+      "get": {
+        "operationId": "getMemory",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        }
+      },
+      "patch": {
+        "operationId": "correctConfirmedMemory",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "content",
+                  "revision",
+                  "mutation_id"
+                ],
+                "properties": {
+                  "content": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 400
+                  },
+                  "revision": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "mutation_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "deleteMemory",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "revision"
+                ],
+                "properties": {
+                  "revision": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/memories/{id}/confirm": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$"
+          }
+        }
+      ],
+      "post": {
+        "operationId": "confirmCandidate",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "revision",
+                  "mutation_id"
+                ],
+                "properties": {
+                  "revision": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "mutation_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/capture": {
+      "post": {
+        "operationId": "captureTransientUtterance",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "utterance",
+                  "source_ref",
+                  "mutation_id"
+                ],
+                "properties": {
+                  "utterance": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 1000
+                  },
+                  "source_ref": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$"
+                  },
+                  "mutation_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search": {
+      "post": {
+        "operationId": "searchConfirmedMemory",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "query"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/privacy/delete-all": {
+      "post": {
+        "operationId": "delete-all",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "confirmed"
+                ],
+                "properties": {
+                  "confirmed": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/privacy/revoke": {
+      "post": {
+        "operationId": "revoke",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "confirmed"
+                ],
+                "properties": {
+                  "confirmed": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/privacy/grant": {
+      "post": {
+        "operationId": "grant",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "UNAUTHORIZED"
+          },
+          "403": {
+            "description": "Consent or scope denied"
+          },
+          "404": {
+            "description": "NOT_FOUND"
+          },
+          "409": {
+            "description": "Revision/idempotency conflict"
+          },
+          "410": {
+            "description": "RETIRED_REQUEST"
+          },
+          "413": {
+            "description": "BODY_TOO_LARGE"
+          },
+          "415": {
+            "description": "JSON_REQUIRED"
+          },
+          "422": {
+            "description": "Invalid or forbidden memory"
+          },
+          "500": {
+            "description": "INTERNAL_ERROR"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "confirmed"
+                ],
+                "properties": {
+                  "confirmed": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "devToken": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Maps to server-bound synthetic actor/profile/device; not production identity"
+      }
+    },
+    "schemas": {
+      "MemoryCandidate": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "topic",
+          "content",
+          "source_ref",
+          "confidence",
+          "ttl_seconds"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "preference",
+              "fact",
+              "promise"
+            ]
+          },
+          "topic": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{0,39}$"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "source_ref": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ttl_seconds": {
+            "type": "integer",
+            "minimum": 60,
+            "maximum": 31536000
+          }
+        }
+      }
+    }
+  }
+}

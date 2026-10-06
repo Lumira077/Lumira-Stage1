@@ -1,0 +1,21 @@
+test_bad_joint_count (test_contract.ContractTests.test_bad_joint_count) ... ok
+test_bool_sequence (test_contract.ContractTests.test_bool_sequence) ... ok
+test_charge (test_contract.ContractTests.test_charge) ... ok
+test_disarmed (test_contract.ContractTests.test_disarmed) ... ok
+test_duplicate (test_contract.ContractTests.test_duplicate) ... ok
+test_estop (test_contract.ContractTests.test_estop) ... ok
+test_expired (test_contract.ContractTests.test_expired) ... ok
+test_extra_field (test_contract.ContractTests.test_extra_field) ... ok
+test_foreign_session (test_contract.ContractTests.test_foreign_session) ... ok
+test_future (test_contract.ContractTests.test_future) ... ok
+test_nan (test_contract.ContractTests.test_nan) ... ok
+test_nominal (test_contract.ContractTests.test_nominal) ... ok
+test_stale_safety (test_contract.ContractTests.test_stale_safety) ... ok
+test_unknown_safety (test_contract.ContractTests.test_unknown_safety) ... ok
+test_unsafe_arm (test_contract.ContractTests.test_unsafe_arm) ... ok
+test_wrong_topic (test_contract.ContractTests.test_wrong_topic) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK

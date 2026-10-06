@@ -1,0 +1,37 @@
+name: Epic-05 perception contract prototype
+on:
+  push:
+    paths: ['Epic-05/**', '.github/workflows/epic05-perception.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prototype:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Epic-05 synthetic contract suite
+        run: python Epic-05/runtime/run.py
+      - name: Synthetic association and revocation demo
+        run: python Epic-05/runtime/demo.py
+      - name: Epic-04 regression
+        run: python Epic-04/runtime/run.py
+      - name: Epic-03 regression
+        run: python Epic-03/runtime/run.py
+      - name: Epic-02 regression
+        run: python Epic-02/runtime/run.py
+      - name: Epic-01 regression
+        run: python Epic-01/integration/run.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: epic05-prototype-evidence
+          path: |
+            Epic-05/runtime/evidence/
+            Epic-04/runtime/evidence/
+            Epic-03/runtime/evidence/
+            Epic-02/runtime/evidence/
+            Epic-01/integration/evidence/

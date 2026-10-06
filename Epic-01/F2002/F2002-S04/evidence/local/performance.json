@@ -1,0 +1,18 @@
+{
+  "save": {
+    "unit": "ms",
+    "samples": 100,
+    "p50": 0.2118345000781119,
+    "p95": 0.36682499990092765,
+    "max": 0.6023340001775068,
+    "scope": "in-process SQLite + simulated setting ACK; excludes real hardware, network and audio onset"
+  },
+  "apply": {
+    "unit": "ms",
+    "samples": 100,
+    "p50": 0.18604699994284601,
+    "p95": 0.31493699998463853,
+    "max": 0.41628899998613633,
+    "scope": "in-process SQLite + simulated setting ACK; excludes real hardware, network and audio onset"
+  }
+}

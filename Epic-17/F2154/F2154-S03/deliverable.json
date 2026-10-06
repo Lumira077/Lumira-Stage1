@@ -1,0 +1,44 @@
+{
+  "id": "F2154-S03",
+  "jira_key": "KR1-926",
+  "source_scope": "착용/탈착·관절 가동·온도/음향/카메라·세척·작은 부품·끈 위험 실물 평가.",
+  "work_now": "겹침/미확인/가동·열·음향·센서·탈착 시험 계획",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2154/F2154-S03/deliverable.json",
+  "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+  "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

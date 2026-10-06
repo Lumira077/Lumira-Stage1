@@ -1,0 +1,416 @@
+{
+  "epic": "Epic-18",
+  "jira": "KR1-933",
+  "features": [
+    {
+      "feature": "F2165",
+      "jira": "KR1-934",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2165] 특허 Governance·발명관리 Process",
+      "work": "발명신고·발명자/권리자·공개전검토·분류/예산/책임 프로세스를 구성",
+      "data": "invention id·inventors·owner·disclosure·evidence",
+      "boundary": "공개 선행·권리귀속 불명·기한누락",
+      "metrics": "승인추적·공개전검토coverage·책임자",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2166",
+      "jira": "KR1-939",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2166] 기술·경쟁사 Patent Landscape 및 선행기술 조사",
+      "work": "분야별 특허/논문검색식을 저장하고 family/법적상태·claim element를 분류",
+      "data": "query·jurisdiction·publication·family·claim·source date",
+      "boundary": "번역오류·중복family·상태 stale·검색공백",
+      "metrics": "검색재현성·claim 근거·전문가 검토",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2167",
+      "jira": "KR1-944",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2167] 핵심기술 Patent Portfolio·Claim Map 설계",
+      "work": "제품Feature→기술효과→발명군→독립/종속 claim map과 국가/예산을 구성",
+      "data": "Feature·invention·effect·claim element·priority",
+      "boundary": "증거없는효과·중복·회피설계·공백",
+      "metrics": "Feature coverage·claim support·승인",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2168",
+      "jira": "KR1-949",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2168] 대화·감정인식·Local AI 특허 발굴·출원",
+      "work": "감정fusion·개인화·Local/Cloud orchestration의 입출력/구성/효과 발명근거를 정리",
+      "data": "algorithm version·flow·experiment·claim draft",
+      "boundary": "논문선행·불명확기여·미재현효과",
+      "metrics": "발명자확인·재현근거·명세 support",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2169",
+      "jira": "KR1-954",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2169] HRI·Face UI·감정표현·Persona 특허 발굴·출원",
+      "work": "시선/표정/음성/제스처·Persona 전환의HRI흐름/상태/효과 발명을 정리",
+      "data": "state graph·cue·UI figure·experiment·claim",
+      "boundary": "단순디자인·선행UI·효과근거없음",
+      "metrics": "차별구성·도면일치·사용효과근거",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2170",
+      "jira": "KR1-959",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2170] 구동·센서·전원·기계안전 특허 발굴·출원",
+      "work": "구동/센서/전원/독립Safety MCU 구조와효과를 claim 후보로 정리",
+      "data": "circuit/mechanical revision·fault experiment·effect",
+      "boundary": "일반구성·미검증안전효과·권리귀속",
+      "metrics": "구조/효과근거·도면·발명자확인",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2171",
+      "jira": "KR1-964",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2171] 자율주행·조작·Smart Space 특허 발굴·출원",
+      "work": "mapping/following/docking/grasp/IoT 작업의차별구성과효과 발명을 정리",
+      "data": "flow·planner version·interface·effect·evidence",
+      "boundary": "공개선행·미실증·software/HW 모순",
+      "metrics": "발명군coverage·실시예·claim map",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2172",
+      "jira": "KR1-969",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2172] 국내 우선권 출원·명세서·도면 품질관리",
+      "work": "국내 출원 문서·도면·실시예·claim support와 공개 gate를 관리",
+      "data": "draft revision·claims·figures·owner·filing receipt ref",
+      "boundary": "공개전미접수·용어불일치·support 누락",
+      "metrics": "변리사검토·문서일치·실제 접수증",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2173",
+      "jira": "KR1-974",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2173] PCT·미국·유럽·일본·중국 해외출원 전략",
+      "work": "국가/시장/경쟁/예산·공식확인 기한을 docket에 기록",
+      "data": "family·country·priority ref·verified due·counsel",
+      "boundary": "기한불명·번역/비용·국가착오·상태변경",
+      "metrics": "담당자/기한근거·국가별 승인·접수",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": "docket_review",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2174",
+      "jira": "KR1-979",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2174] 심사청구·OA 대응·보정·분할출원 관리",
+      "work": "OA 거절이유/인용문헌/claim 대응표·보정지원·분할결정을 관리",
+      "data": "OA ref·claim map·response revision·verified due",
+      "boundary": "신규사항·범위축소·기한누락·불일치",
+      "metrics": "법률/기술검토·근거추적·실제 제출",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2175",
+      "jira": "KR1-984",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2175] 등록·연차료·권리평가·영업비밀 관리",
+      "work": "등록/연차료/존속·유지포기/영업비밀·권리평가를 기록",
+      "data": "registration·annuity verified due·owner·decision",
+      "boundary": "미납·양도·공개·영업비밀 접근",
+      "metrics": "최신권리상태·기한근거·결정추적",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": "docket_review",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2176",
+      "jira": "KR1-989",
+      "epic": "Epic-18",
+      "epic_jira": "KR1-933",
+      "title": "[F2176] FTO·경쟁사 Monitoring·라이선스 사업화",
+      "work": "제품/국가/출시버전별 claim chart·FTO검토·회피/라이선스를 관리",
+      "data": "product version·country·live claims·chart·opinion ref",
+      "boundary": "검색공백·status변화·기능변경·미검토",
+      "metrics": "전문가의견·잔여위험·회피/라이선스근거",
+      "stage_work": [
+        "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+        "선행문헌/family/claim·차별/회피·검색 근거 조사",
+        "실시예/도면/claim·전문가검토·공식제출/접수증",
+        "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "WIPO PATENTSCOPE",
+          "https://www.wipo.int/en/web/patentscope/index"
+        ],
+        [
+          "KIPRIS",
+          "https://www.kipris.or.kr/"
+        ]
+      ],
+      "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+      "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 48,
+  "release_ready": false
+}

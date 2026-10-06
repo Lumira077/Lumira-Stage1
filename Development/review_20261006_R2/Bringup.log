@@ -1,0 +1,25 @@
+test_baseline (test_probe.ConfigTests.test_baseline) ... ok
+test_duplicate_ip (test_probe.ConfigTests.test_duplicate_ip) ... ok
+test_duplicate_ports (test_probe.ConfigTests.test_duplicate_ports) ... ok
+test_no_motion (test_probe.ConfigTests.test_no_motion) ... ok
+test_simulation_has_no_hardware_claim (test_probe.ConfigTests.test_simulation_has_no_hardware_claim) ... ok
+test_unconfirmed_blocks_probe (test_probe.ConfigTests.test_unconfirmed_blocks_probe) ... ok
+test_unstable_port (test_probe.ConfigTests.test_unstable_port) ... ok
+test_unsupported_model (test_probe.ConfigTests.test_unsupported_model) ... ok
+test_wrong_network (test_probe.ConfigTests.test_wrong_network) ... ok
+test_extra_line (test_probe.ProtocolTests.test_extra_line) ... ok
+test_motion_enabled_rejected (test_probe.ProtocolTests.test_motion_enabled_rejected) ... ok
+test_nonascii (test_probe.ProtocolTests.test_nonascii) ... ok
+test_nonce_injection (test_probe.ProtocolTests.test_nonce_injection) ... ok
+test_oversize (test_probe.ProtocolTests.test_oversize) ... ok
+test_roundtrip (test_probe.ProtocolTests.test_roundtrip) ... ok
+test_stale_nonce (test_probe.ProtocolTests.test_stale_nonce) ... ok
+test_truncated (test_probe.ProtocolTests.test_truncated) ... ok
+test_wrong_role (test_probe.ProtocolTests.test_wrong_role) ... ok
+test_real_os_pty_transport (test_probe.SerialTests.test_real_os_pty_transport) ... ok
+test_timeout_closes_port (test_probe.SerialTests.test_timeout_closes_port) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.062s
+
+OK

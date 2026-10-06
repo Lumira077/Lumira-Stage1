@@ -1,0 +1,18 @@
+{
+  "feature": "F2206",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "Provider별 성공률·첫 응답/완료 지연·usage 누락률·rate limit·비용",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재는 가상 Provider 2개만 연결; 실제 서비스 계정·모델·Secret·호출 한도·네트워크 어댑터 필요"
+}

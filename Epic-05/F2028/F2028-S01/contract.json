@@ -1,0 +1,10 @@
+{
+  "schema": "perception-v1",
+  "feature": "F2028",
+  "data": "touch sensor/region/contact id·pressed/released·seq·monotonic timestamp·debounce/long/stuck bounds·owner/epoch·sensor health·driver/version/calibration.",
+  "interface": "실제 capacitive/pressure/touchscreen driver → TouchFSM event → interaction/표현/대화. 안전 긴급 정지는 별도 hardware 경로로 유지한다.",
+  "metrics": "tap/long 오탐/누락·중복 이벤트·debounce/release p95·고착/재연결·region 혼선·사용자 접근성",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

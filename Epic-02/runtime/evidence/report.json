@@ -1,0 +1,47 @@
+{
+  "source_commit": "local-uncommitted",
+  "scope": "synthetic_local_prototype",
+  "tests": 132,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "per_feature_tests": {
+    "F2008": 7,
+    "F2009": 6,
+    "F2010": 7,
+    "F2011": 6,
+    "F2012": 6,
+    "F2013": 6,
+    "F2014": 7,
+    "F2121": 6,
+    "F2122": 7,
+    "F2123": 7,
+    "F2126": 8,
+    "F2205": 8,
+    "F2206": 6,
+    "F2207": 6,
+    "F2208": 6,
+    "F2209": 8,
+    "F2210": 7,
+    "F2211": 6,
+    "F2212": 6,
+    "F2213": 6
+  },
+  "release_ready": false,
+  "actual_provider_calls": 0,
+  "actual_participants": 0,
+  "policy_cpu_benchmark": {
+    "samples": 100,
+    "p50_ms": 0.0012619999552043737,
+    "p95_ms": 0.001523000037195743,
+    "scope": "pure function only; not real model or robot latency"
+  },
+  "pending": [
+    "real_provider_credentials",
+    "microphone_camera_speaker_robot",
+    "real_models_and_eval_data",
+    "approved_thresholds_and_policies",
+    "production_auth_privacy_billing",
+    "Q1_R1_review"
+  ]
+}

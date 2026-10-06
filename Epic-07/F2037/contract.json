@@ -1,0 +1,34 @@
+{
+  "feature": "F2037",
+  "jira": "KR1-288",
+  "epic": "Epic-07",
+  "epic_jira": "KR1-282",
+  "title": "[F2037] 실내 지도 작성(SLAM)",
+  "work": "SLAM pose graph·loop closure·OccupancyGrid 저장/복구와 지도 revision을 관리",
+  "data": "map/posegraph·resolution·origin·frame·revision",
+  "boundary": "동적 물체·반복 무늬·지도 손상·재시작",
+  "metrics": "ATE/RPE·지도 오차·loop closure 실패",
+  "stage_work": [
+    "Interface/TF·clock·state·제어주기·QoS·Simulation 설계",
+    "ROS2/제어/센서·actuator adapter 구현 및 version 관리",
+    "실물/통신/한계·고장주입·물리 ACK·안전 시험",
+    "실환경 반복임무·Parameter Freeze·운용제한/rollback"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "Nav2",
+      "https://docs.nav2.org/"
+    ],
+    [
+      "SLAM Toolbox",
+      "https://github.com/SteveMacenski/slam_toolbox"
+    ]
+  ],
+  "intervention": "실제 이동베이스·LiDAR/Depth/IMU/encoder·URDF/footprint·TF/clock·승인 속도/정지거리·cliff 센서·dock/BMS·실내 지도·시험 공간",
+  "dependencies": "센서/TF → 지도/위치 → 경로/장애물 → 도킹 → 공간 Wizard. Epic-06 코어·Epic-16 HW·Epic-13 독립 안전·Epic-11 앱·Epic-15 공간과 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

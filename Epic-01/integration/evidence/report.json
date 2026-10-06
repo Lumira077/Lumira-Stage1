@@ -1,0 +1,26 @@
+{
+  "source_commit": "local-uncommitted",
+  "scope": "local_simulation",
+  "tests": 65,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "release_ready": false,
+  "blockers": [
+    "real_robot_not_connected",
+    "actual_user_study_not_run",
+    "production_auth_not_connected",
+    "biometric_models_not_connected",
+    "content_and_package_approval_pending",
+    "NFC_presence_hardware_pending",
+    "Q1_R1_approval_pending"
+  ],
+  "features": [
+    "F2004",
+    "F2005",
+    "F2006",
+    "F2007",
+    "F2157"
+  ],
+  "actual_user_participants": 0
+}

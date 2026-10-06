@@ -1,0 +1,188 @@
+{
+  "epic": "Epic-10",
+  "jira": "KR1-405",
+  "features": [
+    {
+      "feature": "F2054",
+      "jira": "KR1-406",
+      "epic": "Epic-10",
+      "epic_jira": "KR1-405",
+      "title": "[F2054] 연령별 교육 프로필",
+      "work": "보호자 승인 연령대·관심·수준으로 교육 프로필과 제한을 구성",
+      "data": "age band·level·interest·guardian scope",
+      "boundary": "연령 Unknown·권한 철회·차별적 분류",
+      "metrics": "연령적합성·최소수집·권한 일치",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": "kids_catalog",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "연령/수준 rubric·검수/권리 콘텐츠·보호자 동의·평가 참가자·승인 motion/음량/시간 제한",
+      "dependencies": "보호자 승인 프로필 → 검수 퀴즈/동화/언어/놀이 → 진도/공유. Epic-01 개인화·Epic-02 대화·Epic-04 표현·Epic-11 부모 통제·Epic-13 보호·Epic-14 권리/구독 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2055",
+      "jira": "KR1-411",
+      "epic": "Epic-10",
+      "epic_jira": "KR1-405",
+      "title": "[F2055] 퀴즈·학습 대화",
+      "work": "검수 문제은행의 난이도·힌트·정답 feedback·중단을 구성",
+      "data": "question id·difficulty·answer·attempt·hint",
+      "boundary": "오답 연속·ASR 불확실·금지내용·시간초과",
+      "metrics": "정답처리 정확성·학습흐름·피로/중단",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "연령/수준 rubric·검수/권리 콘텐츠·보호자 동의·평가 참가자·승인 motion/음량/시간 제한",
+      "dependencies": "보호자 승인 프로필 → 검수 퀴즈/동화/언어/놀이 → 진도/공유. Epic-01 개인화·Epic-02 대화·Epic-04 표현·Epic-11 부모 통제·Epic-13 보호·Epic-14 권리/구독 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2056",
+      "jira": "KR1-416",
+      "epic": "Epic-10",
+      "epic_jira": "KR1-405",
+      "title": "[F2056] 동화 스토리텔링",
+      "work": "검수 동화의 선택 분기·등장인물·기억·표정/TTS cue를 구성",
+      "data": "story graph·node·choices·license·cue",
+      "boundary": "분기 누락·민감내용·낯선 링크·무한반복",
+      "metrics": "이야기 일관성·안전검수·중단 반영",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "연령/수준 rubric·검수/권리 콘텐츠·보호자 동의·평가 참가자·승인 motion/음량/시간 제한",
+      "dependencies": "보호자 승인 프로필 → 검수 퀴즈/동화/언어/놀이 → 진도/공유. Epic-01 개인화·Epic-02 대화·Epic-04 표현·Epic-11 부모 통제·Epic-13 보호·Epic-14 권리/구독 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2057",
+      "jira": "KR1-421",
+      "epic": "Epic-10",
+      "epic_jira": "KR1-405",
+      "title": "[F2057] 외국어 대화 학습",
+      "work": "언어/수준별 듣기·발음·역할대화와 불확실 평가 보류를 구성",
+      "data": "language·level·prompt·ASR quality·feedback",
+      "boundary": "accent·잡음·낮은 ASR confidence·모욕적 feedback",
+      "metrics": "평가 일치율·사용자 이해·안전 표현",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "연령/수준 rubric·검수/권리 콘텐츠·보호자 동의·평가 참가자·승인 motion/음량/시간 제한",
+      "dependencies": "보호자 승인 프로필 → 검수 퀴즈/동화/언어/놀이 → 진도/공유. Epic-01 개인화·Epic-02 대화·Epic-04 표현·Epic-11 부모 통제·Epic-13 보호·Epic-14 권리/구독 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2058",
+      "jira": "KR1-426",
+      "epic": "Epic-10",
+      "epic_jira": "KR1-405",
+      "title": "[F2058] 노래·춤·체조 놀이",
+      "work": "노래/춤/체조 cue를 검수 콘텐츠 및 승인 motion envelope와 연결",
+      "data": "music id·license·cue·motion·space state",
+      "boundary": "공간 부족·관절 fault·음량/시간 제한·취소",
+      "metrics": "동기오차·motion 제한·권리 확인",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "연령/수준 rubric·검수/권리 콘텐츠·보호자 동의·평가 참가자·승인 motion/음량/시간 제한",
+      "dependencies": "보호자 승인 프로필 → 검수 퀴즈/동화/언어/놀이 → 진도/공유. Epic-01 개인화·Epic-02 대화·Epic-04 표현·Epic-11 부모 통제·Epic-13 보호·Epic-14 권리/구독 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2059",
+      "jira": "KR1-431",
+      "epic": "Epic-10",
+      "epic_jira": "KR1-405",
+      "title": "[F2059] 학습 진도 및 성취 기록",
+      "work": "활동/진도를 목적별 최소 기록하고 보호자 요약·철회/삭제를 구성",
+      "data": "activity id·duration·achievement·share scope",
+      "boundary": "중복활동·사용자 혼동·철회·비교 낙인",
+      "metrics": "기록 정확성·공유권한·삭제 전파",
+      "stage_work": [
+        "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+        "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+        "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+        "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "연령/수준 rubric·검수/권리 콘텐츠·보호자 동의·평가 참가자·승인 motion/음량/시간 제한",
+      "dependencies": "보호자 승인 프로필 → 검수 퀴즈/동화/언어/놀이 → 진도/공유. Epic-01 개인화·Epic-02 대화·Epic-04 표현·Epic-11 부모 통제·Epic-13 보호·Epic-14 권리/구독 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 24,
+  "release_ready": false
+}

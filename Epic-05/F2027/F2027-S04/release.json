@@ -1,0 +1,16 @@
+{
+  "feature": "F2027",
+  "release_ready": false,
+  "actual_model_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "gesture macro-F1/confusion matrix·pose angle error·거리/조명/가림 coverage·중복 이벤트·FAR/누락·p95 latency",
+  "pending": "실제 MediaPipe/카메라/landmark/gesture classifier·track/자동 epoch event·stop controller·사용자 평가 없음. supplied stop tag는 safety_estop=false/executable=false이다.",
+  "required": [
+    "actual_perception_tracking_quality",
+    "privacy_auth_consent_epoch_delete_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

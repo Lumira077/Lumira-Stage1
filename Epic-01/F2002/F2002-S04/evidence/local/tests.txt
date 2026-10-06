@@ -1,0 +1,22 @@
+{"run": 16, "failed": 0, "errors": 0}
+test_dashboard_escape (test_operations.Ops.test_dashboard_escape) ... ok
+test_duplicate_observation (test_operations.Ops.test_duplicate_observation) ... ok
+test_empty_denominator (test_operations.Ops.test_empty_denominator) ... ok
+test_invalid_duration (test_operations.Ops.test_invalid_duration) ... ok
+test_invalid_period (test_operations.Ops.test_invalid_period) ... ok
+test_period_excludes_end (test_operations.Ops.test_period_excludes_end) ... ok
+test_pii_field_rejected (test_operations.Ops.test_pii_field_rejected) ... ok
+test_real_label_does_not_approve (test_operations.Ops.test_real_label_does_not_approve) ... ok
+test_retry_denominator (test_operations.Ops.test_retry_denominator) ... ok
+test_synthetic_not_real (test_operations.Ops.test_synthetic_not_real) ... ok
+test_missing_ledger_blocks (test_restore.Restore.test_missing_ledger_blocks) ... ok
+test_newer_deletion_not_resurrected (test_restore.Restore.test_newer_deletion_not_resurrected) ... ok
+test_newer_revocation_not_resurrected (test_restore.Restore.test_newer_revocation_not_resurrected) ... ok
+test_preserve_profiles_clear_activation (test_restore.Restore.test_preserve_profiles_clear_activation) ... ok
+test_schema_mismatch_blocks (test_restore.Restore.test_schema_mismatch_blocks) ... ok
+test_symlink_destination_blocks (test_restore.Restore.test_symlink_destination_blocks) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.017s
+
+OK

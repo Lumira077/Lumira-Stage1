@@ -1,0 +1,21 @@
+{
+  "id": "F2052-S02",
+  "jira": "KR1-397",
+  "parent": "KR1-395",
+  "title": "[F2052-S02] 정서 케어와 명상 안내 기능·콘텐츠 Package 구현",
+  "work": "서비스 로직·콘텐츠/화면·대화/연동 Package 구현: 선호·피로·사용자 중단을 반영한 정서 대화/명상과 지원 전환을 구성",
+  "data": "session·approved content·preference·stop",
+  "boundary": "위기표현·싫어요·무반응·과도한 몰입",
+  "metrics": "중단 반영시간·콘텐츠 적합성·지원 연결",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

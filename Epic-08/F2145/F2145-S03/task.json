@@ -1,0 +1,21 @@
+{
+  "id": "F2145-S03",
+  "jira": "KR1-367",
+  "parent": "KR1-364",
+  "title": "[F2145-S03] One-Hand·Two-Hand 조작 판단 통합·경계조건·안전 시험",
+  "work": "실물/통신/한계·고장주입·물리 ACK·안전 시험: 크기·추정 질량·취약성·작업경로로 한손/양손/지원 요청을 선택",
+  "data": "size·mass·reachability·fragility·payload",
+  "boundary": "질량 Unknown·작업영역 외·양팔 간섭",
+  "metrics": "판단 일치율·허용 하중 초과 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "grasp_proposal",
+  "actual_external_calls": 0
+}

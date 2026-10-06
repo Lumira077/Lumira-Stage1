@@ -1,0 +1,21 @@
+{
+  "id": "F2062-S02",
+  "jira": "KR1-449",
+  "parent": "KR1-447",
+  "title": "[F2062-S02] 일정·복약·콘텐츠 원격 설정 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 일정/복약/콘텐츠의 versioned 설정·검증·device ACK를 구성",
+  "data": "settings version·patch·request id·ACK",
+  "boundary": "동시변경·오프라인 큐·구버전 ACK·재시도",
+  "metrics": "충돌처리·동기화 지연·일관성",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "VersionedSettings",
+  "actual_external_calls": 0
+}

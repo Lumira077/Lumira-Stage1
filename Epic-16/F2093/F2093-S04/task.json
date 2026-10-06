@@ -1,0 +1,21 @@
+{
+  "id": "F2093-S04",
+  "jira": "KR1-731",
+  "parent": "KR1-727",
+  "title": "[F2093-S04] 목·팔·허리·손 구동 HW 및 Actuator 선정 DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: DYNAMIXEL 후보의 torque/speed/current/heat/size와 BLDC 전환 gate를 검증",
+  "data": "actuator spec·load·gear·torque curve·bench",
+  "boundary": "stall·열·소음·수명·끼임",
+  "metrics": "torque margin·추종·열·소음·수명",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2129",
+  "data": "skin id/version·palette·semantic states·asset hash/rights·persona/profile mapping·resolution/FPS/memory·default skin·activation/rollback.",
+  "interface": "asset manifest validation/hash → atomic active skin snapshot → F2020 renderer. F2002 persona와 선택 계약; 현재 renderer bundle schema는 color/state metadata만 다룬다.",
+  "metrics": "skin 전환 p95·FPS/memory·상태 의미 일치/이해율·변조/누락 fallback·권리 증거·접근성",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

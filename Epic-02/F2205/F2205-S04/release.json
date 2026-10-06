@@ -1,0 +1,18 @@
+{
+  "feature": "F2205",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "정책 case 일치율, 금지 경로 선택 0건, 판단 p95, 정책 버전 분포",
+  "metric_scope": "local simulated operations only",
+  "pending": "실제 위험 분류기·운영 정책 승인·실시간 로봇/요금제 상태 미연결"
+}

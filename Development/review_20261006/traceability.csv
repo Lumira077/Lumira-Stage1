@@ -1,0 +1,920 @@
+epic,key,parent,type,title,jira_status,path,evidence_level
+Epic-01,KR1-2,KR1-1,Feature,[F2001] 초기 사용자 온보딩,To Do,Epic-01/F2001,source_or_contract_present
+Epic-01,KR1-7,KR1-1,Feature,[F2002] 사용자 프로필 및 선호 설정,To Do,Epic-01/F2002,source_or_contract_present
+Epic-01,KR1-12,KR1-1,Feature,[F2003] 개인화 장기 기억,To Do,Epic-01/F2003,source_or_contract_present
+Epic-01,KR1-17,KR1-1,Feature,[F2004] 다중 사용자 및 가족 식별,To Do,Epic-01/F2004,source_or_contract_present
+Epic-01,KR1-22,KR1-1,Feature,[F2005] 제품 모델별 서비스 모드,To Do,Epic-01/F2005,source_or_contract_present
+Epic-01,KR1-27,KR1-1,Feature,[F2006] Companion/Friend 동반자 모드,To Do,Epic-01/F2006,source_or_contract_present
+Epic-01,KR1-32,KR1-1,Feature,[F2007] Pet 캐릭터 상호작용 모드,To Do,Epic-01/F2007,source_or_contract_present
+Epic-01,KR1-37,KR1-1,Feature,[F2157] 의상 연동 Persona Theme 전환,To Do,Epic-01/F2157,source_or_contract_present
+Epic-01,KR1-3,KR1-2,Sub-task,[F2001-S01] 초기 사용자 온보딩 요구사항·데이터·인터페이스 설계,In Progress,Epic-01/F2001/F2001-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-4,KR1-2,Sub-task,[F2001-S02] 초기 사용자 온보딩 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2001/F2001-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-5,KR1-2,Sub-task,[F2001-S03] 초기 사용자 온보딩 로봇 통합·성능·안전 시험,To Do,Epic-01/F2001/F2001-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-6,KR1-2,Sub-task,[F2001-S04] 초기 사용자 온보딩 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2001/F2001-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-8,KR1-7,Sub-task,[F2002-S01] 사용자 프로필 및 선호 설정 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2002/F2002-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-9,KR1-7,Sub-task,[F2002-S02] 사용자 프로필 및 선호 설정 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2002/F2002-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-10,KR1-7,Sub-task,[F2002-S03] 사용자 프로필 및 선호 설정 로봇 통합·성능·안전 시험,To Do,Epic-01/F2002/F2002-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-11,KR1-7,Sub-task,[F2002-S04] 사용자 프로필 및 선호 설정 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2002/F2002-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-13,KR1-12,Sub-task,[F2003-S01] 개인화 장기 기억 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2003/F2003-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-14,KR1-12,Sub-task,[F2003-S02] 개인화 장기 기억 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2003/F2003-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-15,KR1-12,Sub-task,[F2003-S03] 개인화 장기 기억 로봇 통합·성능·안전 시험,To Do,Epic-01/F2003/F2003-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-16,KR1-12,Sub-task,[F2003-S04] 개인화 장기 기억 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2003/F2003-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-18,KR1-17,Sub-task,[F2004-S01] 다중 사용자 및 가족 식별 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2004/F2004-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-19,KR1-17,Sub-task,[F2004-S02] 다중 사용자 및 가족 식별 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2004/F2004-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-20,KR1-17,Sub-task,[F2004-S03] 다중 사용자 및 가족 식별 로봇 통합·성능·안전 시험,To Do,Epic-01/F2004/F2004-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-21,KR1-17,Sub-task,[F2004-S04] 다중 사용자 및 가족 식별 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2004/F2004-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-23,KR1-22,Sub-task,[F2005-S01] 제품 모델별 서비스 모드 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2005/F2005-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-24,KR1-22,Sub-task,[F2005-S02] 제품 모델별 서비스 모드 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2005/F2005-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-25,KR1-22,Sub-task,[F2005-S03] 제품 모델별 서비스 모드 로봇 통합·성능·안전 시험,To Do,Epic-01/F2005/F2005-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-26,KR1-22,Sub-task,[F2005-S04] 제품 모델별 서비스 모드 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2005/F2005-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-28,KR1-27,Sub-task,[F2006-S01] Companion/Friend 동반자 모드 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2006/F2006-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-29,KR1-27,Sub-task,[F2006-S02] Companion/Friend 동반자 모드 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2006/F2006-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-30,KR1-27,Sub-task,[F2006-S03] Companion/Friend 동반자 모드 로봇 통합·성능·안전 시험,To Do,Epic-01/F2006/F2006-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-31,KR1-27,Sub-task,[F2006-S04] Companion/Friend 동반자 모드 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2006/F2006-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-33,KR1-32,Sub-task,[F2007-S01] Pet 캐릭터 상호작용 모드 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2007/F2007-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-34,KR1-32,Sub-task,[F2007-S02] Pet 캐릭터 상호작용 모드 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2007/F2007-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-35,KR1-32,Sub-task,[F2007-S03] Pet 캐릭터 상호작용 모드 로봇 통합·성능·안전 시험,To Do,Epic-01/F2007/F2007-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-36,KR1-32,Sub-task,[F2007-S04] Pet 캐릭터 상호작용 모드 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2007/F2007-S04,inventory_checked_not_individually_accepted
+Epic-01,KR1-38,KR1-37,Sub-task,[F2157-S01] 의상 연동 Persona Theme 전환 요구사항·데이터·인터페이스 설계,To Do,Epic-01/F2157/F2157-S01,inventory_checked_not_individually_accepted
+Epic-01,KR1-39,KR1-37,Sub-task,[F2157-S02] 의상 연동 Persona Theme 전환 핵심 모델·서비스 Prototype 구현,To Do,Epic-01/F2157/F2157-S02,inventory_checked_not_individually_accepted
+Epic-01,KR1-40,KR1-37,Sub-task,[F2157-S03] 의상 연동 Persona Theme 전환 로봇 통합·성능·안전 시험,To Do,Epic-01/F2157/F2157-S03,inventory_checked_not_individually_accepted
+Epic-01,KR1-41,KR1-37,Sub-task,[F2157-S04] 의상 연동 Persona Theme 전환 사용자 검증·운영지표·Release 완료,To Do,Epic-01/F2157/F2157-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-43,KR1-42,Feature,[F2205] Hybrid AI Policy Engine,To Do,Epic-02/F2205,source_or_contract_present
+Epic-02,KR1-48,KR1-42,Feature,[F2206] Multi-Cloud LLM Gateway,To Do,Epic-02/F2206,source_or_contract_present
+Epic-02,KR1-53,KR1-42,Feature,[F2207] Real-time Multimodal Cloud Session,To Do,Epic-02/F2207,source_or_contract_present
+Epic-02,KR1-58,KR1-42,Feature,[F2208] Local Conversation Context 및 RAG,To Do,Epic-02/F2208,source_or_contract_present
+Epic-02,KR1-63,KR1-42,Feature,[F2209] AI Cost 및 Quota Awareness,To Do,Epic-02/F2209,source_or_contract_present
+Epic-02,KR1-68,KR1-42,Feature,[F2210] Network Quality Adaptive Routing,To Do,Epic-02/F2210,source_or_contract_present
+Epic-02,KR1-73,KR1-42,Feature,[F2211] Privacy 및 Safety Routing,To Do,Epic-02/F2211,source_or_contract_present
+Epic-02,KR1-78,KR1-42,Feature,[F2212] LLM Failover 및 Session Recovery,To Do,Epic-02/F2212,source_or_contract_present
+Epic-02,KR1-83,KR1-42,Feature,[F2213] AI Quality Telemetry,To Do,Epic-02/F2213,source_or_contract_present
+Epic-02,KR1-88,KR1-42,Feature,[F2008] 호출어 및 대화 시작,To Do,Epic-02/F2008,source_or_contract_present
+Epic-02,KR1-93,KR1-42,Feature,[F2009] 실시간 음성 인식(STT),To Do,Epic-02/F2009,source_or_contract_present
+Epic-02,KR1-98,KR1-42,Feature,[F2010] Multi-LLM 자연어 대화,To Do,Epic-02/F2010,source_or_contract_present
+Epic-02,KR1-103,KR1-42,Feature,[F2011] 대화 세션 문맥 관리,To Do,Epic-02/F2011,source_or_contract_present
+Epic-02,KR1-108,KR1-42,Feature,[F2012] 대화 중 끼어들기와 중단,To Do,Epic-02/F2012,source_or_contract_present
+Epic-02,KR1-113,KR1-42,Feature,[F2013] 다국어 대화,To Do,Epic-02/F2013,source_or_contract_present
+Epic-02,KR1-118,KR1-42,Feature,[F2014] 연령·상황별 안전 대화 정책,To Do,Epic-02/F2014,source_or_contract_present
+Epic-02,KR1-123,KR1-42,Feature,[F2121] Stage1 오프라인 기본 명령·Local 안전 응답,To Do,Epic-02/F2121,source_or_contract_present
+Epic-02,KR1-128,KR1-42,Feature,[F2122] Stage2 Small Local LLM·RAG·NPU 실행,To Do,Epic-02/F2122,source_or_contract_present
+Epic-02,KR1-133,KR1-42,Feature,[F2123] Stage3 Hybrid AI Router 및 개인화,To Do,Epic-02/F2123,source_or_contract_present
+Epic-02,KR1-138,KR1-42,Feature,[F2126] AEC·Beamforming·음원 방향 추정,To Do,Epic-02/F2126,source_or_contract_present
+Epic-02,KR1-44,KR1-43,Sub-task,[F2205-S01] Hybrid AI Policy Engine 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2205/F2205-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-45,KR1-43,Sub-task,[F2205-S02] Hybrid AI Policy Engine 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2205/F2205-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-46,KR1-43,Sub-task,[F2205-S03] Hybrid AI Policy Engine 로봇 통합·성능·안전 시험,To Do,Epic-02/F2205/F2205-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-47,KR1-43,Sub-task,[F2205-S04] Hybrid AI Policy Engine 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2205/F2205-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-49,KR1-48,Sub-task,[F2206-S01] Multi-Cloud LLM Gateway 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2206/F2206-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-50,KR1-48,Sub-task,[F2206-S02] Multi-Cloud LLM Gateway 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2206/F2206-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-51,KR1-48,Sub-task,[F2206-S03] Multi-Cloud LLM Gateway 로봇 통합·성능·안전 시험,To Do,Epic-02/F2206/F2206-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-52,KR1-48,Sub-task,[F2206-S04] Multi-Cloud LLM Gateway 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2206/F2206-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-54,KR1-53,Sub-task,[F2207-S01] Real-time Multimodal Cloud Session 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2207/F2207-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-55,KR1-53,Sub-task,[F2207-S02] Real-time Multimodal Cloud Session 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2207/F2207-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-56,KR1-53,Sub-task,[F2207-S03] Real-time Multimodal Cloud Session 로봇 통합·성능·안전 시험,To Do,Epic-02/F2207/F2207-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-57,KR1-53,Sub-task,[F2207-S04] Real-time Multimodal Cloud Session 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2207/F2207-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-59,KR1-58,Sub-task,[F2208-S01] Local Conversation Context 및 RAG 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2208/F2208-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-60,KR1-58,Sub-task,[F2208-S02] Local Conversation Context 및 RAG 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2208/F2208-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-61,KR1-58,Sub-task,[F2208-S03] Local Conversation Context 및 RAG 로봇 통합·성능·안전 시험,To Do,Epic-02/F2208/F2208-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-62,KR1-58,Sub-task,[F2208-S04] Local Conversation Context 및 RAG 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2208/F2208-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-64,KR1-63,Sub-task,[F2209-S01] AI Cost 및 Quota Awareness 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2209/F2209-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-65,KR1-63,Sub-task,[F2209-S02] AI Cost 및 Quota Awareness 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2209/F2209-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-66,KR1-63,Sub-task,[F2209-S03] AI Cost 및 Quota Awareness 로봇 통합·성능·안전 시험,To Do,Epic-02/F2209/F2209-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-67,KR1-63,Sub-task,[F2209-S04] AI Cost 및 Quota Awareness 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2209/F2209-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-69,KR1-68,Sub-task,[F2210-S01] Network Quality Adaptive Routing 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2210/F2210-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-70,KR1-68,Sub-task,[F2210-S02] Network Quality Adaptive Routing 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2210/F2210-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-71,KR1-68,Sub-task,[F2210-S03] Network Quality Adaptive Routing 로봇 통합·성능·안전 시험,To Do,Epic-02/F2210/F2210-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-72,KR1-68,Sub-task,[F2210-S04] Network Quality Adaptive Routing 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2210/F2210-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-74,KR1-73,Sub-task,[F2211-S01] Privacy 및 Safety Routing 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2211/F2211-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-75,KR1-73,Sub-task,[F2211-S02] Privacy 및 Safety Routing 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2211/F2211-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-76,KR1-73,Sub-task,[F2211-S03] Privacy 및 Safety Routing 로봇 통합·성능·안전 시험,To Do,Epic-02/F2211/F2211-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-77,KR1-73,Sub-task,[F2211-S04] Privacy 및 Safety Routing 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2211/F2211-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-79,KR1-78,Sub-task,[F2212-S01] LLM Failover 및 Session Recovery 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2212/F2212-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-80,KR1-78,Sub-task,[F2212-S02] LLM Failover 및 Session Recovery 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2212/F2212-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-81,KR1-78,Sub-task,[F2212-S03] LLM Failover 및 Session Recovery 로봇 통합·성능·안전 시험,To Do,Epic-02/F2212/F2212-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-82,KR1-78,Sub-task,[F2212-S04] LLM Failover 및 Session Recovery 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2212/F2212-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-84,KR1-83,Sub-task,[F2213-S01] AI Quality Telemetry 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2213/F2213-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-85,KR1-83,Sub-task,[F2213-S02] AI Quality Telemetry 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2213/F2213-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-86,KR1-83,Sub-task,[F2213-S03] AI Quality Telemetry 로봇 통합·성능·안전 시험,To Do,Epic-02/F2213/F2213-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-87,KR1-83,Sub-task,[F2213-S04] AI Quality Telemetry 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2213/F2213-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-89,KR1-88,Sub-task,[F2008-S01] 호출어 및 대화 시작 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2008/F2008-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-90,KR1-88,Sub-task,[F2008-S02] 호출어 및 대화 시작 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2008/F2008-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-91,KR1-88,Sub-task,[F2008-S03] 호출어 및 대화 시작 로봇 통합·성능·안전 시험,To Do,Epic-02/F2008/F2008-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-92,KR1-88,Sub-task,[F2008-S04] 호출어 및 대화 시작 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2008/F2008-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-94,KR1-93,Sub-task,[F2009-S01] 실시간 음성 인식(STT) 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2009/F2009-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-95,KR1-93,Sub-task,[F2009-S02] 실시간 음성 인식(STT) 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2009/F2009-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-96,KR1-93,Sub-task,[F2009-S03] 실시간 음성 인식(STT) 로봇 통합·성능·안전 시험,To Do,Epic-02/F2009/F2009-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-97,KR1-93,Sub-task,[F2009-S04] 실시간 음성 인식(STT) 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2009/F2009-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-99,KR1-98,Sub-task,[F2010-S01] Multi-LLM 자연어 대화 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2010/F2010-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-100,KR1-98,Sub-task,[F2010-S02] Multi-LLM 자연어 대화 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2010/F2010-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-101,KR1-98,Sub-task,[F2010-S03] Multi-LLM 자연어 대화 로봇 통합·성능·안전 시험,To Do,Epic-02/F2010/F2010-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-102,KR1-98,Sub-task,[F2010-S04] Multi-LLM 자연어 대화 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2010/F2010-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-104,KR1-103,Sub-task,[F2011-S01] 대화 세션 문맥 관리 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2011/F2011-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-105,KR1-103,Sub-task,[F2011-S02] 대화 세션 문맥 관리 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2011/F2011-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-106,KR1-103,Sub-task,[F2011-S03] 대화 세션 문맥 관리 로봇 통합·성능·안전 시험,To Do,Epic-02/F2011/F2011-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-107,KR1-103,Sub-task,[F2011-S04] 대화 세션 문맥 관리 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2011/F2011-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-109,KR1-108,Sub-task,[F2012-S01] 대화 중 끼어들기와 중단 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2012/F2012-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-110,KR1-108,Sub-task,[F2012-S02] 대화 중 끼어들기와 중단 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2012/F2012-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-111,KR1-108,Sub-task,[F2012-S03] 대화 중 끼어들기와 중단 로봇 통합·성능·안전 시험,To Do,Epic-02/F2012/F2012-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-112,KR1-108,Sub-task,[F2012-S04] 대화 중 끼어들기와 중단 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2012/F2012-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-114,KR1-113,Sub-task,[F2013-S01] 다국어 대화 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2013/F2013-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-115,KR1-113,Sub-task,[F2013-S02] 다국어 대화 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2013/F2013-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-116,KR1-113,Sub-task,[F2013-S03] 다국어 대화 로봇 통합·성능·안전 시험,To Do,Epic-02/F2013/F2013-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-117,KR1-113,Sub-task,[F2013-S04] 다국어 대화 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2013/F2013-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-119,KR1-118,Sub-task,[F2014-S01] 연령·상황별 안전 대화 정책 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2014/F2014-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-120,KR1-118,Sub-task,[F2014-S02] 연령·상황별 안전 대화 정책 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2014/F2014-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-121,KR1-118,Sub-task,[F2014-S03] 연령·상황별 안전 대화 정책 로봇 통합·성능·안전 시험,To Do,Epic-02/F2014/F2014-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-122,KR1-118,Sub-task,[F2014-S04] 연령·상황별 안전 대화 정책 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2014/F2014-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-124,KR1-123,Sub-task,[F2121-S01] Stage1 오프라인 기본 명령·Local 안전 응답 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2121/F2121-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-125,KR1-123,Sub-task,[F2121-S02] Stage1 오프라인 기본 명령·Local 안전 응답 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2121/F2121-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-126,KR1-123,Sub-task,[F2121-S03] Stage1 오프라인 기본 명령·Local 안전 응답 로봇 통합·성능·안전 시험,To Do,Epic-02/F2121/F2121-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-127,KR1-123,Sub-task,[F2121-S04] Stage1 오프라인 기본 명령·Local 안전 응답 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2121/F2121-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-129,KR1-128,Sub-task,[F2122-S01] Stage2 Small Local LLM·RAG·NPU 실행 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2122/F2122-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-130,KR1-128,Sub-task,[F2122-S02] Stage2 Small Local LLM·RAG·NPU 실행 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2122/F2122-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-131,KR1-128,Sub-task,[F2122-S03] Stage2 Small Local LLM·RAG·NPU 실행 로봇 통합·성능·안전 시험,To Do,Epic-02/F2122/F2122-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-132,KR1-128,Sub-task,[F2122-S04] Stage2 Small Local LLM·RAG·NPU 실행 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2122/F2122-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-134,KR1-133,Sub-task,[F2123-S01] Stage3 Hybrid AI Router 및 개인화 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2123/F2123-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-135,KR1-133,Sub-task,[F2123-S02] Stage3 Hybrid AI Router 및 개인화 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2123/F2123-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-136,KR1-133,Sub-task,[F2123-S03] Stage3 Hybrid AI Router 및 개인화 로봇 통합·성능·안전 시험,To Do,Epic-02/F2123/F2123-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-137,KR1-133,Sub-task,[F2123-S04] Stage3 Hybrid AI Router 및 개인화 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2123/F2123-S04,inventory_checked_not_individually_accepted
+Epic-02,KR1-139,KR1-138,Sub-task,[F2126-S01] AEC·Beamforming·음원 방향 추정 요구사항·데이터·인터페이스 설계,To Do,Epic-02/F2126/F2126-S01,inventory_checked_not_individually_accepted
+Epic-02,KR1-140,KR1-138,Sub-task,[F2126-S02] AEC·Beamforming·음원 방향 추정 핵심 모델·서비스 Prototype 구현,To Do,Epic-02/F2126/F2126-S02,inventory_checked_not_individually_accepted
+Epic-02,KR1-141,KR1-138,Sub-task,[F2126-S03] AEC·Beamforming·음원 방향 추정 로봇 통합·성능·안전 시험,To Do,Epic-02/F2126/F2126-S03,inventory_checked_not_individually_accepted
+Epic-02,KR1-142,KR1-138,Sub-task,[F2126-S04] AEC·Beamforming·음원 방향 추정 사용자 검증·운영지표·Release 완료,To Do,Epic-02/F2126/F2126-S04,inventory_checked_not_individually_accepted
+Epic-03,KR1-144,KR1-143,Feature,[F2015] 얼굴 표정 기반 감정 추정,To Do,Epic-03/F2015,source_or_contract_present
+Epic-03,KR1-149,KR1-143,Feature,[F2016] 음성 톤 기반 감정 추정,To Do,Epic-03/F2016,source_or_contract_present
+Epic-03,KR1-154,KR1-143,Feature,[F2017] 대화 내용 기반 감정 추정,To Do,Epic-03/F2017,source_or_contract_present
+Epic-03,KR1-159,KR1-143,Feature,[F2018] 멀티모달 감정 융합,To Do,Epic-03/F2018,source_or_contract_present
+Epic-03,KR1-164,KR1-143,Feature,[F2019] 감정 변화 추세 관리,To Do,Epic-03/F2019,source_or_contract_present
+Epic-03,KR1-145,KR1-144,Sub-task,[F2015-S01] 얼굴 표정 기반 감정 추정 요구사항·데이터·인터페이스 설계,To Do,Epic-03/F2015/F2015-S01,inventory_checked_not_individually_accepted
+Epic-03,KR1-146,KR1-144,Sub-task,[F2015-S02] 얼굴 표정 기반 감정 추정 핵심 모델·서비스 Prototype 구현,To Do,Epic-03/F2015/F2015-S02,inventory_checked_not_individually_accepted
+Epic-03,KR1-147,KR1-144,Sub-task,[F2015-S03] 얼굴 표정 기반 감정 추정 로봇 통합·성능·안전 시험,To Do,Epic-03/F2015/F2015-S03,inventory_checked_not_individually_accepted
+Epic-03,KR1-148,KR1-144,Sub-task,[F2015-S04] 얼굴 표정 기반 감정 추정 사용자 검증·운영지표·Release 완료,To Do,Epic-03/F2015/F2015-S04,inventory_checked_not_individually_accepted
+Epic-03,KR1-150,KR1-149,Sub-task,[F2016-S01] 음성 톤 기반 감정 추정 요구사항·데이터·인터페이스 설계,To Do,Epic-03/F2016/F2016-S01,inventory_checked_not_individually_accepted
+Epic-03,KR1-151,KR1-149,Sub-task,[F2016-S02] 음성 톤 기반 감정 추정 핵심 모델·서비스 Prototype 구현,To Do,Epic-03/F2016/F2016-S02,inventory_checked_not_individually_accepted
+Epic-03,KR1-152,KR1-149,Sub-task,[F2016-S03] 음성 톤 기반 감정 추정 로봇 통합·성능·안전 시험,To Do,Epic-03/F2016/F2016-S03,inventory_checked_not_individually_accepted
+Epic-03,KR1-153,KR1-149,Sub-task,[F2016-S04] 음성 톤 기반 감정 추정 사용자 검증·운영지표·Release 완료,To Do,Epic-03/F2016/F2016-S04,inventory_checked_not_individually_accepted
+Epic-03,KR1-155,KR1-154,Sub-task,[F2017-S01] 대화 내용 기반 감정 추정 요구사항·데이터·인터페이스 설계,To Do,Epic-03/F2017/F2017-S01,inventory_checked_not_individually_accepted
+Epic-03,KR1-156,KR1-154,Sub-task,[F2017-S02] 대화 내용 기반 감정 추정 핵심 모델·서비스 Prototype 구현,To Do,Epic-03/F2017/F2017-S02,inventory_checked_not_individually_accepted
+Epic-03,KR1-157,KR1-154,Sub-task,[F2017-S03] 대화 내용 기반 감정 추정 로봇 통합·성능·안전 시험,To Do,Epic-03/F2017/F2017-S03,inventory_checked_not_individually_accepted
+Epic-03,KR1-158,KR1-154,Sub-task,[F2017-S04] 대화 내용 기반 감정 추정 사용자 검증·운영지표·Release 완료,To Do,Epic-03/F2017/F2017-S04,inventory_checked_not_individually_accepted
+Epic-03,KR1-160,KR1-159,Sub-task,[F2018-S01] 멀티모달 감정 융합 요구사항·데이터·인터페이스 설계,To Do,Epic-03/F2018/F2018-S01,inventory_checked_not_individually_accepted
+Epic-03,KR1-161,KR1-159,Sub-task,[F2018-S02] 멀티모달 감정 융합 핵심 모델·서비스 Prototype 구현,To Do,Epic-03/F2018/F2018-S02,inventory_checked_not_individually_accepted
+Epic-03,KR1-162,KR1-159,Sub-task,[F2018-S03] 멀티모달 감정 융합 로봇 통합·성능·안전 시험,To Do,Epic-03/F2018/F2018-S03,inventory_checked_not_individually_accepted
+Epic-03,KR1-163,KR1-159,Sub-task,[F2018-S04] 멀티모달 감정 융합 사용자 검증·운영지표·Release 완료,To Do,Epic-03/F2018/F2018-S04,inventory_checked_not_individually_accepted
+Epic-03,KR1-165,KR1-164,Sub-task,[F2019-S01] 감정 변화 추세 관리 요구사항·데이터·인터페이스 설계,To Do,Epic-03/F2019/F2019-S01,inventory_checked_not_individually_accepted
+Epic-03,KR1-166,KR1-164,Sub-task,[F2019-S02] 감정 변화 추세 관리 핵심 모델·서비스 Prototype 구현,To Do,Epic-03/F2019/F2019-S02,inventory_checked_not_individually_accepted
+Epic-03,KR1-167,KR1-164,Sub-task,[F2019-S03] 감정 변화 추세 관리 로봇 통합·성능·안전 시험,To Do,Epic-03/F2019/F2019-S03,inventory_checked_not_individually_accepted
+Epic-03,KR1-168,KR1-164,Sub-task,[F2019-S04] 감정 변화 추세 관리 사용자 검증·운영지표·Release 완료,To Do,Epic-03/F2019/F2019-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-170,KR1-169,Feature,[F2020] 디스플레이 얼굴 표정 엔진,To Do,Epic-04/F2020,source_or_contract_present
+Epic-04,KR1-175,KR1-169,Feature,[F2021] 감정형 TTS 음성 출력,To Do,Epic-04/F2021,source_or_contract_present
+Epic-04,KR1-180,KR1-169,Feature,[F2022] 목·팔·허리 제스처 라이브러리,To Do,Epic-04/F2022,source_or_contract_present
+Epic-04,KR1-185,KR1-169,Feature,[F2023] 표정·음성·동작 동기화,To Do,Epic-04/F2023,source_or_contract_present
+Epic-04,KR1-190,KR1-169,Feature,[F2024] 대화 의미 기반 제스처 선택,To Do,Epic-04/F2024,source_or_contract_present
+Epic-04,KR1-195,KR1-169,Feature,[F2025] 춤·노래 퍼포먼스,To Do,Epic-04/F2025,source_or_contract_present
+Epic-04,KR1-200,KR1-169,Feature,[F2129] 2D·2.5D Character Face Engine 및 Persona Skin,To Do,Epic-04/F2129,source_or_contract_present
+Epic-04,KR1-205,KR1-169,Feature,[F2130] Eye Gaze·Lip Sync·표정 동기화 고도화,To Do,Epic-04/F2130,source_or_contract_present
+Epic-04,KR1-210,KR1-169,Feature,[F2131] Stage2~3 리얼형 Face R&D 옵션,To Do,Epic-04/F2131,source_or_contract_present
+Epic-04,KR1-171,KR1-170,Sub-task,[F2020-S01] 디스플레이 얼굴 표정 엔진 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2020/F2020-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-172,KR1-170,Sub-task,[F2020-S02] 디스플레이 얼굴 표정 엔진 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2020/F2020-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-173,KR1-170,Sub-task,[F2020-S03] 디스플레이 얼굴 표정 엔진 로봇 통합·성능·안전 시험,To Do,Epic-04/F2020/F2020-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-174,KR1-170,Sub-task,[F2020-S04] 디스플레이 얼굴 표정 엔진 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2020/F2020-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-176,KR1-175,Sub-task,[F2021-S01] 감정형 TTS 음성 출력 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2021/F2021-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-177,KR1-175,Sub-task,[F2021-S02] 감정형 TTS 음성 출력 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2021/F2021-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-178,KR1-175,Sub-task,[F2021-S03] 감정형 TTS 음성 출력 로봇 통합·성능·안전 시험,To Do,Epic-04/F2021/F2021-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-179,KR1-175,Sub-task,[F2021-S04] 감정형 TTS 음성 출력 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2021/F2021-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-181,KR1-180,Sub-task,[F2022-S01] 목·팔·허리 제스처 라이브러리 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2022/F2022-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-182,KR1-180,Sub-task,[F2022-S02] 목·팔·허리 제스처 라이브러리 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2022/F2022-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-183,KR1-180,Sub-task,[F2022-S03] 목·팔·허리 제스처 라이브러리 로봇 통합·성능·안전 시험,To Do,Epic-04/F2022/F2022-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-184,KR1-180,Sub-task,[F2022-S04] 목·팔·허리 제스처 라이브러리 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2022/F2022-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-186,KR1-185,Sub-task,[F2023-S01] 표정·음성·동작 동기화 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2023/F2023-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-187,KR1-185,Sub-task,[F2023-S02] 표정·음성·동작 동기화 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2023/F2023-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-188,KR1-185,Sub-task,[F2023-S03] 표정·음성·동작 동기화 로봇 통합·성능·안전 시험,To Do,Epic-04/F2023/F2023-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-189,KR1-185,Sub-task,[F2023-S04] 표정·음성·동작 동기화 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2023/F2023-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-191,KR1-190,Sub-task,[F2024-S01] 대화 의미 기반 제스처 선택 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2024/F2024-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-192,KR1-190,Sub-task,[F2024-S02] 대화 의미 기반 제스처 선택 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2024/F2024-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-193,KR1-190,Sub-task,[F2024-S03] 대화 의미 기반 제스처 선택 로봇 통합·성능·안전 시험,To Do,Epic-04/F2024/F2024-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-194,KR1-190,Sub-task,[F2024-S04] 대화 의미 기반 제스처 선택 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2024/F2024-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-196,KR1-195,Sub-task,[F2025-S01] 춤·노래 퍼포먼스 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2025/F2025-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-197,KR1-195,Sub-task,[F2025-S02] 춤·노래 퍼포먼스 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2025/F2025-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-198,KR1-195,Sub-task,[F2025-S03] 춤·노래 퍼포먼스 로봇 통합·성능·안전 시험,To Do,Epic-04/F2025/F2025-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-199,KR1-195,Sub-task,[F2025-S04] 춤·노래 퍼포먼스 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2025/F2025-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-201,KR1-200,Sub-task,[F2129-S01] 2D·2.5D Character Face Engine 및 Persona Skin 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2129/F2129-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-202,KR1-200,Sub-task,[F2129-S02] 2D·2.5D Character Face Engine 및 Persona Skin 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2129/F2129-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-203,KR1-200,Sub-task,[F2129-S03] 2D·2.5D Character Face Engine 및 Persona Skin 로봇 통합·성능·안전 시험,To Do,Epic-04/F2129/F2129-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-204,KR1-200,Sub-task,[F2129-S04] 2D·2.5D Character Face Engine 및 Persona Skin 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2129/F2129-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-206,KR1-205,Sub-task,[F2130-S01] Eye Gaze·Lip Sync·표정 동기화 고도화 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2130/F2130-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-207,KR1-205,Sub-task,[F2130-S02] Eye Gaze·Lip Sync·표정 동기화 고도화 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2130/F2130-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-208,KR1-205,Sub-task,[F2130-S03] Eye Gaze·Lip Sync·표정 동기화 고도화 로봇 통합·성능·안전 시험,To Do,Epic-04/F2130/F2130-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-209,KR1-205,Sub-task,[F2130-S04] Eye Gaze·Lip Sync·표정 동기화 고도화 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2130/F2130-S04,inventory_checked_not_individually_accepted
+Epic-04,KR1-211,KR1-210,Sub-task,[F2131-S01] Stage2~3 리얼형 Face R&D 옵션 요구사항·데이터·인터페이스 설계,To Do,Epic-04/F2131/F2131-S01,inventory_checked_not_individually_accepted
+Epic-04,KR1-212,KR1-210,Sub-task,[F2131-S02] Stage2~3 리얼형 Face R&D 옵션 핵심 모델·서비스 Prototype 구현,To Do,Epic-04/F2131/F2131-S02,inventory_checked_not_individually_accepted
+Epic-04,KR1-213,KR1-210,Sub-task,[F2131-S03] Stage2~3 리얼형 Face R&D 옵션 로봇 통합·성능·안전 시험,To Do,Epic-04/F2131/F2131-S03,inventory_checked_not_individually_accepted
+Epic-04,KR1-214,KR1-210,Sub-task,[F2131-S04] Stage2~3 리얼형 Face R&D 옵션 사용자 검증·운영지표·Release 완료,To Do,Epic-04/F2131/F2131-S04,inventory_checked_not_individually_accepted
+Epic-05,KR1-216,KR1-215,Feature,[F2026] 얼굴 등록 및 사용자 인식,To Do,Epic-05/F2026,source_or_contract_present
+Epic-05,KR1-221,KR1-215,Feature,[F2027] 손짓·포즈 인식,To Do,Epic-05/F2027,source_or_contract_present
+Epic-05,KR1-226,KR1-215,Feature,[F2028] 터치 상호작용,To Do,Epic-05/F2028,source_or_contract_present
+Epic-05,KR1-231,KR1-215,Feature,[F2029] 주변 상황 및 사람 존재 감지,To Do,Epic-05/F2029,source_or_contract_present
+Epic-05,KR1-236,KR1-215,Feature,[F2127] Audio-Vision 능동 화자 추적,To Do,Epic-05/F2127,source_or_contract_present
+Epic-05,KR1-241,KR1-215,Feature,[F2133] 음원 유도 Face Tracking·Head 미세 정렬,To Do,Epic-05/F2133,source_or_contract_present
+Epic-05,KR1-217,KR1-216,Sub-task,[F2026-S01] 얼굴 등록 및 사용자 인식 요구사항·데이터·인터페이스 설계,To Do,Epic-05/F2026/F2026-S01,inventory_checked_not_individually_accepted
+Epic-05,KR1-218,KR1-216,Sub-task,[F2026-S02] 얼굴 등록 및 사용자 인식 핵심 모델·서비스 Prototype 구현,To Do,Epic-05/F2026/F2026-S02,inventory_checked_not_individually_accepted
+Epic-05,KR1-219,KR1-216,Sub-task,[F2026-S03] 얼굴 등록 및 사용자 인식 로봇 통합·성능·안전 시험,To Do,Epic-05/F2026/F2026-S03,inventory_checked_not_individually_accepted
+Epic-05,KR1-220,KR1-216,Sub-task,[F2026-S04] 얼굴 등록 및 사용자 인식 사용자 검증·운영지표·Release 완료,To Do,Epic-05/F2026/F2026-S04,inventory_checked_not_individually_accepted
+Epic-05,KR1-222,KR1-221,Sub-task,[F2027-S01] 손짓·포즈 인식 요구사항·데이터·인터페이스 설계,To Do,Epic-05/F2027/F2027-S01,inventory_checked_not_individually_accepted
+Epic-05,KR1-223,KR1-221,Sub-task,[F2027-S02] 손짓·포즈 인식 핵심 모델·서비스 Prototype 구현,To Do,Epic-05/F2027/F2027-S02,inventory_checked_not_individually_accepted
+Epic-05,KR1-224,KR1-221,Sub-task,[F2027-S03] 손짓·포즈 인식 로봇 통합·성능·안전 시험,To Do,Epic-05/F2027/F2027-S03,inventory_checked_not_individually_accepted
+Epic-05,KR1-225,KR1-221,Sub-task,[F2027-S04] 손짓·포즈 인식 사용자 검증·운영지표·Release 완료,To Do,Epic-05/F2027/F2027-S04,inventory_checked_not_individually_accepted
+Epic-05,KR1-227,KR1-226,Sub-task,[F2028-S01] 터치 상호작용 요구사항·데이터·인터페이스 설계,To Do,Epic-05/F2028/F2028-S01,inventory_checked_not_individually_accepted
+Epic-05,KR1-228,KR1-226,Sub-task,[F2028-S02] 터치 상호작용 핵심 모델·서비스 Prototype 구현,To Do,Epic-05/F2028/F2028-S02,inventory_checked_not_individually_accepted
+Epic-05,KR1-229,KR1-226,Sub-task,[F2028-S03] 터치 상호작용 로봇 통합·성능·안전 시험,To Do,Epic-05/F2028/F2028-S03,inventory_checked_not_individually_accepted
+Epic-05,KR1-230,KR1-226,Sub-task,[F2028-S04] 터치 상호작용 사용자 검증·운영지표·Release 완료,To Do,Epic-05/F2028/F2028-S04,inventory_checked_not_individually_accepted
+Epic-05,KR1-232,KR1-231,Sub-task,[F2029-S01] 주변 상황 및 사람 존재 감지 요구사항·데이터·인터페이스 설계,To Do,Epic-05/F2029/F2029-S01,inventory_checked_not_individually_accepted
+Epic-05,KR1-233,KR1-231,Sub-task,[F2029-S02] 주변 상황 및 사람 존재 감지 핵심 모델·서비스 Prototype 구현,To Do,Epic-05/F2029/F2029-S02,inventory_checked_not_individually_accepted
+Epic-05,KR1-234,KR1-231,Sub-task,[F2029-S03] 주변 상황 및 사람 존재 감지 로봇 통합·성능·안전 시험,To Do,Epic-05/F2029/F2029-S03,inventory_checked_not_individually_accepted
+Epic-05,KR1-235,KR1-231,Sub-task,[F2029-S04] 주변 상황 및 사람 존재 감지 사용자 검증·운영지표·Release 완료,To Do,Epic-05/F2029/F2029-S04,inventory_checked_not_individually_accepted
+Epic-05,KR1-237,KR1-236,Sub-task,[F2127-S01] Audio-Vision 능동 화자 추적 요구사항·데이터·인터페이스 설계,To Do,Epic-05/F2127/F2127-S01,inventory_checked_not_individually_accepted
+Epic-05,KR1-238,KR1-236,Sub-task,[F2127-S02] Audio-Vision 능동 화자 추적 핵심 모델·서비스 Prototype 구현,To Do,Epic-05/F2127/F2127-S02,inventory_checked_not_individually_accepted
+Epic-05,KR1-239,KR1-236,Sub-task,[F2127-S03] Audio-Vision 능동 화자 추적 로봇 통합·성능·안전 시험,To Do,Epic-05/F2127/F2127-S03,inventory_checked_not_individually_accepted
+Epic-05,KR1-240,KR1-236,Sub-task,[F2127-S04] Audio-Vision 능동 화자 추적 사용자 검증·운영지표·Release 완료,To Do,Epic-05/F2127/F2127-S04,inventory_checked_not_individually_accepted
+Epic-05,KR1-242,KR1-241,Sub-task,[F2133-S01] 음원 유도 Face Tracking·Head 미세 정렬 요구사항·데이터·인터페이스 설계,To Do,Epic-05/F2133/F2133-S01,inventory_checked_not_individually_accepted
+Epic-05,KR1-243,KR1-241,Sub-task,[F2133-S02] 음원 유도 Face Tracking·Head 미세 정렬 핵심 모델·서비스 Prototype 구현,To Do,Epic-05/F2133/F2133-S02,inventory_checked_not_individually_accepted
+Epic-05,KR1-244,KR1-241,Sub-task,[F2133-S03] 음원 유도 Face Tracking·Head 미세 정렬 로봇 통합·성능·안전 시험,To Do,Epic-05/F2133/F2133-S03,inventory_checked_not_individually_accepted
+Epic-05,KR1-245,KR1-241,Sub-task,[F2133-S04] 음원 유도 Face Tracking·Head 미세 정렬 사용자 검증·운영지표·Release 완료,To Do,Epic-05/F2133/F2133-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-247,KR1-246,Feature,[F2030] ROS2 노드 및 토픽 아키텍처,To Do,Epic-06/F2030,source_or_contract_present
+Epic-06,KR1-252,KR1-246,Feature,[F2031] 메인 컴퓨팅 보드 추상화,To Do,Epic-06/F2031,source_or_contract_present
+Epic-06,KR1-257,KR1-246,Feature,[F2032] 관절 및 서보 모터 제어,To Do,Epic-06/F2032,source_or_contract_present
+Epic-06,KR1-262,KR1-246,Feature,[F2033] 센서 통합 및 시간 동기화,To Do,Epic-06/F2033,source_or_contract_present
+Epic-06,KR1-267,KR1-246,Feature,[F2034] 배터리·충전·전원 관리,To Do,Epic-06/F2034,source_or_contract_present
+Epic-06,KR1-272,KR1-246,Feature,[F2035] 로봇 자가진단 및 장애 코드,To Do,Epic-06/F2035,source_or_contract_present
+Epic-06,KR1-277,KR1-246,Feature,[F2120] Edge-Cloud AI Orchestrator,To Do,Epic-06/F2120,source_or_contract_present
+Epic-06,KR1-1108,KR1-246,Other direct child,[KR1-SP2-C01] Pi5·Hailo·ROS2 환경 및 DDS 계약 통합 검증,To Do,,requires_task_specific_followup
+Epic-06,KR1-248,KR1-247,Sub-task,[F2030-S01] ROS2 노드 및 토픽 아키텍처 요구사항·Interface·Simulation 설계,In Progress,Epic-06/F2030/F2030-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-249,KR1-247,Sub-task,[F2030-S02] ROS2 노드 및 토픽 아키텍처 알고리즘·제어기·HW 연동 구현,In Progress,Epic-06/F2030/F2030-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-250,KR1-247,Sub-task,[F2030-S03] ROS2 노드 및 토픽 아키텍처 통합·경계조건·안전 시험,To Do,Epic-06/F2030/F2030-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-251,KR1-247,Sub-task,[F2030-S04] ROS2 노드 및 토픽 아키텍처 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2030/F2030-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-253,KR1-252,Sub-task,[F2031-S01] 메인 컴퓨팅 보드 추상화 요구사항·Interface·Simulation 설계,To Do,Epic-06/F2031/F2031-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-254,KR1-252,Sub-task,[F2031-S02] 메인 컴퓨팅 보드 추상화 알고리즘·제어기·HW 연동 구현,To Do,Epic-06/F2031/F2031-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-255,KR1-252,Sub-task,[F2031-S03] 메인 컴퓨팅 보드 추상화 통합·경계조건·안전 시험,To Do,Epic-06/F2031/F2031-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-256,KR1-252,Sub-task,[F2031-S04] 메인 컴퓨팅 보드 추상화 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2031/F2031-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-258,KR1-257,Sub-task,[F2032-S01] 관절 및 서보 모터 제어 요구사항·Interface·Simulation 설계,To Do,Epic-06/F2032/F2032-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-259,KR1-257,Sub-task,[F2032-S02] 관절 및 서보 모터 제어 알고리즘·제어기·HW 연동 구현,To Do,Epic-06/F2032/F2032-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-260,KR1-257,Sub-task,[F2032-S03] 관절 및 서보 모터 제어 통합·경계조건·안전 시험,To Do,Epic-06/F2032/F2032-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-261,KR1-257,Sub-task,[F2032-S04] 관절 및 서보 모터 제어 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2032/F2032-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-263,KR1-262,Sub-task,[F2033-S01] 센서 통합 및 시간 동기화 요구사항·Interface·Simulation 설계,To Do,Epic-06/F2033/F2033-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-264,KR1-262,Sub-task,[F2033-S02] 센서 통합 및 시간 동기화 알고리즘·제어기·HW 연동 구현,To Do,Epic-06/F2033/F2033-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-265,KR1-262,Sub-task,[F2033-S03] 센서 통합 및 시간 동기화 통합·경계조건·안전 시험,To Do,Epic-06/F2033/F2033-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-266,KR1-262,Sub-task,[F2033-S04] 센서 통합 및 시간 동기화 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2033/F2033-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-268,KR1-267,Sub-task,[F2034-S01] 배터리·충전·전원 관리 요구사항·Interface·Simulation 설계,To Do,Epic-06/F2034/F2034-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-269,KR1-267,Sub-task,[F2034-S02] 배터리·충전·전원 관리 알고리즘·제어기·HW 연동 구현,To Do,Epic-06/F2034/F2034-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-270,KR1-267,Sub-task,[F2034-S03] 배터리·충전·전원 관리 통합·경계조건·안전 시험,To Do,Epic-06/F2034/F2034-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-271,KR1-267,Sub-task,[F2034-S04] 배터리·충전·전원 관리 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2034/F2034-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-273,KR1-272,Sub-task,[F2035-S01] 로봇 자가진단 및 장애 코드 요구사항·Interface·Simulation 설계,To Do,Epic-06/F2035/F2035-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-274,KR1-272,Sub-task,[F2035-S02] 로봇 자가진단 및 장애 코드 알고리즘·제어기·HW 연동 구현,To Do,Epic-06/F2035/F2035-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-275,KR1-272,Sub-task,[F2035-S03] 로봇 자가진단 및 장애 코드 통합·경계조건·안전 시험,To Do,Epic-06/F2035/F2035-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-276,KR1-272,Sub-task,[F2035-S04] 로봇 자가진단 및 장애 코드 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2035/F2035-S04,inventory_checked_not_individually_accepted
+Epic-06,KR1-278,KR1-277,Sub-task,[F2120-S01] Edge-Cloud AI Orchestrator 요구사항·Interface·Simulation 설계,To Do,Epic-06/F2120/F2120-S01,inventory_checked_not_individually_accepted
+Epic-06,KR1-279,KR1-277,Sub-task,[F2120-S02] Edge-Cloud AI Orchestrator 알고리즘·제어기·HW 연동 구현,To Do,Epic-06/F2120/F2120-S02,inventory_checked_not_individually_accepted
+Epic-06,KR1-280,KR1-277,Sub-task,[F2120-S03] Edge-Cloud AI Orchestrator 통합·경계조건·안전 시험,To Do,Epic-06/F2120/F2120-S03,inventory_checked_not_individually_accepted
+Epic-06,KR1-281,KR1-277,Sub-task,[F2120-S04] Edge-Cloud AI Orchestrator 실환경 임무 검증·Parameter Freeze,To Do,Epic-06/F2120/F2120-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-283,KR1-282,Feature,[F2036] LiDAR·Depth·Odometry 센서 융합,To Do,Epic-07/F2036,source_or_contract_present
+Epic-07,KR1-288,KR1-282,Feature,[F2037] 실내 지도 작성(SLAM),To Do,Epic-07/F2037,source_or_contract_present
+Epic-07,KR1-293,KR1-282,Feature,[F2038] 자기 위치 추정,To Do,Epic-07/F2038,source_or_contract_present
+Epic-07,KR1-298,KR1-282,Feature,[F2039] 목적지 경로 계획 및 추종,To Do,Epic-07/F2039,source_or_contract_present
+Epic-07,KR1-303,KR1-282,Feature,[F2040] 동적 장애물 회피,To Do,Epic-07/F2040,source_or_contract_present
+Epic-07,KR1-308,KR1-282,Feature,[F2041] 자동 복귀 및 무선 충전 도킹,To Do,Epic-07/F2041,source_or_contract_present
+Epic-07,KR1-313,KR1-282,Feature,[F2152] Network·SLAM Mapping·방 이름 설정 Wizard,To Do,Epic-07/F2152,source_or_contract_present
+Epic-07,KR1-284,KR1-283,Sub-task,[F2036-S01] LiDAR·Depth·Odometry 센서 융합 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2036/F2036-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-285,KR1-283,Sub-task,[F2036-S02] LiDAR·Depth·Odometry 센서 융합 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2036/F2036-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-286,KR1-283,Sub-task,[F2036-S03] LiDAR·Depth·Odometry 센서 융합 통합·경계조건·안전 시험,To Do,Epic-07/F2036/F2036-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-287,KR1-283,Sub-task,[F2036-S04] LiDAR·Depth·Odometry 센서 융합 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2036/F2036-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-289,KR1-288,Sub-task,[F2037-S01] 실내 지도 작성(SLAM) 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2037/F2037-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-290,KR1-288,Sub-task,[F2037-S02] 실내 지도 작성(SLAM) 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2037/F2037-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-291,KR1-288,Sub-task,[F2037-S03] 실내 지도 작성(SLAM) 통합·경계조건·안전 시험,To Do,Epic-07/F2037/F2037-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-292,KR1-288,Sub-task,[F2037-S04] 실내 지도 작성(SLAM) 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2037/F2037-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-294,KR1-293,Sub-task,[F2038-S01] 자기 위치 추정 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2038/F2038-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-295,KR1-293,Sub-task,[F2038-S02] 자기 위치 추정 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2038/F2038-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-296,KR1-293,Sub-task,[F2038-S03] 자기 위치 추정 통합·경계조건·안전 시험,To Do,Epic-07/F2038/F2038-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-297,KR1-293,Sub-task,[F2038-S04] 자기 위치 추정 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2038/F2038-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-299,KR1-298,Sub-task,[F2039-S01] 목적지 경로 계획 및 추종 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2039/F2039-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-300,KR1-298,Sub-task,[F2039-S02] 목적지 경로 계획 및 추종 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2039/F2039-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-301,KR1-298,Sub-task,[F2039-S03] 목적지 경로 계획 및 추종 통합·경계조건·안전 시험,To Do,Epic-07/F2039/F2039-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-302,KR1-298,Sub-task,[F2039-S04] 목적지 경로 계획 및 추종 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2039/F2039-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-304,KR1-303,Sub-task,[F2040-S01] 동적 장애물 회피 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2040/F2040-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-305,KR1-303,Sub-task,[F2040-S02] 동적 장애물 회피 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2040/F2040-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-306,KR1-303,Sub-task,[F2040-S03] 동적 장애물 회피 통합·경계조건·안전 시험,To Do,Epic-07/F2040/F2040-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-307,KR1-303,Sub-task,[F2040-S04] 동적 장애물 회피 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2040/F2040-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-309,KR1-308,Sub-task,[F2041-S01] 자동 복귀 및 무선 충전 도킹 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2041/F2041-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-310,KR1-308,Sub-task,[F2041-S02] 자동 복귀 및 무선 충전 도킹 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2041/F2041-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-311,KR1-308,Sub-task,[F2041-S03] 자동 복귀 및 무선 충전 도킹 통합·경계조건·안전 시험,To Do,Epic-07/F2041/F2041-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-312,KR1-308,Sub-task,[F2041-S04] 자동 복귀 및 무선 충전 도킹 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2041/F2041-S04,inventory_checked_not_individually_accepted
+Epic-07,KR1-314,KR1-313,Sub-task,[F2152-S01] Network·SLAM Mapping·방 이름 설정 Wizard 요구사항·Interface·Simulation 설계,To Do,Epic-07/F2152/F2152-S01,inventory_checked_not_individually_accepted
+Epic-07,KR1-315,KR1-313,Sub-task,[F2152-S02] Network·SLAM Mapping·방 이름 설정 Wizard 알고리즘·제어기·HW 연동 구현,To Do,Epic-07/F2152/F2152-S02,inventory_checked_not_individually_accepted
+Epic-07,KR1-316,KR1-313,Sub-task,[F2152-S03] Network·SLAM Mapping·방 이름 설정 Wizard 통합·경계조건·안전 시험,To Do,Epic-07/F2152/F2152-S03,inventory_checked_not_individually_accepted
+Epic-07,KR1-317,KR1-313,Sub-task,[F2152-S04] Network·SLAM Mapping·방 이름 설정 Wizard 실환경 임무 검증·Parameter Freeze,To Do,Epic-07/F2152/F2152-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-319,KR1-318,Feature,[F2042] Dynamixel 기반 다관절 팔 제어,To Do,Epic-08/F2042,source_or_contract_present
+Epic-08,KR1-324,KR1-318,Feature,[F2043] 5-Finger 손가락 독립 제어,To Do,Epic-08/F2043,source_or_contract_present
+Epic-08,KR1-329,KR1-318,Feature,[F2044] 조작 대상 물체 인식 및 자세 추정,To Do,Epic-08/F2044,source_or_contract_present
+Epic-08,KR1-334,KR1-318,Feature,[F2045] 안전 파지 및 놓기,To Do,Epic-08/F2045,source_or_contract_present
+Epic-08,KR1-339,KR1-318,Feature,[F2046] 간단 심부름 임무 실행,To Do,Epic-08/F2046,source_or_contract_present
+Epic-08,KR1-344,KR1-318,Feature,[F2047] 사람 근접 조작 안전,To Do,Epic-08/F2047,source_or_contract_present
+Epic-08,KR1-349,KR1-318,Feature,[F2142] 손끝 Force·Tactile Sensor HW 통합,To Do,Epic-08/F2142,source_or_contract_present
+Epic-08,KR1-354,KR1-318,Feature,[F2143] 물체 재질·취약성 추정 및 Unknown 안전정책,To Do,Epic-08/F2143,source_or_contract_present
+Epic-08,KR1-359,KR1-318,Feature,[F2144] Force·Slip 기반 Adaptive Soft Grasp,To Do,Epic-08/F2144,source_or_contract_present
+Epic-08,KR1-364,KR1-318,Feature,[F2145] One-Hand·Two-Hand 조작 판단,To Do,Epic-08/F2145,source_or_contract_present
+Epic-08,KR1-369,KR1-318,Feature,[F2146] 양팔 협조 제어·재파지·지원 요청,To Do,Epic-08/F2146,source_or_contract_present
+Epic-08,KR1-320,KR1-319,Sub-task,[F2042-S01] Dynamixel 기반 다관절 팔 제어 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2042/F2042-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-321,KR1-319,Sub-task,[F2042-S02] Dynamixel 기반 다관절 팔 제어 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2042/F2042-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-322,KR1-319,Sub-task,[F2042-S03] Dynamixel 기반 다관절 팔 제어 통합·경계조건·안전 시험,To Do,Epic-08/F2042/F2042-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-323,KR1-319,Sub-task,[F2042-S04] Dynamixel 기반 다관절 팔 제어 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2042/F2042-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-325,KR1-324,Sub-task,[F2043-S01] 5-Finger 손가락 독립 제어 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2043/F2043-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-326,KR1-324,Sub-task,[F2043-S02] 5-Finger 손가락 독립 제어 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2043/F2043-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-327,KR1-324,Sub-task,[F2043-S03] 5-Finger 손가락 독립 제어 통합·경계조건·안전 시험,To Do,Epic-08/F2043/F2043-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-328,KR1-324,Sub-task,[F2043-S04] 5-Finger 손가락 독립 제어 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2043/F2043-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-330,KR1-329,Sub-task,[F2044-S01] 조작 대상 물체 인식 및 자세 추정 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2044/F2044-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-331,KR1-329,Sub-task,[F2044-S02] 조작 대상 물체 인식 및 자세 추정 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2044/F2044-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-332,KR1-329,Sub-task,[F2044-S03] 조작 대상 물체 인식 및 자세 추정 통합·경계조건·안전 시험,To Do,Epic-08/F2044/F2044-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-333,KR1-329,Sub-task,[F2044-S04] 조작 대상 물체 인식 및 자세 추정 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2044/F2044-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-335,KR1-334,Sub-task,[F2045-S01] 안전 파지 및 놓기 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2045/F2045-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-336,KR1-334,Sub-task,[F2045-S02] 안전 파지 및 놓기 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2045/F2045-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-337,KR1-334,Sub-task,[F2045-S03] 안전 파지 및 놓기 통합·경계조건·안전 시험,To Do,Epic-08/F2045/F2045-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-338,KR1-334,Sub-task,[F2045-S04] 안전 파지 및 놓기 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2045/F2045-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-340,KR1-339,Sub-task,[F2046-S01] 간단 심부름 임무 실행 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2046/F2046-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-341,KR1-339,Sub-task,[F2046-S02] 간단 심부름 임무 실행 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2046/F2046-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-342,KR1-339,Sub-task,[F2046-S03] 간단 심부름 임무 실행 통합·경계조건·안전 시험,To Do,Epic-08/F2046/F2046-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-343,KR1-339,Sub-task,[F2046-S04] 간단 심부름 임무 실행 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2046/F2046-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-345,KR1-344,Sub-task,[F2047-S01] 사람 근접 조작 안전 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2047/F2047-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-346,KR1-344,Sub-task,[F2047-S02] 사람 근접 조작 안전 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2047/F2047-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-347,KR1-344,Sub-task,[F2047-S03] 사람 근접 조작 안전 통합·경계조건·안전 시험,To Do,Epic-08/F2047/F2047-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-348,KR1-344,Sub-task,[F2047-S04] 사람 근접 조작 안전 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2047/F2047-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-350,KR1-349,Sub-task,[F2142-S01] 손끝 Force·Tactile Sensor HW 통합 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2142/F2142-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-351,KR1-349,Sub-task,[F2142-S02] 손끝 Force·Tactile Sensor HW 통합 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2142/F2142-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-352,KR1-349,Sub-task,[F2142-S03] 손끝 Force·Tactile Sensor HW 통합 통합·경계조건·안전 시험,To Do,Epic-08/F2142/F2142-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-353,KR1-349,Sub-task,[F2142-S04] 손끝 Force·Tactile Sensor HW 통합 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2142/F2142-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-355,KR1-354,Sub-task,[F2143-S01] 물체 재질·취약성 추정 및 Unknown 안전정책 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2143/F2143-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-356,KR1-354,Sub-task,[F2143-S02] 물체 재질·취약성 추정 및 Unknown 안전정책 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2143/F2143-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-357,KR1-354,Sub-task,[F2143-S03] 물체 재질·취약성 추정 및 Unknown 안전정책 통합·경계조건·안전 시험,To Do,Epic-08/F2143/F2143-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-358,KR1-354,Sub-task,[F2143-S04] 물체 재질·취약성 추정 및 Unknown 안전정책 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2143/F2143-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-360,KR1-359,Sub-task,[F2144-S01] Force·Slip 기반 Adaptive Soft Grasp 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2144/F2144-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-361,KR1-359,Sub-task,[F2144-S02] Force·Slip 기반 Adaptive Soft Grasp 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2144/F2144-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-362,KR1-359,Sub-task,[F2144-S03] Force·Slip 기반 Adaptive Soft Grasp 통합·경계조건·안전 시험,To Do,Epic-08/F2144/F2144-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-363,KR1-359,Sub-task,[F2144-S04] Force·Slip 기반 Adaptive Soft Grasp 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2144/F2144-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-365,KR1-364,Sub-task,[F2145-S01] One-Hand·Two-Hand 조작 판단 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2145/F2145-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-366,KR1-364,Sub-task,[F2145-S02] One-Hand·Two-Hand 조작 판단 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2145/F2145-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-367,KR1-364,Sub-task,[F2145-S03] One-Hand·Two-Hand 조작 판단 통합·경계조건·안전 시험,To Do,Epic-08/F2145/F2145-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-368,KR1-364,Sub-task,[F2145-S04] One-Hand·Two-Hand 조작 판단 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2145/F2145-S04,inventory_checked_not_individually_accepted
+Epic-08,KR1-370,KR1-369,Sub-task,[F2146-S01] 양팔 협조 제어·재파지·지원 요청 요구사항·Interface·Simulation 설계,To Do,Epic-08/F2146/F2146-S01,inventory_checked_not_individually_accepted
+Epic-08,KR1-371,KR1-369,Sub-task,[F2146-S02] 양팔 협조 제어·재파지·지원 요청 알고리즘·제어기·HW 연동 구현,To Do,Epic-08/F2146/F2146-S02,inventory_checked_not_individually_accepted
+Epic-08,KR1-372,KR1-369,Sub-task,[F2146-S03] 양팔 협조 제어·재파지·지원 요청 통합·경계조건·안전 시험,To Do,Epic-08/F2146/F2146-S03,inventory_checked_not_individually_accepted
+Epic-08,KR1-373,KR1-369,Sub-task,[F2146-S04] 양팔 협조 제어·재파지·지원 요청 실환경 임무 검증·Parameter Freeze,To Do,Epic-08/F2146/F2146-S04,inventory_checked_not_individually_accepted
+Epic-09,KR1-375,KR1-374,Feature,[F2048] 복약 및 일정 알림,To Do,Epic-09/F2048,source_or_contract_present
+Epic-09,KR1-380,KR1-374,Feature,[F2049] 비접촉 rPPG 생체신호 측정,To Do,Epic-09/F2049,source_or_contract_present
+Epic-09,KR1-385,KR1-374,Feature,[F2050] 낙상 및 이상행동 감지,To Do,Epic-09/F2050,source_or_contract_present
+Epic-09,KR1-390,KR1-374,Feature,[F2051] 긴급 호출 및 보호자 알림,To Do,Epic-09/F2051,source_or_contract_present
+Epic-09,KR1-395,KR1-374,Feature,[F2052] 정서 케어와 명상 안내,To Do,Epic-09/F2052,source_or_contract_present
+Epic-09,KR1-400,KR1-374,Feature,[F2053] 건강·정서 리포트,To Do,Epic-09/F2053,source_or_contract_present
+Epic-09,KR1-376,KR1-375,Sub-task,[F2048-S01] 복약 및 일정 알림 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-09/F2048/F2048-S01,inventory_checked_not_individually_accepted
+Epic-09,KR1-377,KR1-375,Sub-task,[F2048-S02] 복약 및 일정 알림 기능·콘텐츠 Package 구현,To Do,Epic-09/F2048/F2048-S02,inventory_checked_not_individually_accepted
+Epic-09,KR1-378,KR1-375,Sub-task,[F2048-S03] 복약 및 일정 알림 전문가·사용자 Pilot 검증,To Do,Epic-09/F2048/F2048-S03,inventory_checked_not_individually_accepted
+Epic-09,KR1-379,KR1-375,Sub-task,[F2048-S04] 복약 및 일정 알림 운영·지표·Release 전환,To Do,Epic-09/F2048/F2048-S04,inventory_checked_not_individually_accepted
+Epic-09,KR1-381,KR1-380,Sub-task,[F2049-S01] 비접촉 rPPG 생체신호 측정 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-09/F2049/F2049-S01,inventory_checked_not_individually_accepted
+Epic-09,KR1-382,KR1-380,Sub-task,[F2049-S02] 비접촉 rPPG 생체신호 측정 기능·콘텐츠 Package 구현,To Do,Epic-09/F2049/F2049-S02,inventory_checked_not_individually_accepted
+Epic-09,KR1-383,KR1-380,Sub-task,[F2049-S03] 비접촉 rPPG 생체신호 측정 전문가·사용자 Pilot 검증,To Do,Epic-09/F2049/F2049-S03,inventory_checked_not_individually_accepted
+Epic-09,KR1-384,KR1-380,Sub-task,[F2049-S04] 비접촉 rPPG 생체신호 측정 운영·지표·Release 전환,To Do,Epic-09/F2049/F2049-S04,inventory_checked_not_individually_accepted
+Epic-09,KR1-386,KR1-385,Sub-task,[F2050-S01] 낙상 및 이상행동 감지 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-09/F2050/F2050-S01,inventory_checked_not_individually_accepted
+Epic-09,KR1-387,KR1-385,Sub-task,[F2050-S02] 낙상 및 이상행동 감지 기능·콘텐츠 Package 구현,To Do,Epic-09/F2050/F2050-S02,inventory_checked_not_individually_accepted
+Epic-09,KR1-388,KR1-385,Sub-task,[F2050-S03] 낙상 및 이상행동 감지 전문가·사용자 Pilot 검증,To Do,Epic-09/F2050/F2050-S03,inventory_checked_not_individually_accepted
+Epic-09,KR1-389,KR1-385,Sub-task,[F2050-S04] 낙상 및 이상행동 감지 운영·지표·Release 전환,To Do,Epic-09/F2050/F2050-S04,inventory_checked_not_individually_accepted
+Epic-09,KR1-391,KR1-390,Sub-task,[F2051-S01] 긴급 호출 및 보호자 알림 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-09/F2051/F2051-S01,inventory_checked_not_individually_accepted
+Epic-09,KR1-392,KR1-390,Sub-task,[F2051-S02] 긴급 호출 및 보호자 알림 기능·콘텐츠 Package 구현,To Do,Epic-09/F2051/F2051-S02,inventory_checked_not_individually_accepted
+Epic-09,KR1-393,KR1-390,Sub-task,[F2051-S03] 긴급 호출 및 보호자 알림 전문가·사용자 Pilot 검증,To Do,Epic-09/F2051/F2051-S03,inventory_checked_not_individually_accepted
+Epic-09,KR1-394,KR1-390,Sub-task,[F2051-S04] 긴급 호출 및 보호자 알림 운영·지표·Release 전환,To Do,Epic-09/F2051/F2051-S04,inventory_checked_not_individually_accepted
+Epic-09,KR1-396,KR1-395,Sub-task,[F2052-S01] 정서 케어와 명상 안내 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-09/F2052/F2052-S01,inventory_checked_not_individually_accepted
+Epic-09,KR1-397,KR1-395,Sub-task,[F2052-S02] 정서 케어와 명상 안내 기능·콘텐츠 Package 구현,To Do,Epic-09/F2052/F2052-S02,inventory_checked_not_individually_accepted
+Epic-09,KR1-398,KR1-395,Sub-task,[F2052-S03] 정서 케어와 명상 안내 전문가·사용자 Pilot 검증,To Do,Epic-09/F2052/F2052-S03,inventory_checked_not_individually_accepted
+Epic-09,KR1-399,KR1-395,Sub-task,[F2052-S04] 정서 케어와 명상 안내 운영·지표·Release 전환,To Do,Epic-09/F2052/F2052-S04,inventory_checked_not_individually_accepted
+Epic-09,KR1-401,KR1-400,Sub-task,[F2053-S01] 건강·정서 리포트 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-09/F2053/F2053-S01,inventory_checked_not_individually_accepted
+Epic-09,KR1-402,KR1-400,Sub-task,[F2053-S02] 건강·정서 리포트 기능·콘텐츠 Package 구현,To Do,Epic-09/F2053/F2053-S02,inventory_checked_not_individually_accepted
+Epic-09,KR1-403,KR1-400,Sub-task,[F2053-S03] 건강·정서 리포트 전문가·사용자 Pilot 검증,To Do,Epic-09/F2053/F2053-S03,inventory_checked_not_individually_accepted
+Epic-09,KR1-404,KR1-400,Sub-task,[F2053-S04] 건강·정서 리포트 운영·지표·Release 전환,To Do,Epic-09/F2053/F2053-S04,inventory_checked_not_individually_accepted
+Epic-10,KR1-406,KR1-405,Feature,[F2054] 연령별 교육 프로필,To Do,Epic-10/F2054,source_or_contract_present
+Epic-10,KR1-411,KR1-405,Feature,[F2055] 퀴즈·학습 대화,To Do,Epic-10/F2055,source_or_contract_present
+Epic-10,KR1-421,KR1-405,Feature,[F2057] 외국어 대화 학습,To Do,Epic-10/F2057,source_or_contract_present
+Epic-10,KR1-426,KR1-405,Feature,[F2058] 노래·춤·체조 놀이,To Do,Epic-10/F2058,source_or_contract_present
+Epic-10,KR1-431,KR1-405,Feature,[F2059] 학습 진도 및 성취 기록,To Do,Epic-10/F2059,source_or_contract_present
+Epic-10,KR1-407,KR1-406,Sub-task,[F2054-S01] 연령별 교육 프로필 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-10/F2054/F2054-S01,inventory_checked_not_individually_accepted
+Epic-10,KR1-408,KR1-406,Sub-task,[F2054-S02] 연령별 교육 프로필 기능·콘텐츠 Package 구현,To Do,Epic-10/F2054/F2054-S02,inventory_checked_not_individually_accepted
+Epic-10,KR1-409,KR1-406,Sub-task,[F2054-S03] 연령별 교육 프로필 전문가·사용자 Pilot 검증,To Do,Epic-10/F2054/F2054-S03,inventory_checked_not_individually_accepted
+Epic-10,KR1-410,KR1-406,Sub-task,[F2054-S04] 연령별 교육 프로필 운영·지표·Release 전환,To Do,Epic-10/F2054/F2054-S04,inventory_checked_not_individually_accepted
+Epic-10,KR1-412,KR1-411,Sub-task,[F2055-S01] 퀴즈·학습 대화 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-10/F2055/F2055-S01,inventory_checked_not_individually_accepted
+Epic-10,KR1-413,KR1-411,Sub-task,[F2055-S02] 퀴즈·학습 대화 기능·콘텐츠 Package 구현,To Do,Epic-10/F2055/F2055-S02,inventory_checked_not_individually_accepted
+Epic-10,KR1-414,KR1-411,Sub-task,[F2055-S03] 퀴즈·학습 대화 전문가·사용자 Pilot 검증,To Do,Epic-10/F2055/F2055-S03,inventory_checked_not_individually_accepted
+Epic-10,KR1-415,KR1-411,Sub-task,[F2055-S04] 퀴즈·학습 대화 운영·지표·Release 전환,To Do,Epic-10/F2055/F2055-S04,inventory_checked_not_individually_accepted
+Epic-10,KR1-422,KR1-421,Sub-task,[F2057-S01] 외국어 대화 학습 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-10/F2057/F2057-S01,inventory_checked_not_individually_accepted
+Epic-10,KR1-423,KR1-421,Sub-task,[F2057-S02] 외국어 대화 학습 기능·콘텐츠 Package 구현,To Do,Epic-10/F2057/F2057-S02,inventory_checked_not_individually_accepted
+Epic-10,KR1-424,KR1-421,Sub-task,[F2057-S03] 외국어 대화 학습 전문가·사용자 Pilot 검증,To Do,Epic-10/F2057/F2057-S03,inventory_checked_not_individually_accepted
+Epic-10,KR1-425,KR1-421,Sub-task,[F2057-S04] 외국어 대화 학습 운영·지표·Release 전환,To Do,Epic-10/F2057/F2057-S04,inventory_checked_not_individually_accepted
+Epic-10,KR1-427,KR1-426,Sub-task,[F2058-S01] 노래·춤·체조 놀이 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-10/F2058/F2058-S01,inventory_checked_not_individually_accepted
+Epic-10,KR1-428,KR1-426,Sub-task,[F2058-S02] 노래·춤·체조 놀이 기능·콘텐츠 Package 구현,To Do,Epic-10/F2058/F2058-S02,inventory_checked_not_individually_accepted
+Epic-10,KR1-429,KR1-426,Sub-task,[F2058-S03] 노래·춤·체조 놀이 전문가·사용자 Pilot 검증,To Do,Epic-10/F2058/F2058-S03,inventory_checked_not_individually_accepted
+Epic-10,KR1-430,KR1-426,Sub-task,[F2058-S04] 노래·춤·체조 놀이 운영·지표·Release 전환,To Do,Epic-10/F2058/F2058-S04,inventory_checked_not_individually_accepted
+Epic-10,KR1-432,KR1-431,Sub-task,[F2059-S01] 학습 진도 및 성취 기록 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-10/F2059/F2059-S01,inventory_checked_not_individually_accepted
+Epic-10,KR1-433,KR1-431,Sub-task,[F2059-S02] 학습 진도 및 성취 기록 기능·콘텐츠 Package 구현,To Do,Epic-10/F2059/F2059-S02,inventory_checked_not_individually_accepted
+Epic-10,KR1-434,KR1-431,Sub-task,[F2059-S03] 학습 진도 및 성취 기록 전문가·사용자 Pilot 검증,To Do,Epic-10/F2059/F2059-S03,inventory_checked_not_individually_accepted
+Epic-10,KR1-435,KR1-431,Sub-task,[F2059-S04] 학습 진도 및 성취 기록 운영·지표·Release 전환,To Do,Epic-10/F2059/F2059-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-437,KR1-436,Feature,[F2060] 모바일 앱 계정 및 로봇 연결,To Do,Epic-11/F2060,source_or_contract_present
+Epic-11,KR1-442,KR1-436,Feature,[F2061] 로봇 상태 및 알림 조회,To Do,Epic-11/F2061,source_or_contract_present
+Epic-11,KR1-447,KR1-436,Feature,[F2062] 일정·복약·콘텐츠 원격 설정,To Do,Epic-11/F2062,source_or_contract_present
+Epic-11,KR1-452,KR1-436,Feature,[F2063] 사용 시간 및 부모 통제,To Do,Epic-11/F2063,source_or_contract_present
+Epic-11,KR1-457,KR1-436,Feature,[F2064] 보호자 음성·영상 통화,To Do,Epic-11/F2064,source_or_contract_present
+Epic-11,KR1-462,KR1-436,Feature,[F2151] Stage2 User & Space Onboarding App,To Do,Epic-11/F2151,source_or_contract_present
+Epic-11,KR1-467,KR1-436,Feature,[F2153] 사용자·IoT·권한 부분 재설정,To Do,Epic-11/F2153,source_or_contract_present
+Epic-11,KR1-438,KR1-437,Sub-task,[F2060-S01] 모바일 앱 계정 및 로봇 연결 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2060/F2060-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-439,KR1-437,Sub-task,[F2060-S02] 모바일 앱 계정 및 로봇 연결 서비스·App·자동화 구현,To Do,Epic-11/F2060/F2060-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-440,KR1-437,Sub-task,[F2060-S03] 모바일 앱 계정 및 로봇 연결 통합·보안·부하·복구 시험,To Do,Epic-11/F2060/F2060-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-441,KR1-437,Sub-task,[F2060-S04] 모바일 앱 계정 및 로봇 연결 운영 Dashboard·SLA·Release,To Do,Epic-11/F2060/F2060-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-443,KR1-442,Sub-task,[F2061-S01] 로봇 상태 및 알림 조회 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2061/F2061-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-444,KR1-442,Sub-task,[F2061-S02] 로봇 상태 및 알림 조회 서비스·App·자동화 구현,To Do,Epic-11/F2061/F2061-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-445,KR1-442,Sub-task,[F2061-S03] 로봇 상태 및 알림 조회 통합·보안·부하·복구 시험,To Do,Epic-11/F2061/F2061-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-446,KR1-442,Sub-task,[F2061-S04] 로봇 상태 및 알림 조회 운영 Dashboard·SLA·Release,To Do,Epic-11/F2061/F2061-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-448,KR1-447,Sub-task,[F2062-S01] 일정·복약·콘텐츠 원격 설정 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2062/F2062-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-449,KR1-447,Sub-task,[F2062-S02] 일정·복약·콘텐츠 원격 설정 서비스·App·자동화 구현,To Do,Epic-11/F2062/F2062-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-450,KR1-447,Sub-task,[F2062-S03] 일정·복약·콘텐츠 원격 설정 통합·보안·부하·복구 시험,To Do,Epic-11/F2062/F2062-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-451,KR1-447,Sub-task,[F2062-S04] 일정·복약·콘텐츠 원격 설정 운영 Dashboard·SLA·Release,To Do,Epic-11/F2062/F2062-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-453,KR1-452,Sub-task,[F2063-S01] 사용 시간 및 부모 통제 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2063/F2063-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-454,KR1-452,Sub-task,[F2063-S02] 사용 시간 및 부모 통제 서비스·App·자동화 구현,To Do,Epic-11/F2063/F2063-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-455,KR1-452,Sub-task,[F2063-S03] 사용 시간 및 부모 통제 통합·보안·부하·복구 시험,To Do,Epic-11/F2063/F2063-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-456,KR1-452,Sub-task,[F2063-S04] 사용 시간 및 부모 통제 운영 Dashboard·SLA·Release,To Do,Epic-11/F2063/F2063-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-458,KR1-457,Sub-task,[F2064-S01] 보호자 음성·영상 통화 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2064/F2064-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-459,KR1-457,Sub-task,[F2064-S02] 보호자 음성·영상 통화 서비스·App·자동화 구현,To Do,Epic-11/F2064/F2064-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-460,KR1-457,Sub-task,[F2064-S03] 보호자 음성·영상 통화 통합·보안·부하·복구 시험,To Do,Epic-11/F2064/F2064-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-461,KR1-457,Sub-task,[F2064-S04] 보호자 음성·영상 통화 운영 Dashboard·SLA·Release,To Do,Epic-11/F2064/F2064-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-463,KR1-462,Sub-task,[F2151-S01] Stage2 User & Space Onboarding App 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2151/F2151-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-464,KR1-462,Sub-task,[F2151-S02] Stage2 User & Space Onboarding App 서비스·App·자동화 구현,To Do,Epic-11/F2151/F2151-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-465,KR1-462,Sub-task,[F2151-S03] Stage2 User & Space Onboarding App 통합·보안·부하·복구 시험,To Do,Epic-11/F2151/F2151-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-466,KR1-462,Sub-task,[F2151-S04] Stage2 User & Space Onboarding App 운영 Dashboard·SLA·Release,To Do,Epic-11/F2151/F2151-S04,inventory_checked_not_individually_accepted
+Epic-11,KR1-468,KR1-467,Sub-task,[F2153-S01] 사용자·IoT·권한 부분 재설정 사용 흐름·Data Model·API 설계,To Do,Epic-11/F2153/F2153-S01,inventory_checked_not_individually_accepted
+Epic-11,KR1-469,KR1-467,Sub-task,[F2153-S02] 사용자·IoT·권한 부분 재설정 서비스·App·자동화 구현,To Do,Epic-11/F2153/F2153-S02,inventory_checked_not_individually_accepted
+Epic-11,KR1-470,KR1-467,Sub-task,[F2153-S03] 사용자·IoT·권한 부분 재설정 통합·보안·부하·복구 시험,To Do,Epic-11/F2153/F2153-S03,inventory_checked_not_individually_accepted
+Epic-11,KR1-471,KR1-467,Sub-task,[F2153-S04] 사용자·IoT·권한 부분 재설정 운영 Dashboard·SLA·Release,To Do,Epic-11/F2153/F2153-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-473,KR1-472,Feature,[F2065] 로봇 등록 및 디지털 자산 관리,To Do,Epic-12/F2065,source_or_contract_present
+Epic-12,KR1-478,KR1-472,Feature,[F2066] 원격 상태 모니터링,To Do,Epic-12/F2066,source_or_contract_present
+Epic-12,KR1-483,KR1-472,Feature,[F2067] 로그·이벤트·진단 수집,To Do,Epic-12/F2067,source_or_contract_present
+Epic-12,KR1-488,KR1-472,Feature,[F2068] OTA 소프트웨어 업데이트,To Do,Epic-12/F2068,source_or_contract_present
+Epic-12,KR1-493,KR1-472,Feature,[F2069] 단계적 배포 및 롤백,To Do,Epic-12/F2069,source_or_contract_present
+Epic-12,KR1-498,KR1-472,Feature,[F2070] 원격 지원 및 설정 관리,To Do,Epic-12/F2070,source_or_contract_present
+Epic-12,KR1-503,KR1-472,Feature,[F2124] AI 비용·지연·품질 운영 모니터링,To Do,Epic-12/F2124,source_or_contract_present
+Epic-12,KR1-508,KR1-472,Feature,[F2159] Device-Customer Mapping·Lifecycle 관리,To Do,Epic-12/F2159,source_or_contract_present
+Epic-12,KR1-513,KR1-472,Feature,[F2160] Robot Fleet 운영 Dashboard,To Do,Epic-12/F2160,source_or_contract_present
+Epic-12,KR1-518,KR1-472,Feature,[F2161] 원격 진단·Predictive Maintenance,To Do,Epic-12/F2161,source_or_contract_present
+Epic-12,KR1-523,KR1-472,Feature,[F2162] A/S Ticket·부품·정비 이력 관리,To Do,Epic-12/F2162,source_or_contract_present
+Epic-12,KR1-474,KR1-473,Sub-task,[F2065-S01] 로봇 등록 및 디지털 자산 관리 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2065/F2065-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-475,KR1-473,Sub-task,[F2065-S02] 로봇 등록 및 디지털 자산 관리 서비스·App·자동화 구현,To Do,Epic-12/F2065/F2065-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-476,KR1-473,Sub-task,[F2065-S03] 로봇 등록 및 디지털 자산 관리 통합·보안·부하·복구 시험,To Do,Epic-12/F2065/F2065-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-477,KR1-473,Sub-task,[F2065-S04] 로봇 등록 및 디지털 자산 관리 운영 Dashboard·SLA·Release,To Do,Epic-12/F2065/F2065-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-479,KR1-478,Sub-task,[F2066-S01] 원격 상태 모니터링 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2066/F2066-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-480,KR1-478,Sub-task,[F2066-S02] 원격 상태 모니터링 서비스·App·자동화 구현,To Do,Epic-12/F2066/F2066-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-481,KR1-478,Sub-task,[F2066-S03] 원격 상태 모니터링 통합·보안·부하·복구 시험,To Do,Epic-12/F2066/F2066-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-482,KR1-478,Sub-task,[F2066-S04] 원격 상태 모니터링 운영 Dashboard·SLA·Release,To Do,Epic-12/F2066/F2066-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-484,KR1-483,Sub-task,[F2067-S01] 로그·이벤트·진단 수집 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2067/F2067-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-485,KR1-483,Sub-task,[F2067-S02] 로그·이벤트·진단 수집 서비스·App·자동화 구현,To Do,Epic-12/F2067/F2067-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-486,KR1-483,Sub-task,[F2067-S03] 로그·이벤트·진단 수집 통합·보안·부하·복구 시험,To Do,Epic-12/F2067/F2067-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-487,KR1-483,Sub-task,[F2067-S04] 로그·이벤트·진단 수집 운영 Dashboard·SLA·Release,To Do,Epic-12/F2067/F2067-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-489,KR1-488,Sub-task,[F2068-S01] OTA 소프트웨어 업데이트 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2068/F2068-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-490,KR1-488,Sub-task,[F2068-S02] OTA 소프트웨어 업데이트 서비스·App·자동화 구현,To Do,Epic-12/F2068/F2068-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-491,KR1-488,Sub-task,[F2068-S03] OTA 소프트웨어 업데이트 통합·보안·부하·복구 시험,To Do,Epic-12/F2068/F2068-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-492,KR1-488,Sub-task,[F2068-S04] OTA 소프트웨어 업데이트 운영 Dashboard·SLA·Release,To Do,Epic-12/F2068/F2068-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-494,KR1-493,Sub-task,[F2069-S01] 단계적 배포 및 롤백 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2069/F2069-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-495,KR1-493,Sub-task,[F2069-S02] 단계적 배포 및 롤백 서비스·App·자동화 구현,To Do,Epic-12/F2069/F2069-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-496,KR1-493,Sub-task,[F2069-S03] 단계적 배포 및 롤백 통합·보안·부하·복구 시험,To Do,Epic-12/F2069/F2069-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-497,KR1-493,Sub-task,[F2069-S04] 단계적 배포 및 롤백 운영 Dashboard·SLA·Release,To Do,Epic-12/F2069/F2069-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-499,KR1-498,Sub-task,[F2070-S01] 원격 지원 및 설정 관리 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2070/F2070-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-500,KR1-498,Sub-task,[F2070-S02] 원격 지원 및 설정 관리 서비스·App·자동화 구현,To Do,Epic-12/F2070/F2070-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-501,KR1-498,Sub-task,[F2070-S03] 원격 지원 및 설정 관리 통합·보안·부하·복구 시험,To Do,Epic-12/F2070/F2070-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-502,KR1-498,Sub-task,[F2070-S04] 원격 지원 및 설정 관리 운영 Dashboard·SLA·Release,To Do,Epic-12/F2070/F2070-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-504,KR1-503,Sub-task,[F2124-S01] AI 비용·지연·품질 운영 모니터링 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2124/F2124-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-505,KR1-503,Sub-task,[F2124-S02] AI 비용·지연·품질 운영 모니터링 서비스·App·자동화 구현,To Do,Epic-12/F2124/F2124-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-506,KR1-503,Sub-task,[F2124-S03] AI 비용·지연·품질 운영 모니터링 통합·보안·부하·복구 시험,To Do,Epic-12/F2124/F2124-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-507,KR1-503,Sub-task,[F2124-S04] AI 비용·지연·품질 운영 모니터링 운영 Dashboard·SLA·Release,To Do,Epic-12/F2124/F2124-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-509,KR1-508,Sub-task,[F2159-S01] Device-Customer Mapping·Lifecycle 관리 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2159/F2159-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-510,KR1-508,Sub-task,[F2159-S02] Device-Customer Mapping·Lifecycle 관리 서비스·App·자동화 구현,To Do,Epic-12/F2159/F2159-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-511,KR1-508,Sub-task,[F2159-S03] Device-Customer Mapping·Lifecycle 관리 통합·보안·부하·복구 시험,To Do,Epic-12/F2159/F2159-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-512,KR1-508,Sub-task,[F2159-S04] Device-Customer Mapping·Lifecycle 관리 운영 Dashboard·SLA·Release,To Do,Epic-12/F2159/F2159-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-514,KR1-513,Sub-task,[F2160-S01] Robot Fleet 운영 Dashboard 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2160/F2160-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-515,KR1-513,Sub-task,[F2160-S02] Robot Fleet 운영 Dashboard 서비스·App·자동화 구현,To Do,Epic-12/F2160/F2160-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-516,KR1-513,Sub-task,[F2160-S03] Robot Fleet 운영 Dashboard 통합·보안·부하·복구 시험,To Do,Epic-12/F2160/F2160-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-517,KR1-513,Sub-task,[F2160-S04] Robot Fleet 운영 Dashboard 운영 Dashboard·SLA·Release,To Do,Epic-12/F2160/F2160-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-519,KR1-518,Sub-task,[F2161-S01] 원격 진단·Predictive Maintenance 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2161/F2161-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-520,KR1-518,Sub-task,[F2161-S02] 원격 진단·Predictive Maintenance 서비스·App·자동화 구현,To Do,Epic-12/F2161/F2161-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-521,KR1-518,Sub-task,[F2161-S03] 원격 진단·Predictive Maintenance 통합·보안·부하·복구 시험,To Do,Epic-12/F2161/F2161-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-522,KR1-518,Sub-task,[F2161-S04] 원격 진단·Predictive Maintenance 운영 Dashboard·SLA·Release,To Do,Epic-12/F2161/F2161-S04,inventory_checked_not_individually_accepted
+Epic-12,KR1-524,KR1-523,Sub-task,[F2162-S01] A/S Ticket·부품·정비 이력 관리 사용 흐름·Data Model·API 설계,To Do,Epic-12/F2162/F2162-S01,inventory_checked_not_individually_accepted
+Epic-12,KR1-525,KR1-523,Sub-task,[F2162-S02] A/S Ticket·부품·정비 이력 관리 서비스·App·자동화 구현,To Do,Epic-12/F2162/F2162-S02,inventory_checked_not_individually_accepted
+Epic-12,KR1-526,KR1-523,Sub-task,[F2162-S03] A/S Ticket·부품·정비 이력 관리 통합·보안·부하·복구 시험,To Do,Epic-12/F2162/F2162-S03,inventory_checked_not_individually_accepted
+Epic-12,KR1-527,KR1-523,Sub-task,[F2162-S04] A/S Ticket·부품·정비 이력 관리 운영 Dashboard·SLA·Release,To Do,Epic-12/F2162/F2162-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-529,KR1-528,Feature,[F2071] 사용자 동의 및 개인정보 설정,To Do,Epic-13/F2071,source_or_contract_present
+Epic-13,KR1-534,KR1-528,Feature,[F2072] 전송·저장 데이터 암호화,To Do,Epic-13/F2072,source_or_contract_present
+Epic-13,KR1-539,KR1-528,Feature,[F2073] 인증·권한·기기 신뢰,To Do,Epic-13/F2073,source_or_contract_present
+Epic-13,KR1-544,KR1-528,Feature,[F2074] API 키 및 비밀정보 중앙 관리,To Do,Epic-13/F2074,source_or_contract_present
+Epic-13,KR1-549,KR1-528,Feature,[F2075] 감사 로그 및 이상 접근 탐지,To Do,Epic-13/F2075,source_or_contract_present
+Epic-13,KR1-554,KR1-528,Feature,[F2076] 관절·주행 비상 정지,To Do,Epic-13/F2076,source_or_contract_present
+Epic-13,KR1-559,KR1-528,Feature,[F2139] 경량 Arm·연질 외장·라운드 Mechanical Safety,To Do,Epic-13/F2139,source_or_contract_present
+Epic-13,KR1-564,KR1-528,Feature,[F2140] Torque·Current 충돌 감지 및 가변 제한,To Do,Epic-13/F2140,source_or_contract_present
+Epic-13,KR1-569,KR1-528,Feature,[F2141] Safety MCU 독립 Torque 차단·검증,To Do,Epic-13/F2141,source_or_contract_present
+Epic-13,KR1-574,KR1-528,Feature,[F2150] 민감 IoT 기기 권한·재확인·감사,To Do,Epic-13/F2150,source_or_contract_present
+Epic-13,KR1-579,KR1-528,Feature,[F2164] Fleet 최소 Metadata·Privacy·Security Policy,To Do,Epic-13/F2164,source_or_contract_present
+Epic-13,KR1-530,KR1-529,Sub-task,[F2071-S01] 사용자 동의 및 개인정보 설정 위험분석·보안요구·검증계획,To Do,Epic-13/F2071/F2071-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-531,KR1-529,Sub-task,[F2071-S02] 사용자 동의 및 개인정보 설정 보호기능·통제 로직 구현,To Do,Epic-13/F2071/F2071-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-532,KR1-529,Sub-task,[F2071-S03] 사용자 동의 및 개인정보 설정 Fault Injection·침투·안전 시험,To Do,Epic-13/F2071/F2071-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-533,KR1-529,Sub-task,[F2071-S04] 사용자 동의 및 개인정보 설정 Evidence·Compliance·Release 승인,To Do,Epic-13/F2071/F2071-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-535,KR1-534,Sub-task,[F2072-S01] 전송·저장 데이터 암호화 위험분석·보안요구·검증계획,To Do,Epic-13/F2072/F2072-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-536,KR1-534,Sub-task,[F2072-S02] 전송·저장 데이터 암호화 보호기능·통제 로직 구현,To Do,Epic-13/F2072/F2072-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-537,KR1-534,Sub-task,[F2072-S03] 전송·저장 데이터 암호화 Fault Injection·침투·안전 시험,To Do,Epic-13/F2072/F2072-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-538,KR1-534,Sub-task,[F2072-S04] 전송·저장 데이터 암호화 Evidence·Compliance·Release 승인,To Do,Epic-13/F2072/F2072-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-540,KR1-539,Sub-task,[F2073-S01] 인증·권한·기기 신뢰 위험분석·보안요구·검증계획,To Do,Epic-13/F2073/F2073-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-541,KR1-539,Sub-task,[F2073-S02] 인증·권한·기기 신뢰 보호기능·통제 로직 구현,To Do,Epic-13/F2073/F2073-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-542,KR1-539,Sub-task,[F2073-S03] 인증·권한·기기 신뢰 Fault Injection·침투·안전 시험,To Do,Epic-13/F2073/F2073-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-543,KR1-539,Sub-task,[F2073-S04] 인증·권한·기기 신뢰 Evidence·Compliance·Release 승인,To Do,Epic-13/F2073/F2073-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-545,KR1-544,Sub-task,[F2074-S01] API 키 및 비밀정보 중앙 관리 위험분석·보안요구·검증계획,To Do,Epic-13/F2074/F2074-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-546,KR1-544,Sub-task,[F2074-S02] API 키 및 비밀정보 중앙 관리 보호기능·통제 로직 구현,To Do,Epic-13/F2074/F2074-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-547,KR1-544,Sub-task,[F2074-S03] API 키 및 비밀정보 중앙 관리 Fault Injection·침투·안전 시험,To Do,Epic-13/F2074/F2074-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-548,KR1-544,Sub-task,[F2074-S04] API 키 및 비밀정보 중앙 관리 Evidence·Compliance·Release 승인,To Do,Epic-13/F2074/F2074-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-550,KR1-549,Sub-task,[F2075-S01] 감사 로그 및 이상 접근 탐지 위험분석·보안요구·검증계획,To Do,Epic-13/F2075/F2075-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-551,KR1-549,Sub-task,[F2075-S02] 감사 로그 및 이상 접근 탐지 보호기능·통제 로직 구현,To Do,Epic-13/F2075/F2075-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-552,KR1-549,Sub-task,[F2075-S03] 감사 로그 및 이상 접근 탐지 Fault Injection·침투·안전 시험,To Do,Epic-13/F2075/F2075-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-553,KR1-549,Sub-task,[F2075-S04] 감사 로그 및 이상 접근 탐지 Evidence·Compliance·Release 승인,To Do,Epic-13/F2075/F2075-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-555,KR1-554,Sub-task,[F2076-S01] 관절·주행 비상 정지 위험분석·보안요구·검증계획,To Do,Epic-13/F2076/F2076-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-556,KR1-554,Sub-task,[F2076-S02] 관절·주행 비상 정지 보호기능·통제 로직 구현,To Do,Epic-13/F2076/F2076-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-557,KR1-554,Sub-task,[F2076-S03] 관절·주행 비상 정지 Fault Injection·침투·안전 시험,To Do,Epic-13/F2076/F2076-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-558,KR1-554,Sub-task,[F2076-S04] 관절·주행 비상 정지 Evidence·Compliance·Release 승인,To Do,Epic-13/F2076/F2076-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-560,KR1-559,Sub-task,[F2139-S01] 경량 Arm·연질 외장·라운드 Mechanical Safety 위험분석·보안요구·검증계획,To Do,Epic-13/F2139/F2139-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-561,KR1-559,Sub-task,[F2139-S02] 경량 Arm·연질 외장·라운드 Mechanical Safety 보호기능·통제 로직 구현,To Do,Epic-13/F2139/F2139-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-562,KR1-559,Sub-task,[F2139-S03] 경량 Arm·연질 외장·라운드 Mechanical Safety Fault Injection·침투·안전 시험,To Do,Epic-13/F2139/F2139-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-563,KR1-559,Sub-task,[F2139-S04] 경량 Arm·연질 외장·라운드 Mechanical Safety Evidence·Compliance·Release 승인,To Do,Epic-13/F2139/F2139-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-565,KR1-564,Sub-task,[F2140-S01] Torque·Current 충돌 감지 및 가변 제한 위험분석·보안요구·검증계획,To Do,Epic-13/F2140/F2140-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-566,KR1-564,Sub-task,[F2140-S02] Torque·Current 충돌 감지 및 가변 제한 보호기능·통제 로직 구현,To Do,Epic-13/F2140/F2140-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-567,KR1-564,Sub-task,[F2140-S03] Torque·Current 충돌 감지 및 가변 제한 Fault Injection·침투·안전 시험,To Do,Epic-13/F2140/F2140-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-568,KR1-564,Sub-task,[F2140-S04] Torque·Current 충돌 감지 및 가변 제한 Evidence·Compliance·Release 승인,To Do,Epic-13/F2140/F2140-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-570,KR1-569,Sub-task,[F2141-S01] Safety MCU 독립 Torque 차단·검증 위험분석·보안요구·검증계획,To Do,Epic-13/F2141/F2141-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-571,KR1-569,Sub-task,[F2141-S02] Safety MCU 독립 Torque 차단·검증 보호기능·통제 로직 구현,To Do,Epic-13/F2141/F2141-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-572,KR1-569,Sub-task,[F2141-S03] Safety MCU 독립 Torque 차단·검증 Fault Injection·침투·안전 시험,To Do,Epic-13/F2141/F2141-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-573,KR1-569,Sub-task,[F2141-S04] Safety MCU 독립 Torque 차단·검증 Evidence·Compliance·Release 승인,To Do,Epic-13/F2141/F2141-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-575,KR1-574,Sub-task,[F2150-S01] 민감 IoT 기기 권한·재확인·감사 위험분석·보안요구·검증계획,To Do,Epic-13/F2150/F2150-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-576,KR1-574,Sub-task,[F2150-S02] 민감 IoT 기기 권한·재확인·감사 보호기능·통제 로직 구현,To Do,Epic-13/F2150/F2150-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-577,KR1-574,Sub-task,[F2150-S03] 민감 IoT 기기 권한·재확인·감사 Fault Injection·침투·안전 시험,To Do,Epic-13/F2150/F2150-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-578,KR1-574,Sub-task,[F2150-S04] 민감 IoT 기기 권한·재확인·감사 Evidence·Compliance·Release 승인,To Do,Epic-13/F2150/F2150-S04,inventory_checked_not_individually_accepted
+Epic-13,KR1-580,KR1-579,Sub-task,[F2164-S01] Fleet 최소 Metadata·Privacy·Security Policy 위험분석·보안요구·검증계획,To Do,Epic-13/F2164/F2164-S01,inventory_checked_not_individually_accepted
+Epic-13,KR1-581,KR1-579,Sub-task,[F2164-S02] Fleet 최소 Metadata·Privacy·Security Policy 보호기능·통제 로직 구현,To Do,Epic-13/F2164/F2164-S02,inventory_checked_not_individually_accepted
+Epic-13,KR1-582,KR1-579,Sub-task,[F2164-S03] Fleet 최소 Metadata·Privacy·Security Policy Fault Injection·침투·안전 시험,To Do,Epic-13/F2164/F2164-S03,inventory_checked_not_individually_accepted
+Epic-13,KR1-583,KR1-579,Sub-task,[F2164-S04] Fleet 최소 Metadata·Privacy·Security Policy Evidence·Compliance·Release 승인,To Do,Epic-13/F2164/F2164-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-585,KR1-584,Feature,[F2214] AI Router 및 Model Cost Optimization,To Do,Epic-14/F2214,source_or_contract_present
+Epic-14,KR1-590,KR1-584,Feature,[F2215] AI Credit 및 Quota Management,To Do,Epic-14/F2215,source_or_contract_present
+Epic-14,KR1-595,KR1-584,Feature,[F2216] Subscription Plan Management,To Do,Epic-14/F2216,source_or_contract_present
+Epic-14,KR1-600,KR1-584,Feature,[F2217] Payment Gateway Integration,To Do,Epic-14/F2217,source_or_contract_present
+Epic-14,KR1-605,KR1-584,Feature,[F2218] Monthly Settlement 및 Revenue Analytics,To Do,Epic-14/F2218,source_or_contract_present
+Epic-14,KR1-610,KR1-584,Feature,[F2219] Billing Anomaly Detection,To Do,Epic-14/F2219,source_or_contract_present
+Epic-14,KR1-615,KR1-584,Feature,[F2220] Jira 및 n8n Billing Exception Automation,To Do,Epic-14/F2220,source_or_contract_present
+Epic-14,KR1-620,KR1-584,Feature,[F2077] 구독 플랜 및 권한 관리,To Do,Epic-14/F2077,source_or_contract_present
+Epic-14,KR1-625,KR1-584,Feature,[F2078] 콘텐츠 카탈로그 및 배포,To Do,Epic-14/F2078,source_or_contract_present
+Epic-14,KR1-630,KR1-584,Feature,[F2079] AI 사용량 계측 및 비용 제어,To Do,Epic-14/F2079,source_or_contract_present
+Epic-14,KR1-635,KR1-584,Feature,[F2080] 결제·청구·구독 갱신 및 PG 연동,To Do,Epic-14/F2080,source_or_contract_present
+Epic-14,KR1-640,KR1-584,Feature,[F2081] 콘텐츠 추천 및 구독 서비스 분석,To Do,Epic-14/F2081,source_or_contract_present
+Epic-14,KR1-645,KR1-584,Feature,[F2158] Fashion·Accessory 상품·Catalog 운영,To Do,Epic-14/F2158,source_or_contract_present
+Epic-14,KR1-650,KR1-584,Feature,[F2163] 사용량 기반 구독·추가 Service Recommendation,To Do,Epic-14/F2163,source_or_contract_present
+Epic-14,KR1-586,KR1-585,Sub-task,[F2214-S01] AI Router 및 Model Cost Optimization 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2214/F2214-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-587,KR1-585,Sub-task,[F2214-S02] AI Router 및 Model Cost Optimization 서비스·App·자동화 구현,To Do,Epic-14/F2214/F2214-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-588,KR1-585,Sub-task,[F2214-S03] AI Router 및 Model Cost Optimization 통합·보안·부하·복구 시험,To Do,Epic-14/F2214/F2214-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-589,KR1-585,Sub-task,[F2214-S04] AI Router 및 Model Cost Optimization 운영 Dashboard·SLA·Release,To Do,Epic-14/F2214/F2214-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-591,KR1-590,Sub-task,[F2215-S01] AI Credit 및 Quota Management 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2215/F2215-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-592,KR1-590,Sub-task,[F2215-S02] AI Credit 및 Quota Management 서비스·App·자동화 구현,To Do,Epic-14/F2215/F2215-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-593,KR1-590,Sub-task,[F2215-S03] AI Credit 및 Quota Management 통합·보안·부하·복구 시험,To Do,Epic-14/F2215/F2215-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-594,KR1-590,Sub-task,[F2215-S04] AI Credit 및 Quota Management 운영 Dashboard·SLA·Release,To Do,Epic-14/F2215/F2215-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-596,KR1-595,Sub-task,[F2216-S01] Subscription Plan Management 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2216/F2216-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-597,KR1-595,Sub-task,[F2216-S02] Subscription Plan Management 서비스·App·자동화 구현,To Do,Epic-14/F2216/F2216-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-598,KR1-595,Sub-task,[F2216-S03] Subscription Plan Management 통합·보안·부하·복구 시험,To Do,Epic-14/F2216/F2216-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-599,KR1-595,Sub-task,[F2216-S04] Subscription Plan Management 운영 Dashboard·SLA·Release,To Do,Epic-14/F2216/F2216-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-601,KR1-600,Sub-task,[F2217-S01] Payment Gateway Integration 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2217/F2217-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-602,KR1-600,Sub-task,[F2217-S02] Payment Gateway Integration 서비스·App·자동화 구현,To Do,Epic-14/F2217/F2217-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-603,KR1-600,Sub-task,[F2217-S03] Payment Gateway Integration 통합·보안·부하·복구 시험,To Do,Epic-14/F2217/F2217-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-604,KR1-600,Sub-task,[F2217-S04] Payment Gateway Integration 운영 Dashboard·SLA·Release,To Do,Epic-14/F2217/F2217-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-606,KR1-605,Sub-task,[F2218-S01] Monthly Settlement 및 Revenue Analytics 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2218/F2218-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-607,KR1-605,Sub-task,[F2218-S02] Monthly Settlement 및 Revenue Analytics 서비스·App·자동화 구현,To Do,Epic-14/F2218/F2218-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-608,KR1-605,Sub-task,[F2218-S03] Monthly Settlement 및 Revenue Analytics 통합·보안·부하·복구 시험,To Do,Epic-14/F2218/F2218-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-609,KR1-605,Sub-task,[F2218-S04] Monthly Settlement 및 Revenue Analytics 운영 Dashboard·SLA·Release,To Do,Epic-14/F2218/F2218-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-611,KR1-610,Sub-task,[F2219-S01] Billing Anomaly Detection 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2219/F2219-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-612,KR1-610,Sub-task,[F2219-S02] Billing Anomaly Detection 서비스·App·자동화 구현,To Do,Epic-14/F2219/F2219-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-613,KR1-610,Sub-task,[F2219-S03] Billing Anomaly Detection 통합·보안·부하·복구 시험,To Do,Epic-14/F2219/F2219-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-614,KR1-610,Sub-task,[F2219-S04] Billing Anomaly Detection 운영 Dashboard·SLA·Release,To Do,Epic-14/F2219/F2219-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-616,KR1-615,Sub-task,[F2220-S01] Jira 및 n8n Billing Exception Automation 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2220/F2220-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-617,KR1-615,Sub-task,[F2220-S02] Jira 및 n8n Billing Exception Automation 서비스·App·자동화 구현,To Do,Epic-14/F2220/F2220-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-618,KR1-615,Sub-task,[F2220-S03] Jira 및 n8n Billing Exception Automation 통합·보안·부하·복구 시험,To Do,Epic-14/F2220/F2220-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-619,KR1-615,Sub-task,[F2220-S04] Jira 및 n8n Billing Exception Automation 운영 Dashboard·SLA·Release,To Do,Epic-14/F2220/F2220-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-621,KR1-620,Sub-task,[F2077-S01] 구독 플랜 및 권한 관리 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2077/F2077-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-622,KR1-620,Sub-task,[F2077-S02] 구독 플랜 및 권한 관리 서비스·App·자동화 구현,To Do,Epic-14/F2077/F2077-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-623,KR1-620,Sub-task,[F2077-S03] 구독 플랜 및 권한 관리 통합·보안·부하·복구 시험,To Do,Epic-14/F2077/F2077-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-624,KR1-620,Sub-task,[F2077-S04] 구독 플랜 및 권한 관리 운영 Dashboard·SLA·Release,To Do,Epic-14/F2077/F2077-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-626,KR1-625,Sub-task,[F2078-S01] 콘텐츠 카탈로그 및 배포 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2078/F2078-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-627,KR1-625,Sub-task,[F2078-S02] 콘텐츠 카탈로그 및 배포 서비스·App·자동화 구현,To Do,Epic-14/F2078/F2078-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-628,KR1-625,Sub-task,[F2078-S03] 콘텐츠 카탈로그 및 배포 통합·보안·부하·복구 시험,To Do,Epic-14/F2078/F2078-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-629,KR1-625,Sub-task,[F2078-S04] 콘텐츠 카탈로그 및 배포 운영 Dashboard·SLA·Release,To Do,Epic-14/F2078/F2078-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-631,KR1-630,Sub-task,[F2079-S01] AI 사용량 계측 및 비용 제어 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2079/F2079-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-632,KR1-630,Sub-task,[F2079-S02] AI 사용량 계측 및 비용 제어 서비스·App·자동화 구현,To Do,Epic-14/F2079/F2079-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-633,KR1-630,Sub-task,[F2079-S03] AI 사용량 계측 및 비용 제어 통합·보안·부하·복구 시험,To Do,Epic-14/F2079/F2079-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-634,KR1-630,Sub-task,[F2079-S04] AI 사용량 계측 및 비용 제어 운영 Dashboard·SLA·Release,To Do,Epic-14/F2079/F2079-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-636,KR1-635,Sub-task,[F2080-S01] 결제·청구·구독 갱신 및 PG 연동 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2080/F2080-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-637,KR1-635,Sub-task,[F2080-S02] 결제·청구·구독 갱신 및 PG 연동 서비스·App·자동화 구현,To Do,Epic-14/F2080/F2080-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-638,KR1-635,Sub-task,[F2080-S03] 결제·청구·구독 갱신 및 PG 연동 통합·보안·부하·복구 시험,To Do,Epic-14/F2080/F2080-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-639,KR1-635,Sub-task,[F2080-S04] 결제·청구·구독 갱신 및 PG 연동 운영 Dashboard·SLA·Release,To Do,Epic-14/F2080/F2080-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-641,KR1-640,Sub-task,[F2081-S01] 콘텐츠 추천 및 구독 서비스 분석 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2081/F2081-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-642,KR1-640,Sub-task,[F2081-S02] 콘텐츠 추천 및 구독 서비스 분석 서비스·App·자동화 구현,To Do,Epic-14/F2081/F2081-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-643,KR1-640,Sub-task,[F2081-S03] 콘텐츠 추천 및 구독 서비스 분석 통합·보안·부하·복구 시험,To Do,Epic-14/F2081/F2081-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-644,KR1-640,Sub-task,[F2081-S04] 콘텐츠 추천 및 구독 서비스 분석 운영 Dashboard·SLA·Release,To Do,Epic-14/F2081/F2081-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-646,KR1-645,Sub-task,[F2158-S01] Fashion·Accessory 상품·Catalog 운영 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2158/F2158-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-647,KR1-645,Sub-task,[F2158-S02] Fashion·Accessory 상품·Catalog 운영 서비스·App·자동화 구현,To Do,Epic-14/F2158/F2158-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-648,KR1-645,Sub-task,[F2158-S03] Fashion·Accessory 상품·Catalog 운영 통합·보안·부하·복구 시험,To Do,Epic-14/F2158/F2158-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-649,KR1-645,Sub-task,[F2158-S04] Fashion·Accessory 상품·Catalog 운영 운영 Dashboard·SLA·Release,To Do,Epic-14/F2158/F2158-S04,inventory_checked_not_individually_accepted
+Epic-14,KR1-651,KR1-650,Sub-task,[F2163-S01] 사용량 기반 구독·추가 Service Recommendation 사용 흐름·Data Model·API 설계,To Do,Epic-14/F2163/F2163-S01,inventory_checked_not_individually_accepted
+Epic-14,KR1-652,KR1-650,Sub-task,[F2163-S02] 사용량 기반 구독·추가 Service Recommendation 서비스·App·자동화 구현,To Do,Epic-14/F2163/F2163-S02,inventory_checked_not_individually_accepted
+Epic-14,KR1-653,KR1-650,Sub-task,[F2163-S03] 사용량 기반 구독·추가 Service Recommendation 통합·보안·부하·복구 시험,To Do,Epic-14/F2163/F2163-S03,inventory_checked_not_individually_accepted
+Epic-14,KR1-654,KR1-650,Sub-task,[F2163-S04] 사용량 기반 구독·추가 Service Recommendation 운영 Dashboard·SLA·Release,To Do,Epic-14/F2163/F2163-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-656,KR1-655,Feature,[F2082] 높이 조절 본체,To Do,Epic-15/F2082,source_or_contract_present
+Epic-15,KR1-661,KR1-655,Feature,[F2083] 생활 공간 의미 지도,To Do,Epic-15/F2083,source_or_contract_present
+Epic-15,KR1-666,KR1-655,Feature,[F2084] 가사 작업 계획,To Do,Epic-15/F2084,source_or_contract_present
+Epic-15,KR1-671,KR1-655,Feature,[F2085] 스마트홈 기기 연동,To Do,Epic-15/F2085,source_or_contract_present
+Epic-15,KR1-676,KR1-655,Feature,[F2086] 장애인·고령자 접근성 보조,To Do,Epic-15/F2086,source_or_contract_present
+Epic-15,KR1-681,KR1-655,Feature,[F2087] 장기 자율 생활 서비스,To Do,Epic-15/F2087,source_or_contract_present
+Epic-15,KR1-686,KR1-655,Feature,[F2137] Stage4 가변 높이 범위·승강 Mechanism,To Do,Epic-15/F2137,source_or_contract_present
+Epic-15,KR1-691,KR1-655,Feature,[F2138] 높이별 무게중심·전도·작업영역 안전,To Do,Epic-15/F2138,source_or_contract_present
+Epic-15,KR1-696,KR1-655,Feature,[F2147] Matter·Wi-Fi Device Discovery·Gateway,To Do,Epic-15/F2147,source_or_contract_present
+Epic-15,KR1-701,KR1-655,Feature,[F2148] 자연어 IoT 제어·실행 확인,To Do,Epic-15/F2148,source_or_contract_present
+Epic-15,KR1-706,KR1-655,Feature,[F2149] Scene 자동화·공간 위치 기반 제어,To Do,Epic-15/F2149,source_or_contract_present
+Epic-15,KR1-657,KR1-656,Sub-task,[F2082-S01] 높이 조절 본체 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2082/F2082-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-658,KR1-656,Sub-task,[F2082-S02] 높이 조절 본체 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2082/F2082-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-659,KR1-656,Sub-task,[F2082-S03] 높이 조절 본체 통합·경계조건·안전 시험,To Do,Epic-15/F2082/F2082-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-660,KR1-656,Sub-task,[F2082-S04] 높이 조절 본체 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2082/F2082-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-662,KR1-661,Sub-task,[F2083-S01] 생활 공간 의미 지도 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2083/F2083-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-663,KR1-661,Sub-task,[F2083-S02] 생활 공간 의미 지도 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2083/F2083-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-664,KR1-661,Sub-task,[F2083-S03] 생활 공간 의미 지도 통합·경계조건·안전 시험,To Do,Epic-15/F2083/F2083-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-665,KR1-661,Sub-task,[F2083-S04] 생활 공간 의미 지도 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2083/F2083-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-667,KR1-666,Sub-task,[F2084-S01] 가사 작업 계획 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2084/F2084-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-668,KR1-666,Sub-task,[F2084-S02] 가사 작업 계획 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2084/F2084-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-669,KR1-666,Sub-task,[F2084-S03] 가사 작업 계획 통합·경계조건·안전 시험,To Do,Epic-15/F2084/F2084-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-670,KR1-666,Sub-task,[F2084-S04] 가사 작업 계획 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2084/F2084-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-672,KR1-671,Sub-task,[F2085-S01] 스마트홈 기기 연동 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2085/F2085-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-673,KR1-671,Sub-task,[F2085-S02] 스마트홈 기기 연동 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2085/F2085-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-674,KR1-671,Sub-task,[F2085-S03] 스마트홈 기기 연동 통합·경계조건·안전 시험,To Do,Epic-15/F2085/F2085-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-675,KR1-671,Sub-task,[F2085-S04] 스마트홈 기기 연동 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2085/F2085-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-677,KR1-676,Sub-task,[F2086-S01] 장애인·고령자 접근성 보조 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2086/F2086-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-678,KR1-676,Sub-task,[F2086-S02] 장애인·고령자 접근성 보조 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2086/F2086-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-679,KR1-676,Sub-task,[F2086-S03] 장애인·고령자 접근성 보조 통합·경계조건·안전 시험,To Do,Epic-15/F2086/F2086-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-680,KR1-676,Sub-task,[F2086-S04] 장애인·고령자 접근성 보조 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2086/F2086-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-682,KR1-681,Sub-task,[F2087-S01] 장기 자율 생활 서비스 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2087/F2087-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-683,KR1-681,Sub-task,[F2087-S02] 장기 자율 생활 서비스 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2087/F2087-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-684,KR1-681,Sub-task,[F2087-S03] 장기 자율 생활 서비스 통합·경계조건·안전 시험,To Do,Epic-15/F2087/F2087-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-685,KR1-681,Sub-task,[F2087-S04] 장기 자율 생활 서비스 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2087/F2087-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-687,KR1-686,Sub-task,[F2137-S01] Stage4 가변 높이 범위·승강 Mechanism 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2137/F2137-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-688,KR1-686,Sub-task,[F2137-S02] Stage4 가변 높이 범위·승강 Mechanism 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2137/F2137-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-689,KR1-686,Sub-task,[F2137-S03] Stage4 가변 높이 범위·승강 Mechanism 통합·경계조건·안전 시험,To Do,Epic-15/F2137/F2137-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-690,KR1-686,Sub-task,[F2137-S04] Stage4 가변 높이 범위·승강 Mechanism 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2137/F2137-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-692,KR1-691,Sub-task,[F2138-S01] 높이별 무게중심·전도·작업영역 안전 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2138/F2138-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-693,KR1-691,Sub-task,[F2138-S02] 높이별 무게중심·전도·작업영역 안전 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2138/F2138-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-694,KR1-691,Sub-task,[F2138-S03] 높이별 무게중심·전도·작업영역 안전 통합·경계조건·안전 시험,To Do,Epic-15/F2138/F2138-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-695,KR1-691,Sub-task,[F2138-S04] 높이별 무게중심·전도·작업영역 안전 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2138/F2138-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-697,KR1-696,Sub-task,[F2147-S01] Matter·Wi-Fi Device Discovery·Gateway 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2147/F2147-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-698,KR1-696,Sub-task,[F2147-S02] Matter·Wi-Fi Device Discovery·Gateway 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2147/F2147-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-699,KR1-696,Sub-task,[F2147-S03] Matter·Wi-Fi Device Discovery·Gateway 통합·경계조건·안전 시험,To Do,Epic-15/F2147/F2147-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-700,KR1-696,Sub-task,[F2147-S04] Matter·Wi-Fi Device Discovery·Gateway 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2147/F2147-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-702,KR1-701,Sub-task,[F2148-S01] 자연어 IoT 제어·실행 확인 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2148/F2148-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-703,KR1-701,Sub-task,[F2148-S02] 자연어 IoT 제어·실행 확인 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2148/F2148-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-704,KR1-701,Sub-task,[F2148-S03] 자연어 IoT 제어·실행 확인 통합·경계조건·안전 시험,To Do,Epic-15/F2148/F2148-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-705,KR1-701,Sub-task,[F2148-S04] 자연어 IoT 제어·실행 확인 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2148/F2148-S04,inventory_checked_not_individually_accepted
+Epic-15,KR1-707,KR1-706,Sub-task,[F2149-S01] Scene 자동화·공간 위치 기반 제어 요구사항·Interface·Simulation 설계,To Do,Epic-15/F2149/F2149-S01,inventory_checked_not_individually_accepted
+Epic-15,KR1-708,KR1-706,Sub-task,[F2149-S02] Scene 자동화·공간 위치 기반 제어 알고리즘·제어기·HW 연동 구현,To Do,Epic-15/F2149/F2149-S02,inventory_checked_not_individually_accepted
+Epic-15,KR1-709,KR1-706,Sub-task,[F2149-S03] Scene 자동화·공간 위치 기반 제어 통합·경계조건·안전 시험,To Do,Epic-15/F2149/F2149-S03,inventory_checked_not_individually_accepted
+Epic-15,KR1-710,KR1-706,Sub-task,[F2149-S04] Scene 자동화·공간 위치 기반 제어 실환경 임무 검증·Parameter Freeze,To Do,Epic-15/F2149/F2149-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-416,KR1-711,Feature,[F2056] 동화 스토리텔링,To Do,Epic-10/F2056,source_or_contract_present
+Epic-16,KR1-712,KR1-711,Feature,[F2090] Stage1 HW 요구사양 및 시스템 Architecture,To Do,Epic-16/F2090,source_or_contract_present
+Epic-16,KR1-717,KR1-711,Feature,[F2091] Main Computing HW 선정 및 인터페이스 설계,To Do,Epic-16/F2091,source_or_contract_present
+Epic-16,KR1-722,KR1-711,Feature,[F2092] Safety MCU·Motor Interface·I/O 제어 Architecture,To Do,Epic-16/F2092,source_or_contract_present
+Epic-16,KR1-727,KR1-711,Feature,[F2093] 목·팔·허리·손 구동 HW 및 Actuator 선정,To Do,Epic-16/F2093,source_or_contract_present
+Epic-16,KR1-732,KR1-711,Feature,[F2094] Camera·Mic·IMU·Touch·근접 Sensor HW 구성,To Do,Epic-16/F2094,source_or_contract_present
+Epic-16,KR1-737,KR1-711,Feature,[F2095] 얼굴 Display·Touch LCD·Audio HW 구축,To Do,Epic-16/F2095,source_or_contract_present
+Epic-16,KR1-742,KR1-711,Feature,[F2096] Battery·BMS·전용 전원·안전 Board 설계,To Do,Epic-16/F2096,source_or_contract_present
+Epic-16,KR1-747,KR1-711,Feature,[F2097] 내부 Frame 및 기구 Architecture 설계,To Do,Epic-16/F2097,source_or_contract_present
+Epic-16,KR1-752,KR1-711,Feature,[F2098] 내부 배치·배선·Connector·Harness 설계,To Do,Epic-16/F2098,source_or_contract_present
+Epic-16,KR1-757,KR1-711,Feature,[F2099] 열·소음·진동·EMI 대응 설계,To Do,Epic-16/F2099,source_or_contract_present
+Epic-16,KR1-762,KR1-711,Feature,[F2100] HW Prototype #1 제작,To Do,Epic-16/F2100,source_or_contract_present
+Epic-16,KR1-767,KR1-711,Feature,[F2101] ROS2/HW 통합 및 Bring-up 시험,To Do,Epic-16/F2101,source_or_contract_present
+Epic-16,KR1-772,KR1-711,Feature,[F2102] HW Prototype #2 개선 및 제품화 설계,To Do,Epic-16/F2102,source_or_contract_present
+Epic-16,KR1-777,KR1-711,Feature,[F2103] HW 신뢰성·안전·양산성 검증,To Do,Epic-16/F2103,source_or_contract_present
+Epic-16,KR1-782,KR1-711,Feature,[F2125] 4~6채널 MEMS Mic Array HW,To Do,Epic-16/F2125,source_or_contract_present
+Epic-16,KR1-787,KR1-711,Feature,[F2132] Main Camera 사양·위치·시야각 검증,To Do,Epic-16/F2132,source_or_contract_present
+Epic-16,KR1-792,KR1-711,Feature,[F2135] Stage 확장 Modular Interface 표준,To Do,Epic-16/F2135,source_or_contract_present
+Epic-16,KR1-797,KR1-711,Feature,[F2136] 관절 Motor Bench·열·소음·수명 검증,To Do,Epic-16/F2136,source_or_contract_present
+Epic-16,KR1-802,KR1-711,Feature,[F2156] NFC Fashion·Accessory 인식 HW,To Do,Epic-16/F2156,source_or_contract_present
+Epic-16,KR1-807,KR1-711,Feature,[F2221] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow,To Do,Epic-16/F2221,source_or_contract_present
+Epic-16,KR1-812,KR1-711,Feature,[F2222] COTS 70%·Custom 30% 전자구성 및 전환 Gate,To Do,Epic-16/F2222,source_or_contract_present
+Epic-16,KR1-817,KR1-711,Feature,[F2223] 전용 Power·Safety Board 개발,To Do,Epic-16/F2223,source_or_contract_present
+Epic-16,KR1-822,KR1-711,Feature,[F2224] STM32 Motion·I/O·Safety Controller Board,To Do,Epic-16/F2224,source_or_contract_present
+Epic-16,KR1-827,KR1-711,Feature,[F2225] RK3588 SoM 양산 Carrier Board 개발,To Do,Epic-16/F2225,source_or_contract_present
+Epic-16,KR1-1109,KR1-711,Other direct child,[KR1-SP2-C02] UNO 모델·단일축 DYNAMIXEL·휠·센서 Bring-up,To Do,,requires_task_specific_followup
+Epic-16,KR1-1110,KR1-711,Other direct child,[KR1-SP2-C03] 전원·충전 인터록 및 탁상 이동 안전 지그 검증,To Do,,requires_task_specific_followup
+Epic-16,KR1-417,KR1-416,Sub-task,[F2056-S01] 동화 스토리텔링 사용자 Scenario·콘텐츠·안전기준,To Do,Epic-10/F2056/F2056-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-418,KR1-416,Sub-task,[F2056-S02] 동화 스토리텔링 기능·콘텐츠 Package 구현,To Do,Epic-10/F2056/F2056-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-419,KR1-416,Sub-task,[F2056-S03] 동화 스토리텔링 전문가·사용자 Pilot 검증,To Do,Epic-10/F2056/F2056-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-420,KR1-416,Sub-task,[F2056-S04] 동화 스토리텔링 운영·지표·Release 전환,To Do,Epic-10/F2056/F2056-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-713,KR1-712,Sub-task,[F2090-S01] Stage1 HW 요구사양 및 시스템 Architecture 요구사양·Interface·BOM 설계,To Do,Epic-16/F2090/F2090-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-714,KR1-712,Sub-task,[F2090-S02] Stage1 HW 요구사양 및 시스템 Architecture CAD·회로·Prototype 제작,To Do,Epic-16/F2090/F2090-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-715,KR1-712,Sub-task,[F2090-S03] Stage1 HW 요구사양 및 시스템 Architecture Bench·통합·안전 시험,To Do,Epic-16/F2090/F2090-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-716,KR1-712,Sub-task,[F2090-S04] Stage1 HW 요구사양 및 시스템 Architecture DFM·Design Freeze·양산 인계,To Do,Epic-16/F2090/F2090-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-718,KR1-717,Sub-task,[F2091-S01] Main Computing HW 선정 및 인터페이스 설계 요구사양·Interface·BOM 설계,To Do,Epic-16/F2091/F2091-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-719,KR1-717,Sub-task,[F2091-S02] Main Computing HW 선정 및 인터페이스 설계 CAD·회로·Prototype 제작,To Do,Epic-16/F2091/F2091-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-720,KR1-717,Sub-task,[F2091-S03] Main Computing HW 선정 및 인터페이스 설계 Bench·통합·안전 시험,To Do,Epic-16/F2091/F2091-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-721,KR1-717,Sub-task,[F2091-S04] Main Computing HW 선정 및 인터페이스 설계 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2091/F2091-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-723,KR1-722,Sub-task,[F2092-S01] Safety MCU·Motor Interface·I/O 제어 Architecture 요구사양·Interface·BOM 설계,To Do,Epic-16/F2092/F2092-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-724,KR1-722,Sub-task,[F2092-S02] Safety MCU·Motor Interface·I/O 제어 Architecture CAD·회로·Prototype 제작,To Do,Epic-16/F2092/F2092-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-725,KR1-722,Sub-task,[F2092-S03] Safety MCU·Motor Interface·I/O 제어 Architecture Bench·통합·안전 시험,To Do,Epic-16/F2092/F2092-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-726,KR1-722,Sub-task,[F2092-S04] Safety MCU·Motor Interface·I/O 제어 Architecture DFM·Design Freeze·양산 인계,To Do,Epic-16/F2092/F2092-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-728,KR1-727,Sub-task,[F2093-S01] 목·팔·허리·손 구동 HW 및 Actuator 선정 요구사양·Interface·BOM 설계,To Do,Epic-16/F2093/F2093-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-729,KR1-727,Sub-task,[F2093-S02] 목·팔·허리·손 구동 HW 및 Actuator 선정 CAD·회로·Prototype 제작,To Do,Epic-16/F2093/F2093-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-730,KR1-727,Sub-task,[F2093-S03] 목·팔·허리·손 구동 HW 및 Actuator 선정 Bench·통합·안전 시험,To Do,Epic-16/F2093/F2093-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-731,KR1-727,Sub-task,[F2093-S04] 목·팔·허리·손 구동 HW 및 Actuator 선정 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2093/F2093-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-733,KR1-732,Sub-task,[F2094-S01] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 요구사양·Interface·BOM 설계,To Do,Epic-16/F2094/F2094-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-734,KR1-732,Sub-task,[F2094-S02] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 CAD·회로·Prototype 제작,To Do,Epic-16/F2094/F2094-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-735,KR1-732,Sub-task,[F2094-S03] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 Bench·통합·안전 시험,To Do,Epic-16/F2094/F2094-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-736,KR1-732,Sub-task,[F2094-S04] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2094/F2094-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-738,KR1-737,Sub-task,[F2095-S01] 얼굴 Display·Touch LCD·Audio HW 구축 요구사양·Interface·BOM 설계,To Do,Epic-16/F2095/F2095-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-739,KR1-737,Sub-task,[F2095-S02] 얼굴 Display·Touch LCD·Audio HW 구축 CAD·회로·Prototype 제작,To Do,Epic-16/F2095/F2095-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-740,KR1-737,Sub-task,[F2095-S03] 얼굴 Display·Touch LCD·Audio HW 구축 Bench·통합·안전 시험,To Do,Epic-16/F2095/F2095-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-741,KR1-737,Sub-task,[F2095-S04] 얼굴 Display·Touch LCD·Audio HW 구축 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2095/F2095-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-743,KR1-742,Sub-task,[F2096-S01] Battery·BMS·전용 전원·안전 Board 설계 요구사양·Interface·BOM 설계,To Do,Epic-16/F2096/F2096-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-744,KR1-742,Sub-task,[F2096-S02] Battery·BMS·전용 전원·안전 Board 설계 CAD·회로·Prototype 제작,To Do,Epic-16/F2096/F2096-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-745,KR1-742,Sub-task,[F2096-S03] Battery·BMS·전용 전원·안전 Board 설계 Bench·통합·안전 시험,To Do,Epic-16/F2096/F2096-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-746,KR1-742,Sub-task,[F2096-S04] Battery·BMS·전용 전원·안전 Board 설계 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2096/F2096-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-748,KR1-747,Sub-task,[F2097-S01] 내부 Frame 및 기구 Architecture 설계 요구사양·Interface·BOM 설계,To Do,Epic-16/F2097/F2097-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-749,KR1-747,Sub-task,[F2097-S02] 내부 Frame 및 기구 Architecture 설계 CAD·회로·Prototype 제작,To Do,Epic-16/F2097/F2097-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-750,KR1-747,Sub-task,[F2097-S03] 내부 Frame 및 기구 Architecture 설계 Bench·통합·안전 시험,To Do,Epic-16/F2097/F2097-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-751,KR1-747,Sub-task,[F2097-S04] 내부 Frame 및 기구 Architecture 설계 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2097/F2097-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-753,KR1-752,Sub-task,[F2098-S01] 내부 배치·배선·Connector·Harness 설계 요구사양·Interface·BOM 설계,To Do,Epic-16/F2098/F2098-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-754,KR1-752,Sub-task,[F2098-S02] 내부 배치·배선·Connector·Harness 설계 CAD·회로·Prototype 제작,To Do,Epic-16/F2098/F2098-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-755,KR1-752,Sub-task,[F2098-S03] 내부 배치·배선·Connector·Harness 설계 Bench·통합·안전 시험,To Do,Epic-16/F2098/F2098-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-756,KR1-752,Sub-task,[F2098-S04] 내부 배치·배선·Connector·Harness 설계 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2098/F2098-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-758,KR1-757,Sub-task,[F2099-S01] 열·소음·진동·EMI 대응 설계 요구사양·Interface·BOM 설계,To Do,Epic-16/F2099/F2099-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-759,KR1-757,Sub-task,[F2099-S02] 열·소음·진동·EMI 대응 설계 CAD·회로·Prototype 제작,To Do,Epic-16/F2099/F2099-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-760,KR1-757,Sub-task,[F2099-S03] 열·소음·진동·EMI 대응 설계 Bench·통합·안전 시험,To Do,Epic-16/F2099/F2099-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-761,KR1-757,Sub-task,[F2099-S04] 열·소음·진동·EMI 대응 설계 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2099/F2099-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-763,KR1-762,Sub-task,[F2100-S01] HW Prototype #1 제작 요구사양·Interface·BOM 설계,To Do,Epic-16/F2100/F2100-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-764,KR1-762,Sub-task,[F2100-S02] HW Prototype #1 제작 CAD·회로·Prototype 제작,To Do,Epic-16/F2100/F2100-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-765,KR1-762,Sub-task,[F2100-S03] HW Prototype #1 제작 Bench·통합·안전 시험,To Do,Epic-16/F2100/F2100-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-766,KR1-762,Sub-task,[F2100-S04] HW Prototype #1 제작 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2100/F2100-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-768,KR1-767,Sub-task,[F2101-S01] ROS2/HW 통합 및 Bring-up 시험 요구사양·Interface·BOM 설계,To Do,Epic-16/F2101/F2101-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-769,KR1-767,Sub-task,[F2101-S02] ROS2/HW 통합 및 Bring-up 시험 CAD·회로·Prototype 제작,To Do,Epic-16/F2101/F2101-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-770,KR1-767,Sub-task,[F2101-S03] ROS2/HW 통합 및 Bring-up 시험 Bench·통합·안전 시험,To Do,Epic-16/F2101/F2101-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-771,KR1-767,Sub-task,[F2101-S04] ROS2/HW 통합 및 Bring-up 시험 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2101/F2101-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-773,KR1-772,Sub-task,[F2102-S01] HW Prototype #2 개선 및 제품화 설계 요구사양·Interface·BOM 설계,To Do,Epic-16/F2102/F2102-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-774,KR1-772,Sub-task,[F2102-S02] HW Prototype #2 개선 및 제품화 설계 CAD·회로·Prototype 제작,To Do,Epic-16/F2102/F2102-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-775,KR1-772,Sub-task,[F2102-S03] HW Prototype #2 개선 및 제품화 설계 Bench·통합·안전 시험,To Do,Epic-16/F2102/F2102-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-776,KR1-772,Sub-task,[F2102-S04] HW Prototype #2 개선 및 제품화 설계 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2102/F2102-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-778,KR1-777,Sub-task,[F2103-S01] HW 신뢰성·안전·양산성 검증 요구사양·Interface·BOM 설계,To Do,Epic-16/F2103/F2103-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-779,KR1-777,Sub-task,[F2103-S02] HW 신뢰성·안전·양산성 검증 CAD·회로·Prototype 제작,To Do,Epic-16/F2103/F2103-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-780,KR1-777,Sub-task,[F2103-S03] HW 신뢰성·안전·양산성 검증 Bench·통합·안전 시험,To Do,Epic-16/F2103/F2103-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-781,KR1-777,Sub-task,[F2103-S04] HW 신뢰성·안전·양산성 검증 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2103/F2103-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-783,KR1-782,Sub-task,[F2125-S01] 4~6채널 MEMS Mic Array HW 요구사양·Interface·BOM 설계,To Do,Epic-16/F2125/F2125-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-784,KR1-782,Sub-task,[F2125-S02] 4~6채널 MEMS Mic Array HW CAD·회로·Prototype 제작,To Do,Epic-16/F2125/F2125-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-785,KR1-782,Sub-task,[F2125-S03] 4~6채널 MEMS Mic Array HW Bench·통합·안전 시험,To Do,Epic-16/F2125/F2125-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-786,KR1-782,Sub-task,[F2125-S04] 4~6채널 MEMS Mic Array HW DFM·Design Freeze·양산 인계,To Do,Epic-16/F2125/F2125-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-788,KR1-787,Sub-task,[F2132-S01] Main Camera 사양·위치·시야각 검증 요구사양·Interface·BOM 설계,To Do,Epic-16/F2132/F2132-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-789,KR1-787,Sub-task,[F2132-S02] Main Camera 사양·위치·시야각 검증 CAD·회로·Prototype 제작,To Do,Epic-16/F2132/F2132-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-790,KR1-787,Sub-task,[F2132-S03] Main Camera 사양·위치·시야각 검증 Bench·통합·안전 시험,To Do,Epic-16/F2132/F2132-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-791,KR1-787,Sub-task,[F2132-S04] Main Camera 사양·위치·시야각 검증 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2132/F2132-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-793,KR1-792,Sub-task,[F2135-S01] Stage 확장 Modular Interface 표준 요구사양·Interface·BOM 설계,To Do,Epic-16/F2135/F2135-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-794,KR1-792,Sub-task,[F2135-S02] Stage 확장 Modular Interface 표준 CAD·회로·Prototype 제작,To Do,Epic-16/F2135/F2135-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-795,KR1-792,Sub-task,[F2135-S03] Stage 확장 Modular Interface 표준 Bench·통합·안전 시험,To Do,Epic-16/F2135/F2135-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-796,KR1-792,Sub-task,[F2135-S04] Stage 확장 Modular Interface 표준 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2135/F2135-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-798,KR1-797,Sub-task,[F2136-S01] 관절 Motor Bench·열·소음·수명 검증 요구사양·Interface·BOM 설계,To Do,Epic-16/F2136/F2136-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-799,KR1-797,Sub-task,[F2136-S02] 관절 Motor Bench·열·소음·수명 검증 CAD·회로·Prototype 제작,To Do,Epic-16/F2136/F2136-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-800,KR1-797,Sub-task,[F2136-S03] 관절 Motor Bench·열·소음·수명 검증 Bench·통합·안전 시험,To Do,Epic-16/F2136/F2136-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-801,KR1-797,Sub-task,[F2136-S04] 관절 Motor Bench·열·소음·수명 검증 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2136/F2136-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-803,KR1-802,Sub-task,[F2156-S01] NFC Fashion·Accessory 인식 HW 요구사양·Interface·BOM 설계,To Do,Epic-16/F2156/F2156-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-804,KR1-802,Sub-task,[F2156-S02] NFC Fashion·Accessory 인식 HW CAD·회로·Prototype 제작,To Do,Epic-16/F2156/F2156-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-805,KR1-802,Sub-task,[F2156-S03] NFC Fashion·Accessory 인식 HW Bench·통합·안전 시험,To Do,Epic-16/F2156/F2156-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-806,KR1-802,Sub-task,[F2156-S04] NFC Fashion·Accessory 인식 HW DFM·Design Freeze·양산 인계,To Do,Epic-16/F2156/F2156-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-808,KR1-807,Sub-task,[F2221-S01] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow 요구사양·Interface·BOM 설계,To Do,Epic-16/F2221/F2221-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-809,KR1-807,Sub-task,[F2221-S02] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow CAD·회로·Prototype 제작,To Do,Epic-16/F2221/F2221-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-810,KR1-807,Sub-task,[F2221-S03] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow Bench·통합·안전 시험,To Do,Epic-16/F2221/F2221-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-811,KR1-807,Sub-task,[F2221-S04] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow DFM·Design Freeze·양산 인계,To Do,Epic-16/F2221/F2221-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-813,KR1-812,Sub-task,[F2222-S01] COTS 70%·Custom 30% 전자구성 및 전환 Gate 요구사양·Interface·BOM 설계,To Do,Epic-16/F2222/F2222-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-814,KR1-812,Sub-task,[F2222-S02] COTS 70%·Custom 30% 전자구성 및 전환 Gate CAD·회로·Prototype 제작,To Do,Epic-16/F2222/F2222-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-815,KR1-812,Sub-task,[F2222-S03] COTS 70%·Custom 30% 전자구성 및 전환 Gate Bench·통합·안전 시험,To Do,Epic-16/F2222/F2222-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-816,KR1-812,Sub-task,[F2222-S04] COTS 70%·Custom 30% 전자구성 및 전환 Gate DFM·Design Freeze·양산 인계,To Do,Epic-16/F2222/F2222-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-818,KR1-817,Sub-task,[F2223-S01] 전용 Power·Safety Board 개발 요구사양·Interface·BOM 설계,To Do,Epic-16/F2223/F2223-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-819,KR1-817,Sub-task,[F2223-S02] 전용 Power·Safety Board 개발 CAD·회로·Prototype 제작,To Do,Epic-16/F2223/F2223-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-820,KR1-817,Sub-task,[F2223-S03] 전용 Power·Safety Board 개발 Bench·통합·안전 시험,To Do,Epic-16/F2223/F2223-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-821,KR1-817,Sub-task,[F2223-S04] 전용 Power·Safety Board 개발 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2223/F2223-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-823,KR1-822,Sub-task,[F2224-S01] STM32 Motion·I/O·Safety Controller Board 요구사양·Interface·BOM 설계,To Do,Epic-16/F2224/F2224-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-824,KR1-822,Sub-task,[F2224-S02] STM32 Motion·I/O·Safety Controller Board CAD·회로·Prototype 제작,To Do,Epic-16/F2224/F2224-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-825,KR1-822,Sub-task,[F2224-S03] STM32 Motion·I/O·Safety Controller Board Bench·통합·안전 시험,To Do,Epic-16/F2224/F2224-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-826,KR1-822,Sub-task,[F2224-S04] STM32 Motion·I/O·Safety Controller Board DFM·Design Freeze·양산 인계,To Do,Epic-16/F2224/F2224-S04,inventory_checked_not_individually_accepted
+Epic-16,KR1-828,KR1-827,Sub-task,[F2225-S01] RK3588 SoM 양산 Carrier Board 개발 요구사양·Interface·BOM 설계,To Do,Epic-16/F2225/F2225-S01,inventory_checked_not_individually_accepted
+Epic-16,KR1-829,KR1-827,Sub-task,[F2225-S02] RK3588 SoM 양산 Carrier Board 개발 CAD·회로·Prototype 제작,To Do,Epic-16/F2225/F2225-S02,inventory_checked_not_individually_accepted
+Epic-16,KR1-830,KR1-827,Sub-task,[F2225-S03] RK3588 SoM 양산 Carrier Board 개발 Bench·통합·안전 시험,To Do,Epic-16/F2225/F2225-S03,inventory_checked_not_individually_accepted
+Epic-16,KR1-831,KR1-827,Sub-task,[F2225-S04] RK3588 SoM 양산 Carrier Board 개발 DFM·Design Freeze·양산 인계,To Do,Epic-16/F2225/F2225-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-833,KR1-832,Feature,[F2104] 제품 Concept 및 Target User 정의,To Do,Epic-17/F2104,source_or_contract_present
+Epic-17,KR1-838,KR1-832,Feature,[F2105] Stage1 제품 기능 Requirement 정의,To Do,Epic-17/F2105,source_or_contract_present
+Epic-17,KR1-843,KR1-832,Feature,[F2106] 사용자 Scenario·Journey·Use Case 설계,To Do,Epic-17/F2106,source_or_contract_present
+Epic-17,KR1-848,KR1-832,Feature,[F2107] Human-Robot Interaction 기본 원칙 설계,To Do,Epic-17/F2107,source_or_contract_present
+Epic-17,KR1-853,KR1-832,Feature,[F2108] 로봇 Size·비례·자세·동작 영역 설계,To Do,Epic-17/F2108,source_or_contract_present
+Epic-17,KR1-858,KR1-832,Feature,[F2109] 외관 Industrial Design Concept,To Do,Epic-17/F2109,source_or_contract_present
+Epic-17,KR1-863,KR1-832,Feature,[F2110] 얼굴 Display·표정 UX Design,To Do,Epic-17/F2110,source_or_contract_present
+Epic-17,KR1-868,KR1-832,Feature,[F2111] 가슴 Touch LCD UI/UX,To Do,Epic-17/F2111,source_or_contract_present
+Epic-17,KR1-873,KR1-832,Feature,[F2112] 음성·표정·Gesture Interaction UX,To Do,Epic-17/F2112,source_or_contract_present
+Epic-17,KR1-878,KR1-832,Feature,[F2113] 버튼·터치·충전·전원 등 Physical UX,To Do,Epic-17/F2113,source_or_contract_present
+Epic-17,KR1-883,KR1-832,Feature,[F2114] CMF(Material/Color/Finish) 설계,To Do,Epic-17/F2114,source_or_contract_present
+Epic-17,KR1-888,KR1-832,Feature,[F2115] 3D CAD Exterior 및 Packaging 설계,To Do,Epic-17/F2115,source_or_contract_present
+Epic-17,KR1-893,KR1-832,Feature,[F2116] Design Mock-up 제작,To Do,Epic-17/F2116,source_or_contract_present
+Epic-17,KR1-898,KR1-832,Feature,[F2117] 사용자 사용성 Test 및 UX 평가,To Do,Epic-17/F2117,source_or_contract_present
+Epic-17,KR1-903,KR1-832,Feature,[F2118] 디자인 개선 및 최종 Design Freeze,To Do,Epic-17/F2118,source_or_contract_present
+Epic-17,KR1-908,KR1-832,Feature,[F2119] 양산 Design/DFM 및 외장 구조 확정,To Do,Epic-17/F2119,source_or_contract_present
+Epic-17,KR1-913,KR1-832,Feature,[F2128] 캐릭터형·리얼형 Face UI 사용자 평가,To Do,Epic-17/F2128,source_or_contract_present
+Epic-17,KR1-918,KR1-832,Feature,[F2134] Stage1~4 공통 Body Size·Work Envelope 규격,To Do,Epic-17/F2134,source_or_contract_present
+Epic-17,KR1-923,KR1-832,Feature,[F2154] Robot Fashion 기계 Interface·안전 표준,To Do,Epic-17/F2154,source_or_contract_present
+Epic-17,KR1-928,KR1-832,Feature,[F2155] 고객군별 Robot Fashion·CMF·Accessory Design,To Do,Epic-17/F2155,source_or_contract_present
+Epic-17,KR1-1111,KR1-832,Other direct child,[KR1-SP2-C04] 사용자 2군 시나리오·음향·터치 사용성 검증,To Do,,requires_task_specific_followup
+Epic-17,KR1-834,KR1-833,Sub-task,[F2104-S01] 제품 Concept 및 Target User 정의 요구사양·Interface·BOM 설계,To Do,Epic-17/F2104/F2104-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-835,KR1-833,Sub-task,[F2104-S02] 제품 Concept 및 Target User 정의 CAD·회로·Prototype 제작,To Do,Epic-17/F2104/F2104-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-836,KR1-833,Sub-task,[F2104-S03] 제품 Concept 및 Target User 정의 Bench·통합·안전 시험,To Do,Epic-17/F2104/F2104-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-837,KR1-833,Sub-task,[F2104-S04] 제품 Concept 및 Target User 정의 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2104/F2104-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-839,KR1-838,Sub-task,[F2105-S01] Stage1 제품 기능 Requirement 정의 요구사양·Interface·BOM 설계,To Do,Epic-17/F2105/F2105-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-840,KR1-838,Sub-task,[F2105-S02] Stage1 제품 기능 Requirement 정의 CAD·회로·Prototype 제작,To Do,Epic-17/F2105/F2105-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-841,KR1-838,Sub-task,[F2105-S03] Stage1 제품 기능 Requirement 정의 Bench·통합·안전 시험,To Do,Epic-17/F2105/F2105-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-842,KR1-838,Sub-task,[F2105-S04] Stage1 제품 기능 Requirement 정의 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2105/F2105-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-844,KR1-843,Sub-task,[F2106-S01] 사용자 Scenario·Journey·Use Case 설계 요구사양·Interface·BOM 설계,To Do,Epic-17/F2106/F2106-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-845,KR1-843,Sub-task,[F2106-S02] 사용자 Scenario·Journey·Use Case 설계 CAD·회로·Prototype 제작,To Do,Epic-17/F2106/F2106-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-846,KR1-843,Sub-task,[F2106-S03] 사용자 Scenario·Journey·Use Case 설계 Bench·통합·안전 시험,To Do,Epic-17/F2106/F2106-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-847,KR1-843,Sub-task,[F2106-S04] 사용자 Scenario·Journey·Use Case 설계 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2106/F2106-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-849,KR1-848,Sub-task,[F2107-S01] Human-Robot Interaction 기본 원칙 설계 요구사양·Interface·BOM 설계,To Do,Epic-17/F2107/F2107-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-850,KR1-848,Sub-task,[F2107-S02] Human-Robot Interaction 기본 원칙 설계 CAD·회로·Prototype 제작,To Do,Epic-17/F2107/F2107-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-851,KR1-848,Sub-task,[F2107-S03] Human-Robot Interaction 기본 원칙 설계 Bench·통합·안전 시험,To Do,Epic-17/F2107/F2107-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-852,KR1-848,Sub-task,[F2107-S04] Human-Robot Interaction 기본 원칙 설계 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2107/F2107-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-854,KR1-853,Sub-task,[F2108-S01] 로봇 Size·비례·자세·동작 영역 설계 요구사양·Interface·BOM 설계,To Do,Epic-17/F2108/F2108-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-855,KR1-853,Sub-task,[F2108-S02] 로봇 Size·비례·자세·동작 영역 설계 CAD·회로·Prototype 제작,To Do,Epic-17/F2108/F2108-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-856,KR1-853,Sub-task,[F2108-S03] 로봇 Size·비례·자세·동작 영역 설계 Bench·통합·안전 시험,To Do,Epic-17/F2108/F2108-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-857,KR1-853,Sub-task,[F2108-S04] 로봇 Size·비례·자세·동작 영역 설계 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2108/F2108-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-859,KR1-858,Sub-task,[F2109-S01] 외관 Industrial Design Concept 요구사양·Interface·BOM 설계,To Do,Epic-17/F2109/F2109-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-860,KR1-858,Sub-task,[F2109-S02] 외관 Industrial Design Concept CAD·회로·Prototype 제작,To Do,Epic-17/F2109/F2109-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-861,KR1-858,Sub-task,[F2109-S03] 외관 Industrial Design Concept Bench·통합·안전 시험,To Do,Epic-17/F2109/F2109-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-862,KR1-858,Sub-task,[F2109-S04] 외관 Industrial Design Concept DFM·Design Freeze·양산 인계,To Do,Epic-17/F2109/F2109-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-864,KR1-863,Sub-task,[F2110-S01] 얼굴 Display·표정 UX Design 요구사양·Interface·BOM 설계,To Do,Epic-17/F2110/F2110-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-865,KR1-863,Sub-task,[F2110-S02] 얼굴 Display·표정 UX Design CAD·회로·Prototype 제작,To Do,Epic-17/F2110/F2110-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-866,KR1-863,Sub-task,[F2110-S03] 얼굴 Display·표정 UX Design Bench·통합·안전 시험,To Do,Epic-17/F2110/F2110-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-867,KR1-863,Sub-task,[F2110-S04] 얼굴 Display·표정 UX Design DFM·Design Freeze·양산 인계,To Do,Epic-17/F2110/F2110-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-869,KR1-868,Sub-task,[F2111-S01] 가슴 Touch LCD UI/UX 요구사양·Interface·BOM 설계,To Do,Epic-17/F2111/F2111-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-870,KR1-868,Sub-task,[F2111-S02] 가슴 Touch LCD UI/UX CAD·회로·Prototype 제작,To Do,Epic-17/F2111/F2111-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-871,KR1-868,Sub-task,[F2111-S03] 가슴 Touch LCD UI/UX Bench·통합·안전 시험,To Do,Epic-17/F2111/F2111-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-872,KR1-868,Sub-task,[F2111-S04] 가슴 Touch LCD UI/UX DFM·Design Freeze·양산 인계,To Do,Epic-17/F2111/F2111-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-874,KR1-873,Sub-task,[F2112-S01] 음성·표정·Gesture Interaction UX 요구사양·Interface·BOM 설계,To Do,Epic-17/F2112/F2112-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-875,KR1-873,Sub-task,[F2112-S02] 음성·표정·Gesture Interaction UX CAD·회로·Prototype 제작,To Do,Epic-17/F2112/F2112-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-876,KR1-873,Sub-task,[F2112-S03] 음성·표정·Gesture Interaction UX Bench·통합·안전 시험,To Do,Epic-17/F2112/F2112-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-877,KR1-873,Sub-task,[F2112-S04] 음성·표정·Gesture Interaction UX DFM·Design Freeze·양산 인계,To Do,Epic-17/F2112/F2112-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-879,KR1-878,Sub-task,[F2113-S01] 버튼·터치·충전·전원 등 Physical UX 요구사양·Interface·BOM 설계,To Do,Epic-17/F2113/F2113-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-880,KR1-878,Sub-task,[F2113-S02] 버튼·터치·충전·전원 등 Physical UX CAD·회로·Prototype 제작,To Do,Epic-17/F2113/F2113-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-881,KR1-878,Sub-task,[F2113-S03] 버튼·터치·충전·전원 등 Physical UX Bench·통합·안전 시험,To Do,Epic-17/F2113/F2113-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-882,KR1-878,Sub-task,[F2113-S04] 버튼·터치·충전·전원 등 Physical UX DFM·Design Freeze·양산 인계,To Do,Epic-17/F2113/F2113-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-884,KR1-883,Sub-task,[F2114-S01] CMF(Material/Color/Finish) 설계 요구사양·Interface·BOM 설계,To Do,Epic-17/F2114/F2114-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-885,KR1-883,Sub-task,[F2114-S02] CMF(Material/Color/Finish) 설계 CAD·회로·Prototype 제작,To Do,Epic-17/F2114/F2114-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-886,KR1-883,Sub-task,[F2114-S03] CMF(Material/Color/Finish) 설계 Bench·통합·안전 시험,To Do,Epic-17/F2114/F2114-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-887,KR1-883,Sub-task,[F2114-S04] CMF(Material/Color/Finish) 설계 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2114/F2114-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-889,KR1-888,Sub-task,[F2115-S01] 3D CAD Exterior 및 Packaging 설계 요구사양·Interface·BOM 설계,To Do,Epic-17/F2115/F2115-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-890,KR1-888,Sub-task,[F2115-S02] 3D CAD Exterior 및 Packaging 설계 CAD·회로·Prototype 제작,To Do,Epic-17/F2115/F2115-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-891,KR1-888,Sub-task,[F2115-S03] 3D CAD Exterior 및 Packaging 설계 Bench·통합·안전 시험,To Do,Epic-17/F2115/F2115-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-892,KR1-888,Sub-task,[F2115-S04] 3D CAD Exterior 및 Packaging 설계 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2115/F2115-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-894,KR1-893,Sub-task,[F2116-S01] Design Mock-up 제작 요구사양·Interface·BOM 설계,To Do,Epic-17/F2116/F2116-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-895,KR1-893,Sub-task,[F2116-S02] Design Mock-up 제작 CAD·회로·Prototype 제작,To Do,Epic-17/F2116/F2116-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-896,KR1-893,Sub-task,[F2116-S03] Design Mock-up 제작 Bench·통합·안전 시험,To Do,Epic-17/F2116/F2116-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-897,KR1-893,Sub-task,[F2116-S04] Design Mock-up 제작 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2116/F2116-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-899,KR1-898,Sub-task,[F2117-S01] 사용자 사용성 Test 및 UX 평가 요구사양·Interface·BOM 설계,To Do,Epic-17/F2117/F2117-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-900,KR1-898,Sub-task,[F2117-S02] 사용자 사용성 Test 및 UX 평가 CAD·회로·Prototype 제작,To Do,Epic-17/F2117/F2117-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-901,KR1-898,Sub-task,[F2117-S03] 사용자 사용성 Test 및 UX 평가 Bench·통합·안전 시험,To Do,Epic-17/F2117/F2117-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-902,KR1-898,Sub-task,[F2117-S04] 사용자 사용성 Test 및 UX 평가 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2117/F2117-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-904,KR1-903,Sub-task,[F2118-S01] 디자인 개선 및 최종 Design Freeze 요구사양·Interface·BOM 설계,To Do,Epic-17/F2118/F2118-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-905,KR1-903,Sub-task,[F2118-S02] 디자인 개선 및 최종 Design Freeze CAD·회로·Prototype 제작,To Do,Epic-17/F2118/F2118-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-906,KR1-903,Sub-task,[F2118-S03] 디자인 개선 및 최종 Design Freeze Bench·통합·안전 시험,To Do,Epic-17/F2118/F2118-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-907,KR1-903,Sub-task,[F2118-S04] 디자인 개선 및 최종 Design Freeze DFM·Design Freeze·양산 인계,To Do,Epic-17/F2118/F2118-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-909,KR1-908,Sub-task,[F2119-S01] 양산 Design/DFM 및 외장 구조 확정 요구사양·Interface·BOM 설계,To Do,Epic-17/F2119/F2119-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-910,KR1-908,Sub-task,[F2119-S02] 양산 Design/DFM 및 외장 구조 확정 CAD·회로·Prototype 제작,To Do,Epic-17/F2119/F2119-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-911,KR1-908,Sub-task,[F2119-S03] 양산 Design/DFM 및 외장 구조 확정 Bench·통합·안전 시험,To Do,Epic-17/F2119/F2119-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-912,KR1-908,Sub-task,[F2119-S04] 양산 Design/DFM 및 외장 구조 확정 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2119/F2119-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-914,KR1-913,Sub-task,[F2128-S01] 캐릭터형·리얼형 Face UI 사용자 평가 요구사양·Interface·BOM 설계,To Do,Epic-17/F2128/F2128-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-915,KR1-913,Sub-task,[F2128-S02] 캐릭터형·리얼형 Face UI 사용자 평가 CAD·회로·Prototype 제작,To Do,Epic-17/F2128/F2128-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-916,KR1-913,Sub-task,[F2128-S03] 캐릭터형·리얼형 Face UI 사용자 평가 Bench·통합·안전 시험,To Do,Epic-17/F2128/F2128-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-917,KR1-913,Sub-task,[F2128-S04] 캐릭터형·리얼형 Face UI 사용자 평가 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2128/F2128-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-919,KR1-918,Sub-task,[F2134-S01] Stage1~4 공통 Body Size·Work Envelope 규격 요구사양·Interface·BOM 설계,To Do,Epic-17/F2134/F2134-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-920,KR1-918,Sub-task,[F2134-S02] Stage1~4 공통 Body Size·Work Envelope 규격 CAD·회로·Prototype 제작,To Do,Epic-17/F2134/F2134-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-921,KR1-918,Sub-task,[F2134-S03] Stage1~4 공통 Body Size·Work Envelope 규격 Bench·통합·안전 시험,To Do,Epic-17/F2134/F2134-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-922,KR1-918,Sub-task,[F2134-S04] Stage1~4 공통 Body Size·Work Envelope 규격 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2134/F2134-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-924,KR1-923,Sub-task,[F2154-S01] Robot Fashion 기계 Interface·안전 표준 요구사양·Interface·BOM 설계,To Do,Epic-17/F2154/F2154-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-925,KR1-923,Sub-task,[F2154-S02] Robot Fashion 기계 Interface·안전 표준 CAD·회로·Prototype 제작,To Do,Epic-17/F2154/F2154-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-926,KR1-923,Sub-task,[F2154-S03] Robot Fashion 기계 Interface·안전 표준 Bench·통합·안전 시험,To Do,Epic-17/F2154/F2154-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-927,KR1-923,Sub-task,[F2154-S04] Robot Fashion 기계 Interface·안전 표준 DFM·Design Freeze·양산 인계,To Do,Epic-17/F2154/F2154-S04,inventory_checked_not_individually_accepted
+Epic-17,KR1-929,KR1-928,Sub-task,[F2155-S01] 고객군별 Robot Fashion·CMF·Accessory Design 요구사양·Interface·BOM 설계,To Do,Epic-17/F2155/F2155-S01,inventory_checked_not_individually_accepted
+Epic-17,KR1-930,KR1-928,Sub-task,[F2155-S02] 고객군별 Robot Fashion·CMF·Accessory Design CAD·회로·Prototype 제작,To Do,Epic-17/F2155/F2155-S02,inventory_checked_not_individually_accepted
+Epic-17,KR1-931,KR1-928,Sub-task,[F2155-S03] 고객군별 Robot Fashion·CMF·Accessory Design Bench·통합·안전 시험,To Do,Epic-17/F2155/F2155-S03,inventory_checked_not_individually_accepted
+Epic-17,KR1-932,KR1-928,Sub-task,[F2155-S04] 고객군별 Robot Fashion·CMF·Accessory Design DFM·Design Freeze·양산 인계,To Do,Epic-17/F2155/F2155-S04,inventory_checked_not_individually_accepted

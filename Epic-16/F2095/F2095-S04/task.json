@@ -1,0 +1,21 @@
+{
+  "id": "F2095-S04",
+  "jira": "KR1-741",
+  "parent": "KR1-737",
+  "title": "[F2095-S04] 얼굴 Display·Touch LCD·Audio HW 구축 DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: Face/Touch display·Class-D/speaker chamber·AEC reference 경로를 설계",
+  "data": "display resolution·touch HID·audio path·amplifier",
+  "boundary": "발열·공진·volume·touch fault·Mic leakage",
+  "metrics": "frame latency·음질·AEC reference·온도",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2030",
+  "data": "robot namespace/frame id·schema/version·generation/seq·monotonic deadline·command/feedback·QoS reliability/durability/depth/deadline/liveliness·lifecycle·cancel/stop ACK.",
+  "interface": "dev /ker/sim/joint_request(std_msgs/String JSON) → CommandGate/MockMotor → /ker/sim/joint_states(sensor_msgs/JointState) 및 /ker/sim/diagnostics(DiagnosticArray). production typed custom msg/action/SROS2·robot namespace·TF는 후속 설계.",
+  "metrics": "topic/action end-to-end p50/p95·deadline/liveliness/jitter·lost/late/duplicate·startup recovery·cancel/stop ACK·허용 외 command 0건",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

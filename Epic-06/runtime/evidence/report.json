@@ -1,0 +1,29 @@
+{
+  "source_commit": "local-uncommitted",
+  "scope": "synthetic_local_contract_prototype",
+  "tests": 58,
+  "per_feature_tests": {
+    "F2030": 8,
+    "F2031": 8,
+    "F2032": 8,
+    "F2033": 8,
+    "F2034": 8,
+    "F2035": 8,
+    "F2120": 10
+  },
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "actual_hardware_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "release_ready": false,
+  "pending": [
+    "real_board_drivers_motors_sensors_BMS",
+    "URDF_calibration_feedback_safety_controller",
+    "real_time_QoS_clock_failures",
+    "production_auth_privacy_epoch_events",
+    "approved_parameters_and_freeze",
+    "actual_mission_Q1_R1_rollback"
+  ]
+}

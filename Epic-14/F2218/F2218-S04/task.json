@@ -1,0 +1,21 @@
+{
+  "id": "F2218-S04",
+  "jira": "KR1-609",
+  "parent": "KR1-605",
+  "title": "[F2218-S04] Monthly Settlement 및 Revenue Analytics 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: 월 매출·환불·PG 수수료·AI원가를 통화별 대사",
+  "data": "ledger·settlement period·tax ref·fees·provider usage",
+  "boundary": "기간경계·정산차이·통화 혼합·반올림",
+  "metrics": "대사차이·마감시간·근거 연결",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

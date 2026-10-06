@@ -1,0 +1,21 @@
+{
+  "id": "F2165-S04",
+  "jira": "KR1-938",
+  "parent": "KR1-934",
+  "title": "[F2165-S04] 특허 Governance·발명관리 Process OA·해외·유지·사업화 관리",
+  "work": "OA/해외/연차료·FTO/라이선스·권리상태 후속관리: 발명신고·발명자/권리자·공개전검토·분류/예산/책임 프로세스를 구성",
+  "data": "invention id·inventors·owner·disclosure·evidence",
+  "boundary": "공개 선행·권리귀속 불명·기한누락",
+  "metrics": "승인추적·공개전검토coverage·책임자",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

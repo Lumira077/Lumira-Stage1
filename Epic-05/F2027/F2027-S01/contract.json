@@ -1,0 +1,10 @@
+{
+  "schema": "perception-v1",
+  "feature": "F2027",
+  "data": "owner/epoch·track id·hand/pose landmarks·confidence/visibility·gesture label·frame timestamp·stable window/gap·event id·모델/hash/언어 아닌 gesture ontology·consent.",
+  "interface": "camera/landmark/gesture adapter → scoped stable gate → InteractionCandidate → Epic-02 대화/Epic-04 표현. gesture stop 후보는 실제 E-stop hardware와 구분한다.",
+  "metrics": "gesture macro-F1/confusion matrix·pose angle error·거리/조명/가림 coverage·중복 이벤트·FAR/누락·p95 latency",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

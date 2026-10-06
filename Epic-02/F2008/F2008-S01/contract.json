@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2008",
+  "data_proposal": "WakeEvent: event_id, score, detected_at, epoch, audio_source; WakeState: ready/listening/cooldown",
+  "interface_proposal": "WakeGate.trigger(event) → accepted/start_session; 실제 wake model은 별도 adapter",
+  "acceptance": "실기 호출·비호출 데이터에서 승인된 FAR/FRR와 지연을 충족하고 mute/에코로 세션이 시작되지 않는다.",
+  "metrics": "FAR/시간·FRR·wake 지연·중복 세션 0건",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

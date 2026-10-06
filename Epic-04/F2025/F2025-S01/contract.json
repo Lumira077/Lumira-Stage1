@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2025",
+  "data": "content/asset id·hash/license/rights evidence·duration/repeats/beat cues·sound volume·joint plan·thermal/clearance·owner/epoch/turn·cancel.",
+  "interface": "사용자 시작/콘텐츠 허용 → beat cue/제스처 validation → F2023 timeline → audio/display/motion ACK. 현재 실제 음악/노래/모터 재생 없음.",
+  "metrics": "beat-skew·sync/stop p95·온도/전류/부하·반복/길이 위반·무권한 콘텐츠 출력 0건·사용자 만족",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

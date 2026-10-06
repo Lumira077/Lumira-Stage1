@@ -1,0 +1,21 @@
+{
+  "id": "F2182-S02",
+  "jira": "KR1-1013",
+  "parent": "KR1-1012",
+  "title": "[F2182-S02] 특허·규제·인증·사업 Risk Readiness 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: IP/개인정보/AI윤리/제품안전/공급 risk와대응·잔여위험을 기록",
+  "data": "risk id·evidence·owner·mitigation·review",
+  "boundary": "미검증인증·FTO공백·공급중단·deadline",
+  "metrics": "핵심riskcoverage·책임/일정·근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

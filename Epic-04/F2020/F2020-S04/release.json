@@ -1,0 +1,16 @@
+{
+  "feature": "F2020",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "표정/상태 이해율·transition 가독성·FPS/dropped frame·render p50/p95·취소 후 residual frame·장시간 발열",
+  "pending": "실제 디스플레이/GPU/Qt frame loop·blink/brow rendering·event bus·대상 사용자 가독성 평가 미실시. SVG 정적 샘플은 실기 FPS 검증이 아니다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

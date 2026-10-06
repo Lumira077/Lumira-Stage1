@@ -1,0 +1,21 @@
+{
+  "id": "F2102-S04",
+  "jira": "KR1-776",
+  "parent": "KR1-772",
+  "title": "[F2102-S04] HW Prototype #2 개선 및 제품화 설계 DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: EVT결함→Rev.B 보드/배선/열/정비 개선→제품화 gate를 관리",
+  "data": "defect·change request·revision·retest",
+  "boundary": "원인미상·회귀·호환성·공급변경",
+  "metrics": "결함closure·재시험·제품화 승인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

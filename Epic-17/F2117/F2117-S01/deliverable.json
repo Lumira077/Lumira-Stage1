@@ -1,0 +1,44 @@
+{
+  "id": "F2117-S01",
+  "jira_key": "KR1-899",
+  "source_scope": "과제/표본/환경/관찰/질문/합격 기준. 탐색 조사와 출시 검증 구분.",
+  "work_now": "모집/동의/환경·과제·분모·결측 처리·목표 정의",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2117/F2117-S01/deliverable.json",
+  "acceptance": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+  "remaining": "참여자 모집·동의·실물/UI시험; Python·CSV",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "요구·입출력·검증 초안 작성"
+}

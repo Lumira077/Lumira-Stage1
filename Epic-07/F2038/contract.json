@@ -1,0 +1,34 @@
+{
+  "feature": "F2038",
+  "jira": "KR1-293",
+  "epic": "Epic-07",
+  "epic_jira": "KR1-282",
+  "title": "[F2038] 자기 위치 추정",
+  "work": "map 기반 pose/covariance를 추정하고 위치 상실·kidnapped robot 재초기화를 처리",
+  "data": "pose·covariance·map revision·TF age",
+  "boundary": "잘못된 지도·재배치·센서 stale·confidence 저하",
+  "metrics": "위치 오차·재위치추정 시간·오복구",
+  "stage_work": [
+    "Interface/TF·clock·state·제어주기·QoS·Simulation 설계",
+    "ROS2/제어/센서·actuator adapter 구현 및 version 관리",
+    "실물/통신/한계·고장주입·물리 ACK·안전 시험",
+    "실환경 반복임무·Parameter Freeze·운용제한/rollback"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "Nav2",
+      "https://docs.nav2.org/"
+    ],
+    [
+      "SLAM Toolbox",
+      "https://github.com/SteveMacenski/slam_toolbox"
+    ]
+  ],
+  "intervention": "실제 이동베이스·LiDAR/Depth/IMU/encoder·URDF/footprint·TF/clock·승인 속도/정지거리·cliff 센서·dock/BMS·실내 지도·시험 공간",
+  "dependencies": "센서/TF → 지도/위치 → 경로/장애물 → 도킹 → 공간 Wizard. Epic-06 코어·Epic-16 HW·Epic-13 독립 안전·Epic-11 앱·Epic-15 공간과 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

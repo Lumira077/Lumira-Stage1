@@ -1,0 +1,10 @@
+{
+  "schema": "perception-v1",
+  "feature": "F2029",
+  "data": "person/scene detection·track bbox·count·distance/bearing/unit/source/calibration·presence score·sensor readiness/timestamp·owner/epoch·consent·scene 민감도/원본 비저장.",
+  "interface": "person detector/proximity/depth → presence/approach metadata → Epic-01 활성 사용자/Epic-02 대기/깨우기/Epic-06 제한된 상황 입력. 존재는 사용자 identity/장애물 안전 검증과 구분한다.",
+  "metrics": "person precision/recall·false wake/leave·distance/bearing error·coverage/unknown·p95·센서 장애 복구·민감 scene 노출 0건",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2022",
+  "data": "gesture id/version·joint names/radian waypoints·timestamp·measured start pose·joint position/velocity/acceleration/jerk·collision/clearance·current/temp·stop state.",
+  "interface": "GestureProposal → 실제 measured-state bridge·safety controller → FollowJointTrajectory goal/feedback/result. 현 로컬 plan은 executable=false이고 ROS/모터 명령을 전송하지 않는다.",
+  "metrics": "tracking error·position/velocity/acceleration/jerk limits·실제 clearance/접촉·stop latency·전류/온도·failure recovery",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

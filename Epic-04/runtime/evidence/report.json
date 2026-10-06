@@ -1,0 +1,31 @@
+{
+  "source_commit": "local-uncommitted",
+  "scope": "synthetic_local_contract_prototype",
+  "tests": 78,
+  "per_feature_tests": {
+    "F2020": 9,
+    "F2021": 9,
+    "F2022": 9,
+    "F2023": 11,
+    "F2024": 8,
+    "F2025": 7,
+    "F2129": 8,
+    "F2130": 9,
+    "F2131": 8
+  },
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "release_ready": false,
+  "pending": [
+    "physical_display_speaker_joints_feedback",
+    "actual_tts_alignment_and_semantic_adapters",
+    "licensed_assets_and_model_weights",
+    "production_auth_privacy_and_cancel_events",
+    "approved_motion_render_sync_limits",
+    "actual_user_Q1_R1_release_validation"
+  ]
+}

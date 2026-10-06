@@ -1,0 +1,21 @@
+{
+  "id": "F2184-S02",
+  "jira": "KR1-1020",
+  "parent": "KR1-1019",
+  "title": "[F2184-S02] VC·CVC·전략투자자 Target List·CRM 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: 투자단계/산업/지역/ticket/접근경로를검증source의 CRM으로 구성",
+  "data": "org id·source date·thesis·stage·ticket·contact consent",
+  "boundary": "stale list·미검증연락처·중복·권한",
+  "metrics": "verified coverage·적합성근거·후속상태",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

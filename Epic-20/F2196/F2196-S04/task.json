@@ -1,0 +1,21 @@
+{
+  "id": "F2196-S04",
+  "jira": "KR1-1063",
+  "parent": "KR1-1062",
+  "title": "[F2196-S04] Stage 1 출시 Campaign·Sales Operation 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: 기술출시 gate에따라Demo/예약전환/주문/설치/초기VOC운영을 준비",
+  "data": "release checklist·campaign·order·install·VOC",
+  "boundary": "미검증출시·공급지연·환불·행사지연",
+  "metrics": "전환/매출·배송/활성·초기VOC",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

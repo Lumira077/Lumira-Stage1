@@ -1,0 +1,21 @@
+{
+  "id": "F2140-S03",
+  "jira": "KR1-567",
+  "parent": "KR1-564",
+  "title": "[F2140-S03] Torque·Current 충돌 감지 및 가변 제한 Fault Injection·침투·안전 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: torque/current·근접·속도에 따른 충돌 후보 및 제한도를 구성",
+  "data": "torque·current·distance·speed·threshold version",
+  "boundary": "센서단선·정상충격·오탐·과부하",
+  "metrics": "검출지연·오탐/미탐·limit 변경추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

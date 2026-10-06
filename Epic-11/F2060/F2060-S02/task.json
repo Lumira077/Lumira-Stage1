@@ -1,0 +1,21 @@
+{
+  "id": "F2060-S02",
+  "jira": "KR1-439",
+  "parent": "KR1-437",
+  "title": "[F2060-S02] 모바일 앱 계정 및 로봇 연결 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 계정 인증·일회 pairing·기기 소유권·가족 초대/해제를 구성",
+  "data": "account·robot id·pair token ref·owner epoch",
+  "boundary": "토큰 재사용·소유권 변경·분실·권한 상승",
+  "metrics": "pairing 성공률·cross-owner 차단·해제 반영",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

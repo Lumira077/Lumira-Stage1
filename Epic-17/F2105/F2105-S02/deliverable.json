@@ -1,0 +1,44 @@
+{
+  "id": "F2105-S02",
+  "jira_key": "KR1-840",
+  "source_scope": "MVP 상태 초안: 대기/듣기/처리/말하기/오류/프라이버시/충전. 기능과 화면·동작 반응 표.",
+  "work_now": "대기/듣기/처리/말하기/음소거/오류/충전 UI 상태 구현",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2105/F2105-S02/deliverable.json",
+  "acceptance": "로컬 상태 테스트는 실제 HW 안전 시험을 대체하지 않음",
+  "remaining": "HW 이벤트/제어 API·전원 피드백; Python·브라우저",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "프로토타입 또는 설계 입력 작성"
+}

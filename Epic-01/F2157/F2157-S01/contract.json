@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "feature": "F2157",
+  "proposed_data": "OutfitRegistry는 outfit_id, theme_id, package_version, allowed_models, device_capabilities, package_hash, approval_state를 포함한다. ThemeManifest는 face_skin, voice_id, gesture_catalog, dialogue_pack, fallback_theme, policy_revision을 포함한다.",
+  "proposed_interfaces": "/ker/outfit/event에 reader_id, outfit_id, event_type, detected_at, sequence, sensor_health를 전달한다. Theme Service는 prepare_theme→validate→commit_theme→ACK 순서로 적용한다. GET /v1/themes/{id}와 POST /v1/sessions/{id}/theme/apply를 제안한다.",
+  "acceptance": "등록된 의상에서 허용 에셋이 같은 theme_revision으로 적용된다. 미등록·변조·제거·감지 장애·사용자 거부·모듈 ACK 실패 때 부분 테마를 남기지 않고 기본 Persona 또는 안전 출력으로 복귀한다.",
+  "requirements": [
+    "NFC에는 승인된 의상 식별자를 사용하고 실행 코드·임의 Prompt·외부 다운로드 주소를 신뢰하지 않는다. UID 자체를 인증 수단으로 보지 않는다.",
+    "의상 감지 후 등록·호환성·사용자 허용·에셋 무결성을 검증하고 모든 모듈 준비가 완료된 뒤 한 번에 테마를 활성화한다.",
+    "물리적 의상 제거 감지는 NFC 리더 구성에 따라 달라진다. 지속 presence 확인 또는 별도 센서 경로를 정하고 이벤트 유실 시 기본 Persona로 복귀한다."
+  ],
+  "error_codes": [
+    "INVALID_INPUT",
+    "NOT_AUTHORIZED",
+    "STALE_CONTEXT",
+    "NOT_READY",
+    "NOT_SUPPORTED"
+  ],
+  "status": "design_proposal"
+}

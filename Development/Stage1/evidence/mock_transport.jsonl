@@ -1,0 +1,7 @@
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 0, "topic": "safety_state", "latency_ms": 0.22971, "accepted": true, "hardware_execution": false, "result": "accepted"}
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 1, "topic": "dialogue_event", "latency_ms": 0.244703, "accepted": true, "hardware_execution": false, "result": "accepted"}
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 2, "topic": "expression_state", "latency_ms": 0.259856, "accepted": true, "hardware_execution": false, "result": "accepted"}
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 3, "topic": "gesture_request", "latency_ms": 0.299726, "accepted": true, "hardware_execution": false, "result": "accepted"}
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 4, "topic": "joint_states", "latency_ms": 0.318755, "accepted": true, "hardware_execution": false, "result": "accepted"}
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 5, "topic": "safety_state", "latency_ms": 0.33594, "accepted": true, "hardware_execution": false, "result": "accepted"}
+{"transport": "localhost_tcp_not_dds", "subscriber_pid": 2, "publisher_pid": 7, "seq": 6, "topic": "/ker/sim/sprint1/gesture_request", "latency_ms": 0.343652, "result": "rejected", "reason": "inhibited", "hardware_execution": false}

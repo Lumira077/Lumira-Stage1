@@ -1,0 +1,44 @@
+[
+  {
+    "id": "UC-01",
+    "task": "첫 설정",
+    "success_evidence": "동의와 상태 의미를 설명",
+    "failure_recovery": "취소/기본 설정",
+    "observed": false
+  },
+  {
+    "id": "UC-02",
+    "task": "대화 시작·종료",
+    "success_evidence": "시작/종료 상태 확인",
+    "failure_recovery": "중단 존중",
+    "observed": false
+  },
+  {
+    "id": "UC-03",
+    "task": "음량 변경",
+    "success_evidence": "선택값과 실제 음량",
+    "failure_recovery": "취소/이전 값",
+    "observed": false
+  },
+  {
+    "id": "UC-04",
+    "task": "연결 끊김",
+    "success_evidence": "오류 이해·재연결",
+    "failure_recovery": "성공을 가장하지 않음",
+    "observed": false
+  },
+  {
+    "id": "UC-05",
+    "task": "기록 삭제",
+    "success_evidence": "실제 삭제 API 증적",
+    "failure_recovery": "실패 안내·재시도",
+    "observed": false
+  },
+  {
+    "id": "UC-06",
+    "task": "충전",
+    "success_evidence": "충전 확인·이동 금지",
+    "failure_recovery": "케이블/정격 확인",
+    "observed": false
+  }
+]

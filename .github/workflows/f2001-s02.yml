@@ -1,0 +1,40 @@
+name: KR1-4 F2001-S02 prototype tests
+on:
+  push:
+    paths:
+      - 'Epic-01/F2001/F2001-S02/**'
+      - '.github/workflows/f2001-s02.yml'
+  pull_request:
+    paths:
+      - 'Epic-01/F2001/F2001-S02/**'
+      - '.github/workflows/f2001-s02.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prototype:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: Epic-01/F2001/F2001-S02
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/smoke.py
+      - run: node --check web/app.js
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:ui
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: F2001-S02-browser-evidence
+          path: Epic-01/F2001/F2001-S02/evidence/
+          if-no-files-found: warn

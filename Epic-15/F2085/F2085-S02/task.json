@@ -1,0 +1,21 @@
+{
+  "id": "F2085-S02",
+  "jira": "KR1-673",
+  "parent": "KR1-671",
+  "title": "[F2085-S02] 스마트홈 기기 연동 알고리즘·제어기·HW 연동 구현",
+  "work": "ROS2/제어/센서·actuator adapter 구현 및 version 관리: 승인 기기 목록의 상태조회·제어·결과확인을 Stage2부터 구성",
+  "data": "device id·capability·command·state revision",
+  "boundary": "미승인기기·offline·state mismatch·민감기기",
+  "metrics": "호환성·실행확인·권한차단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

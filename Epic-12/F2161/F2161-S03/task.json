@@ -1,0 +1,21 @@
+{
+  "id": "F2161-S03",
+  "jira": "KR1-521",
+  "parent": "KR1-518",
+  "title": "[F2161-S03] 원격 진단·Predictive Maintenance 통합·보안·부하·복구 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: 전원/배터리/모터/온도 이력과 근거로 정비 후보를 제안",
+  "data": "device series·fault·maintenance threshold·evidence",
+  "boundary": "센서 누락·오탐·cold start·모델 drift",
+  "metrics": "예측 precision/recall·정비lead time·coverage",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

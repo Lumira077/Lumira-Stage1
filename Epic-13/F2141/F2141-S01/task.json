@@ -1,0 +1,21 @@
+{
+  "id": "F2141-S01",
+  "jira": "KR1-570",
+  "parent": "KR1-569",
+  "title": "[F2141-S01] Safety MCU 독립 Torque 차단·검증 위험분석·보안요구·검증계획",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: Safety MCU의 독립 watchdog·torque disable·feedback·reset을 검증",
+  "data": "MCU heartbeat·hardware enable·feedback·fault",
+  "boundary": "Linux freeze·bus 단절·sensor fault·reset glitch",
+  "metrics": "독립 차단시간·실제 torque 0·fault coverage",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

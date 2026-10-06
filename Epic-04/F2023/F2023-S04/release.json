@@ -1,0 +1,16 @@
+{
+  "feature": "F2023",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "face/audio/motion onset/skew/drift p50/p95·late/drop·취소 요청→ACK/물리정지·잔여출력·clock reversal",
+  "pending": "actual clock/renderer/audio/motor adapter·ACK timeout/watchdog·자동 동의/사용자 전환 이벤트 전파 미구현. 가상 ACK는 물리 정지 증거가 아니다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

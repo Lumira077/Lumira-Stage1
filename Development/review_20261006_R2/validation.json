@@ -1,0 +1,62 @@
+[
+  {
+    "suite": "Epic-01",
+    "command": "python Epic-01/integration/run.py",
+    "exit_code": 0,
+    "tests": 65
+  },
+  {
+    "suite": "Epic-02",
+    "command": "python Epic-02/runtime/run.py",
+    "exit_code": 0,
+    "tests": 132
+  },
+  {
+    "suite": "Epic-03",
+    "command": "python Epic-03/runtime/run.py",
+    "exit_code": 0,
+    "tests": 63
+  },
+  {
+    "suite": "Epic-04",
+    "command": "python Epic-04/runtime/run.py",
+    "exit_code": 0,
+    "tests": 78
+  },
+  {
+    "suite": "Epic-05",
+    "command": "python Epic-05/runtime/run.py",
+    "exit_code": 0,
+    "tests": 61
+  },
+  {
+    "suite": "Epic-06",
+    "command": "python Epic-06/runtime/run.py",
+    "exit_code": 0,
+    "tests": 58
+  },
+  {
+    "suite": "Development",
+    "command": "python Development/runtime/run.py",
+    "exit_code": 0,
+    "tests": 80
+  },
+  {
+    "suite": "Epic-17",
+    "command": "python -m unittest discover -s Epic-17/tests -v",
+    "exit_code": 0,
+    "tests": 22
+  },
+  {
+    "suite": "Stage1",
+    "command": "python -m unittest discover -s Development/Stage1/tests -v",
+    "exit_code": 0,
+    "tests": 16
+  },
+  {
+    "suite": "Bringup",
+    "command": "python -m unittest discover -s Development/Stage1/bringup/tests -v",
+    "exit_code": 0,
+    "tests": 20
+  }
+]

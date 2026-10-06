@@ -1,0 +1,18 @@
+{
+  "feature": "F2013",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "언어별 CER/WER·이해/응답 품질·지원 불일치·사용자 정정률",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 한영 locale 지원 계약만 구현; 실제 다국어 모델·번역/언어 감지·음성 품질 평가 필요"
+}

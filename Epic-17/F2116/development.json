@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2116",
+  "jira_key": "KR1-893",
+  "title": "[F2116] Design Mock-up 제작",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "외형/UX 목업과 안전 구동 시제품을 구분하여 제작·평가 절차를 정의한다.",
+  "specific_deliverables": [
+    "외형/비구동/구동 목업별 목적·부품·위험·환경",
+    "브라우저 UX 목업과 실제 크기 비구동 목업 제작 계획",
+    "목업 조립·서비스·터치·하네스 및 실물 측정 양식",
+    "목업 revision·사진·질량·결함·사용성 조건 인계"
+  ],
+  "gate": "디지털 목업 완료가 실물 제작 완료가 아님",
+  "tools_and_dependencies": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-39"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2116-S01",
+      "jira_key": "KR1-894",
+      "source_scope": "축척/재료/표면/화면·버튼 더미/가동·배선·비용·발주 요구.",
+      "work_now": "외형/비구동/구동 목업별 목적·부품·위험·환경",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2116/F2116-S01/deliverable.json",
+      "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+      "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2116-S02",
+      "jira_key": "KR1-895",
+      "source_scope": "제작 브리프 초안: 외관 목업은 비례·착용, 기능 목업은 조작·가동·상태 반응. 식별/버전 표시.",
+      "work_now": "브라우저 UX 목업과 실제 크기 비구동 목업 제작 계획",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2116/F2116-S02/deliverable.json",
+      "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+      "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2116-S03",
+      "jira_key": "KR1-896",
+      "source_scope": "치수·조립·운반·가시성·관절/의상 간섭·정비 평가. 목업 시험과 제품 시험 구분.",
+      "work_now": "목업 조립·서비스·터치·하네스 및 실물 측정 양식",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2116/F2116-S03/deliverable.json",
+      "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+      "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2116-S04",
+      "jira_key": "KR1-897",
+      "source_scope": "실물 사진·측정·결함·수정과 F2117 평가 조건.",
+      "work_now": "목업 revision·사진·질량·결함·사용성 조건 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2116/F2116-S04/deliverable.json",
+      "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+      "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

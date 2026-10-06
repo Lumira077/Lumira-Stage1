@@ -1,0 +1,30 @@
+{
+  "feature": "F2048",
+  "jira": "KR1-375",
+  "epic": "Epic-09",
+  "epic_jira": "KR1-374",
+  "title": "[F2048] 복약 및 일정 알림",
+  "work": "사용자 승인 복약/일정의 timezone 반복·snooze·확인·재알림을 구현",
+  "data": "schedule id·local time·timezone·occurrence·ack",
+  "boundary": "DST·시계변경·중복전달·연결 단절",
+  "metrics": "중복 알림 0건·누락률·도달시간",
+  "stage_work": [
+    "대상 사용자 Scenario·검수콘텐츠·금지사항·동의/운영 기준",
+    "서비스 로직·콘텐츠/화면·대화/연동 Package 구현",
+    "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가",
+    "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단"
+  ],
+  "implementation": "Reminder",
+  "scope": "partial_offline_utility",
+  "missing_stages": [],
+  "tools": [
+    [
+      "OpenTelemetry",
+      "https://opentelemetry.io/docs/collector/"
+    ]
+  ],
+  "intervention": "동의한 사용자/보호자·알림 채널 계정/수신ACK·camera/참조측정기·검증dataset·전문가 검토·운영 escalation",
+  "dependencies": "일정/정서 지원 → 후보 이벤트/측정 품질 → 보호자 전달/ACK → 동의한 리포트. Epic-02 대화·Epic-03/05 인지·Epic-11 앱·Epic-12 관제·Epic-13 개인정보 연결. rPPG/정서/낙상은 미검증 후보/참고정보이며 진단/처방/응급대응 보장을 주장하지 않는다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

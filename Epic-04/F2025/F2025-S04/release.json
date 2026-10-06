@@ -1,0 +1,16 @@
+{
+  "feature": "F2025",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "beat-skew·sync/stop p95·온도/전류/부하·반복/길이 위반·무권한 콘텐츠 출력 0건·사용자 만족",
+  "pending": "실제 노래/음악/beat extraction·license 검증 서비스·trajectory/장비/thermal·player 미연결. rights는 trusted fixture이며 실제 권리 증거 검증이 아니다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

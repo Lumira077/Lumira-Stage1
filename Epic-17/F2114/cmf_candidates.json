@@ -1,0 +1,30 @@
+[
+  {
+    "region": "body",
+    "material_candidate": "ABS/PC-ABS or prototype plastic",
+    "thickness_candidate_mm": 3,
+    "tests": "manufacturing/impact/cleaning/thermal",
+    "supplier_verified": false
+  },
+  {
+    "region": "head_arm",
+    "material_candidate": "prototype plastic",
+    "thickness_candidate_mm": "2–2.5",
+    "tests": "stiffness/fastener/cleaning",
+    "supplier_verified": false
+  },
+  {
+    "region": "hand",
+    "material_candidate": "TPU or silicone",
+    "thickness_candidate_mm": null,
+    "tests": "flexibility/tear/cleaning/contact",
+    "supplier_verified": false
+  },
+  {
+    "region": "grille",
+    "material_candidate": "acoustic perforated panel",
+    "thickness_candidate_mm": null,
+    "tests": "frequency response/cleaning/occlusion",
+    "supplier_verified": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "ker-f2001-s02-ui-tests",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Optional browser tests only; core server uses Python stdlib",
+  "devDependencies": {
+    "playwright": "1.51.1"
+  },
+  "scripts": {
+    "test:ui": "node scripts/ui_check.cjs"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2100-S02",
+  "jira": "KR1-764",
+  "parent": "KR1-762",
+  "title": "[F2100-S02] HW Prototype #1 제작 CAD·회로·Prototype 제작",
+  "work": "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리: COTS와전용보드 hybrid Prototype#1 조립·부품/firmware baseline을 구성",
+  "data": "BOM·serial·assembly·firmware·inspection",
+  "boundary": "오부품·오배선·bus fault·전원fault",
+  "metrics": "기능checklist·baseline 추적·fail-safe",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

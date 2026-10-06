@@ -1,0 +1,10 @@
+{
+  "schema": "perception-v1",
+  "feature": "F2026",
+  "data": "owner/동의 epoch·authorized enrollment·model/hash/license·face quality/live 결과·embedding dimension/version·similarity/margin·등록/삭제 증적. 얼굴 template는 생체정보로 취급하며 원본 영상 기본 비저장·Local 암호화 저장 제안.",
+  "interface": "F2001 등록/F2002 동의 → face detector/alignment/embedding → registry match candidate → F2004 활성 사용자 확인. 후보는 인증/권한 허용과 구분하며 실제 profile 공개에는 별도 인증·확인이 필요하다.",
+  "metrics": "FAR/FRR·ROC/EER·등록/unknown coverage·조명/각도/거리/연령 subgroup·p50/p95·위조 방어·타 사용자 정보 공개/철회 후 매칭 0건",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

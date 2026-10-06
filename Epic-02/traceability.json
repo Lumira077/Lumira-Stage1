@@ -1,0 +1,350 @@
+[
+  {
+    "feature": "F2205",
+    "jira": "KR1-43",
+    "symbol": "PolicyEngine",
+    "tests": 8,
+    "implementation": "runtime/core.py",
+    "pending": "실제 위험 분류기·운영 정책 승인·실시간 로봇/요금제 상태 미연결",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2206",
+    "jira": "KR1-48",
+    "symbol": "Gateway",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재는 가상 Provider 2개만 연결; 실제 서비스 계정·모델·Secret·호출 한도·네트워크 어댑터 필요",
+    "tools": [
+      [
+        "OpenAI Realtime 공식 문서",
+        "https://developers.openai.com/api/docs/guides/realtime"
+      ],
+      [
+        "Gemini Live 공식 문서",
+        "https://ai.google.dev/gemini-api/docs/live-api"
+      ]
+    ]
+  },
+  {
+    "feature": "F2207",
+    "jira": "KR1-53",
+    "symbol": "RealtimeGate",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "실제 WebRTC/WebSocket·카메라·마이크·영상/음성 동의 UI·시각 모델 미연결",
+    "tools": [
+      [
+        "OpenAI Realtime 공식 문서",
+        "https://developers.openai.com/api/docs/guides/realtime"
+      ],
+      [
+        "Gemini Live 공식 문서",
+        "https://ai.google.dev/gemini-api/docs/live-api"
+      ]
+    ]
+  },
+  {
+    "feature": "F2208",
+    "jira": "KR1-58",
+    "symbol": "LocalContext",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 합성 fixture lexical 검색. 실제 F2003 ticket·동의 epoch·벡터/임베딩·운영 암호화/삭제 연동은 추가 구현",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2209",
+    "jira": "KR1-63",
+    "symbol": "Budget",
+    "tests": 8,
+    "implementation": "runtime/core.py",
+    "pending": "단일 프로세스 메모리 ledger. 실제 F2079/F2080·분산 원장·Provider usage·가격/환율·청구 미연결",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2210",
+    "jira": "KR1-68",
+    "symbol": "NetworkMonitor",
+    "tests": 7,
+    "implementation": "runtime/core.py",
+    "pending": "현재 합성 측정 입력; 실제 probe·장치 Wi-Fi/LTE·전환 성능 미실측",
+    "tools": [
+      [
+        "OpenAI Realtime 공식 문서",
+        "https://developers.openai.com/api/docs/guides/realtime"
+      ],
+      [
+        "Gemini Live 공식 문서",
+        "https://ai.google.dev/gemini-api/docs/live-api"
+      ]
+    ]
+  },
+  {
+    "feature": "F2211",
+    "jira": "KR1-73",
+    "symbol": "PrivacyGuard",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "분류 등급은 신뢰된 호출자 입력. 실제 PII 탐지·동의 이벤트·완전한 익명화·전송 감사 미구현",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2212",
+    "jira": "KR1-78",
+    "symbol": "Recovery",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "실제 Provider retry/circuit breaker·stream cancellation·timeout 제어·부분 오디오 복귀 미연결",
+    "tools": [
+      [
+        "OpenAI Realtime 공식 문서",
+        "https://developers.openai.com/api/docs/guides/realtime"
+      ],
+      [
+        "Gemini Live 공식 문서",
+        "https://ai.google.dev/gemini-api/docs/live-api"
+      ]
+    ]
+  },
+  {
+    "feature": "F2213",
+    "jira": "KR1-83",
+    "symbol": "QualityTelemetry",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 메모리 집계와 JSON report; 실제 metrics backend·대시보드·보존/삭제·청구 데이터 미연결",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2008",
+    "jira": "KR1-88",
+    "symbol": "WakeGate",
+    "tests": 7,
+    "implementation": "runtime/core.py",
+    "pending": "현재 detector score 입력 gate만 구현; 실제 wakeword 모델·발음 학습·마이크·AEC 필요",
+    "tools": [
+      [
+        "whisper.cpp 소스",
+        "https://github.com/ggml-org/whisper.cpp"
+      ],
+      [
+        "WebRTC Audio Processing 소스",
+        "https://webrtc.googlesource.com/src/+/refs/heads/main/modules/audio_processing/"
+      ]
+    ]
+  },
+  {
+    "feature": "F2009",
+    "jira": "KR1-93",
+    "symbol": "TranscriptAssembler",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 전사 이벤트 조립기; 음성→텍스트 모델·VAD·실녹음 평가 미연결",
+    "tools": [
+      [
+        "whisper.cpp 소스",
+        "https://github.com/ggml-org/whisper.cpp"
+      ],
+      [
+        "WebRTC Audio Processing 소스",
+        "https://webrtc.googlesource.com/src/+/refs/heads/main/modules/audio_processing/"
+      ]
+    ]
+  },
+  {
+    "feature": "F2010",
+    "jira": "KR1-98",
+    "symbol": "Dialogue",
+    "tests": 7,
+    "implementation": "runtime/core.py",
+    "pending": "현재 고정 응답 가상 Gateway 통합; 실제 자연어 생성·prompt 평가·TTS·기억/콘텐츠 Tool 미연결",
+    "tools": [
+      [
+        "OpenAI Realtime 공식 문서",
+        "https://developers.openai.com/api/docs/guides/realtime"
+      ],
+      [
+        "Gemini Live 공식 문서",
+        "https://ai.google.dev/gemini-api/docs/live-api"
+      ],
+      [
+        "F2021 감정형 TTS 연동",
+        "https://lumira077.atlassian.net/browse/KR1-175"
+      ],
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2011",
+    "jira": "KR1-103",
+    "symbol": "ConversationSession",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 단일 프로세스 일시 메모리; 인증·분산 세션·durable 요약·자동 동의 이벤트 미연결",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2012",
+    "jira": "KR1-108",
+    "symbol": "InterruptController",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 메타데이터 취소 요청/ACK; 실제 마이크 VAD·TTS/모터 큐·안전 정지 미연결",
+    "tools": [
+      [
+        "F2021 감정형 TTS 연동",
+        "https://lumira077.atlassian.net/browse/KR1-175"
+      ],
+      [
+        "WebRTC Audio Processing 소스",
+        "https://webrtc.googlesource.com/src/+/refs/heads/main/modules/audio_processing/"
+      ]
+    ]
+  },
+  {
+    "feature": "F2013",
+    "jira": "KR1-113",
+    "symbol": "LanguageResolver",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 한영 locale 지원 계약만 구현; 실제 다국어 모델·번역/언어 감지·음성 품질 평가 필요",
+    "tools": [
+      [
+        "whisper.cpp 소스",
+        "https://github.com/ggml-org/whisper.cpp"
+      ],
+      [
+        "F2021 감정형 TTS 연동",
+        "https://lumira077.atlassian.net/browse/KR1-175"
+      ],
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ]
+    ]
+  },
+  {
+    "feature": "F2014",
+    "jira": "KR1-118",
+    "symbol": "SafetyPolicy",
+    "tests": 7,
+    "implementation": "runtime/core.py",
+    "pending": "현재 태그 기반 정책 gate; 실제 의미 분류·유해성 검출·전문가 검토·긴급 연락 서비스 미연결",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ],
+      [
+        "F2021 감정형 TTS 연동",
+        "https://lumira077.atlassian.net/browse/KR1-175"
+      ]
+    ]
+  },
+  {
+    "feature": "F2121",
+    "jira": "KR1-123",
+    "symbol": "LocalCommands",
+    "tests": 6,
+    "implementation": "runtime/core.py",
+    "pending": "현재 정확 문구 parser와 proposal. 실제 제어·삭제·긴급 연락·물리 안전 경로 미연결",
+    "tools": [
+      [
+        "F2021 감정형 TTS 연동",
+        "https://lumira077.atlassian.net/browse/KR1-175"
+      ]
+    ]
+  },
+  {
+    "feature": "F2122",
+    "jira": "KR1-128",
+    "symbol": "LocalModelGate",
+    "tests": 7,
+    "implementation": "runtime/core.py",
+    "pending": "현재 자원/Tool gate만 구현; 모델 다운로드·실제 추론·RK3588 NPU/Jetson 가속·실물 benchmark 미실시",
+    "tools": [
+      [
+        "llama.cpp 소스",
+        "https://github.com/ggml-org/llama.cpp"
+      ],
+      [
+        "RKNN Toolkit2 소스",
+        "https://github.com/rockchip-linux/rknn-toolkit2"
+      ]
+    ]
+  },
+  {
+    "feature": "F2123",
+    "jira": "KR1-133",
+    "symbol": "HybridRouter",
+    "tests": 7,
+    "implementation": "runtime/core.py",
+    "pending": "현재 신뢰된 상태 snapshot의 로컬 조합; 실시간 분산 이벤트·actual Cloud/Local·요금제·운영 개인화 미연결",
+    "tools": [
+      [
+        "Epic-01 개인화·동의",
+        "https://lumira077.atlassian.net/browse/KR1-1"
+      ],
+      [
+        "OpenAI Realtime 공식 문서",
+        "https://developers.openai.com/api/docs/guides/realtime"
+      ],
+      [
+        "Gemini Live 공식 문서",
+        "https://ai.google.dev/gemini-api/docs/live-api"
+      ]
+    ]
+  },
+  {
+    "feature": "F2126",
+    "jira": "KR1-138",
+    "symbol": "AudioLab",
+    "tests": 8,
+    "implementation": "runtime/core.py",
+    "pending": "현재 기초 DSP 계산·계약 시험. adaptive AEC·실제 beamformer·TDOA 추정·마이크 배열·실물 성능 미구현",
+    "tools": [
+      [
+        "WebRTC Audio Processing 소스",
+        "https://webrtc.googlesource.com/src/+/refs/heads/main/modules/audio_processing/"
+      ],
+      [
+        "whisper.cpp 소스",
+        "https://github.com/ggml-org/whisper.cpp"
+      ]
+    ]
+  }
+]

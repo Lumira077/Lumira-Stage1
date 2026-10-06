@@ -1,0 +1,18 @@
+{
+  "feature": "F2012",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "barge-in/stop→실제 무음/정지 p95·미확인 ACK·late drop",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 메타데이터 취소 요청/ACK; 실제 마이크 VAD·TTS/모터 큐·안전 정지 미연결"
+}

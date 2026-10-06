@@ -1,0 +1,21 @@
+{
+  "id": "F2175-S02",
+  "jira": "KR1-986",
+  "parent": "KR1-984",
+  "title": "[F2175-S02] 등록·연차료·권리평가·영업비밀 관리 선행기술·경쟁권리 조사",
+  "work": "선행문헌/family/claim·차별/회피·검색 근거 조사: 등록/연차료/존속·유지포기/영업비밀·권리평가를 기록",
+  "data": "registration·annuity verified due·owner·decision",
+  "boundary": "미납·양도·공개·영업비밀 접근",
+  "metrics": "최신권리상태·기한근거·결정추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "docket_review",
+  "actual_external_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2144-S04",
+  "jira": "KR1-363",
+  "parent": "KR1-359",
+  "title": "[F2144-S04] Force·Slip 기반 Adaptive Soft Grasp 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: force/slip feedback로 힘 증분·재파지·중단을 결정",
+  "data": "force·slip·max force·force rate·feedback age",
+  "boundary": "계속 slip·과압·센서 stale·파손 위험",
+  "metrics": "slip 회복률·힘 overshoot·낙하/파손",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "grasp_proposal",
+  "actual_external_calls": 0
+}

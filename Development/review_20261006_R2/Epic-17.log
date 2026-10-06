@@ -1,0 +1,27 @@
+test_ab (test_review.ReviewTest.test_ab) ... ok
+test_bad_box (test_review.ReviewTest.test_bad_box) ... ok
+test_bad_inputs (test_review.ReviewTest.test_bad_inputs) ... ok
+test_charging_conversation_still_possible (test_review.ReviewTest.test_charging_conversation_still_possible) ... ok
+test_clearing_does_not_restart (test_review.ReviewTest.test_clearing_does_not_restart) ... ok
+test_dialogue (test_review.ReviewTest.test_dialogue) ... ok
+test_disconnect (test_review.ReviewTest.test_disconnect) ... ok
+test_duplicate (test_review.ReviewTest.test_duplicate) ... ok
+test_freeze_blocks_missing (test_review.ReviewTest.test_freeze_blocks_missing) ... ok
+test_freeze_draft (test_review.ReviewTest.test_freeze_draft) ... ok
+test_freeze_issue (test_review.ReviewTest.test_freeze_issue) ... ok
+test_freeze_never_approves (test_review.ReviewTest.test_freeze_never_approves) ... ok
+test_freeze_revision (test_review.ReviewTest.test_freeze_revision) ... ok
+test_interlocks (test_review.ReviewTest.test_interlocks) ... ok
+test_invalid_metrics (test_review.ReviewTest.test_invalid_metrics) ... ok
+test_metrics_consent (test_review.ReviewTest.test_metrics_consent) ... ok
+test_metrics_denominator (test_review.ReviewTest.test_metrics_denominator) ... ok
+test_mute (test_review.ReviewTest.test_mute) ... ok
+test_no_observations (test_review.ReviewTest.test_no_observations) ... ok
+test_overlap (test_review.ReviewTest.test_overlap) ... ok
+test_sequence (test_review.ReviewTest.test_sequence) ... ok
+test_unknown_never_safe (test_review.ReviewTest.test_unknown_never_safe) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.001s
+
+OK

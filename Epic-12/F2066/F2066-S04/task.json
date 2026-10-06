@@ -1,0 +1,21 @@
+{
+  "id": "F2066-S04",
+  "jira": "KR1-482",
+  "parent": "KR1-478",
+  "title": "[F2066-S04] 원격 상태 모니터링 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: heartbeat/배터리/온도/장애의 freshness·경보·offline를 구성",
+  "data": "device metadata·heartbeat·metrics·TTL",
+  "boundary": "중복/지연·network partition·온도 Unknown",
+  "metrics": "수집지연·availability·stale 오표시",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

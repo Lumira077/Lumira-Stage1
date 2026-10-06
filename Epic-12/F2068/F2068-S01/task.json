@@ -1,0 +1,21 @@
+{
+  "id": "F2068-S01",
+  "jira": "KR1-489",
+  "parent": "KR1-488",
+  "title": "[F2068-S01] OTA 소프트웨어 업데이트 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 서명·hash·호환성·version·전원/안전 preflight와 A/B 설치를 설계",
+  "data": "manifest·signature ref·digest·HW revision·slot",
+  "boundary": "서명위조·다운그레이드·전원단절·용량부족",
+  "metrics": "검증 실패 차단·부팅 성공·복구시간",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "ota_preflight",
+  "actual_external_calls": 0
+}

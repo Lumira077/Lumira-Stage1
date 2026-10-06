@@ -1,0 +1,21 @@
+{
+  "id": "F2164-S03",
+  "jira": "KR1-582",
+  "parent": "KR1-579",
+  "title": "[F2164-S03] Fleet 최소 Metadata·Privacy·Security Policy Fault Injection·침투·안전 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: fleet 최소 metadata와 목적/보유/접근·raw 비전송을 구성",
+  "data": "metadata allowlist·consent epoch·tenant·retention",
+  "boundary": "raw 영상/대화/집배치·cross-tenant·철회",
+  "metrics": "원문전송 0건·삭제전파·접근검증",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "minimal_event",
+  "actual_external_calls": 0
+}

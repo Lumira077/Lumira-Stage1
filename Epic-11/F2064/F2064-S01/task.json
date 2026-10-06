@@ -1,0 +1,21 @@
+{
+  "id": "F2064-S01",
+  "jira": "KR1-458",
+  "parent": "KR1-457",
+  "title": "[F2064-S01] 보호자 음성·영상 통화 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 사용자 수락·camera/mic 표시·암호화 통화·즉시 종료를 설계",
+  "data": "call id·participants·consent·signaling·ICE",
+  "boundary": "수락 없음·네트워크 전환·권한 철회·도청",
+  "metrics": "연결성·종료반영·원문 비저장",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "emotion-v1",
+  "feature": "F2015",
+  "data": "사용자/동의 epoch, frame timestamp, face_count, 조명/각도/가림 quality, 얼굴 관찰 특징, 모델/label schema 버전, 확률분포. 원본 영상·얼굴 template는 기본 비저장; 추적 identity를 사용자 인증으로 취급하지 않는다.",
+  "interface": "FaceObservation → quality/consent/active-user gate → EmotionObservation. 다른 사용자·epoch·schema 거절; 다중 얼굴·저품질·stale/미래 frame은 unknown.",
+  "labels": [
+    "happy",
+    "sad",
+    "angry",
+    "anxious",
+    "neutral"
+  ],
+  "unknown": "abstention, not a trained class",
+  "metrics": "조명/각도/가림/연령별 coverage·macro-F1/UAR·ECE·unknown 비율·p50/p95 지연; 사용자 혼선/철회 후 처리 0건",
+  "approval": "pending",
+  "thresholds": "example only: quality .5, confidence .6, margin .15, TTL 2 sec, skew .3 sec; retention 60 sec, min samples 3",
+  "evaluation": "subject-separated train/calibration/test; subgroup and confusion matrix; no clinical ground truth claim"
+}

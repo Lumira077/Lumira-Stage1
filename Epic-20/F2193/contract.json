@@ -1,0 +1,32 @@
+{
+  "feature": "F2193",
+  "jira": "KR1-1051",
+  "epic": "Epic-20",
+  "epic_jira": "KR1-1039",
+  "title": "[F2193] Stage 1 사전 Community·Beta User 모집",
+  "work": "Beta 모집·동의·배포/회수·보상·VOC를 설계",
+  "data": "participant consent·device assignment·trial·VOC",
+  "boundary": "미성년동의·안전미준비·미회수·개인정보",
+  "metrics": "모집/활성·회수율·VOC·안전gate",
+  "stage_work": [
+    "목표시장/자금·KPI·가정/예산·실행계획 확정",
+    "자료/CRM/재무/제안 Package·권한/근거 구축",
+    "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+    "실제성과/의사결정·개선/후속계획·승인 근거"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [
+    1
+  ],
+  "tools": [
+    [
+      "n8n Jira",
+      "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+    ]
+  ],
+  "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+  "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

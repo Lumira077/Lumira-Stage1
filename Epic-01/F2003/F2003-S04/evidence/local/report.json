@@ -1,0 +1,42 @@
+{
+  "feature": "F2003",
+  "source_commit": "local-uncommitted",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "mode": "synthetic_local",
+  "tests": {
+    "F2003-S01": {
+      "run": 19,
+      "failed": 0,
+      "errors": 0
+    },
+    "F2003-S02": {
+      "run": 31,
+      "failed": 0,
+      "errors": 0
+    },
+    "F2003-S03": {
+      "run": 13,
+      "failed": 0,
+      "errors": 0
+    },
+    "F2003-S04": {
+      "run": 20,
+      "failed": 0,
+      "errors": 0
+    }
+  },
+  "total": 83,
+  "failed": 0,
+  "errors": 0,
+  "real_model_tests": "not_run",
+  "hardware_tests": "not_run",
+  "actual_user_study": "not_run",
+  "production_restore": "not_run",
+  "release_ready": false,
+  "software_gate": "passed",
+  "dependency_hashes_verified": true,
+  "proposed_local_path_p95_ms": 500,
+  "latency_target_status": "passed",
+  "fixture_quality_gate": "passed"
+}

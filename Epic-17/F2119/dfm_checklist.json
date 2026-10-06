@@ -1,0 +1,68 @@
+[
+  {
+    "id": "DFM-01",
+    "item": "공법/재료",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-02",
+    "item": "분할선/언더컷",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-03",
+    "item": "벽두께/리브/보스",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-04",
+    "item": "체결/공차",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-05",
+    "item": "흡배기/음향",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-06",
+    "item": "하네스 고정/서비스",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-07",
+    "item": "배터리 인출",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-08",
+    "item": "관절/휠/센서 간섭",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-09",
+    "item": "조립/검사 지그",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-10",
+    "item": "견적/납기/수율",
+    "supplier_result": null,
+    "status": "pending"
+  },
+  {
+    "id": "DFM-11",
+    "item": "청소/분해/서비스",
+    "supplier_result": null,
+    "status": "pending"
+  }
+]

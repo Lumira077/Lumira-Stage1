@@ -1,0 +1,44 @@
+{
+  "id": "F2106-S03",
+  "jira_key": "KR1-846",
+  "source_scope": "과제별 성공/도움/시간/오류 관찰. 사용자가 상태를 설명할 수 있는지 평가.",
+  "work_now": "각 과제의 성공·시간·도움·오류 수집 양식 작성",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2106/F2106-S03/deliverable.json",
+  "acceptance": "알림 저장·개인정보 삭제는 실제 API 성공 확인 후 완료 표시",
+  "remaining": "서비스/API 계약·동의 정책; PowerPoint·브라우저",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2211",
+  "data_proposal": "PrivacyDecision: allow_cloud, local_only, reason, consent_revision, approved_provider; raw content 분류 결과 별도",
+  "interface_proposal": "PrivacyGuard.check(classification,consent,safety,provider) → decision; F2205/F2206/F2207 호출 직전 재평가",
+  "acceptance": "승인된 시험 집합에서 금지 전송 0건이며 policy/consent version이 감사 메타데이터에 남는다.",
+  "metrics": "금지 전송 0건·분류 오누락·동의 철회 반영 지연·reason 분포",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

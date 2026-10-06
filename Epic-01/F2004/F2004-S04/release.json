@@ -1,0 +1,16 @@
+{
+  "feature": "F2004",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "required_evidence": [
+    "real_robot_integration",
+    "actual_user_study",
+    "security_and_privacy_review",
+    "operational_rollback",
+    "Q1_test_review",
+    "R1_release_approval"
+  ],
+  "actual_evidence": {},
+  "metric_scope": "local simulated operations; not unique users",
+  "hardware_status": "not_connected"
+}

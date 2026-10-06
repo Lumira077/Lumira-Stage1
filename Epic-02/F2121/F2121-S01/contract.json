@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2121",
+  "data_proposal": "LocalCommand: intent, action_id, required_authority; Result: proposal_only, message, executed",
+  "interface_proposal": "LocalCommands.parse(text) → proposal; 실제 stop은 별도 안전 제어기로 즉시 전달·ACK",
+  "acceptance": "실기 기본 명령이 Cloud 호출 없이 목표시간 내 수행되고 긴급 연락/삭제는 실제 실행 증거 없이 완료로 응답하지 않는다.",
+  "metrics": "offline 성공률·stop ACK 지연·명령 오실행 0건",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

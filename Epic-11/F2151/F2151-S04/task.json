@@ -1,0 +1,21 @@
+{
+  "id": "F2151-S04",
+  "jira": "KR1-466",
+  "parent": "KR1-462",
+  "title": "[F2151-S04] Stage2 User & Space Onboarding App 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: Stage2 계정/로봇/네트워크/공간/사용자/IoT 온보딩 재개 흐름을 구성",
+  "data": "wizard version·step·map ref·owner epoch",
+  "boundary": "중단·재개·기기 복구·로봇과 상태 불일치",
+  "metrics": "필수 설정 완료율·복구 일치·동의 보존",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

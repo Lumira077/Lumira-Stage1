@@ -1,0 +1,21 @@
+{
+  "feature": "F2003",
+  "candidate_version": "0.1.0",
+  "source_commit": "resolve from CI GITHUB_SHA",
+  "python": ">=3.11",
+  "schema_version": 1,
+  "context_contract": "f2003-context-v1",
+  "f2002_commit": "3fd646a51f0d437dc2a62829bcb7b602544c98ae",
+  "extractor": "explicit-preference-rules-v1",
+  "search": "normalized-substring-and-bigram-v1",
+  "llm": null,
+  "prompt": null,
+  "embedding": null,
+  "vector_store": null,
+  "cloud_adapter": null,
+  "firmware": null,
+  "robot_model": null,
+  "production_config": null,
+  "mode": "synthetic_local",
+  "release_ready": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2146-S04",
+  "jira": "KR1-373",
+  "parent": "KR1-369",
+  "title": "[F2146-S04] 양팔 협조 제어·재파지·지원 요청 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: 양팔 trajectory 동기화·하중분배·재파지와 지원 요청을 구성",
+  "data": "paired trajectories·sync·load·grasp state",
+  "boundary": "한 팔 고장·동기 손실·편하중·slip",
+  "metrics": "상대 pose 오차·동기 skew·복구율",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2067-S01",
+  "jira": "KR1-484",
+  "parent": "KR1-483",
+  "title": "[F2067-S01] 로그·이벤트·진단 수집 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 최소 telemetry allowlist·buffer·재전송·retention·삭제를 구성",
+  "data": "event id·schema·code·stamp·retention",
+  "boundary": "원문/Secret 포함·overflow·중복·offline",
+  "metrics": "유실률·중복률·민감원문 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "minimal_event",
+  "actual_external_calls": 0
+}

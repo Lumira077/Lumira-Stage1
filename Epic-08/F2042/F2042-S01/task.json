@@ -1,0 +1,21 @@
+{
+  "id": "F2042-S01",
+  "jira": "KR1-320",
+  "parent": "KR1-319",
+  "title": "[F2042-S01] Dynamixel 기반 다관절 팔 제어 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: DYNAMIXEL joint mapping·profile·limits·measured feedback와 trajectory 실행을 연결",
+  "data": "joint id·rad·velocity·current·temperature·bus",
+  "boundary": "overload·전원/버스 단절·통신 checksum·encoder 이상",
+  "metrics": "추종오차·주기 jitter·정지 확인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

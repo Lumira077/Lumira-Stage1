@@ -1,0 +1,432 @@
+{
+  "epic": "Epic-19",
+  "jira": "KR1-994",
+  "features": [
+    {
+      "feature": "F2177",
+      "jira": "KR1-995",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2177] 투자유치 목표·Round·Milestone Financing 전략",
+      "work": "Stage별개발/인증/양산/시장진입 자금과round·milestone·대체조달을 구성",
+      "data": "uses of funds·cashflow·round·milestone·scenario",
+      "boundary": "조달지연·원가상승·일정지연·매출미달",
+      "metrics": "cash runway·milestonecoverage·승인",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2178",
+      "jira": "KR1-999",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2178] 투자 준비도 점검·Data Room 구축",
+      "work": "법인/주주/재무/계약/인력/기술/IP자료 index와 접근권한을 구성",
+      "data": "document id·version·classification·owner·expiry",
+      "boundary": "과거자료·권한초과·민감정보·미제출",
+      "metrics": "필수자료coverage·version·접근감사",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2179",
+      "jira": "KR1-1003",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2179] 5개년 재무모델·자금사용계획·Unit Economics",
+      "work": "5년수익·원가·구독·A/S·인건비·CAPEX·현금흐름 시나리오를 계산",
+      "data": "assumptions·units·price·cost·cash·currency",
+      "boundary": "가격/원가변화·refund·salesdelay·회계기간",
+      "metrics": "cashflow·contribution margin·runway·sensitivity",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": "cashflow",
+      "scope": "partial_offline_utility",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2180",
+      "jira": "KR1-1007",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2180] IR Deck·Executive Summary·기술 Demo Package",
+      "work": "IR story·제품Demo·실제시험근거·재무모델을 한version으로 묶기",
+      "data": "deck·onepager·demo video ref·claims·financial version",
+      "boundary": "과장효과·수치불일치·Demo미재현·공개IP",
+      "metrics": "메시지일관성·수치근거·검토승인",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2,
+        3
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2181",
+      "jira": "KR1-1009",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2181] PoC·고객 Interview·LOI·초기매출 Evidence",
+      "work": "고객문제/지불의사·PoC·LOI·유료전환 근거를 수집/분리",
+      "data": "interview consent·PoC scope·KPI·LOI ref·receipt",
+      "boundary": "무동의·선택편향·LOI를매출오인·trial만료",
+      "metrics": "고객별근거·PoC KPI·실제유료증적",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2182",
+      "jira": "KR1-1012",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2182] 특허·규제·인증·사업 Risk Readiness",
+      "work": "IP/개인정보/AI윤리/제품안전/공급 risk와대응·잔여위험을 기록",
+      "data": "risk id·evidence·owner·mitigation·review",
+      "boundary": "미검증인증·FTO공백·공급중단·deadline",
+      "metrics": "핵심riskcoverage·책임/일정·근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2183",
+      "jira": "KR1-1016",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2183] 정부 R&D·정책자금·보증·민간투자 Matching",
+      "work": "정부 R&D·보증·정책/민간 matching을공고근거/자격·중복/비용과 연결",
+      "data": "program source·eligibility·deadline verified·matching",
+      "boundary": "공고변경·중복수혜·자부담·자격불명",
+      "metrics": "자격근거·신청검토·실제접수증",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2184",
+      "jira": "KR1-1019",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2184] VC·CVC·전략투자자 Target List·CRM",
+      "work": "투자단계/산업/지역/ticket/접근경로를검증source의 CRM으로 구성",
+      "data": "org id·source date·thesis·stage·ticket·contact consent",
+      "boundary": "stale list·미검증연락처·중복·권한",
+      "metrics": "verified coverage·적합성근거·후속상태",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2185",
+      "jira": "KR1-1023",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2185] 투자자 Outreach·미팅·Follow-up Pipeline",
+      "work": "소개/미팅/실사/조건협상 pipeline과개별자료·후속조치를 준비",
+      "data": "lead id·consent·stage·meeting ref·next action",
+      "boundary": "무승인발송·중복접촉·NDA·응답없음",
+      "metrics": "단계전환·실제미팅근거·후속조치",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2186",
+      "jira": "KR1-1024",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2186] 투자 Due Diligence·Q&A 대응",
+      "work": "실사 Q&A의근거/책임자/공유범위·미결쟁점을 관리",
+      "data": "question id·answer version·evidence·reviewer",
+      "boundary": "민감공유·근거없음·답변모순·기한",
+      "metrics": "Q&Acoverage·일치성·미결쟁점",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2187",
+      "jira": "KR1-1028",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2187] Valuation·Cap Table·Term Sheet 조건협상",
+      "work": "valuation·pre/post-money·optionpool·희석·조건을scenario로 비교",
+      "data": "cap table·shares·investment·terms·scenario",
+      "boundary": "optionpool효과·계산오류·권한조건·후속round",
+      "metrics": "희석/주식수정합성·조건검토근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": "dilution",
+      "scope": "partial_offline_utility",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2188",
+      "jira": "KR1-1032",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2188] 투자계약·법률검토·Closing·자금입금",
+      "work": "계약/선행조건/승인/납입/등기·cap table reconciliation을 관리",
+      "data": "contract version·conditions·approval·receipt ref",
+      "boundary": "미서명·조건미충족·미입금·날짜불일치",
+      "metrics": "법률검토·서명/입금근거·cap table일치",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2189",
+      "jira": "KR1-1036",
+      "epic": "Epic-19",
+      "epic_jira": "KR1-994",
+      "title": "[F2189] 투자금 집행·KPI 보고·후속투자 준비",
+      "work": "승인 use-of-funds와 집행/개발/매출 KPI·runway·후속round를 관리",
+      "data": "budget version·expenses·cash·milestone·report",
+      "boundary": "예산초과·수치누락·조달지연·성과미달",
+      "metrics": "계획vs실적·runway·보고근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2
+      ],
+      "tools": [
+        [
+          "Python Decimal",
+          "https://docs.python.org/3/library/decimal.html"
+        ]
+      ],
+      "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+      "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 31,
+  "release_ready": false
+}

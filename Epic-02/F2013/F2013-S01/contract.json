@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2013",
+  "data_proposal": "LanguageProfile: selected_locale, supported_stt/llm/tts, catalog_version; locale에 따라 prompt/voice 매핑",
+  "interface_proposal": "LanguageResolver.choose(requested,capabilities) → locale; 프로필은 F2002 권위 값",
+  "acceptance": "출시 언어별 STT/응답/TTS/화면·콘텐츠가 일관되고 임의 언어 전환으로 동의·정책이 바뀌지 않는다.",
+  "metrics": "언어별 CER/WER·이해/응답 품질·지원 불일치·사용자 정정률",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

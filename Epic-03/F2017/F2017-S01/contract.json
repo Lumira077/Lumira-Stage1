@@ -1,0 +1,18 @@
+{
+  "schema": "emotion-v1",
+  "feature": "F2017",
+  "data": "활성 사용자/epoch·turn id·locale·bounded text·문맥 범위·자기보고/추론 origin·모델/prompt 버전·확률 및 근거 metadata. 원문 기본 비저장; 기억/프로필은 동의 범위 내 참조.",
+  "interface": "F2009 전사/F2011 활성 turn → text emotion adapter → EmotionObservation; F2014 의미 안전성/위기 정책에 별도 연결. 감정 label을 진단·긴급 신고 근거로 직접 사용하지 않는다.",
+  "labels": [
+    "happy",
+    "sad",
+    "angry",
+    "anxious",
+    "neutral"
+  ],
+  "unknown": "abstention, not a trained class",
+  "metrics": "문맥별 macro-F1·ECE·self-report/추론 구분률·부정/타인 오탐·unknown·위기 경로 false positive/negative(별도 검증)",
+  "approval": "pending",
+  "thresholds": "example only: quality .5, confidence .6, margin .15, TTL 2 sec, skew .3 sec; retention 60 sec, min samples 3",
+  "evaluation": "subject-separated train/calibration/test; subgroup and confusion matrix; no clinical ground truth claim"
+}

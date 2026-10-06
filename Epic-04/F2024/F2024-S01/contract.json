@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2024",
+  "data": "bounded trusted intent tag/confidence·emotion candidate/unknown·profile/persona·quiet·clearance·stop state·allowed gestures·policy/version·reason.",
+  "interface": "F2010 intent/F2018 감정 후보·F2002 선호 → allowlist policy → GestureProposal → F2022 safety validation → F2023 timeline. 자유 생성 joint trajectory는 직접 실행하지 않는다.",
+  "metrics": "intent-gesture 적합률·금지/unknown 제스처·unsafe proposal 0건·사용자 선호/불편·selection p95",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

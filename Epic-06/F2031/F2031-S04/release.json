@@ -1,0 +1,16 @@
+{
+  "feature": "F2031",
+  "release_ready": false,
+  "actual_hardware_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "보드 교체 계약 호환·boot/driver recovery·CPU/RAM/GPU/NPU/온도·bus latency·device fault isolation",
+  "pending": "실제 RK3588/Jetson SDK/OS/device discovery/driver/NPU·장시간 실기 미연결. arch capability fixture는 실제 보드 지원/성능을 입증하지 않는다.",
+  "required": [
+    "actual_robot_control_quality",
+    "privacy_auth_consent_epoch_delete_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

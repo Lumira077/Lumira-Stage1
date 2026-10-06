@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2120",
+  "data": "task id/owner/epoch/generation·function/privacy/consent·runtime/resource/latency deadline·network/budget·placement/provider/model/policy version·bounded result/cancel/usage.",
+  "interface": "Epic-02 policy/F2123 route·Epic-01 동의 → orchestrator scheduling → local/edge/cloud adapters → scoped result integration. 실시간 제어/정지 경로는 Cloud에 배치하지 않는다.",
+  "metrics": "queue/end-to-end deadline·CPU/RAM/GPU/NPU·route/fallback latency·cost/usage·취소/stale result·제어 Cloud placement 0건·민감 전송 0건",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

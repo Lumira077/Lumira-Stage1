@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2210",
+  "data_proposal": "NetworkSample: rtt_ms, loss_ratio, bandwidth_kbps, measured_at; RouteHealth: local/cloud, recovery_count",
+  "interface_proposal": "NetworkMonitor.observe(sample) → routing_hint; 실제 측정은 네트워크 어댑터",
+  "acceptance": "정의된 열화 시험에서 개인정보/세션을 보존하며 대체 경로로 전환하고 회복 시 반복 재접속을 방지한다.",
+  "metrics": "전환 시간·flap 횟수·RTT/loss·샘플 age",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

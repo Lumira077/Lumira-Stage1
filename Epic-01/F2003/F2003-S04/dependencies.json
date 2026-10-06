@@ -1,0 +1,15 @@
+{
+  "F2003-S01/memory_contract/__init__.py": "172b32e7a804dbddf760337760b4b8c92b262efb2cfc768a8b150feb83e34124",
+  "F2003-S01/memory_contract/__main__.py": "31b6ec63b013ea9ca5119864d9c7d05ecaa9f08b4b30a5b55d648f1dcd294203",
+  "F2003-S02/memory_service/service.py": "96ea4e06ff13bd81db88ea94c2e6fe623c4cd7237fcf327c5c79ef1375843e56",
+  "F2003-S02/memory_service/__init__.py": "f4ba4841f54ad376810a76d526494a6379e2c935e3ca321871883b7b0b2de5ad",
+  "F2003-S02/memory_service/api.py": "9ba185647c223e1264355a57de80ac8945b8f4bc259d5ad08a13d578365ac28b",
+  "F2003-S02/memory_service/policy.py": "8fc2859bf1bf36da46b0946d42887828b2fb7e9496f45e78523bc4e6809a451f",
+  "F2003-S02/memory_service/dependency.py": "c626745d2979cca33f599c062f598f9515f2a03654dc93c7068c1def6dbc60d5",
+  "F2003-S02/memory_service/__main__.py": "82422a6ab02edca1347ad3d8b9cfba545e9ca1e821f4a74fb16d6ab3e0974c70",
+  "F2003-S02/memory_service/fixtures.py": "6ff563bcbd93c2d4c33a71be703d7498c6f25d4f5dc3f02575a2a6a54046bf9e",
+  "F2003-S03/memory_lab/__init__.py": "28bffc954789f7021a0fc803aed520ebd8b0b12280c90bb064fad3d682433772",
+  "F2003-S03/memory_lab/evaluation.py": "20c24a04821e078f537c0a97ac259d7bbb171d1d049413493a5b61da5b408d1c",
+  "F2003-S03/memory_lab/dependency.py": "5e11984e4ffd422532ae682651895ba68aac30a2710454ffe713a35fdd856271",
+  "F2003-S03/memory_lab/dialogue.py": "025a8b41cab7b59e7912bd1112a117fdb53308c8af9ee3cdd728f15129c2a9fd"
+}

@@ -1,0 +1,16 @@
+{
+  "feature": "F2032",
+  "release_ready": false,
+  "actual_hardware_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "tracking error·제어 jitter·position/velocity/acceleration/jerk·전류/온도·watchdog/정지시간·실제 stop ACK·reset evidence",
+  "pending": "실제 motor/servo/CAN/PWM/encoder·다관절/effort/가감속/jerk/collision·hardware E-stop/watchdog·물리 정지/안전자세 미연결. software latch/Mock position은 실제 모터 안전 제어가 아니다.",
+  "required": [
+    "actual_robot_control_quality",
+    "privacy_auth_consent_epoch_delete_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

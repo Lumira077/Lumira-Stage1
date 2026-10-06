@@ -1,0 +1,21 @@
+{
+  "id": "F2220-S04",
+  "jira": "KR1-619",
+  "parent": "KR1-615",
+  "title": "[F2220-S04] Jira 및 n8n Billing Exception Automation 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: billing exception event를 dedup key로 Jira/n8n proposal에 연결",
+  "data": "exception id·correlation·severity·ticket ref",
+  "boundary": "중복 event·webhook retry·sync loop·Secret 노출",
+  "metrics": "동일 event 1건·sync 지연·회복률",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

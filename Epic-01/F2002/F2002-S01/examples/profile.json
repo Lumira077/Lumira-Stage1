@@ -1,0 +1,20 @@
+{
+  "language": "ko-KR",
+  "nickname": "가명",
+  "preferred_name": "친구",
+  "purpose": "companion",
+  "preferences": {
+    "voice_id": "device_default",
+    "speech_rate": 1.0,
+    "volume": 20,
+    "expression_level": 1,
+    "gesture_level": 1
+  },
+  "consent": {
+    "long_term_memory": false,
+    "conversation_storage": false,
+    "biometric_identity": false,
+    "cloud_transfer": false,
+    "policy_version": "prototype-2026-10-v1"
+  }
+}

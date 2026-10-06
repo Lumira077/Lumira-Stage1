@@ -1,0 +1,30 @@
+{
+  "feature": "F2201",
+  "jira": "KR1-1084",
+  "epic": "Epic-20",
+  "epic_jira": "KR1-1039",
+  "title": "[F2201] Stage 4 고령자·접근성·생활보조 Marketing",
+  "work": "Stage4고령자/접근성/생활보조 가치와 실제평가근거를 준비",
+  "data": "audience·accessibility needs·claims·evidence",
+  "boundary": "미검증승강·사용자피로·의료과장",
+  "metrics": "대상별사용평가·접근성·안전근거",
+  "stage_work": [
+    "목표시장/자금·KPI·가정/예산·실행계획 확정",
+    "자료/CRM/재무/제안 Package·권한/근거 구축",
+    "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+    "실제성과/의사결정·개선/후속계획·승인 근거"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "n8n Jira",
+      "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+    ]
+  ],
+  "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+  "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,12 @@
+{
+  "assets": [],
+  "issues": [
+    {
+      "severity": "critical",
+      "state": "open",
+      "id": "CAD-IMPORT-FAULT"
+    }
+  ],
+  "approval": null,
+  "release_approved": false
+}

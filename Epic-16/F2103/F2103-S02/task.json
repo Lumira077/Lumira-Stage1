@@ -1,0 +1,21 @@
+{
+  "id": "F2103-S02",
+  "jira": "KR1-779",
+  "parent": "KR1-777",
+  "title": "[F2103-S02] HW 신뢰성·안전·양산성 검증 CAD·회로·Prototype 제작",
+  "work": "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리: DVT신뢰성·안전·EMI/ESD·제조 jig 및 수리/검사 기준을 구성",
+  "data": "DVT case·serial·fixture·certificate ref",
+  "boundary": "장시간·열·진동·전원·E-stop·OTA 차단",
+  "metrics": "fail coverage·수율·수리성·증명서",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

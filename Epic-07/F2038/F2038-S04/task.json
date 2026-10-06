@@ -1,0 +1,21 @@
+{
+  "id": "F2038-S04",
+  "jira": "KR1-297",
+  "parent": "KR1-293",
+  "title": "[F2038-S04] 자기 위치 추정 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: map 기반 pose/covariance를 추정하고 위치 상실·kidnapped robot 재초기화를 처리",
+  "data": "pose·covariance·map revision·TF age",
+  "boundary": "잘못된 지도·재배치·센서 stale·confidence 저하",
+  "metrics": "위치 오차·재위치추정 시간·오복구",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

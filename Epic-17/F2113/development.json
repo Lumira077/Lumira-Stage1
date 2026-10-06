@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2113",
+  "jira_key": "KR1-878",
+  "title": "[F2113] 버튼·터치·충전·전원 등 Physical UX",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "음소거·비상정지·전원·유선 충전의 물리 조작과 상태 확인 UX를 정의한다.",
+  "specific_deliverables": [
+    "버튼 의미·눌림/해제·충전 케이블·오류 요구",
+    "충전 이동 억제·비상정지 우선 UI 상태 구현",
+    "케이블·위험·비상정지 해제 후 자동 재구동 방지 시험",
+    "라벨·전원 상태·서비스 접근·실제 회로 검증 항목 인계"
+  ],
+  "gate": "SW 플래그는 하드웨어 차단 증적이 아님",
+  "tools_and_dependencies": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-30"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2113-S01",
+      "jira_key": "KR1-879",
+      "source_scope": "누름/길게 누름 등 조작은 후보로 표시. 전원/음소거/정지의 의미와 상태 요구 정의.",
+      "work_now": "버튼 의미·눌림/해제·충전 케이블·오류 요구",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2113/F2113-S01/deliverable.json",
+      "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+      "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2113-S02",
+      "jira_key": "KR1-880",
+      "source_scope": "전원·음소거·동작 정지·충전 상태별 행동/피드백 표. 의상 착용 시 버튼 접근 유지.",
+      "work_now": "충전 이동 억제·비상정지 우선 UI 상태 구현",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2113/F2113-S02/deliverable.json",
+      "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+      "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2113-S03",
+      "jira_key": "KR1-881",
+      "source_scope": "잘못 누름·손 접근·케이블 걸림·충전 접촉·전원 상실 대응 시험 계획.",
+      "work_now": "케이블·위험·비상정지 해제 후 자동 재구동 방지 시험",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2113/F2113-S03/deliverable.json",
+      "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+      "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2113-S04",
+      "jira_key": "KR1-882",
+      "source_scope": "위치·표식·피드백·안전 제어 전달. 일반 버튼을 안전 인증 정지장치로 단정하지 않음.",
+      "work_now": "라벨·전원 상태·서비스 접근·실제 회로 검증 항목 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2113/F2113-S04/deliverable.json",
+      "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+      "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

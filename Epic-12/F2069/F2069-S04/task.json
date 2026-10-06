@@ -1,0 +1,21 @@
+{
+  "id": "F2069-S04",
+  "jira": "KR1-497",
+  "parent": "KR1-493",
+  "title": "[F2069-S04] 단계적 배포 및 롤백 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: canary/cohort·건강 gate·중단·이전 검증 이미지 롤백을 구성",
+  "data": "rollout id·cohort·health·slot·rollback target",
+  "boundary": "오류급증·오프라인 fleet·partial install",
+  "metrics": "성공률·오류율·rollback 실제 ACK",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

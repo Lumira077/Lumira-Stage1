@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "feature": "F2004",
+  "proposed_data": "Household, HouseholdMembership, ActiveSession, IdentityCandidate를 둔다. 관계 이름만으로 권한을 자동 부여하지 않는다. ActiveSession은 user_id, method, verified_scope, session_epoch, last_activity, expires_at을 포함한다.",
+  "proposed_interfaces": "POST /v1/devices/{id}/active-user로 명시적 전환을 요청한다. /ker/identity/candidate는 후보만 전달하고 /ker/personalization/context는 전환 검증 뒤 새 epoch로 발행한다. 보호자 인증은 별도 계정·권한 서비스에서 수행한다.",
+  "acceptance": "가족 A에서 B로 전환하면 A의 대화·기억·선호가 B에게 적용되지 않는다. 미등록·불확실·동시 발화에서 게스트 또는 확인 경로를 택하고 인증 없이 민감 기능에 접근할 수 없다.",
+  "requirements": [
+    "Stage 1 필수 경로는 화면 선택 또는 확인 대화로 사용자를 지정하는 방식이다. 얼굴·음성 자동 식별은 별도 동의와 성능 검증 후 확장한다.",
+    "얼굴·음성 후보와 실제 권한 인증을 구분한다. 사진·음성만으로 보호자 권한이나 민감 정보 접근을 허용하지 않는다.",
+    "사용자 전환 시 이전 대화·TTS·Motion 큐와 개인화 캐시를 정리하고 동시 발화·여러 얼굴에서는 확인 질문을 사용한다."
+  ],
+  "error_codes": [
+    "INVALID_INPUT",
+    "NOT_AUTHORIZED",
+    "STALE_CONTEXT",
+    "NOT_READY",
+    "NOT_SUPPORTED"
+  ],
+  "status": "design_proposal"
+}

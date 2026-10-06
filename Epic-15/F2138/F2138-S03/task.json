@@ -1,0 +1,21 @@
+{
+  "id": "F2138-S03",
+  "jira": "KR1-694",
+  "parent": "KR1-691",
+  "title": "[F2138-S03] 높이별 무게중심·전도·작업영역 안전 통합·경계조건·안전 시험",
+  "work": "실물/통신/한계·고장주입·물리 ACK·안전 시험: 높이/하중/팔 자세별 CoM·support polygon·속도제한을 구성",
+  "data": "CoM·load·height·support polygon·slope",
+  "boundary": "급정지·편하중·경사·maximum reach",
+  "metrics": "전도margin·허용작업영역·중단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

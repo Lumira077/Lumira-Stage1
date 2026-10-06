@@ -1,0 +1,21 @@
+{
+  "id": "F2065-S01",
+  "jira": "KR1-474",
+  "parent": "KR1-473",
+  "title": "[F2065-S01] 로봇 등록 및 디지털 자산 관리 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: device identity·serial·모델/HW/SW·고객 등록과 lifecycle을 구성",
+  "data": "device id·serial·model·version·tenant",
+  "boundary": "중복 serial·위조 등록·교체·폐기",
+  "metrics": "중복 자산 0건·등록 감사·소유자 일치",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

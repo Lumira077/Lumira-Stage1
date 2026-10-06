@@ -1,0 +1,21 @@
+{
+  "id": "F2200-S02",
+  "jira": "KR1-1081",
+  "parent": "KR1-1079",
+  "title": "[F2200-S02] Stage 3 B2B PoC·제안·계약·배치 운영 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: B2B현장진단→PoC KPI→견적/계약→설치/교육/SLA를 설계",
+  "data": "site·PoC scope·KPI·proposal·SLA·device fleet",
+  "boundary": "권한·납기·보안·미검증기술·성과미달",
+  "metrics": "PoC성공·유료계약·설치/지원근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

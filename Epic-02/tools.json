@@ -1,0 +1,58 @@
+{
+  "connected": [
+    "Jira",
+    "GitHub",
+    "Python unittest",
+    "GitHub Actions"
+  ],
+  "candidate_tools": [
+    {
+      "name": "Epic-01 개인화·동의",
+      "url": "https://lumira077.atlassian.net/browse/KR1-1",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "F2021 감정형 TTS 연동",
+      "url": "https://lumira077.atlassian.net/browse/KR1-175",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "Gemini Live 공식 문서",
+      "url": "https://ai.google.dev/gemini-api/docs/live-api",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "OpenAI Realtime 공식 문서",
+      "url": "https://developers.openai.com/api/docs/guides/realtime",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "RKNN Toolkit2 소스",
+      "url": "https://github.com/rockchip-linux/rknn-toolkit2",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "WebRTC Audio Processing 소스",
+      "url": "https://webrtc.googlesource.com/src/+/refs/heads/main/modules/audio_processing/",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "llama.cpp 소스",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "status": "reference_only_not_connected"
+    },
+    {
+      "name": "whisper.cpp 소스",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "status": "reference_only_not_connected"
+    }
+  ],
+  "live_provider_calls": 0,
+  "requires": [
+    "provider_accounts_and_Secrets",
+    "model_runtime_and_hash_license",
+    "audio_camera_robot_adapters",
+    "policy_and_metric_approval",
+    "billing_and_auth_event_sources"
+  ]
+}

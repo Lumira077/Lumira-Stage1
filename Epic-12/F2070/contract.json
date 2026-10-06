@@ -1,0 +1,34 @@
+{
+  "feature": "F2070",
+  "jira": "KR1-498",
+  "epic": "Epic-12",
+  "epic_jira": "KR1-472",
+  "title": "[F2070] 원격 지원 및 설정 관리",
+  "work": "동의한 원격진단 세션·허용 설정 patch·TTL·감사·회수 기능을 구성",
+  "data": "support session·scope·config version·expires",
+  "boundary": "시간초과·운영자 권한상승·충돌·철회",
+  "metrics": "세션 회수·설정검증·감사 완전성",
+  "stage_work": [
+    "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+    "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+    "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+    "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "OpenTelemetry",
+      "https://opentelemetry.io/docs/collector/"
+    ],
+    [
+      "Uptane",
+      "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+    ]
+  ],
+  "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+  "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

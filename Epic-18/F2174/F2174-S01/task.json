@@ -1,0 +1,21 @@
+{
+  "id": "F2174-S01",
+  "jira": "KR1-980",
+  "parent": "KR1-979",
+  "title": "[F2174-S01] 심사청구·OA 대응·보정·분할출원 관리 대상기술·권리화 목표 정의",
+  "work": "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표: OA 거절이유/인용문헌/claim 대응표·보정지원·분할결정을 관리",
+  "data": "OA ref·claim map·response revision·verified due",
+  "boundary": "신규사항·범위축소·기한누락·불일치",
+  "metrics": "법률/기술검토·근거추적·실제 제출",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

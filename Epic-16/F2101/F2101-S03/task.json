@@ -1,0 +1,21 @@
+{
+  "id": "F2101-S03",
+  "jira": "KR1-770",
+  "parent": "KR1-767",
+  "title": "[F2101-S03] ROS2/HW 통합 및 Bring-up 시험 Bench·통합·안전 시험",
+  "work": "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험: ROS2 Driver/topic/diagnostics·HW bring-up·통합 기능을 확인",
+  "data": "driver version·topic/TF·BOM·test evidence",
+  "boundary": "startup·hotplug·bus loss·fault isolation",
+  "metrics": "통합 기능·latency·복구·증적coverage",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

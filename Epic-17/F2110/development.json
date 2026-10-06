@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2110",
+  "jira_key": "KR1-863",
+  "title": "[F2110] 얼굴 Display·표정 UX Design",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "얼굴 전용 화면에 대기·경청·처리·말하기·오류·음소거 표정과 상태를 분리한다.",
+  "specific_deliverables": [
+    "상태/표정/아이콘·기본 스킨·접근성 매핑 정의",
+    "SVG 캐릭터 표정과 상태 연동 화면 프로토타입 구현",
+    "표정 의미·밝기·동작·오류 기본 스킨·가시성 확인",
+    "자산 이름·매핑·버전·라이선스·복귀 정책 인계"
+  ],
+  "gate": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+  "tools_and_dependencies": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-21"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2110-S01",
+      "jira_key": "KR1-864",
+      "source_scope": "대기/경청/말하기/기쁨/공감/오류/충전/프라이버시 상태, 눈·입·아이콘 의미 정의.",
+      "work_now": "상태/표정/아이콘·기본 스킨·접근성 매핑 정의",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2110/F2110-S01/deliverable.json",
+      "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+      "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2110-S02",
+      "jira_key": "KR1-865",
+      "source_scope": "정적 표정 명세: 경청=중립 눈, 기쁨=미소, 오류=중립+상태, 충전=배터리 상태. 팩 교체 시 오류 기본 스킨 복귀.",
+      "work_now": "SVG 캐릭터 표정과 상태 연동 화면 프로토타입 구현",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2110/F2110-S02/deliverable.json",
+      "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+      "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2110-S03",
+      "jira_key": "KR1-866",
+      "source_scope": "감정 전달·가독·깜박임·상태 혼동·표시 성능 비교. 스킨과 카메라 동작 상태 구분.",
+      "work_now": "표정 의미·밝기·동작·오류 기본 스킨·가시성 확인",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2110/F2110-S03/deliverable.json",
+      "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+      "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2110-S04",
+      "jira_key": "KR1-867",
+      "source_scope": "표정 자산 이름·상태 매핑·버전·기본 스킨 및 팩 호환 규칙 확정.",
+      "work_now": "자산 이름·매핑·버전·라이선스·복귀 정책 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2110/F2110-S04/deliverable.json",
+      "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+      "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

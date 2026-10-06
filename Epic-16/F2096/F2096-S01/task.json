@@ -1,0 +1,21 @@
+{
+  "id": "F2096-S01",
+  "jira": "KR1-743",
+  "parent": "KR1-742",
+  "title": "[F2096-S01] Battery·BMS·전용 전원·안전 Board 설계 요구사양·Interface·BOM 설계",
+  "work": "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: Battery/BMS·24/12/5/3.3V 예시 rail·e-fuse·역극성·종료 sequencing을 설계",
+  "data": "chemistry·ratings·rail·fault·power budget",
+  "boundary": "과전류·brownout·AI hang·충전고장",
+  "metrics": "보호차단·종료ordering·rail 측정",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

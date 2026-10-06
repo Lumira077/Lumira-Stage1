@@ -1,0 +1,40 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lumira Epic-17 UX 프로토타입</title>
+<style>*{box-sizing:border-box}body{margin:0;font-family:'Noto Sans CJK KR',Arial,sans-serif;background:#eef3f7;color:#17273c}header{background:#173b60;color:white;padding:24px 40px}h1{font-size:30px;margin:0 0 8px}header p{margin:0;color:#d8e8f5}main{max-width:1350px;margin:auto;padding:28px}.demo{display:grid;grid-template-columns:430px 1fr;gap:24px}.panel{background:white;border:1px solid #ccd9e3;border-radius:16px;padding:26px}h2{margin:0 0 15px;font-size:24px}.face{height:240px;background:#142c46;border-radius:40px;display:flex;align-items:center;justify-content:center}.face svg{width:90%;height:90%}.state{font-size:24px;font-weight:bold;margin:16px 0 8px}.hint{min-height:55px;color:#435a70;line-height:1.6}button,select,input{font:inherit}button{padding:14px 18px;border:1px solid #a4b9ca;border-radius:10px;background:#edf5fa;font-size:19px;cursor:pointer}button.primary{background:#125f91;color:white}button.danger{background:#fff0ed;color:#963726}button:disabled{opacity:.4;cursor:default}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}label{display:block;margin:16px 0}input[type=range]{width:100%}.checks{display:grid;grid-template-columns:1fr 1fr;gap:5px}input[type=checkbox]{width:20px;height:20px;vertical-align:middle}#log{background:#edf3f8;padding:16px;border-radius:10px;max-height:110px;overflow:auto;font-size:15px}.review{margin-top:24px}.review select{width:100%;padding:12px;border-radius:8px;border:1px solid #aabecf}#detail{line-height:1.8}#detail h3{margin:22px 0 5px}.note{font-size:15px;color:#4b637a}a{color:#125f91}ol{padding-left:25px}@media(max-width:850px){.demo{grid-template-columns:1fr}header,main{padding:18px}}</style>
+<header><h1>Lumira 기능·디자인·사용성 검토</h1><p>Stage1 실행형 UX 초안. 로봇·음성·센서·충전 회로와 연결되지 않은 로컬 데모입니다.</p></header>
+<main><div class="demo"><section class="panel"><h2>얼굴 화면</h2><div class="face"><svg viewBox="0 0 400 230" aria-label="캐릭터 표정"><ellipse id="eye1" cx="125" cy="93" rx="24" ry="33" fill="#72d6f3"/><ellipse id="eye2" cx="275" cy="93" rx="24" ry="33" fill="#72d6f3"/><path id="mouth" d="M150 160 Q200 193 250 160" stroke="#72d6f3" stroke-width="9" fill="none" stroke-linecap="round"/></svg></div><div class="state" id="state">대기</div><div class="hint" id="hint">대화를 시작해 주세요.</div><p class="note">표정은 UX 표현입니다. 실제 마이크·카메라 작동 상태를 확인한 표시가 아닙니다.</p></section>
+<section class="panel"><h2>가슴 터치 화면</h2><div class="actions"><button class="primary" id="start">대화 시작</button><button id="process">발화 완료</button><button id="reply">응답 보기</button><button id="stop">대화 종료</button><button id="mute">음소거</button></div><label for="volume">음량 <strong id="volumeText">50</strong><input id="volume" type="range" min="0" max="100" value="50"></label><div class="checks"><label><input type="checkbox" id="charging"> 충전 케이블 연결</label><label><input type="checkbox" id="offline"> 네트워크 단절</label><label><input type="checkbox" id="cliff"> 추락 감지</label><label><input type="checkbox" id="estop"> 비상정지</label></div><div class="actions"><button id="move">소구역 이동 제안</button><button id="reset">데모 초기화</button></div><p id="motion">동작 대기</p><div id="log" aria-live="polite">로컬 데모 준비</div><p class="note">충전 중 대화는 검토할 수 있지만 이동 제안은 억제합니다. 실제 전원 차단·저장·삭제·음성 실행은 수행하지 않습니다.</p></section></div>
+<section class="panel review"><h2>20개 Feature 개발 내용</h2><select id="feature" aria-label="Feature 선택"></select><div id="detail"></div></section></main>
+<script>
+const features=__FEATURES__;
+let s={mode:'idle',muted:false,connected:true,charging:false,estop:false,cliff:false,volume:50};
+const names={idle:'대기',listening:'듣고 있어요',processing:'응답 준비',speaking:'말하고 있어요',move_proposal:'이동 제안'};
+function blockers(){return [['charging','충전 연결'],['estop','비상정지'],['cliff','추락 감지']].filter(([k])=>s[k]).map(x=>x[1]).concat(s.connected?[]:['연결 끊김'])}
+function dispatch(e,v){
+ if(e==='volume')s.volume=v;
+ else if(e==='mute'){s.muted=!s.muted;s.mode='idle'}
+ else if(['charging','estop','cliff','connected'].includes(e)){s[e]=v;s.mode='idle'}
+ else if(e==='start'&&!s.muted&&!s.estop&&!s.cliff&&s.connected)s.mode='listening';
+ else if(e==='process'&&s.mode==='listening')s.mode='processing';
+ else if(e==='reply'&&s.mode==='processing')s.mode='speaking';
+ else if(e==='stop')s.mode='idle';
+ else if(e==='move'&&!blockers().length)s.mode='move_proposal';
+ if(s.estop||s.cliff||s.muted||!s.connected)s.mode='idle';render(e);
+}
+function render(e){let stop=s.estop||s.cliff;let label=stop?'안전 정지':s.muted?'음소거':!s.connected?'연결 끊김':names[s.mode];
+ document.querySelector('#state').textContent=label;document.querySelector('#hint').textContent=stop?'위험 상태를 확인해 주세요. 해제해도 자동 재시작하지 않습니다.':s.muted?'마이크 입력을 사용하지 않는 상태를 표현합니다.':!s.connected?'연결을 확인해 주세요.':s.charging?'충전 연결 상태입니다. 이동 제안은 중지합니다.':'대화를 시작·종료하거나 상태를 시험해 주세요.';
+ const ry=stop||s.muted?8:s.mode==='processing'?18:33;for(let n of ['eye1','eye2'])document.getElementById(n).setAttribute('ry',ry);
+ document.getElementById('mouth').setAttribute('d',stop||s.muted?'M160 165 L240 165':s.mode==='speaking'?'M170 160 Q200 208 230 160 Q200 142 170 160':'M150 160 Q200 193 250 160');
+ document.querySelector('#start').disabled=s.muted||stop||!s.connected;document.querySelector('#process').disabled=s.mode!=='listening';document.querySelector('#reply').disabled=s.mode!=='processing';document.querySelector('#move').disabled=!!blockers().length;
+ document.querySelector('#mute').textContent=s.muted?'음소거 해제':'음소거';document.querySelector('#volumeText').textContent=s.volume;
+ document.querySelector('#motion').textContent=blockers().length?'이동 억제: '+blockers().join(', '):s.mode==='move_proposal'?'이동 제안만 표시. 실제 구동 없음.':'동작 대기';
+ document.querySelector('#log').textContent=(e?e+' / ':'')+label+' / 하드웨어 실행 없음';
+}
+['start','process','reply','stop','mute','move'].forEach(e=>document.getElementById(e).onclick=()=>dispatch(e));
+['charging','estop','cliff'].forEach(e=>document.getElementById(e).onchange=x=>dispatch(e,x.target.checked));
+document.querySelector('#offline').onchange=e=>dispatch('connected',!e.target.checked);document.querySelector('#volume').oninput=e=>dispatch('volume',Number(e.target.value));
+document.querySelector('#reset').onclick=()=>{s={mode:'idle',muted:false,connected:true,charging:false,estop:false,cliff:false,volume:50};document.querySelectorAll('input[type=checkbox]').forEach(e=>e.checked=false);document.querySelector('#volume').value=50;render('reset')};
+function esc(v){return String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')}
+const select=document.querySelector('#feature');features.forEach((f,i)=>{let o=document.createElement('option');o.value=i;o.textContent=f.title;select.append(o)});
+function show(){let f=features[Number(select.value)];document.querySelector('#detail').innerHTML='<h3>'+esc(f.objective)+'</h3><ol>'+f.subtasks.map(t=>'<li><a href="https://lumira077.atlassian.net/browse/'+esc(t.jira_key)+'" target="_blank" rel="noopener">'+esc(t.id)+'</a> '+esc(t.work_now)+'<br><small>작성: '+esc(t.performed)+'</small></li>').join('')+'</ol><p>검증/미결: '+esc(f.gate)+'</p><p>도구/입력: '+esc(f.tools_and_dependencies)+'</p>'}
+select.onchange=show;show();render();window.demo={dispatch,getState:()=>({...s})};
+</script></html>

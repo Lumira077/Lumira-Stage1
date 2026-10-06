@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2205",
+  "data_proposal": "RouteInput: purpose, sensitivity, safety_command, cloud_consent, visual_needed, network_ok, credits, robot_ready; Decision: route, reason, policy_version",
+  "interface_proposal": "PolicyEngine.decide(RouteInput) → Decision; 실행과 과금은 하지 않는 정책 판단 계약",
+  "acceptance": "동일 입력에 동일 경로/사유를 반환하고 개인정보·안전 금지 조건이 비용/품질 선호에 의해 완화되지 않는다.",
+  "metrics": "정책 case 일치율, 금지 경로 선택 0건, 판단 p95, 정책 버전 분포",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2049-S03",
+  "jira": "KR1-383",
+  "parent": "KR1-380",
+  "title": "[F2049-S03] 비접촉 rPPG 생체신호 측정 전문가·사용자 Pilot 검증",
+  "work": "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가: rPPG capture 품질·움직임/조명 평가와 품질 미달 시 값 보류를 구성",
+  "data": "ROI·signal quality·duration·estimate·timestamp",
+  "boundary": "가림·motion·조명·피부톤·frame drop",
+  "metrics": "참조센서 비교오차·측정가능률·quality reject",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "wellness_value",
+  "actual_external_calls": 0
+}

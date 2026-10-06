@@ -1,0 +1,172 @@
+[
+  {
+    "epic": "Epic-01",
+    "jira": "KR1-1",
+    "direct_children": 8,
+    "feature_count": 8,
+    "subtasks": 32,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "해당 Epic Python 회귀시험 65건 통과.",
+    "remaining": "프로필 스키마 확장과 기억·동의 epoch 이벤트 연결, 인증/NFC 실기, SKU 정책·사용자 평가"
+  },
+  {
+    "epic": "Epic-02",
+    "jira": "KR1-42",
+    "direct_children": 20,
+    "feature_count": 20,
+    "subtasks": 80,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "해당 Epic Python 회귀시험 132건 통과.",
+    "remaining": "Pi5 실측 음성 파이프라인, 마이크 AEC/DOA·스피커 loopback, STT/TTS 제공자·동의·지연 평가"
+  },
+  {
+    "epic": "Epic-03",
+    "jira": "KR1-143",
+    "direct_children": 5,
+    "feature_count": 5,
+    "subtasks": 20,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "해당 Epic Python 회귀시험 63건 통과.",
+    "remaining": "카메라·음성 모델/가중치 선택, 동의된 평가 데이터와 calibration, 실시간 timestamp 정합"
+  },
+  {
+    "epic": "Epic-04",
+    "jira": "KR1-169",
+    "direct_children": 9,
+    "feature_count": 9,
+    "subtasks": 36,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "해당 Epic Python 회귀시험 78건 통과.",
+    "remaining": "표정·음성·관절의 실제 clock/취소 ACK 연결, 관절 속도·토크·음압 및 자연성 평가"
+  },
+  {
+    "epic": "Epic-05",
+    "jira": "KR1-215",
+    "direct_children": 6,
+    "feature_count": 6,
+    "subtasks": 24,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "해당 Epic Python 회귀시험 61건 통과.",
+    "remaining": "카메라·ToF·터치 드라이버, 식별/추적 실데이터 평가, cliff·장애물 실패 시 정지 검증"
+  },
+  {
+    "epic": "Epic-06",
+    "jira": "KR1-246",
+    "direct_children": 8,
+    "feature_count": 7,
+    "subtasks": 28,
+    "change": "기존 Sprint1 전송 계약·ROS2 예제 소스 통합. Python TCP 모의 전송만 실제 실행.",
+    "evidence": "해당 Epic Python 회귀시험 58건 통과.",
+    "remaining": "Pi5/AI HAT+ 및 UNO 실기, ROS2/DDS·Hailo 실행, typed interface·watchdog·실제 stop ACK"
+  },
+  {
+    "epic": "Epic-07",
+    "jira": "KR1-282",
+    "direct_children": 7,
+    "feature_count": 7,
+    "subtasks": 28,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "Stage2 범위: 실제 베이스·센서·URDF·TF·지도·Nav2 통합. Stage1에서는 공간 자율주행 미포함"
+  },
+  {
+    "epic": "Epic-08",
+    "jira": "KR1-318",
+    "direct_children": 11,
+    "feature_count": 11,
+    "subtasks": 44,
+    "change": "과부하 force≥limit가 질량/취약도 불명보다 우선하여 stop_proposal을 반환하도록 수정.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "Stage3 범위: 실제 관절/손끝·하중·힘 센서 및 조작 검증. Stage1 손가락은 비구동 플렉시블"
+  },
+  {
+    "epic": "Epic-09",
+    "jira": "KR1-374",
+    "direct_children": 6,
+    "feature_count": 6,
+    "subtasks": 24,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "보호자 동의·알림 전달 ACK, 실제 평가 데이터와 전문가 검토. 건강 관련 실효성 검증 미완료"
+  },
+  {
+    "epic": "Epic-10",
+    "jira": "KR1-405",
+    "direct_children": 5,
+    "feature_count": 5,
+    "subtasks": 20,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "검수·권리 확보 콘텐츠, 연령/보호자 정책, 실제 참가자와 학습·사용성 평가"
+  },
+  {
+    "epic": "Epic-11",
+    "jira": "KR1-436",
+    "direct_children": 7,
+    "feature_count": 7,
+    "subtasks": 28,
+    "change": "기존 요구사항·하위 작업과 소스 위치를 대조하고 회귀/계약 증거 및 남은 작업을 정리. 신규 제품 기능 완료를 주장하지 않음.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "실제 앱/backend·pairing·인증·Push/WebRTC·원격 권한 및 통신 장애 통합시험"
+  },
+  {
+    "epic": "Epic-12",
+    "jira": "KR1-472",
+    "direct_children": 11,
+    "feature_count": 11,
+    "subtasks": 44,
+    "change": "공용 minimal_event의 중첩 dict/list 입력 예외를 제거하고 허용 enum만 보존.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "기기 인증·DB·fleet·서명/KMS·OTA A/B bootloader·rollback의 실제 운영 증거"
+  },
+  {
+    "epic": "Epic-13",
+    "jira": "KR1-528",
+    "direct_children": 11,
+    "feature_count": 11,
+    "subtasks": 44,
+    "change": "로그 입력 검증과 scene 동작 허용목록 타입·정확일치 검사를 강화.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "인증·KMS·동의 철회·원본 보존정책, 독립 안전 회로와 침투/물리 고장 시험"
+  },
+  {
+    "epic": "Epic-14",
+    "jira": "KR1-584",
+    "direct_children": 14,
+    "feature_count": 14,
+    "subtasks": 56,
+    "change": "SQLite 영속 원장 추가: 트랜잭션, quota 직렬화, 중복 차감 방지, 환불 tombstone, 재시작 복구.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "실제 provider 사용량 영수증, 계정/권한·요금 정책·가격 버전·회계 대사·Test PG 연결. SQLite는 로컬 원장 시제품"
+  },
+  {
+    "epic": "Epic-15",
+    "jira": "KR1-655",
+    "direct_children": 11,
+    "feature_count": 11,
+    "subtasks": 44,
+    "change": "허용목록 문자열의 부분일치로 동작이 잘못 허용되는 결함 수정.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "Stage2~4 범위: 승인 IoT/Gateway·공간 지도·권한·실제 기구/하중 검증. Stage1 실행 기능으로 활성화하지 않음"
+  },
+  {
+    "epic": "Epic-16",
+    "jira": "KR1-711",
+    "direct_children": 27,
+    "feature_count": 25,
+    "subtasks": 100,
+    "change": "기존 Pi5·UNO 결선 문서·7개 이미지와 Sprint1 BOM·위험목록·전송 계약을 저장소에 통합.",
+    "evidence": "공통 유틸리티 시험 80건·계약 검사 공유; 해당 Epic 전체 기능시험 수가 아님.",
+    "remaining": "UNO 정확한 모델 확정, 모터·배터리·충전기 정격 및 전원 지그, 하네스/열/하중·낙하 방지 실측, CAD 오류 수정"
+  },
+  {
+    "epic": "Epic-17",
+    "jira": "KR1-832",
+    "direct_children": 21,
+    "feature_count": 20,
+    "subtasks": 80,
+    "change": "기존 20 Feature/80 Sub-task의 설계·UI 시제품·합성 사용자평가·22개 시험을 저장소에 통합.",
+    "evidence": "설계 시제품 시험 22건 및 합성 평가 실행 통과.",
+    "remaining": "실사용자 음성·터치 평가, 실제 부품 간섭·외장 두께 검증, CAD 가져오기 오류 수정과 디자인 승인"
+  }
+]

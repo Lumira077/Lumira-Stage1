@@ -1,0 +1,21 @@
+{
+  "id": "F2072-S04",
+  "jira": "KR1-538",
+  "parent": "KR1-534",
+  "title": "[F2072-S04] 전송·저장 데이터 암호화 Evidence·Compliance·Release 승인",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: TLS/mTLS·저장 암호화·key lifecycle·rotation/복구를 설계",
+  "data": "cipher policy·key ref·cert expiry·encryption envelope",
+  "boundary": "잘못된 cert·revoked key·평문 cache·backup",
+  "metrics": "평문 노출 0건·rotation 성공·복호화권한",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

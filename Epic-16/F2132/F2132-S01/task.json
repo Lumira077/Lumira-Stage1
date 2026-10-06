@@ -1,0 +1,21 @@
+{
+  "id": "F2132-S01",
+  "jira": "KR1-788",
+  "parent": "KR1-787",
+  "title": "[F2132-S01] Main Camera 사양·위치·시야각 검증 요구사양·Interface·BOM 설계",
+  "work": "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: 1080pHDR UVC 기본/RGB-D 옵션의 FOV·설치거리·calibration을 검증",
+  "data": "camera mode·FOV·pose·USB bandwidth·calibration",
+  "boundary": "역광·가림·근거리·camera 이동",
+  "metrics": "얼굴/손 coverage·depth 오차·bandwidth",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

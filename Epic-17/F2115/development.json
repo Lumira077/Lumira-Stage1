@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2115",
+  "jira_key": "KR1-888",
+  "title": "[F2115] 3D CAD Exterior 및 Packaging 설계",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "외장 분할·내부 프레임·관절·부품·하네스 배치의 후속 CAD 입력을 정리한다.",
+  "specific_deliverables": [
+    "부품 ID·revision·확인/추정 치수·고정/서비스 공간 정의",
+    "개략 packaging/harness manifest와 CAD 오류 이슈표 작성",
+    "Onshape 오류 부품·중공/두께·간섭·공차 검증 계획",
+    "CAD/BOM/하네스/내보내기 버전과 오류 해결 증적 인계"
+  ],
+  "gate": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+  "tools_and_dependencies": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-36"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2115-S01",
+      "jira_key": "KR1-889",
+      "source_scope": "Master 치수·부품 envelope·체결/방열/배선/정비·가동영역·액세서리 keep-out 요구.",
+      "work_now": "부품 ID·revision·확인/추정 치수·고정/서비스 공간 정의",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2115/F2115-S01/deliverable.json",
+      "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+      "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2115-S02",
+      "jira_key": "KR1-890",
+      "source_scope": "CAD 명세: head/body/armL/armR/waist/base, 화면·보드·배터리·모터 공간, 베이스 교체 Interface. 실제 모델 생성 전.",
+      "work_now": "개략 packaging/harness manifest와 CAD 오류 이슈표 작성",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2115/F2115-S02/deliverable.json",
+      "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+      "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2115-S03",
+      "jira_key": "KR1-891",
+      "source_scope": "조립/간섭/분해/열 경로·의상 가림 검토. STEP/STL/도면은 CAD 생성·검증 후 출력.",
+      "work_now": "Onshape 오류 부품·중공/두께·간섭·공차 검증 계획",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2115/F2115-S03/deliverable.json",
+      "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+      "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2115-S04",
+      "jira_key": "KR1-892",
+      "source_scope": "문서·Part/Assembly·Version·BOM·기준 치수와 검토 보고. 기준 모델은 Onshape로 통일.",
+      "work_now": "CAD/BOM/하네스/내보내기 버전과 오류 해결 증적 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2115/F2115-S04/deliverable.json",
+      "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+      "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2173-S04",
+  "jira": "KR1-978",
+  "parent": "KR1-974",
+  "title": "[F2173-S04] PCT·미국·유럽·일본·중국 해외출원 전략 OA·해외·유지·사업화 관리",
+  "work": "OA/해외/연차료·FTO/라이선스·권리상태 후속관리: 국가/시장/경쟁/예산·공식확인 기한을 docket에 기록",
+  "data": "family·country·priority ref·verified due·counsel",
+  "boundary": "기한불명·번역/비용·국가착오·상태변경",
+  "metrics": "담당자/기한근거·국가별 승인·접수",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "docket_review",
+  "actual_external_calls": 0
+}

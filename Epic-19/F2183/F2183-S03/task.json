@@ -1,0 +1,21 @@
+{
+  "id": "F2183-S03",
+  "jira": "KR1-1017",
+  "parent": "KR1-1016",
+  "title": "[F2183-S03] 정부 R&D·정책자금·보증·민간투자 Matching 접촉·상담·PoC·협상 실행",
+  "work": "승인받은 접촉/상담/PoC/협상·실제결과 기록: 정부 R&D·보증·정책/민간 matching을공고근거/자격·중복/비용과 연결",
+  "data": "program source·eligibility·deadline verified·matching",
+  "boundary": "공고변경·중복수혜·자부담·자격불명",
+  "metrics": "자격근거·신청검토·실제접수증",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

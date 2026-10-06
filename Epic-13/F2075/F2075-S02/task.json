@@ -1,0 +1,21 @@
+{
+  "id": "F2075-S02",
+  "jira": "KR1-551",
+  "parent": "KR1-549",
+  "title": "[F2075-S02] 감사 로그 및 이상 접근 탐지 보호기능·통제 로직 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 최소 감사 event·무결성/시간·보존·접근 이상 경보를 구성",
+  "data": "actor ref·action·resource·result·trace·stamp",
+  "boundary": "삭제/변조·burst access·PII 로그·clock drift",
+  "metrics": "감사coverage·탐지 precision·추적성",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

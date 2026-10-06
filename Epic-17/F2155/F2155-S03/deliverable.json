@@ -1,0 +1,44 @@
+{
+  "id": "F2155-S03",
+  "jira_key": "KR1-931",
+  "source_scope": "착용 선호·구매 의향·탈착·센서/열/간섭·반품/세척 조건 검증. 60~85% 마진·9,900~29,900원 구독은 자료 가설.",
+  "work_now": "착용/탈착·선호·세척·간섭·원가/구매의향 계획",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2155/F2155-S03/deliverable.json",
+  "acceptance": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+  "remaining": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

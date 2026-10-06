@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2111",
+  "jira_key": "KR1-868",
+  "title": "[F2111] 가슴 Touch LCD UI/UX",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "가슴 7인치 터치에 대화·음소거·음량·연결·충전 상태와 오류 복구를 배치한다.",
+  "specific_deliverables": [
+    "화면별 입력·피드백·상태·권한·삭제/동의 요구",
+    "로컬 터치형 화면 및 안전 이벤트 시나리오 구현",
+    "키보드/터치·중단·단절·에러·읽기 쉬운 상태 표시 시험",
+    "화면·컴포넌트·문구·HW 연결 계약과 미결 API 인계"
+  ],
+  "gate": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+  "tools_and_dependencies": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-24"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2111-S01",
+      "jira_key": "KR1-869",
+      "source_scope": "각 화면의 입력/피드백/오류/권한/개인정보 요구. 동의·삭제·마이크 상태 우선.",
+      "work_now": "화면별 입력·피드백·상태·권한·삭제/동의 요구",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2111/F2111-S01/deliverable.json",
+      "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+      "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2111-S02",
+      "jira_key": "KR1-870",
+      "source_scope": "와이어프레임 명세: 홈 대화 시작·알림·설정, 설정 음량·속도·Wi-Fi·기록, 오류 재시도·도움.",
+      "work_now": "로컬 터치형 화면 및 안전 이벤트 시나리오 구현",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2111/F2111-S02/deliverable.json",
+      "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+      "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2111-S03",
+      "jira_key": "KR1-871",
+      "source_scope": "설정 찾기·터치 오조작·복귀·삭제 확인·고령자 이해도. 실제 화면 크기에서 평가.",
+      "work_now": "키보드/터치·중단·단절·에러·읽기 쉬운 상태 표시 시험",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2111/F2111-S03/deliverable.json",
+      "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+      "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2111-S04",
+      "jira_key": "KR1-872",
+      "source_scope": "화면 목록·상태/오류·접근성 체크와 개발 전달 규칙.",
+      "work_now": "화면·컴포넌트·문구·HW 연결 계약과 미결 API 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2111/F2111-S04/deliverable.json",
+      "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+      "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

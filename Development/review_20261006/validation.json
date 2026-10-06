@@ -1,0 +1,72 @@
+[
+  {
+    "suite": "Epic-01",
+    "command": "python Epic-01/integration/run.py",
+    "exit_code": 0,
+    "tests": 65,
+    "log": "Epic-01.log"
+  },
+  {
+    "suite": "Epic-02",
+    "command": "python Epic-02/runtime/run.py",
+    "exit_code": 0,
+    "tests": 132,
+    "log": "Epic-02.log"
+  },
+  {
+    "suite": "Epic-03",
+    "command": "python Epic-03/runtime/run.py",
+    "exit_code": 0,
+    "tests": 63,
+    "log": "Epic-03.log"
+  },
+  {
+    "suite": "Epic-04",
+    "command": "python Epic-04/runtime/run.py",
+    "exit_code": 0,
+    "tests": 78,
+    "log": "Epic-04.log"
+  },
+  {
+    "suite": "Epic-05",
+    "command": "python Epic-05/runtime/run.py",
+    "exit_code": 0,
+    "tests": 61,
+    "log": "Epic-05.log"
+  },
+  {
+    "suite": "Epic-06",
+    "command": "python Epic-06/runtime/run.py",
+    "exit_code": 0,
+    "tests": 58,
+    "log": "Epic-06.log"
+  },
+  {
+    "suite": "Development",
+    "command": "python Development/runtime/run.py",
+    "exit_code": 0,
+    "tests": 80,
+    "log": "Development.log"
+  },
+  {
+    "suite": "Epic-17-tests",
+    "command": "python -m unittest discover -s Epic-17/tests -v",
+    "exit_code": 0,
+    "tests": 22,
+    "log": "Epic-17-tests.log"
+  },
+  {
+    "suite": "Epic-17-study",
+    "command": "python Epic-17/runtime/run.py",
+    "exit_code": 0,
+    "tests": 0,
+    "log": "Epic-17-study.log"
+  },
+  {
+    "suite": "Stage1",
+    "command": "python -m unittest discover -s Development/Stage1/tests -v",
+    "exit_code": 0,
+    "tests": 16,
+    "log": "Stage1.log"
+  }
+]

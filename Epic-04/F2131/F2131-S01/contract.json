@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2131",
+  "data": "renderer/model/asset hash/license·GPU/RAM/온도·FPS/frame p95·립싱크 skew·participant count/age·discomfort·rights/privacy evidence·go/no-go decision.",
+  "interface": "측정된 성능/실사용 평가 metadata → R&D evidence gate → CTO/Q1 제품 적용 검토. Stage 1 기본 2D 캐릭터 유지; gate 통과는 production 승인과 구분한다.",
+  "metrics": "GPU/RAM/온도·FPS/render p95·lip-sync skew·discomfort/Uncanny Valley·실사용 sample·license/privacy·비용",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

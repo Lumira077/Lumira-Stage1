@@ -1,0 +1,21 @@
+{
+  "id": "F2082-S01",
+  "jira": "KR1-657",
+  "parent": "KR1-656",
+  "title": "[F2082-S01] 높이 조절 본체 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: Stage4 높이 조절 actuator·absolute position·limit·과부하·끼임 구조를 설계",
+  "data": "height·stroke·encoder·limit switch·load",
+  "boundary": "상한/하한·과부하·encoder fault·전원단절",
+  "metrics": "높이 오차·강성·정지거리·전도 안정성",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2124-S01",
+  "jira": "KR1-504",
+  "parent": "KR1-503",
+  "title": "[F2124-S01] AI 비용·지연·품질 운영 모니터링 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: AI route별 비용/지연/오류/품질·예산 경보를 집계",
+  "data": "usage id·provider/model version·units·latency",
+  "boundary": "중복 usage·가격버전 없음·quota 초과",
+  "metrics": "집계오차·p50/p95·예산 초과·품질coverage",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

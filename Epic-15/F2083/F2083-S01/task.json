@@ -1,0 +1,21 @@
+{
+  "id": "F2083-S01",
+  "jira": "KR1-662",
+  "parent": "KR1-661",
+  "title": "[F2083-S01] 생활 공간 의미 지도 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: 방/가구/물체/보관장소/금지구역의 의미지도와 revision을 구성",
+  "data": "entity id·relations·map ref·pose·access scope",
+  "boundary": "가구변경·관계충돌·프라이버시·미확인 위치",
+  "metrics": "관계정확성·업데이트 일관성·접근권한",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

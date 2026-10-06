@@ -1,0 +1,21 @@
+{
+  "id": "F2074-S04",
+  "jira": "KR1-548",
+  "parent": "KR1-544",
+  "title": "[F2074-S04] API 키 및 비밀정보 중앙 관리 Evidence·Compliance·Release 승인",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: Secret 참조만 배포하고 최소권한·rotate·유출 대응을 설계",
+  "data": "secret ref·version·scope·expiry·audit",
+  "boundary": "로그유출·CI fork·폐기key·권한확대",
+  "metrics": "Secret 원문 0건·rotation·접근추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

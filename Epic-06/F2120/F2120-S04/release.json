@@ -1,0 +1,16 @@
+{
+  "feature": "F2120",
+  "release_ready": false,
+  "actual_hardware_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "queue/end-to-end deadline·CPU/RAM/GPU/NPU·route/fallback latency·cost/usage·취소/stale result·제어 Cloud placement 0건·민감 전송 0건",
+  "pending": "actual Provider/NPU/resource probe·latency/cost model·우선순위/timeout/retry/fallback adapter·owner/auth/자동동의 event 미구현. 실제 호출 0이며 budget은 fixture다.",
+  "required": [
+    "actual_robot_control_quality",
+    "privacy_auth_consent_epoch_delete_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "development_sandbox",
+  "ledger_records": 2,
+  "production_restore_verified": false,
+  "checks": {
+    "deletion_not_resurrected": true,
+    "revocation_reapplied": true,
+    "in_progress_preserved": true
+  }
+}

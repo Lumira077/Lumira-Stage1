@@ -1,0 +1,16 @@
+{
+  "feature": "F2131",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "GPU/RAM/온도·FPS/render p95·lip-sync skew·discomfort/Uncanny Valley·실사용 sample·license/privacy·비용",
+  "pending": "실제 renderer/실존 인물 asset·GPU·participant study·비용/권리/privacy review 없음. 예시 threshold/가상 측정은 실제 R&D 연구 결과가 아니다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "F2114-S03",
+  "jira_key": "KR1-886",
+  "source_scope": "샘플로 색·표면·스크래치·세척·열·접착/마찰 확인. 난연 등급은 성적서 확인 전 미확정.",
+  "work_now": "샘플 청소·마찰·손촉감·음향·변색·접근성 시험 계획",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2114/F2114-S03/deliverable.json",
+  "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+  "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

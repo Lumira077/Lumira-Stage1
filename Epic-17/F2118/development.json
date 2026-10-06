@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2118",
+  "jira_key": "KR1-903",
+  "title": "[F2118] 디자인 개선 및 최종 Design Freeze",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "Design Freeze는 실제 증적·버전 일치·중대 미결 해소·책임 검토를 모두 요구한다.",
+  "specific_deliverables": [
+    "변경 ID·원인·영향·증적·기준 revision·검토 역할",
+    "동결 준비 점검 도구 및 변경 로그 양식 구현",
+    "누락/초안/버전 불일치/중대 이슈가 동결 준비를 막는지 시험",
+    "승인 패키지·미결·변경 정책 작성; 실제 동결은 보류"
+  ],
+  "gate": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+  "tools_and_dependencies": "실제 검증·승인자 지정; Python·Jira·Onshape",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-45"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2118-S01",
+      "jira_key": "KR1-904",
+      "source_scope": "변경 요청/원인/영향/비용/검증/승인·미결 목록 및 중대 문제 기준.",
+      "work_now": "변경 ID·원인·영향·증적·기준 revision·검토 역할",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2118/F2118-S01/deliverable.json",
+      "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+      "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2118-S02",
+      "jira_key": "KR1-905",
+      "source_scope": "변경 로그 양식과 동결 체크: CAD·BOM·CMF·UI·표정·액세서리 호환 버전 일치.",
+      "work_now": "동결 준비 점검 도구 및 변경 로그 양식 구현",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2118/F2118-S02/deliverable.json",
+      "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+      "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2118-S03",
+      "jira_key": "KR1-906",
+      "source_scope": "중대 안전·조립·사용성 문제의 수정·재시험 확인. 승인 전 동결 완료 금지.",
+      "work_now": "누락/초안/버전 불일치/중대 이슈가 동결 준비를 막는지 시험",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2118/F2118-S03/deliverable.json",
+      "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+      "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2118-S04",
+      "jira_key": "KR1-907",
+      "source_scope": "승인자·기준 Version·잔여 위험/변경 정책 기록 후 DFM 전달.",
+      "work_now": "승인 패키지·미결·변경 정책 작성; 실제 동결은 보류",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2118/F2118-S04/deliverable.json",
+      "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+      "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

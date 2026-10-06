@@ -1,0 +1,21 @@
+{
+  "id": "F2199-S03",
+  "jira": "KR1-1077",
+  "parent": "KR1-1074",
+  "title": "[F2199-S03] Stage 3 Helper·병원·기관 Solution Marketing 접촉·상담·PoC·협상 실행",
+  "work": "승인받은 접촉/상담/PoC/협상·실제결과 기록: 병원/기관 Helper 사용사례·업무ROI·안전범위의근거자료를 준비",
+  "data": "usecase·workflow·ROI assumptions·evidence",
+  "boundary": "의료효과과장·미검증조작·현장미적합",
+  "metrics": "사용사례검토·안전gate·PoC근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

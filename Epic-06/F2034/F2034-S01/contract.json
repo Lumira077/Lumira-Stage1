@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2034",
+  "data": "battery chemistry/cell count/BMS spec·SOC 0..1·voltage/current sign/temperature·charger/state·BMS freshness/health·rail/brownout·policy version·shutdown/charge ACK.",
+  "interface": "actual BMS/charger/PMIC → power state proposal → F2032 motion gate/F2035 diagnostics·OS shutdown handshake. 실제 charge switching/protection은 BMS/회로와 별도.",
+  "metrics": "SOC/voltage/current/temp 정확도·runtime/소비전력·brownout·충전 interlock·fault/stop/shutdown ACK p95",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

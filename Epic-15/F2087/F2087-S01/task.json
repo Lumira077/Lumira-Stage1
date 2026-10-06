@@ -1,0 +1,21 @@
+{
+  "id": "F2087-S01",
+  "jira": "KR1-682",
+  "parent": "KR1-681",
+  "title": "[F2087-S01] 장기 자율 생활 서비스 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: 장기 임무·충전/점검·장애 복구·서비스 중단을 운영계획과 연결",
+  "data": "mission calendar·battery·health·policy revision",
+  "boundary": "장시간열·network loss·고장·복구 반복",
+  "metrics": "availability·MTTR·임무coverage·incident",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

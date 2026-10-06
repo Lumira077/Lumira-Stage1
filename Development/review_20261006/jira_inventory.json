@@ -1,0 +1,5607 @@
+{
+  "epics": [
+    {
+      "key": "KR1-1",
+      "summary": "EPIC-01 제품 모델 및 사용자 개인화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-42",
+      "summary": "EPIC-02 AI 대화 및 음성 인터랙션",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-143",
+      "summary": "EPIC-03 멀티모달 감정 인식",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-169",
+      "summary": "EPIC-04 얼굴 표정·음성·동작 표현",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-215",
+      "summary": "EPIC-05 사용자·환경 인지",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-246",
+      "summary": "EPIC-06 ROS2 로봇 코어 및 하드웨어 제어",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-282",
+      "summary": "EPIC-07 Stage 2 실내 자율주행",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-318",
+      "summary": "EPIC-08 Stage 3 5-Finger 조작 및 심부름",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-374",
+      "summary": "EPIC-09 Care 건강·안전 서비스",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-405",
+      "summary": "EPIC-10 Kids 교육·놀이 서비스",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-436",
+      "summary": "EPIC-11 보호자 앱 및 원격 상호작용",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-472",
+      "summary": "EPIC-12 클라우드·관제·OTA 운영",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-528",
+      "summary": "EPIC-13 보안·개인정보·제품 안전",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-584",
+      "summary": "EPIC-14 콘텐츠·구독·서비스 운영",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-655",
+      "summary": "EPIC-15 Stage 2~4 스마트 공간·가사·생활 보조",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-711",
+      "summary": "EPIC-16 로봇 하드웨어 시스템 구축",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-832",
+      "summary": "EPIC-17 제품 기능·디자인·사용성 설계",
+      "status": "To Do"
+    }
+  ],
+  "features": [
+    {
+      "key": "KR1-2",
+      "summary": "[F2001] 초기 사용자 온보딩",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-7",
+      "summary": "[F2002] 사용자 프로필 및 선호 설정",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-12",
+      "summary": "[F2003] 개인화 장기 기억",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-17",
+      "summary": "[F2004] 다중 사용자 및 가족 식별",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-22",
+      "summary": "[F2005] 제품 모델별 서비스 모드",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-27",
+      "summary": "[F2006] Companion/Friend 동반자 모드",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-32",
+      "summary": "[F2007] Pet 캐릭터 상호작용 모드",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-37",
+      "summary": "[F2157] 의상 연동 Persona Theme 전환",
+      "status": "To Do",
+      "parent": "KR1-1"
+    },
+    {
+      "key": "KR1-43",
+      "summary": "[F2205] Hybrid AI Policy Engine",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-48",
+      "summary": "[F2206] Multi-Cloud LLM Gateway",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-53",
+      "summary": "[F2207] Real-time Multimodal Cloud Session",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-58",
+      "summary": "[F2208] Local Conversation Context 및 RAG",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-63",
+      "summary": "[F2209] AI Cost 및 Quota Awareness",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-68",
+      "summary": "[F2210] Network Quality Adaptive Routing",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-73",
+      "summary": "[F2211] Privacy 및 Safety Routing",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-78",
+      "summary": "[F2212] LLM Failover 및 Session Recovery",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-83",
+      "summary": "[F2213] AI Quality Telemetry",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-88",
+      "summary": "[F2008] 호출어 및 대화 시작",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-93",
+      "summary": "[F2009] 실시간 음성 인식(STT)",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-98",
+      "summary": "[F2010] Multi-LLM 자연어 대화",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-103",
+      "summary": "[F2011] 대화 세션 문맥 관리",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-108",
+      "summary": "[F2012] 대화 중 끼어들기와 중단",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-113",
+      "summary": "[F2013] 다국어 대화",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-118",
+      "summary": "[F2014] 연령·상황별 안전 대화 정책",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-123",
+      "summary": "[F2121] Stage1 오프라인 기본 명령·Local 안전 응답",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-128",
+      "summary": "[F2122] Stage2 Small Local LLM·RAG·NPU 실행",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-133",
+      "summary": "[F2123] Stage3 Hybrid AI Router 및 개인화",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-138",
+      "summary": "[F2126] AEC·Beamforming·음원 방향 추정",
+      "status": "To Do",
+      "parent": "KR1-42"
+    },
+    {
+      "key": "KR1-144",
+      "summary": "[F2015] 얼굴 표정 기반 감정 추정",
+      "status": "To Do",
+      "parent": "KR1-143"
+    },
+    {
+      "key": "KR1-149",
+      "summary": "[F2016] 음성 톤 기반 감정 추정",
+      "status": "To Do",
+      "parent": "KR1-143"
+    },
+    {
+      "key": "KR1-154",
+      "summary": "[F2017] 대화 내용 기반 감정 추정",
+      "status": "To Do",
+      "parent": "KR1-143"
+    },
+    {
+      "key": "KR1-159",
+      "summary": "[F2018] 멀티모달 감정 융합",
+      "status": "To Do",
+      "parent": "KR1-143"
+    },
+    {
+      "key": "KR1-164",
+      "summary": "[F2019] 감정 변화 추세 관리",
+      "status": "To Do",
+      "parent": "KR1-143"
+    },
+    {
+      "key": "KR1-170",
+      "summary": "[F2020] 디스플레이 얼굴 표정 엔진",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-175",
+      "summary": "[F2021] 감정형 TTS 음성 출력",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-180",
+      "summary": "[F2022] 목·팔·허리 제스처 라이브러리",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-185",
+      "summary": "[F2023] 표정·음성·동작 동기화",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-190",
+      "summary": "[F2024] 대화 의미 기반 제스처 선택",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-195",
+      "summary": "[F2025] 춤·노래 퍼포먼스",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-200",
+      "summary": "[F2129] 2D·2.5D Character Face Engine 및 Persona Skin",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-205",
+      "summary": "[F2130] Eye Gaze·Lip Sync·표정 동기화 고도화",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-210",
+      "summary": "[F2131] Stage2~3 리얼형 Face R&D 옵션",
+      "status": "To Do",
+      "parent": "KR1-169"
+    },
+    {
+      "key": "KR1-216",
+      "summary": "[F2026] 얼굴 등록 및 사용자 인식",
+      "status": "To Do",
+      "parent": "KR1-215"
+    },
+    {
+      "key": "KR1-221",
+      "summary": "[F2027] 손짓·포즈 인식",
+      "status": "To Do",
+      "parent": "KR1-215"
+    },
+    {
+      "key": "KR1-226",
+      "summary": "[F2028] 터치 상호작용",
+      "status": "To Do",
+      "parent": "KR1-215"
+    },
+    {
+      "key": "KR1-231",
+      "summary": "[F2029] 주변 상황 및 사람 존재 감지",
+      "status": "To Do",
+      "parent": "KR1-215"
+    },
+    {
+      "key": "KR1-236",
+      "summary": "[F2127] Audio-Vision 능동 화자 추적",
+      "status": "To Do",
+      "parent": "KR1-215"
+    },
+    {
+      "key": "KR1-241",
+      "summary": "[F2133] 음원 유도 Face Tracking·Head 미세 정렬",
+      "status": "To Do",
+      "parent": "KR1-215"
+    },
+    {
+      "key": "KR1-247",
+      "summary": "[F2030] ROS2 노드 및 토픽 아키텍처",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-252",
+      "summary": "[F2031] 메인 컴퓨팅 보드 추상화",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-257",
+      "summary": "[F2032] 관절 및 서보 모터 제어",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-262",
+      "summary": "[F2033] 센서 통합 및 시간 동기화",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-267",
+      "summary": "[F2034] 배터리·충전·전원 관리",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-272",
+      "summary": "[F2035] 로봇 자가진단 및 장애 코드",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-277",
+      "summary": "[F2120] Edge-Cloud AI Orchestrator",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-283",
+      "summary": "[F2036] LiDAR·Depth·Odometry 센서 융합",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-288",
+      "summary": "[F2037] 실내 지도 작성(SLAM)",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-293",
+      "summary": "[F2038] 자기 위치 추정",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-298",
+      "summary": "[F2039] 목적지 경로 계획 및 추종",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-303",
+      "summary": "[F2040] 동적 장애물 회피",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-308",
+      "summary": "[F2041] 자동 복귀 및 무선 충전 도킹",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-313",
+      "summary": "[F2152] Network·SLAM Mapping·방 이름 설정 Wizard",
+      "status": "To Do",
+      "parent": "KR1-282"
+    },
+    {
+      "key": "KR1-319",
+      "summary": "[F2042] Dynamixel 기반 다관절 팔 제어",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-324",
+      "summary": "[F2043] 5-Finger 손가락 독립 제어",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-329",
+      "summary": "[F2044] 조작 대상 물체 인식 및 자세 추정",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-334",
+      "summary": "[F2045] 안전 파지 및 놓기",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-339",
+      "summary": "[F2046] 간단 심부름 임무 실행",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-344",
+      "summary": "[F2047] 사람 근접 조작 안전",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-349",
+      "summary": "[F2142] 손끝 Force·Tactile Sensor HW 통합",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-354",
+      "summary": "[F2143] 물체 재질·취약성 추정 및 Unknown 안전정책",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-359",
+      "summary": "[F2144] Force·Slip 기반 Adaptive Soft Grasp",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-364",
+      "summary": "[F2145] One-Hand·Two-Hand 조작 판단",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-369",
+      "summary": "[F2146] 양팔 협조 제어·재파지·지원 요청",
+      "status": "To Do",
+      "parent": "KR1-318"
+    },
+    {
+      "key": "KR1-375",
+      "summary": "[F2048] 복약 및 일정 알림",
+      "status": "To Do",
+      "parent": "KR1-374"
+    },
+    {
+      "key": "KR1-380",
+      "summary": "[F2049] 비접촉 rPPG 생체신호 측정",
+      "status": "To Do",
+      "parent": "KR1-374"
+    },
+    {
+      "key": "KR1-385",
+      "summary": "[F2050] 낙상 및 이상행동 감지",
+      "status": "To Do",
+      "parent": "KR1-374"
+    },
+    {
+      "key": "KR1-390",
+      "summary": "[F2051] 긴급 호출 및 보호자 알림",
+      "status": "To Do",
+      "parent": "KR1-374"
+    },
+    {
+      "key": "KR1-395",
+      "summary": "[F2052] 정서 케어와 명상 안내",
+      "status": "To Do",
+      "parent": "KR1-374"
+    },
+    {
+      "key": "KR1-400",
+      "summary": "[F2053] 건강·정서 리포트",
+      "status": "To Do",
+      "parent": "KR1-374"
+    },
+    {
+      "key": "KR1-406",
+      "summary": "[F2054] 연령별 교육 프로필",
+      "status": "To Do",
+      "parent": "KR1-405"
+    },
+    {
+      "key": "KR1-411",
+      "summary": "[F2055] 퀴즈·학습 대화",
+      "status": "To Do",
+      "parent": "KR1-405"
+    },
+    {
+      "key": "KR1-416",
+      "summary": "[F2056] 동화 스토리텔링",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-421",
+      "summary": "[F2057] 외국어 대화 학습",
+      "status": "To Do",
+      "parent": "KR1-405"
+    },
+    {
+      "key": "KR1-426",
+      "summary": "[F2058] 노래·춤·체조 놀이",
+      "status": "To Do",
+      "parent": "KR1-405"
+    },
+    {
+      "key": "KR1-431",
+      "summary": "[F2059] 학습 진도 및 성취 기록",
+      "status": "To Do",
+      "parent": "KR1-405"
+    },
+    {
+      "key": "KR1-437",
+      "summary": "[F2060] 모바일 앱 계정 및 로봇 연결",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-442",
+      "summary": "[F2061] 로봇 상태 및 알림 조회",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-447",
+      "summary": "[F2062] 일정·복약·콘텐츠 원격 설정",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-452",
+      "summary": "[F2063] 사용 시간 및 부모 통제",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-457",
+      "summary": "[F2064] 보호자 음성·영상 통화",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-462",
+      "summary": "[F2151] Stage2 User & Space Onboarding App",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-467",
+      "summary": "[F2153] 사용자·IoT·권한 부분 재설정",
+      "status": "To Do",
+      "parent": "KR1-436"
+    },
+    {
+      "key": "KR1-473",
+      "summary": "[F2065] 로봇 등록 및 디지털 자산 관리",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-478",
+      "summary": "[F2066] 원격 상태 모니터링",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-483",
+      "summary": "[F2067] 로그·이벤트·진단 수집",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-488",
+      "summary": "[F2068] OTA 소프트웨어 업데이트",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-493",
+      "summary": "[F2069] 단계적 배포 및 롤백",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-498",
+      "summary": "[F2070] 원격 지원 및 설정 관리",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-503",
+      "summary": "[F2124] AI 비용·지연·품질 운영 모니터링",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-508",
+      "summary": "[F2159] Device-Customer Mapping·Lifecycle 관리",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-513",
+      "summary": "[F2160] Robot Fleet 운영 Dashboard",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-518",
+      "summary": "[F2161] 원격 진단·Predictive Maintenance",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-523",
+      "summary": "[F2162] A/S Ticket·부품·정비 이력 관리",
+      "status": "To Do",
+      "parent": "KR1-472"
+    },
+    {
+      "key": "KR1-529",
+      "summary": "[F2071] 사용자 동의 및 개인정보 설정",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-534",
+      "summary": "[F2072] 전송·저장 데이터 암호화",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-539",
+      "summary": "[F2073] 인증·권한·기기 신뢰",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-544",
+      "summary": "[F2074] API 키 및 비밀정보 중앙 관리",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-549",
+      "summary": "[F2075] 감사 로그 및 이상 접근 탐지",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-554",
+      "summary": "[F2076] 관절·주행 비상 정지",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-559",
+      "summary": "[F2139] 경량 Arm·연질 외장·라운드 Mechanical Safety",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-564",
+      "summary": "[F2140] Torque·Current 충돌 감지 및 가변 제한",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-569",
+      "summary": "[F2141] Safety MCU 독립 Torque 차단·검증",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-574",
+      "summary": "[F2150] 민감 IoT 기기 권한·재확인·감사",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-579",
+      "summary": "[F2164] Fleet 최소 Metadata·Privacy·Security Policy",
+      "status": "To Do",
+      "parent": "KR1-528"
+    },
+    {
+      "key": "KR1-585",
+      "summary": "[F2214] AI Router 및 Model Cost Optimization",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-590",
+      "summary": "[F2215] AI Credit 및 Quota Management",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-595",
+      "summary": "[F2216] Subscription Plan Management",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-600",
+      "summary": "[F2217] Payment Gateway Integration",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-605",
+      "summary": "[F2218] Monthly Settlement 및 Revenue Analytics",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-610",
+      "summary": "[F2219] Billing Anomaly Detection",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-615",
+      "summary": "[F2220] Jira 및 n8n Billing Exception Automation",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-620",
+      "summary": "[F2077] 구독 플랜 및 권한 관리",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-625",
+      "summary": "[F2078] 콘텐츠 카탈로그 및 배포",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-630",
+      "summary": "[F2079] AI 사용량 계측 및 비용 제어",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-635",
+      "summary": "[F2080] 결제·청구·구독 갱신 및 PG 연동",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-640",
+      "summary": "[F2081] 콘텐츠 추천 및 구독 서비스 분석",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-645",
+      "summary": "[F2158] Fashion·Accessory 상품·Catalog 운영",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-650",
+      "summary": "[F2163] 사용량 기반 구독·추가 Service Recommendation",
+      "status": "To Do",
+      "parent": "KR1-584"
+    },
+    {
+      "key": "KR1-656",
+      "summary": "[F2082] 높이 조절 본체",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-661",
+      "summary": "[F2083] 생활 공간 의미 지도",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-666",
+      "summary": "[F2084] 가사 작업 계획",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-671",
+      "summary": "[F2085] 스마트홈 기기 연동",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-676",
+      "summary": "[F2086] 장애인·고령자 접근성 보조",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-681",
+      "summary": "[F2087] 장기 자율 생활 서비스",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-686",
+      "summary": "[F2137] Stage4 가변 높이 범위·승강 Mechanism",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-691",
+      "summary": "[F2138] 높이별 무게중심·전도·작업영역 안전",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-696",
+      "summary": "[F2147] Matter·Wi-Fi Device Discovery·Gateway",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-701",
+      "summary": "[F2148] 자연어 IoT 제어·실행 확인",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-706",
+      "summary": "[F2149] Scene 자동화·공간 위치 기반 제어",
+      "status": "To Do",
+      "parent": "KR1-655"
+    },
+    {
+      "key": "KR1-712",
+      "summary": "[F2090] Stage1 HW 요구사양 및 시스템 Architecture",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-717",
+      "summary": "[F2091] Main Computing HW 선정 및 인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-722",
+      "summary": "[F2092] Safety MCU·Motor Interface·I/O 제어 Architecture",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-727",
+      "summary": "[F2093] 목·팔·허리·손 구동 HW 및 Actuator 선정",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-732",
+      "summary": "[F2094] Camera·Mic·IMU·Touch·근접 Sensor HW 구성",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-737",
+      "summary": "[F2095] 얼굴 Display·Touch LCD·Audio HW 구축",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-742",
+      "summary": "[F2096] Battery·BMS·전용 전원·안전 Board 설계",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-747",
+      "summary": "[F2097] 내부 Frame 및 기구 Architecture 설계",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-752",
+      "summary": "[F2098] 내부 배치·배선·Connector·Harness 설계",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-757",
+      "summary": "[F2099] 열·소음·진동·EMI 대응 설계",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-762",
+      "summary": "[F2100] HW Prototype #1 제작",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-767",
+      "summary": "[F2101] ROS2/HW 통합 및 Bring-up 시험",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-772",
+      "summary": "[F2102] HW Prototype #2 개선 및 제품화 설계",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-777",
+      "summary": "[F2103] HW 신뢰성·안전·양산성 검증",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-782",
+      "summary": "[F2125] 4~6채널 MEMS Mic Array HW",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-787",
+      "summary": "[F2132] Main Camera 사양·위치·시야각 검증",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-792",
+      "summary": "[F2135] Stage 확장 Modular Interface 표준",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-797",
+      "summary": "[F2136] 관절 Motor Bench·열·소음·수명 검증",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-802",
+      "summary": "[F2156] NFC Fashion·Accessory 인식 HW",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-807",
+      "summary": "[F2221] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-812",
+      "summary": "[F2222] COTS 70%·Custom 30% 전자구성 및 전환 Gate",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-817",
+      "summary": "[F2223] 전용 Power·Safety Board 개발",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-822",
+      "summary": "[F2224] STM32 Motion·I/O·Safety Controller Board",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-827",
+      "summary": "[F2225] RK3588 SoM 양산 Carrier Board 개발",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-833",
+      "summary": "[F2104] 제품 Concept 및 Target User 정의",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-838",
+      "summary": "[F2105] Stage1 제품 기능 Requirement 정의",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-843",
+      "summary": "[F2106] 사용자 Scenario·Journey·Use Case 설계",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-848",
+      "summary": "[F2107] Human-Robot Interaction 기본 원칙 설계",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-853",
+      "summary": "[F2108] 로봇 Size·비례·자세·동작 영역 설계",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-858",
+      "summary": "[F2109] 외관 Industrial Design Concept",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-863",
+      "summary": "[F2110] 얼굴 Display·표정 UX Design",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-868",
+      "summary": "[F2111] 가슴 Touch LCD UI/UX",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-873",
+      "summary": "[F2112] 음성·표정·Gesture Interaction UX",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-878",
+      "summary": "[F2113] 버튼·터치·충전·전원 등 Physical UX",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-883",
+      "summary": "[F2114] CMF(Material/Color/Finish) 설계",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-888",
+      "summary": "[F2115] 3D CAD Exterior 및 Packaging 설계",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-893",
+      "summary": "[F2116] Design Mock-up 제작",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-898",
+      "summary": "[F2117] 사용자 사용성 Test 및 UX 평가",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-903",
+      "summary": "[F2118] 디자인 개선 및 최종 Design Freeze",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-908",
+      "summary": "[F2119] 양산 Design/DFM 및 외장 구조 확정",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-913",
+      "summary": "[F2128] 캐릭터형·리얼형 Face UI 사용자 평가",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-918",
+      "summary": "[F2134] Stage1~4 공통 Body Size·Work Envelope 규격",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-923",
+      "summary": "[F2154] Robot Fashion 기계 Interface·안전 표준",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-928",
+      "summary": "[F2155] 고객군별 Robot Fashion·CMF·Accessory Design",
+      "status": "To Do",
+      "parent": "KR1-832"
+    },
+    {
+      "key": "KR1-1108",
+      "summary": "[KR1-SP2-C01] Pi5·Hailo·ROS2 환경 및 DDS 계약 통합 검증",
+      "status": "To Do",
+      "parent": "KR1-246"
+    },
+    {
+      "key": "KR1-1109",
+      "summary": "[KR1-SP2-C02] UNO 모델·단일축 DYNAMIXEL·휠·센서 Bring-up",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-1110",
+      "summary": "[KR1-SP2-C03] 전원·충전 인터록 및 탁상 이동 안전 지그 검증",
+      "status": "To Do",
+      "parent": "KR1-711"
+    },
+    {
+      "key": "KR1-1111",
+      "summary": "[KR1-SP2-C04] 사용자 2군 시나리오·음향·터치 사용성 검증",
+      "status": "To Do",
+      "parent": "KR1-832"
+    }
+  ],
+  "subtasks": [
+    {
+      "key": "KR1-3",
+      "summary": "[F2001-S01] 초기 사용자 온보딩 요구사항·데이터·인터페이스 설계",
+      "status": "In Progress",
+      "parent": "KR1-2"
+    },
+    {
+      "key": "KR1-4",
+      "summary": "[F2001-S02] 초기 사용자 온보딩 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-2"
+    },
+    {
+      "key": "KR1-5",
+      "summary": "[F2001-S03] 초기 사용자 온보딩 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-2"
+    },
+    {
+      "key": "KR1-6",
+      "summary": "[F2001-S04] 초기 사용자 온보딩 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-2"
+    },
+    {
+      "key": "KR1-8",
+      "summary": "[F2002-S01] 사용자 프로필 및 선호 설정 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-7"
+    },
+    {
+      "key": "KR1-9",
+      "summary": "[F2002-S02] 사용자 프로필 및 선호 설정 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-7"
+    },
+    {
+      "key": "KR1-10",
+      "summary": "[F2002-S03] 사용자 프로필 및 선호 설정 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-7"
+    },
+    {
+      "key": "KR1-11",
+      "summary": "[F2002-S04] 사용자 프로필 및 선호 설정 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-7"
+    },
+    {
+      "key": "KR1-13",
+      "summary": "[F2003-S01] 개인화 장기 기억 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-12"
+    },
+    {
+      "key": "KR1-14",
+      "summary": "[F2003-S02] 개인화 장기 기억 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-12"
+    },
+    {
+      "key": "KR1-15",
+      "summary": "[F2003-S03] 개인화 장기 기억 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-12"
+    },
+    {
+      "key": "KR1-16",
+      "summary": "[F2003-S04] 개인화 장기 기억 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-12"
+    },
+    {
+      "key": "KR1-18",
+      "summary": "[F2004-S01] 다중 사용자 및 가족 식별 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-17"
+    },
+    {
+      "key": "KR1-19",
+      "summary": "[F2004-S02] 다중 사용자 및 가족 식별 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-17"
+    },
+    {
+      "key": "KR1-20",
+      "summary": "[F2004-S03] 다중 사용자 및 가족 식별 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-17"
+    },
+    {
+      "key": "KR1-21",
+      "summary": "[F2004-S04] 다중 사용자 및 가족 식별 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-17"
+    },
+    {
+      "key": "KR1-23",
+      "summary": "[F2005-S01] 제품 모델별 서비스 모드 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-22"
+    },
+    {
+      "key": "KR1-24",
+      "summary": "[F2005-S02] 제품 모델별 서비스 모드 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-22"
+    },
+    {
+      "key": "KR1-25",
+      "summary": "[F2005-S03] 제품 모델별 서비스 모드 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-22"
+    },
+    {
+      "key": "KR1-26",
+      "summary": "[F2005-S04] 제품 모델별 서비스 모드 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-22"
+    },
+    {
+      "key": "KR1-28",
+      "summary": "[F2006-S01] Companion/Friend 동반자 모드 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-27"
+    },
+    {
+      "key": "KR1-29",
+      "summary": "[F2006-S02] Companion/Friend 동반자 모드 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-27"
+    },
+    {
+      "key": "KR1-30",
+      "summary": "[F2006-S03] Companion/Friend 동반자 모드 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-27"
+    },
+    {
+      "key": "KR1-31",
+      "summary": "[F2006-S04] Companion/Friend 동반자 모드 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-27"
+    },
+    {
+      "key": "KR1-33",
+      "summary": "[F2007-S01] Pet 캐릭터 상호작용 모드 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-32"
+    },
+    {
+      "key": "KR1-34",
+      "summary": "[F2007-S02] Pet 캐릭터 상호작용 모드 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-32"
+    },
+    {
+      "key": "KR1-35",
+      "summary": "[F2007-S03] Pet 캐릭터 상호작용 모드 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-32"
+    },
+    {
+      "key": "KR1-36",
+      "summary": "[F2007-S04] Pet 캐릭터 상호작용 모드 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-32"
+    },
+    {
+      "key": "KR1-38",
+      "summary": "[F2157-S01] 의상 연동 Persona Theme 전환 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-37"
+    },
+    {
+      "key": "KR1-39",
+      "summary": "[F2157-S02] 의상 연동 Persona Theme 전환 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-37"
+    },
+    {
+      "key": "KR1-40",
+      "summary": "[F2157-S03] 의상 연동 Persona Theme 전환 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-37"
+    },
+    {
+      "key": "KR1-41",
+      "summary": "[F2157-S04] 의상 연동 Persona Theme 전환 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-37"
+    },
+    {
+      "key": "KR1-44",
+      "summary": "[F2205-S01] Hybrid AI Policy Engine 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-43"
+    },
+    {
+      "key": "KR1-45",
+      "summary": "[F2205-S02] Hybrid AI Policy Engine 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-43"
+    },
+    {
+      "key": "KR1-46",
+      "summary": "[F2205-S03] Hybrid AI Policy Engine 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-43"
+    },
+    {
+      "key": "KR1-47",
+      "summary": "[F2205-S04] Hybrid AI Policy Engine 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-43"
+    },
+    {
+      "key": "KR1-49",
+      "summary": "[F2206-S01] Multi-Cloud LLM Gateway 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-48"
+    },
+    {
+      "key": "KR1-50",
+      "summary": "[F2206-S02] Multi-Cloud LLM Gateway 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-48"
+    },
+    {
+      "key": "KR1-51",
+      "summary": "[F2206-S03] Multi-Cloud LLM Gateway 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-48"
+    },
+    {
+      "key": "KR1-52",
+      "summary": "[F2206-S04] Multi-Cloud LLM Gateway 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-48"
+    },
+    {
+      "key": "KR1-54",
+      "summary": "[F2207-S01] Real-time Multimodal Cloud Session 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-53"
+    },
+    {
+      "key": "KR1-55",
+      "summary": "[F2207-S02] Real-time Multimodal Cloud Session 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-53"
+    },
+    {
+      "key": "KR1-56",
+      "summary": "[F2207-S03] Real-time Multimodal Cloud Session 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-53"
+    },
+    {
+      "key": "KR1-57",
+      "summary": "[F2207-S04] Real-time Multimodal Cloud Session 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-53"
+    },
+    {
+      "key": "KR1-59",
+      "summary": "[F2208-S01] Local Conversation Context 및 RAG 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-58"
+    },
+    {
+      "key": "KR1-60",
+      "summary": "[F2208-S02] Local Conversation Context 및 RAG 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-58"
+    },
+    {
+      "key": "KR1-61",
+      "summary": "[F2208-S03] Local Conversation Context 및 RAG 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-58"
+    },
+    {
+      "key": "KR1-62",
+      "summary": "[F2208-S04] Local Conversation Context 및 RAG 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-58"
+    },
+    {
+      "key": "KR1-64",
+      "summary": "[F2209-S01] AI Cost 및 Quota Awareness 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-63"
+    },
+    {
+      "key": "KR1-65",
+      "summary": "[F2209-S02] AI Cost 및 Quota Awareness 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-63"
+    },
+    {
+      "key": "KR1-66",
+      "summary": "[F2209-S03] AI Cost 및 Quota Awareness 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-63"
+    },
+    {
+      "key": "KR1-67",
+      "summary": "[F2209-S04] AI Cost 및 Quota Awareness 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-63"
+    },
+    {
+      "key": "KR1-69",
+      "summary": "[F2210-S01] Network Quality Adaptive Routing 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-68"
+    },
+    {
+      "key": "KR1-70",
+      "summary": "[F2210-S02] Network Quality Adaptive Routing 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-68"
+    },
+    {
+      "key": "KR1-71",
+      "summary": "[F2210-S03] Network Quality Adaptive Routing 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-68"
+    },
+    {
+      "key": "KR1-72",
+      "summary": "[F2210-S04] Network Quality Adaptive Routing 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-68"
+    },
+    {
+      "key": "KR1-74",
+      "summary": "[F2211-S01] Privacy 및 Safety Routing 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-73"
+    },
+    {
+      "key": "KR1-75",
+      "summary": "[F2211-S02] Privacy 및 Safety Routing 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-73"
+    },
+    {
+      "key": "KR1-76",
+      "summary": "[F2211-S03] Privacy 및 Safety Routing 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-73"
+    },
+    {
+      "key": "KR1-77",
+      "summary": "[F2211-S04] Privacy 및 Safety Routing 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-73"
+    },
+    {
+      "key": "KR1-79",
+      "summary": "[F2212-S01] LLM Failover 및 Session Recovery 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-78"
+    },
+    {
+      "key": "KR1-80",
+      "summary": "[F2212-S02] LLM Failover 및 Session Recovery 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-78"
+    },
+    {
+      "key": "KR1-81",
+      "summary": "[F2212-S03] LLM Failover 및 Session Recovery 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-78"
+    },
+    {
+      "key": "KR1-82",
+      "summary": "[F2212-S04] LLM Failover 및 Session Recovery 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-78"
+    },
+    {
+      "key": "KR1-84",
+      "summary": "[F2213-S01] AI Quality Telemetry 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-83"
+    },
+    {
+      "key": "KR1-85",
+      "summary": "[F2213-S02] AI Quality Telemetry 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-83"
+    },
+    {
+      "key": "KR1-86",
+      "summary": "[F2213-S03] AI Quality Telemetry 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-83"
+    },
+    {
+      "key": "KR1-87",
+      "summary": "[F2213-S04] AI Quality Telemetry 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-83"
+    },
+    {
+      "key": "KR1-89",
+      "summary": "[F2008-S01] 호출어 및 대화 시작 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-88"
+    },
+    {
+      "key": "KR1-90",
+      "summary": "[F2008-S02] 호출어 및 대화 시작 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-88"
+    },
+    {
+      "key": "KR1-91",
+      "summary": "[F2008-S03] 호출어 및 대화 시작 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-88"
+    },
+    {
+      "key": "KR1-92",
+      "summary": "[F2008-S04] 호출어 및 대화 시작 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-88"
+    },
+    {
+      "key": "KR1-94",
+      "summary": "[F2009-S01] 실시간 음성 인식(STT) 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-93"
+    },
+    {
+      "key": "KR1-95",
+      "summary": "[F2009-S02] 실시간 음성 인식(STT) 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-93"
+    },
+    {
+      "key": "KR1-96",
+      "summary": "[F2009-S03] 실시간 음성 인식(STT) 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-93"
+    },
+    {
+      "key": "KR1-97",
+      "summary": "[F2009-S04] 실시간 음성 인식(STT) 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-93"
+    },
+    {
+      "key": "KR1-99",
+      "summary": "[F2010-S01] Multi-LLM 자연어 대화 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-98"
+    },
+    {
+      "key": "KR1-100",
+      "summary": "[F2010-S02] Multi-LLM 자연어 대화 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-98"
+    },
+    {
+      "key": "KR1-101",
+      "summary": "[F2010-S03] Multi-LLM 자연어 대화 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-98"
+    },
+    {
+      "key": "KR1-102",
+      "summary": "[F2010-S04] Multi-LLM 자연어 대화 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-98"
+    },
+    {
+      "key": "KR1-104",
+      "summary": "[F2011-S01] 대화 세션 문맥 관리 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-103"
+    },
+    {
+      "key": "KR1-105",
+      "summary": "[F2011-S02] 대화 세션 문맥 관리 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-103"
+    },
+    {
+      "key": "KR1-106",
+      "summary": "[F2011-S03] 대화 세션 문맥 관리 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-103"
+    },
+    {
+      "key": "KR1-107",
+      "summary": "[F2011-S04] 대화 세션 문맥 관리 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-103"
+    },
+    {
+      "key": "KR1-109",
+      "summary": "[F2012-S01] 대화 중 끼어들기와 중단 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-108"
+    },
+    {
+      "key": "KR1-110",
+      "summary": "[F2012-S02] 대화 중 끼어들기와 중단 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-108"
+    },
+    {
+      "key": "KR1-111",
+      "summary": "[F2012-S03] 대화 중 끼어들기와 중단 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-108"
+    },
+    {
+      "key": "KR1-112",
+      "summary": "[F2012-S04] 대화 중 끼어들기와 중단 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-108"
+    },
+    {
+      "key": "KR1-114",
+      "summary": "[F2013-S01] 다국어 대화 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-113"
+    },
+    {
+      "key": "KR1-115",
+      "summary": "[F2013-S02] 다국어 대화 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-113"
+    },
+    {
+      "key": "KR1-116",
+      "summary": "[F2013-S03] 다국어 대화 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-113"
+    },
+    {
+      "key": "KR1-117",
+      "summary": "[F2013-S04] 다국어 대화 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-113"
+    },
+    {
+      "key": "KR1-119",
+      "summary": "[F2014-S01] 연령·상황별 안전 대화 정책 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-118"
+    },
+    {
+      "key": "KR1-120",
+      "summary": "[F2014-S02] 연령·상황별 안전 대화 정책 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-118"
+    },
+    {
+      "key": "KR1-121",
+      "summary": "[F2014-S03] 연령·상황별 안전 대화 정책 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-118"
+    },
+    {
+      "key": "KR1-122",
+      "summary": "[F2014-S04] 연령·상황별 안전 대화 정책 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-118"
+    },
+    {
+      "key": "KR1-124",
+      "summary": "[F2121-S01] Stage1 오프라인 기본 명령·Local 안전 응답 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-123"
+    },
+    {
+      "key": "KR1-125",
+      "summary": "[F2121-S02] Stage1 오프라인 기본 명령·Local 안전 응답 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-123"
+    },
+    {
+      "key": "KR1-126",
+      "summary": "[F2121-S03] Stage1 오프라인 기본 명령·Local 안전 응답 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-123"
+    },
+    {
+      "key": "KR1-127",
+      "summary": "[F2121-S04] Stage1 오프라인 기본 명령·Local 안전 응답 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-123"
+    },
+    {
+      "key": "KR1-129",
+      "summary": "[F2122-S01] Stage2 Small Local LLM·RAG·NPU 실행 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-128"
+    },
+    {
+      "key": "KR1-130",
+      "summary": "[F2122-S02] Stage2 Small Local LLM·RAG·NPU 실행 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-128"
+    },
+    {
+      "key": "KR1-131",
+      "summary": "[F2122-S03] Stage2 Small Local LLM·RAG·NPU 실행 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-128"
+    },
+    {
+      "key": "KR1-132",
+      "summary": "[F2122-S04] Stage2 Small Local LLM·RAG·NPU 실행 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-128"
+    },
+    {
+      "key": "KR1-134",
+      "summary": "[F2123-S01] Stage3 Hybrid AI Router 및 개인화 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-133"
+    },
+    {
+      "key": "KR1-135",
+      "summary": "[F2123-S02] Stage3 Hybrid AI Router 및 개인화 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-133"
+    },
+    {
+      "key": "KR1-136",
+      "summary": "[F2123-S03] Stage3 Hybrid AI Router 및 개인화 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-133"
+    },
+    {
+      "key": "KR1-137",
+      "summary": "[F2123-S04] Stage3 Hybrid AI Router 및 개인화 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-133"
+    },
+    {
+      "key": "KR1-139",
+      "summary": "[F2126-S01] AEC·Beamforming·음원 방향 추정 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-138"
+    },
+    {
+      "key": "KR1-140",
+      "summary": "[F2126-S02] AEC·Beamforming·음원 방향 추정 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-138"
+    },
+    {
+      "key": "KR1-141",
+      "summary": "[F2126-S03] AEC·Beamforming·음원 방향 추정 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-138"
+    },
+    {
+      "key": "KR1-142",
+      "summary": "[F2126-S04] AEC·Beamforming·음원 방향 추정 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-138"
+    },
+    {
+      "key": "KR1-145",
+      "summary": "[F2015-S01] 얼굴 표정 기반 감정 추정 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-144"
+    },
+    {
+      "key": "KR1-146",
+      "summary": "[F2015-S02] 얼굴 표정 기반 감정 추정 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-144"
+    },
+    {
+      "key": "KR1-147",
+      "summary": "[F2015-S03] 얼굴 표정 기반 감정 추정 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-144"
+    },
+    {
+      "key": "KR1-148",
+      "summary": "[F2015-S04] 얼굴 표정 기반 감정 추정 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-144"
+    },
+    {
+      "key": "KR1-150",
+      "summary": "[F2016-S01] 음성 톤 기반 감정 추정 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-149"
+    },
+    {
+      "key": "KR1-151",
+      "summary": "[F2016-S02] 음성 톤 기반 감정 추정 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-149"
+    },
+    {
+      "key": "KR1-152",
+      "summary": "[F2016-S03] 음성 톤 기반 감정 추정 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-149"
+    },
+    {
+      "key": "KR1-153",
+      "summary": "[F2016-S04] 음성 톤 기반 감정 추정 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-149"
+    },
+    {
+      "key": "KR1-155",
+      "summary": "[F2017-S01] 대화 내용 기반 감정 추정 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-154"
+    },
+    {
+      "key": "KR1-156",
+      "summary": "[F2017-S02] 대화 내용 기반 감정 추정 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-154"
+    },
+    {
+      "key": "KR1-157",
+      "summary": "[F2017-S03] 대화 내용 기반 감정 추정 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-154"
+    },
+    {
+      "key": "KR1-158",
+      "summary": "[F2017-S04] 대화 내용 기반 감정 추정 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-154"
+    },
+    {
+      "key": "KR1-160",
+      "summary": "[F2018-S01] 멀티모달 감정 융합 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-159"
+    },
+    {
+      "key": "KR1-161",
+      "summary": "[F2018-S02] 멀티모달 감정 융합 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-159"
+    },
+    {
+      "key": "KR1-162",
+      "summary": "[F2018-S03] 멀티모달 감정 융합 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-159"
+    },
+    {
+      "key": "KR1-163",
+      "summary": "[F2018-S04] 멀티모달 감정 융합 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-159"
+    },
+    {
+      "key": "KR1-165",
+      "summary": "[F2019-S01] 감정 변화 추세 관리 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-164"
+    },
+    {
+      "key": "KR1-166",
+      "summary": "[F2019-S02] 감정 변화 추세 관리 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-164"
+    },
+    {
+      "key": "KR1-167",
+      "summary": "[F2019-S03] 감정 변화 추세 관리 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-164"
+    },
+    {
+      "key": "KR1-168",
+      "summary": "[F2019-S04] 감정 변화 추세 관리 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-164"
+    },
+    {
+      "key": "KR1-171",
+      "summary": "[F2020-S01] 디스플레이 얼굴 표정 엔진 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-170"
+    },
+    {
+      "key": "KR1-172",
+      "summary": "[F2020-S02] 디스플레이 얼굴 표정 엔진 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-170"
+    },
+    {
+      "key": "KR1-173",
+      "summary": "[F2020-S03] 디스플레이 얼굴 표정 엔진 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-170"
+    },
+    {
+      "key": "KR1-174",
+      "summary": "[F2020-S04] 디스플레이 얼굴 표정 엔진 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-170"
+    },
+    {
+      "key": "KR1-176",
+      "summary": "[F2021-S01] 감정형 TTS 음성 출력 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-175"
+    },
+    {
+      "key": "KR1-177",
+      "summary": "[F2021-S02] 감정형 TTS 음성 출력 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-175"
+    },
+    {
+      "key": "KR1-178",
+      "summary": "[F2021-S03] 감정형 TTS 음성 출력 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-175"
+    },
+    {
+      "key": "KR1-179",
+      "summary": "[F2021-S04] 감정형 TTS 음성 출력 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-175"
+    },
+    {
+      "key": "KR1-181",
+      "summary": "[F2022-S01] 목·팔·허리 제스처 라이브러리 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-180"
+    },
+    {
+      "key": "KR1-182",
+      "summary": "[F2022-S02] 목·팔·허리 제스처 라이브러리 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-180"
+    },
+    {
+      "key": "KR1-183",
+      "summary": "[F2022-S03] 목·팔·허리 제스처 라이브러리 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-180"
+    },
+    {
+      "key": "KR1-184",
+      "summary": "[F2022-S04] 목·팔·허리 제스처 라이브러리 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-180"
+    },
+    {
+      "key": "KR1-186",
+      "summary": "[F2023-S01] 표정·음성·동작 동기화 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-185"
+    },
+    {
+      "key": "KR1-187",
+      "summary": "[F2023-S02] 표정·음성·동작 동기화 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-185"
+    },
+    {
+      "key": "KR1-188",
+      "summary": "[F2023-S03] 표정·음성·동작 동기화 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-185"
+    },
+    {
+      "key": "KR1-189",
+      "summary": "[F2023-S04] 표정·음성·동작 동기화 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-185"
+    },
+    {
+      "key": "KR1-191",
+      "summary": "[F2024-S01] 대화 의미 기반 제스처 선택 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-190"
+    },
+    {
+      "key": "KR1-192",
+      "summary": "[F2024-S02] 대화 의미 기반 제스처 선택 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-190"
+    },
+    {
+      "key": "KR1-193",
+      "summary": "[F2024-S03] 대화 의미 기반 제스처 선택 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-190"
+    },
+    {
+      "key": "KR1-194",
+      "summary": "[F2024-S04] 대화 의미 기반 제스처 선택 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-190"
+    },
+    {
+      "key": "KR1-196",
+      "summary": "[F2025-S01] 춤·노래 퍼포먼스 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-195"
+    },
+    {
+      "key": "KR1-197",
+      "summary": "[F2025-S02] 춤·노래 퍼포먼스 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-195"
+    },
+    {
+      "key": "KR1-198",
+      "summary": "[F2025-S03] 춤·노래 퍼포먼스 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-195"
+    },
+    {
+      "key": "KR1-199",
+      "summary": "[F2025-S04] 춤·노래 퍼포먼스 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-195"
+    },
+    {
+      "key": "KR1-201",
+      "summary": "[F2129-S01] 2D·2.5D Character Face Engine 및 Persona Skin 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-200"
+    },
+    {
+      "key": "KR1-202",
+      "summary": "[F2129-S02] 2D·2.5D Character Face Engine 및 Persona Skin 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-200"
+    },
+    {
+      "key": "KR1-203",
+      "summary": "[F2129-S03] 2D·2.5D Character Face Engine 및 Persona Skin 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-200"
+    },
+    {
+      "key": "KR1-204",
+      "summary": "[F2129-S04] 2D·2.5D Character Face Engine 및 Persona Skin 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-200"
+    },
+    {
+      "key": "KR1-206",
+      "summary": "[F2130-S01] Eye Gaze·Lip Sync·표정 동기화 고도화 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-205"
+    },
+    {
+      "key": "KR1-207",
+      "summary": "[F2130-S02] Eye Gaze·Lip Sync·표정 동기화 고도화 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-205"
+    },
+    {
+      "key": "KR1-208",
+      "summary": "[F2130-S03] Eye Gaze·Lip Sync·표정 동기화 고도화 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-205"
+    },
+    {
+      "key": "KR1-209",
+      "summary": "[F2130-S04] Eye Gaze·Lip Sync·표정 동기화 고도화 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-205"
+    },
+    {
+      "key": "KR1-211",
+      "summary": "[F2131-S01] Stage2~3 리얼형 Face R&D 옵션 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-210"
+    },
+    {
+      "key": "KR1-212",
+      "summary": "[F2131-S02] Stage2~3 리얼형 Face R&D 옵션 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-210"
+    },
+    {
+      "key": "KR1-213",
+      "summary": "[F2131-S03] Stage2~3 리얼형 Face R&D 옵션 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-210"
+    },
+    {
+      "key": "KR1-214",
+      "summary": "[F2131-S04] Stage2~3 리얼형 Face R&D 옵션 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-210"
+    },
+    {
+      "key": "KR1-217",
+      "summary": "[F2026-S01] 얼굴 등록 및 사용자 인식 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-216"
+    },
+    {
+      "key": "KR1-218",
+      "summary": "[F2026-S02] 얼굴 등록 및 사용자 인식 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-216"
+    },
+    {
+      "key": "KR1-219",
+      "summary": "[F2026-S03] 얼굴 등록 및 사용자 인식 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-216"
+    },
+    {
+      "key": "KR1-220",
+      "summary": "[F2026-S04] 얼굴 등록 및 사용자 인식 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-216"
+    },
+    {
+      "key": "KR1-222",
+      "summary": "[F2027-S01] 손짓·포즈 인식 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-221"
+    },
+    {
+      "key": "KR1-223",
+      "summary": "[F2027-S02] 손짓·포즈 인식 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-221"
+    },
+    {
+      "key": "KR1-224",
+      "summary": "[F2027-S03] 손짓·포즈 인식 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-221"
+    },
+    {
+      "key": "KR1-225",
+      "summary": "[F2027-S04] 손짓·포즈 인식 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-221"
+    },
+    {
+      "key": "KR1-227",
+      "summary": "[F2028-S01] 터치 상호작용 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-226"
+    },
+    {
+      "key": "KR1-228",
+      "summary": "[F2028-S02] 터치 상호작용 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-226"
+    },
+    {
+      "key": "KR1-229",
+      "summary": "[F2028-S03] 터치 상호작용 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-226"
+    },
+    {
+      "key": "KR1-230",
+      "summary": "[F2028-S04] 터치 상호작용 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-226"
+    },
+    {
+      "key": "KR1-232",
+      "summary": "[F2029-S01] 주변 상황 및 사람 존재 감지 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-231"
+    },
+    {
+      "key": "KR1-233",
+      "summary": "[F2029-S02] 주변 상황 및 사람 존재 감지 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-231"
+    },
+    {
+      "key": "KR1-234",
+      "summary": "[F2029-S03] 주변 상황 및 사람 존재 감지 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-231"
+    },
+    {
+      "key": "KR1-235",
+      "summary": "[F2029-S04] 주변 상황 및 사람 존재 감지 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-231"
+    },
+    {
+      "key": "KR1-237",
+      "summary": "[F2127-S01] Audio-Vision 능동 화자 추적 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-236"
+    },
+    {
+      "key": "KR1-238",
+      "summary": "[F2127-S02] Audio-Vision 능동 화자 추적 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-236"
+    },
+    {
+      "key": "KR1-239",
+      "summary": "[F2127-S03] Audio-Vision 능동 화자 추적 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-236"
+    },
+    {
+      "key": "KR1-240",
+      "summary": "[F2127-S04] Audio-Vision 능동 화자 추적 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-236"
+    },
+    {
+      "key": "KR1-242",
+      "summary": "[F2133-S01] 음원 유도 Face Tracking·Head 미세 정렬 요구사항·데이터·인터페이스 설계",
+      "status": "To Do",
+      "parent": "KR1-241"
+    },
+    {
+      "key": "KR1-243",
+      "summary": "[F2133-S02] 음원 유도 Face Tracking·Head 미세 정렬 핵심 모델·서비스 Prototype 구현",
+      "status": "To Do",
+      "parent": "KR1-241"
+    },
+    {
+      "key": "KR1-244",
+      "summary": "[F2133-S03] 음원 유도 Face Tracking·Head 미세 정렬 로봇 통합·성능·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-241"
+    },
+    {
+      "key": "KR1-245",
+      "summary": "[F2133-S04] 음원 유도 Face Tracking·Head 미세 정렬 사용자 검증·운영지표·Release 완료",
+      "status": "To Do",
+      "parent": "KR1-241"
+    },
+    {
+      "key": "KR1-248",
+      "summary": "[F2030-S01] ROS2 노드 및 토픽 아키텍처 요구사항·Interface·Simulation 설계",
+      "status": "In Progress",
+      "parent": "KR1-247"
+    },
+    {
+      "key": "KR1-249",
+      "summary": "[F2030-S02] ROS2 노드 및 토픽 아키텍처 알고리즘·제어기·HW 연동 구현",
+      "status": "In Progress",
+      "parent": "KR1-247"
+    },
+    {
+      "key": "KR1-250",
+      "summary": "[F2030-S03] ROS2 노드 및 토픽 아키텍처 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-247"
+    },
+    {
+      "key": "KR1-251",
+      "summary": "[F2030-S04] ROS2 노드 및 토픽 아키텍처 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-247"
+    },
+    {
+      "key": "KR1-253",
+      "summary": "[F2031-S01] 메인 컴퓨팅 보드 추상화 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-252"
+    },
+    {
+      "key": "KR1-254",
+      "summary": "[F2031-S02] 메인 컴퓨팅 보드 추상화 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-252"
+    },
+    {
+      "key": "KR1-255",
+      "summary": "[F2031-S03] 메인 컴퓨팅 보드 추상화 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-252"
+    },
+    {
+      "key": "KR1-256",
+      "summary": "[F2031-S04] 메인 컴퓨팅 보드 추상화 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-252"
+    },
+    {
+      "key": "KR1-258",
+      "summary": "[F2032-S01] 관절 및 서보 모터 제어 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-257"
+    },
+    {
+      "key": "KR1-259",
+      "summary": "[F2032-S02] 관절 및 서보 모터 제어 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-257"
+    },
+    {
+      "key": "KR1-260",
+      "summary": "[F2032-S03] 관절 및 서보 모터 제어 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-257"
+    },
+    {
+      "key": "KR1-261",
+      "summary": "[F2032-S04] 관절 및 서보 모터 제어 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-257"
+    },
+    {
+      "key": "KR1-263",
+      "summary": "[F2033-S01] 센서 통합 및 시간 동기화 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-262"
+    },
+    {
+      "key": "KR1-264",
+      "summary": "[F2033-S02] 센서 통합 및 시간 동기화 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-262"
+    },
+    {
+      "key": "KR1-265",
+      "summary": "[F2033-S03] 센서 통합 및 시간 동기화 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-262"
+    },
+    {
+      "key": "KR1-266",
+      "summary": "[F2033-S04] 센서 통합 및 시간 동기화 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-262"
+    },
+    {
+      "key": "KR1-268",
+      "summary": "[F2034-S01] 배터리·충전·전원 관리 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-267"
+    },
+    {
+      "key": "KR1-269",
+      "summary": "[F2034-S02] 배터리·충전·전원 관리 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-267"
+    },
+    {
+      "key": "KR1-270",
+      "summary": "[F2034-S03] 배터리·충전·전원 관리 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-267"
+    },
+    {
+      "key": "KR1-271",
+      "summary": "[F2034-S04] 배터리·충전·전원 관리 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-267"
+    },
+    {
+      "key": "KR1-273",
+      "summary": "[F2035-S01] 로봇 자가진단 및 장애 코드 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-272"
+    },
+    {
+      "key": "KR1-274",
+      "summary": "[F2035-S02] 로봇 자가진단 및 장애 코드 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-272"
+    },
+    {
+      "key": "KR1-275",
+      "summary": "[F2035-S03] 로봇 자가진단 및 장애 코드 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-272"
+    },
+    {
+      "key": "KR1-276",
+      "summary": "[F2035-S04] 로봇 자가진단 및 장애 코드 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-272"
+    },
+    {
+      "key": "KR1-278",
+      "summary": "[F2120-S01] Edge-Cloud AI Orchestrator 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-277"
+    },
+    {
+      "key": "KR1-279",
+      "summary": "[F2120-S02] Edge-Cloud AI Orchestrator 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-277"
+    },
+    {
+      "key": "KR1-280",
+      "summary": "[F2120-S03] Edge-Cloud AI Orchestrator 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-277"
+    },
+    {
+      "key": "KR1-281",
+      "summary": "[F2120-S04] Edge-Cloud AI Orchestrator 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-277"
+    },
+    {
+      "key": "KR1-284",
+      "summary": "[F2036-S01] LiDAR·Depth·Odometry 센서 융합 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-283"
+    },
+    {
+      "key": "KR1-285",
+      "summary": "[F2036-S02] LiDAR·Depth·Odometry 센서 융합 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-283"
+    },
+    {
+      "key": "KR1-286",
+      "summary": "[F2036-S03] LiDAR·Depth·Odometry 센서 융합 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-283"
+    },
+    {
+      "key": "KR1-287",
+      "summary": "[F2036-S04] LiDAR·Depth·Odometry 센서 융합 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-283"
+    },
+    {
+      "key": "KR1-289",
+      "summary": "[F2037-S01] 실내 지도 작성(SLAM) 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-288"
+    },
+    {
+      "key": "KR1-290",
+      "summary": "[F2037-S02] 실내 지도 작성(SLAM) 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-288"
+    },
+    {
+      "key": "KR1-291",
+      "summary": "[F2037-S03] 실내 지도 작성(SLAM) 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-288"
+    },
+    {
+      "key": "KR1-292",
+      "summary": "[F2037-S04] 실내 지도 작성(SLAM) 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-288"
+    },
+    {
+      "key": "KR1-294",
+      "summary": "[F2038-S01] 자기 위치 추정 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-293"
+    },
+    {
+      "key": "KR1-295",
+      "summary": "[F2038-S02] 자기 위치 추정 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-293"
+    },
+    {
+      "key": "KR1-296",
+      "summary": "[F2038-S03] 자기 위치 추정 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-293"
+    },
+    {
+      "key": "KR1-297",
+      "summary": "[F2038-S04] 자기 위치 추정 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-293"
+    },
+    {
+      "key": "KR1-299",
+      "summary": "[F2039-S01] 목적지 경로 계획 및 추종 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-298"
+    },
+    {
+      "key": "KR1-300",
+      "summary": "[F2039-S02] 목적지 경로 계획 및 추종 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-298"
+    },
+    {
+      "key": "KR1-301",
+      "summary": "[F2039-S03] 목적지 경로 계획 및 추종 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-298"
+    },
+    {
+      "key": "KR1-302",
+      "summary": "[F2039-S04] 목적지 경로 계획 및 추종 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-298"
+    },
+    {
+      "key": "KR1-304",
+      "summary": "[F2040-S01] 동적 장애물 회피 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-303"
+    },
+    {
+      "key": "KR1-305",
+      "summary": "[F2040-S02] 동적 장애물 회피 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-303"
+    },
+    {
+      "key": "KR1-306",
+      "summary": "[F2040-S03] 동적 장애물 회피 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-303"
+    },
+    {
+      "key": "KR1-307",
+      "summary": "[F2040-S04] 동적 장애물 회피 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-303"
+    },
+    {
+      "key": "KR1-309",
+      "summary": "[F2041-S01] 자동 복귀 및 무선 충전 도킹 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-308"
+    },
+    {
+      "key": "KR1-310",
+      "summary": "[F2041-S02] 자동 복귀 및 무선 충전 도킹 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-308"
+    },
+    {
+      "key": "KR1-311",
+      "summary": "[F2041-S03] 자동 복귀 및 무선 충전 도킹 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-308"
+    },
+    {
+      "key": "KR1-312",
+      "summary": "[F2041-S04] 자동 복귀 및 무선 충전 도킹 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-308"
+    },
+    {
+      "key": "KR1-314",
+      "summary": "[F2152-S01] Network·SLAM Mapping·방 이름 설정 Wizard 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-313"
+    },
+    {
+      "key": "KR1-315",
+      "summary": "[F2152-S02] Network·SLAM Mapping·방 이름 설정 Wizard 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-313"
+    },
+    {
+      "key": "KR1-316",
+      "summary": "[F2152-S03] Network·SLAM Mapping·방 이름 설정 Wizard 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-313"
+    },
+    {
+      "key": "KR1-317",
+      "summary": "[F2152-S04] Network·SLAM Mapping·방 이름 설정 Wizard 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-313"
+    },
+    {
+      "key": "KR1-320",
+      "summary": "[F2042-S01] Dynamixel 기반 다관절 팔 제어 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-319"
+    },
+    {
+      "key": "KR1-321",
+      "summary": "[F2042-S02] Dynamixel 기반 다관절 팔 제어 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-319"
+    },
+    {
+      "key": "KR1-322",
+      "summary": "[F2042-S03] Dynamixel 기반 다관절 팔 제어 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-319"
+    },
+    {
+      "key": "KR1-323",
+      "summary": "[F2042-S04] Dynamixel 기반 다관절 팔 제어 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-319"
+    },
+    {
+      "key": "KR1-325",
+      "summary": "[F2043-S01] 5-Finger 손가락 독립 제어 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-324"
+    },
+    {
+      "key": "KR1-326",
+      "summary": "[F2043-S02] 5-Finger 손가락 독립 제어 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-324"
+    },
+    {
+      "key": "KR1-327",
+      "summary": "[F2043-S03] 5-Finger 손가락 독립 제어 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-324"
+    },
+    {
+      "key": "KR1-328",
+      "summary": "[F2043-S04] 5-Finger 손가락 독립 제어 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-324"
+    },
+    {
+      "key": "KR1-330",
+      "summary": "[F2044-S01] 조작 대상 물체 인식 및 자세 추정 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-329"
+    },
+    {
+      "key": "KR1-331",
+      "summary": "[F2044-S02] 조작 대상 물체 인식 및 자세 추정 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-329"
+    },
+    {
+      "key": "KR1-332",
+      "summary": "[F2044-S03] 조작 대상 물체 인식 및 자세 추정 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-329"
+    },
+    {
+      "key": "KR1-333",
+      "summary": "[F2044-S04] 조작 대상 물체 인식 및 자세 추정 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-329"
+    },
+    {
+      "key": "KR1-335",
+      "summary": "[F2045-S01] 안전 파지 및 놓기 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-334"
+    },
+    {
+      "key": "KR1-336",
+      "summary": "[F2045-S02] 안전 파지 및 놓기 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-334"
+    },
+    {
+      "key": "KR1-337",
+      "summary": "[F2045-S03] 안전 파지 및 놓기 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-334"
+    },
+    {
+      "key": "KR1-338",
+      "summary": "[F2045-S04] 안전 파지 및 놓기 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-334"
+    },
+    {
+      "key": "KR1-340",
+      "summary": "[F2046-S01] 간단 심부름 임무 실행 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-339"
+    },
+    {
+      "key": "KR1-341",
+      "summary": "[F2046-S02] 간단 심부름 임무 실행 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-339"
+    },
+    {
+      "key": "KR1-342",
+      "summary": "[F2046-S03] 간단 심부름 임무 실행 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-339"
+    },
+    {
+      "key": "KR1-343",
+      "summary": "[F2046-S04] 간단 심부름 임무 실행 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-339"
+    },
+    {
+      "key": "KR1-345",
+      "summary": "[F2047-S01] 사람 근접 조작 안전 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-344"
+    },
+    {
+      "key": "KR1-346",
+      "summary": "[F2047-S02] 사람 근접 조작 안전 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-344"
+    },
+    {
+      "key": "KR1-347",
+      "summary": "[F2047-S03] 사람 근접 조작 안전 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-344"
+    },
+    {
+      "key": "KR1-348",
+      "summary": "[F2047-S04] 사람 근접 조작 안전 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-344"
+    },
+    {
+      "key": "KR1-350",
+      "summary": "[F2142-S01] 손끝 Force·Tactile Sensor HW 통합 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-349"
+    },
+    {
+      "key": "KR1-351",
+      "summary": "[F2142-S02] 손끝 Force·Tactile Sensor HW 통합 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-349"
+    },
+    {
+      "key": "KR1-352",
+      "summary": "[F2142-S03] 손끝 Force·Tactile Sensor HW 통합 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-349"
+    },
+    {
+      "key": "KR1-353",
+      "summary": "[F2142-S04] 손끝 Force·Tactile Sensor HW 통합 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-349"
+    },
+    {
+      "key": "KR1-355",
+      "summary": "[F2143-S01] 물체 재질·취약성 추정 및 Unknown 안전정책 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-354"
+    },
+    {
+      "key": "KR1-356",
+      "summary": "[F2143-S02] 물체 재질·취약성 추정 및 Unknown 안전정책 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-354"
+    },
+    {
+      "key": "KR1-357",
+      "summary": "[F2143-S03] 물체 재질·취약성 추정 및 Unknown 안전정책 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-354"
+    },
+    {
+      "key": "KR1-358",
+      "summary": "[F2143-S04] 물체 재질·취약성 추정 및 Unknown 안전정책 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-354"
+    },
+    {
+      "key": "KR1-360",
+      "summary": "[F2144-S01] Force·Slip 기반 Adaptive Soft Grasp 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-359"
+    },
+    {
+      "key": "KR1-361",
+      "summary": "[F2144-S02] Force·Slip 기반 Adaptive Soft Grasp 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-359"
+    },
+    {
+      "key": "KR1-362",
+      "summary": "[F2144-S03] Force·Slip 기반 Adaptive Soft Grasp 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-359"
+    },
+    {
+      "key": "KR1-363",
+      "summary": "[F2144-S04] Force·Slip 기반 Adaptive Soft Grasp 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-359"
+    },
+    {
+      "key": "KR1-365",
+      "summary": "[F2145-S01] One-Hand·Two-Hand 조작 판단 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-364"
+    },
+    {
+      "key": "KR1-366",
+      "summary": "[F2145-S02] One-Hand·Two-Hand 조작 판단 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-364"
+    },
+    {
+      "key": "KR1-367",
+      "summary": "[F2145-S03] One-Hand·Two-Hand 조작 판단 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-364"
+    },
+    {
+      "key": "KR1-368",
+      "summary": "[F2145-S04] One-Hand·Two-Hand 조작 판단 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-364"
+    },
+    {
+      "key": "KR1-370",
+      "summary": "[F2146-S01] 양팔 협조 제어·재파지·지원 요청 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-369"
+    },
+    {
+      "key": "KR1-371",
+      "summary": "[F2146-S02] 양팔 협조 제어·재파지·지원 요청 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-369"
+    },
+    {
+      "key": "KR1-372",
+      "summary": "[F2146-S03] 양팔 협조 제어·재파지·지원 요청 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-369"
+    },
+    {
+      "key": "KR1-373",
+      "summary": "[F2146-S04] 양팔 협조 제어·재파지·지원 요청 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-369"
+    },
+    {
+      "key": "KR1-376",
+      "summary": "[F2048-S01] 복약 및 일정 알림 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-375"
+    },
+    {
+      "key": "KR1-377",
+      "summary": "[F2048-S02] 복약 및 일정 알림 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-375"
+    },
+    {
+      "key": "KR1-378",
+      "summary": "[F2048-S03] 복약 및 일정 알림 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-375"
+    },
+    {
+      "key": "KR1-379",
+      "summary": "[F2048-S04] 복약 및 일정 알림 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-375"
+    },
+    {
+      "key": "KR1-381",
+      "summary": "[F2049-S01] 비접촉 rPPG 생체신호 측정 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-380"
+    },
+    {
+      "key": "KR1-382",
+      "summary": "[F2049-S02] 비접촉 rPPG 생체신호 측정 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-380"
+    },
+    {
+      "key": "KR1-383",
+      "summary": "[F2049-S03] 비접촉 rPPG 생체신호 측정 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-380"
+    },
+    {
+      "key": "KR1-384",
+      "summary": "[F2049-S04] 비접촉 rPPG 생체신호 측정 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-380"
+    },
+    {
+      "key": "KR1-386",
+      "summary": "[F2050-S01] 낙상 및 이상행동 감지 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-385"
+    },
+    {
+      "key": "KR1-387",
+      "summary": "[F2050-S02] 낙상 및 이상행동 감지 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-385"
+    },
+    {
+      "key": "KR1-388",
+      "summary": "[F2050-S03] 낙상 및 이상행동 감지 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-385"
+    },
+    {
+      "key": "KR1-389",
+      "summary": "[F2050-S04] 낙상 및 이상행동 감지 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-385"
+    },
+    {
+      "key": "KR1-391",
+      "summary": "[F2051-S01] 긴급 호출 및 보호자 알림 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-390"
+    },
+    {
+      "key": "KR1-392",
+      "summary": "[F2051-S02] 긴급 호출 및 보호자 알림 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-390"
+    },
+    {
+      "key": "KR1-393",
+      "summary": "[F2051-S03] 긴급 호출 및 보호자 알림 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-390"
+    },
+    {
+      "key": "KR1-394",
+      "summary": "[F2051-S04] 긴급 호출 및 보호자 알림 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-390"
+    },
+    {
+      "key": "KR1-396",
+      "summary": "[F2052-S01] 정서 케어와 명상 안내 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-395"
+    },
+    {
+      "key": "KR1-397",
+      "summary": "[F2052-S02] 정서 케어와 명상 안내 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-395"
+    },
+    {
+      "key": "KR1-398",
+      "summary": "[F2052-S03] 정서 케어와 명상 안내 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-395"
+    },
+    {
+      "key": "KR1-399",
+      "summary": "[F2052-S04] 정서 케어와 명상 안내 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-395"
+    },
+    {
+      "key": "KR1-401",
+      "summary": "[F2053-S01] 건강·정서 리포트 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-400"
+    },
+    {
+      "key": "KR1-402",
+      "summary": "[F2053-S02] 건강·정서 리포트 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-400"
+    },
+    {
+      "key": "KR1-403",
+      "summary": "[F2053-S03] 건강·정서 리포트 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-400"
+    },
+    {
+      "key": "KR1-404",
+      "summary": "[F2053-S04] 건강·정서 리포트 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-400"
+    },
+    {
+      "key": "KR1-407",
+      "summary": "[F2054-S01] 연령별 교육 프로필 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-406"
+    },
+    {
+      "key": "KR1-408",
+      "summary": "[F2054-S02] 연령별 교육 프로필 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-406"
+    },
+    {
+      "key": "KR1-409",
+      "summary": "[F2054-S03] 연령별 교육 프로필 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-406"
+    },
+    {
+      "key": "KR1-410",
+      "summary": "[F2054-S04] 연령별 교육 프로필 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-406"
+    },
+    {
+      "key": "KR1-412",
+      "summary": "[F2055-S01] 퀴즈·학습 대화 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-411"
+    },
+    {
+      "key": "KR1-413",
+      "summary": "[F2055-S02] 퀴즈·학습 대화 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-411"
+    },
+    {
+      "key": "KR1-414",
+      "summary": "[F2055-S03] 퀴즈·학습 대화 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-411"
+    },
+    {
+      "key": "KR1-415",
+      "summary": "[F2055-S04] 퀴즈·학습 대화 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-411"
+    },
+    {
+      "key": "KR1-417",
+      "summary": "[F2056-S01] 동화 스토리텔링 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-416"
+    },
+    {
+      "key": "KR1-418",
+      "summary": "[F2056-S02] 동화 스토리텔링 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-416"
+    },
+    {
+      "key": "KR1-419",
+      "summary": "[F2056-S03] 동화 스토리텔링 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-416"
+    },
+    {
+      "key": "KR1-420",
+      "summary": "[F2056-S04] 동화 스토리텔링 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-416"
+    },
+    {
+      "key": "KR1-422",
+      "summary": "[F2057-S01] 외국어 대화 학습 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-421"
+    },
+    {
+      "key": "KR1-423",
+      "summary": "[F2057-S02] 외국어 대화 학습 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-421"
+    },
+    {
+      "key": "KR1-424",
+      "summary": "[F2057-S03] 외국어 대화 학습 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-421"
+    },
+    {
+      "key": "KR1-425",
+      "summary": "[F2057-S04] 외국어 대화 학습 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-421"
+    },
+    {
+      "key": "KR1-427",
+      "summary": "[F2058-S01] 노래·춤·체조 놀이 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-426"
+    },
+    {
+      "key": "KR1-428",
+      "summary": "[F2058-S02] 노래·춤·체조 놀이 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-426"
+    },
+    {
+      "key": "KR1-429",
+      "summary": "[F2058-S03] 노래·춤·체조 놀이 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-426"
+    },
+    {
+      "key": "KR1-430",
+      "summary": "[F2058-S04] 노래·춤·체조 놀이 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-426"
+    },
+    {
+      "key": "KR1-432",
+      "summary": "[F2059-S01] 학습 진도 및 성취 기록 사용자 Scenario·콘텐츠·안전기준",
+      "status": "To Do",
+      "parent": "KR1-431"
+    },
+    {
+      "key": "KR1-433",
+      "summary": "[F2059-S02] 학습 진도 및 성취 기록 기능·콘텐츠 Package 구현",
+      "status": "To Do",
+      "parent": "KR1-431"
+    },
+    {
+      "key": "KR1-434",
+      "summary": "[F2059-S03] 학습 진도 및 성취 기록 전문가·사용자 Pilot 검증",
+      "status": "To Do",
+      "parent": "KR1-431"
+    },
+    {
+      "key": "KR1-435",
+      "summary": "[F2059-S04] 학습 진도 및 성취 기록 운영·지표·Release 전환",
+      "status": "To Do",
+      "parent": "KR1-431"
+    },
+    {
+      "key": "KR1-438",
+      "summary": "[F2060-S01] 모바일 앱 계정 및 로봇 연결 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-437"
+    },
+    {
+      "key": "KR1-439",
+      "summary": "[F2060-S02] 모바일 앱 계정 및 로봇 연결 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-437"
+    },
+    {
+      "key": "KR1-440",
+      "summary": "[F2060-S03] 모바일 앱 계정 및 로봇 연결 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-437"
+    },
+    {
+      "key": "KR1-441",
+      "summary": "[F2060-S04] 모바일 앱 계정 및 로봇 연결 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-437"
+    },
+    {
+      "key": "KR1-443",
+      "summary": "[F2061-S01] 로봇 상태 및 알림 조회 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-442"
+    },
+    {
+      "key": "KR1-444",
+      "summary": "[F2061-S02] 로봇 상태 및 알림 조회 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-442"
+    },
+    {
+      "key": "KR1-445",
+      "summary": "[F2061-S03] 로봇 상태 및 알림 조회 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-442"
+    },
+    {
+      "key": "KR1-446",
+      "summary": "[F2061-S04] 로봇 상태 및 알림 조회 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-442"
+    },
+    {
+      "key": "KR1-448",
+      "summary": "[F2062-S01] 일정·복약·콘텐츠 원격 설정 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-447"
+    },
+    {
+      "key": "KR1-449",
+      "summary": "[F2062-S02] 일정·복약·콘텐츠 원격 설정 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-447"
+    },
+    {
+      "key": "KR1-450",
+      "summary": "[F2062-S03] 일정·복약·콘텐츠 원격 설정 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-447"
+    },
+    {
+      "key": "KR1-451",
+      "summary": "[F2062-S04] 일정·복약·콘텐츠 원격 설정 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-447"
+    },
+    {
+      "key": "KR1-453",
+      "summary": "[F2063-S01] 사용 시간 및 부모 통제 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-452"
+    },
+    {
+      "key": "KR1-454",
+      "summary": "[F2063-S02] 사용 시간 및 부모 통제 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-452"
+    },
+    {
+      "key": "KR1-455",
+      "summary": "[F2063-S03] 사용 시간 및 부모 통제 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-452"
+    },
+    {
+      "key": "KR1-456",
+      "summary": "[F2063-S04] 사용 시간 및 부모 통제 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-452"
+    },
+    {
+      "key": "KR1-458",
+      "summary": "[F2064-S01] 보호자 음성·영상 통화 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-457"
+    },
+    {
+      "key": "KR1-459",
+      "summary": "[F2064-S02] 보호자 음성·영상 통화 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-457"
+    },
+    {
+      "key": "KR1-460",
+      "summary": "[F2064-S03] 보호자 음성·영상 통화 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-457"
+    },
+    {
+      "key": "KR1-461",
+      "summary": "[F2064-S04] 보호자 음성·영상 통화 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-457"
+    },
+    {
+      "key": "KR1-463",
+      "summary": "[F2151-S01] Stage2 User & Space Onboarding App 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-462"
+    },
+    {
+      "key": "KR1-464",
+      "summary": "[F2151-S02] Stage2 User & Space Onboarding App 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-462"
+    },
+    {
+      "key": "KR1-465",
+      "summary": "[F2151-S03] Stage2 User & Space Onboarding App 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-462"
+    },
+    {
+      "key": "KR1-466",
+      "summary": "[F2151-S04] Stage2 User & Space Onboarding App 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-462"
+    },
+    {
+      "key": "KR1-468",
+      "summary": "[F2153-S01] 사용자·IoT·권한 부분 재설정 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-467"
+    },
+    {
+      "key": "KR1-469",
+      "summary": "[F2153-S02] 사용자·IoT·권한 부분 재설정 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-467"
+    },
+    {
+      "key": "KR1-470",
+      "summary": "[F2153-S03] 사용자·IoT·권한 부분 재설정 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-467"
+    },
+    {
+      "key": "KR1-471",
+      "summary": "[F2153-S04] 사용자·IoT·권한 부분 재설정 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-467"
+    },
+    {
+      "key": "KR1-474",
+      "summary": "[F2065-S01] 로봇 등록 및 디지털 자산 관리 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-473"
+    },
+    {
+      "key": "KR1-475",
+      "summary": "[F2065-S02] 로봇 등록 및 디지털 자산 관리 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-473"
+    },
+    {
+      "key": "KR1-476",
+      "summary": "[F2065-S03] 로봇 등록 및 디지털 자산 관리 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-473"
+    },
+    {
+      "key": "KR1-477",
+      "summary": "[F2065-S04] 로봇 등록 및 디지털 자산 관리 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-473"
+    },
+    {
+      "key": "KR1-479",
+      "summary": "[F2066-S01] 원격 상태 모니터링 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-478"
+    },
+    {
+      "key": "KR1-480",
+      "summary": "[F2066-S02] 원격 상태 모니터링 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-478"
+    },
+    {
+      "key": "KR1-481",
+      "summary": "[F2066-S03] 원격 상태 모니터링 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-478"
+    },
+    {
+      "key": "KR1-482",
+      "summary": "[F2066-S04] 원격 상태 모니터링 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-478"
+    },
+    {
+      "key": "KR1-484",
+      "summary": "[F2067-S01] 로그·이벤트·진단 수집 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-483"
+    },
+    {
+      "key": "KR1-485",
+      "summary": "[F2067-S02] 로그·이벤트·진단 수집 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-483"
+    },
+    {
+      "key": "KR1-486",
+      "summary": "[F2067-S03] 로그·이벤트·진단 수집 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-483"
+    },
+    {
+      "key": "KR1-487",
+      "summary": "[F2067-S04] 로그·이벤트·진단 수집 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-483"
+    },
+    {
+      "key": "KR1-489",
+      "summary": "[F2068-S01] OTA 소프트웨어 업데이트 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-488"
+    },
+    {
+      "key": "KR1-490",
+      "summary": "[F2068-S02] OTA 소프트웨어 업데이트 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-488"
+    },
+    {
+      "key": "KR1-491",
+      "summary": "[F2068-S03] OTA 소프트웨어 업데이트 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-488"
+    },
+    {
+      "key": "KR1-492",
+      "summary": "[F2068-S04] OTA 소프트웨어 업데이트 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-488"
+    },
+    {
+      "key": "KR1-494",
+      "summary": "[F2069-S01] 단계적 배포 및 롤백 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-493"
+    },
+    {
+      "key": "KR1-495",
+      "summary": "[F2069-S02] 단계적 배포 및 롤백 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-493"
+    },
+    {
+      "key": "KR1-496",
+      "summary": "[F2069-S03] 단계적 배포 및 롤백 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-493"
+    },
+    {
+      "key": "KR1-497",
+      "summary": "[F2069-S04] 단계적 배포 및 롤백 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-493"
+    },
+    {
+      "key": "KR1-499",
+      "summary": "[F2070-S01] 원격 지원 및 설정 관리 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-498"
+    },
+    {
+      "key": "KR1-500",
+      "summary": "[F2070-S02] 원격 지원 및 설정 관리 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-498"
+    },
+    {
+      "key": "KR1-501",
+      "summary": "[F2070-S03] 원격 지원 및 설정 관리 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-498"
+    },
+    {
+      "key": "KR1-502",
+      "summary": "[F2070-S04] 원격 지원 및 설정 관리 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-498"
+    },
+    {
+      "key": "KR1-504",
+      "summary": "[F2124-S01] AI 비용·지연·품질 운영 모니터링 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-503"
+    },
+    {
+      "key": "KR1-505",
+      "summary": "[F2124-S02] AI 비용·지연·품질 운영 모니터링 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-503"
+    },
+    {
+      "key": "KR1-506",
+      "summary": "[F2124-S03] AI 비용·지연·품질 운영 모니터링 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-503"
+    },
+    {
+      "key": "KR1-507",
+      "summary": "[F2124-S04] AI 비용·지연·품질 운영 모니터링 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-503"
+    },
+    {
+      "key": "KR1-509",
+      "summary": "[F2159-S01] Device-Customer Mapping·Lifecycle 관리 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-508"
+    },
+    {
+      "key": "KR1-510",
+      "summary": "[F2159-S02] Device-Customer Mapping·Lifecycle 관리 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-508"
+    },
+    {
+      "key": "KR1-511",
+      "summary": "[F2159-S03] Device-Customer Mapping·Lifecycle 관리 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-508"
+    },
+    {
+      "key": "KR1-512",
+      "summary": "[F2159-S04] Device-Customer Mapping·Lifecycle 관리 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-508"
+    },
+    {
+      "key": "KR1-514",
+      "summary": "[F2160-S01] Robot Fleet 운영 Dashboard 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-513"
+    },
+    {
+      "key": "KR1-515",
+      "summary": "[F2160-S02] Robot Fleet 운영 Dashboard 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-513"
+    },
+    {
+      "key": "KR1-516",
+      "summary": "[F2160-S03] Robot Fleet 운영 Dashboard 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-513"
+    },
+    {
+      "key": "KR1-517",
+      "summary": "[F2160-S04] Robot Fleet 운영 Dashboard 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-513"
+    },
+    {
+      "key": "KR1-519",
+      "summary": "[F2161-S01] 원격 진단·Predictive Maintenance 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-518"
+    },
+    {
+      "key": "KR1-520",
+      "summary": "[F2161-S02] 원격 진단·Predictive Maintenance 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-518"
+    },
+    {
+      "key": "KR1-521",
+      "summary": "[F2161-S03] 원격 진단·Predictive Maintenance 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-518"
+    },
+    {
+      "key": "KR1-522",
+      "summary": "[F2161-S04] 원격 진단·Predictive Maintenance 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-518"
+    },
+    {
+      "key": "KR1-524",
+      "summary": "[F2162-S01] A/S Ticket·부품·정비 이력 관리 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-523"
+    },
+    {
+      "key": "KR1-525",
+      "summary": "[F2162-S02] A/S Ticket·부품·정비 이력 관리 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-523"
+    },
+    {
+      "key": "KR1-526",
+      "summary": "[F2162-S03] A/S Ticket·부품·정비 이력 관리 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-523"
+    },
+    {
+      "key": "KR1-527",
+      "summary": "[F2162-S04] A/S Ticket·부품·정비 이력 관리 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-523"
+    },
+    {
+      "key": "KR1-530",
+      "summary": "[F2071-S01] 사용자 동의 및 개인정보 설정 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-529"
+    },
+    {
+      "key": "KR1-531",
+      "summary": "[F2071-S02] 사용자 동의 및 개인정보 설정 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-529"
+    },
+    {
+      "key": "KR1-532",
+      "summary": "[F2071-S03] 사용자 동의 및 개인정보 설정 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-529"
+    },
+    {
+      "key": "KR1-533",
+      "summary": "[F2071-S04] 사용자 동의 및 개인정보 설정 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-529"
+    },
+    {
+      "key": "KR1-535",
+      "summary": "[F2072-S01] 전송·저장 데이터 암호화 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-534"
+    },
+    {
+      "key": "KR1-536",
+      "summary": "[F2072-S02] 전송·저장 데이터 암호화 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-534"
+    },
+    {
+      "key": "KR1-537",
+      "summary": "[F2072-S03] 전송·저장 데이터 암호화 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-534"
+    },
+    {
+      "key": "KR1-538",
+      "summary": "[F2072-S04] 전송·저장 데이터 암호화 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-534"
+    },
+    {
+      "key": "KR1-540",
+      "summary": "[F2073-S01] 인증·권한·기기 신뢰 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-539"
+    },
+    {
+      "key": "KR1-541",
+      "summary": "[F2073-S02] 인증·권한·기기 신뢰 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-539"
+    },
+    {
+      "key": "KR1-542",
+      "summary": "[F2073-S03] 인증·권한·기기 신뢰 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-539"
+    },
+    {
+      "key": "KR1-543",
+      "summary": "[F2073-S04] 인증·권한·기기 신뢰 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-539"
+    },
+    {
+      "key": "KR1-545",
+      "summary": "[F2074-S01] API 키 및 비밀정보 중앙 관리 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-544"
+    },
+    {
+      "key": "KR1-546",
+      "summary": "[F2074-S02] API 키 및 비밀정보 중앙 관리 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-544"
+    },
+    {
+      "key": "KR1-547",
+      "summary": "[F2074-S03] API 키 및 비밀정보 중앙 관리 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-544"
+    },
+    {
+      "key": "KR1-548",
+      "summary": "[F2074-S04] API 키 및 비밀정보 중앙 관리 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-544"
+    },
+    {
+      "key": "KR1-550",
+      "summary": "[F2075-S01] 감사 로그 및 이상 접근 탐지 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-549"
+    },
+    {
+      "key": "KR1-551",
+      "summary": "[F2075-S02] 감사 로그 및 이상 접근 탐지 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-549"
+    },
+    {
+      "key": "KR1-552",
+      "summary": "[F2075-S03] 감사 로그 및 이상 접근 탐지 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-549"
+    },
+    {
+      "key": "KR1-553",
+      "summary": "[F2075-S04] 감사 로그 및 이상 접근 탐지 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-549"
+    },
+    {
+      "key": "KR1-555",
+      "summary": "[F2076-S01] 관절·주행 비상 정지 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-554"
+    },
+    {
+      "key": "KR1-556",
+      "summary": "[F2076-S02] 관절·주행 비상 정지 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-554"
+    },
+    {
+      "key": "KR1-557",
+      "summary": "[F2076-S03] 관절·주행 비상 정지 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-554"
+    },
+    {
+      "key": "KR1-558",
+      "summary": "[F2076-S04] 관절·주행 비상 정지 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-554"
+    },
+    {
+      "key": "KR1-560",
+      "summary": "[F2139-S01] 경량 Arm·연질 외장·라운드 Mechanical Safety 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-559"
+    },
+    {
+      "key": "KR1-561",
+      "summary": "[F2139-S02] 경량 Arm·연질 외장·라운드 Mechanical Safety 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-559"
+    },
+    {
+      "key": "KR1-562",
+      "summary": "[F2139-S03] 경량 Arm·연질 외장·라운드 Mechanical Safety Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-559"
+    },
+    {
+      "key": "KR1-563",
+      "summary": "[F2139-S04] 경량 Arm·연질 외장·라운드 Mechanical Safety Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-559"
+    },
+    {
+      "key": "KR1-565",
+      "summary": "[F2140-S01] Torque·Current 충돌 감지 및 가변 제한 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-564"
+    },
+    {
+      "key": "KR1-566",
+      "summary": "[F2140-S02] Torque·Current 충돌 감지 및 가변 제한 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-564"
+    },
+    {
+      "key": "KR1-567",
+      "summary": "[F2140-S03] Torque·Current 충돌 감지 및 가변 제한 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-564"
+    },
+    {
+      "key": "KR1-568",
+      "summary": "[F2140-S04] Torque·Current 충돌 감지 및 가변 제한 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-564"
+    },
+    {
+      "key": "KR1-570",
+      "summary": "[F2141-S01] Safety MCU 독립 Torque 차단·검증 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-569"
+    },
+    {
+      "key": "KR1-571",
+      "summary": "[F2141-S02] Safety MCU 독립 Torque 차단·검증 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-569"
+    },
+    {
+      "key": "KR1-572",
+      "summary": "[F2141-S03] Safety MCU 독립 Torque 차단·검증 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-569"
+    },
+    {
+      "key": "KR1-573",
+      "summary": "[F2141-S04] Safety MCU 독립 Torque 차단·검증 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-569"
+    },
+    {
+      "key": "KR1-575",
+      "summary": "[F2150-S01] 민감 IoT 기기 권한·재확인·감사 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-574"
+    },
+    {
+      "key": "KR1-576",
+      "summary": "[F2150-S02] 민감 IoT 기기 권한·재확인·감사 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-574"
+    },
+    {
+      "key": "KR1-577",
+      "summary": "[F2150-S03] 민감 IoT 기기 권한·재확인·감사 Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-574"
+    },
+    {
+      "key": "KR1-578",
+      "summary": "[F2150-S04] 민감 IoT 기기 권한·재확인·감사 Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-574"
+    },
+    {
+      "key": "KR1-580",
+      "summary": "[F2164-S01] Fleet 최소 Metadata·Privacy·Security Policy 위험분석·보안요구·검증계획",
+      "status": "To Do",
+      "parent": "KR1-579"
+    },
+    {
+      "key": "KR1-581",
+      "summary": "[F2164-S02] Fleet 최소 Metadata·Privacy·Security Policy 보호기능·통제 로직 구현",
+      "status": "To Do",
+      "parent": "KR1-579"
+    },
+    {
+      "key": "KR1-582",
+      "summary": "[F2164-S03] Fleet 최소 Metadata·Privacy·Security Policy Fault Injection·침투·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-579"
+    },
+    {
+      "key": "KR1-583",
+      "summary": "[F2164-S04] Fleet 최소 Metadata·Privacy·Security Policy Evidence·Compliance·Release 승인",
+      "status": "To Do",
+      "parent": "KR1-579"
+    },
+    {
+      "key": "KR1-586",
+      "summary": "[F2214-S01] AI Router 및 Model Cost Optimization 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-585"
+    },
+    {
+      "key": "KR1-587",
+      "summary": "[F2214-S02] AI Router 및 Model Cost Optimization 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-585"
+    },
+    {
+      "key": "KR1-588",
+      "summary": "[F2214-S03] AI Router 및 Model Cost Optimization 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-585"
+    },
+    {
+      "key": "KR1-589",
+      "summary": "[F2214-S04] AI Router 및 Model Cost Optimization 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-585"
+    },
+    {
+      "key": "KR1-591",
+      "summary": "[F2215-S01] AI Credit 및 Quota Management 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-590"
+    },
+    {
+      "key": "KR1-592",
+      "summary": "[F2215-S02] AI Credit 및 Quota Management 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-590"
+    },
+    {
+      "key": "KR1-593",
+      "summary": "[F2215-S03] AI Credit 및 Quota Management 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-590"
+    },
+    {
+      "key": "KR1-594",
+      "summary": "[F2215-S04] AI Credit 및 Quota Management 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-590"
+    },
+    {
+      "key": "KR1-596",
+      "summary": "[F2216-S01] Subscription Plan Management 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-595"
+    },
+    {
+      "key": "KR1-597",
+      "summary": "[F2216-S02] Subscription Plan Management 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-595"
+    },
+    {
+      "key": "KR1-598",
+      "summary": "[F2216-S03] Subscription Plan Management 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-595"
+    },
+    {
+      "key": "KR1-599",
+      "summary": "[F2216-S04] Subscription Plan Management 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-595"
+    },
+    {
+      "key": "KR1-601",
+      "summary": "[F2217-S01] Payment Gateway Integration 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-600"
+    },
+    {
+      "key": "KR1-602",
+      "summary": "[F2217-S02] Payment Gateway Integration 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-600"
+    },
+    {
+      "key": "KR1-603",
+      "summary": "[F2217-S03] Payment Gateway Integration 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-600"
+    },
+    {
+      "key": "KR1-604",
+      "summary": "[F2217-S04] Payment Gateway Integration 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-600"
+    },
+    {
+      "key": "KR1-606",
+      "summary": "[F2218-S01] Monthly Settlement 및 Revenue Analytics 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-605"
+    },
+    {
+      "key": "KR1-607",
+      "summary": "[F2218-S02] Monthly Settlement 및 Revenue Analytics 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-605"
+    },
+    {
+      "key": "KR1-608",
+      "summary": "[F2218-S03] Monthly Settlement 및 Revenue Analytics 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-605"
+    },
+    {
+      "key": "KR1-609",
+      "summary": "[F2218-S04] Monthly Settlement 및 Revenue Analytics 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-605"
+    },
+    {
+      "key": "KR1-611",
+      "summary": "[F2219-S01] Billing Anomaly Detection 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-610"
+    },
+    {
+      "key": "KR1-612",
+      "summary": "[F2219-S02] Billing Anomaly Detection 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-610"
+    },
+    {
+      "key": "KR1-613",
+      "summary": "[F2219-S03] Billing Anomaly Detection 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-610"
+    },
+    {
+      "key": "KR1-614",
+      "summary": "[F2219-S04] Billing Anomaly Detection 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-610"
+    },
+    {
+      "key": "KR1-616",
+      "summary": "[F2220-S01] Jira 및 n8n Billing Exception Automation 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-615"
+    },
+    {
+      "key": "KR1-617",
+      "summary": "[F2220-S02] Jira 및 n8n Billing Exception Automation 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-615"
+    },
+    {
+      "key": "KR1-618",
+      "summary": "[F2220-S03] Jira 및 n8n Billing Exception Automation 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-615"
+    },
+    {
+      "key": "KR1-619",
+      "summary": "[F2220-S04] Jira 및 n8n Billing Exception Automation 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-615"
+    },
+    {
+      "key": "KR1-621",
+      "summary": "[F2077-S01] 구독 플랜 및 권한 관리 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-620"
+    },
+    {
+      "key": "KR1-622",
+      "summary": "[F2077-S02] 구독 플랜 및 권한 관리 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-620"
+    },
+    {
+      "key": "KR1-623",
+      "summary": "[F2077-S03] 구독 플랜 및 권한 관리 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-620"
+    },
+    {
+      "key": "KR1-624",
+      "summary": "[F2077-S04] 구독 플랜 및 권한 관리 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-620"
+    },
+    {
+      "key": "KR1-626",
+      "summary": "[F2078-S01] 콘텐츠 카탈로그 및 배포 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-625"
+    },
+    {
+      "key": "KR1-627",
+      "summary": "[F2078-S02] 콘텐츠 카탈로그 및 배포 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-625"
+    },
+    {
+      "key": "KR1-628",
+      "summary": "[F2078-S03] 콘텐츠 카탈로그 및 배포 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-625"
+    },
+    {
+      "key": "KR1-629",
+      "summary": "[F2078-S04] 콘텐츠 카탈로그 및 배포 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-625"
+    },
+    {
+      "key": "KR1-631",
+      "summary": "[F2079-S01] AI 사용량 계측 및 비용 제어 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-630"
+    },
+    {
+      "key": "KR1-632",
+      "summary": "[F2079-S02] AI 사용량 계측 및 비용 제어 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-630"
+    },
+    {
+      "key": "KR1-633",
+      "summary": "[F2079-S03] AI 사용량 계측 및 비용 제어 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-630"
+    },
+    {
+      "key": "KR1-634",
+      "summary": "[F2079-S04] AI 사용량 계측 및 비용 제어 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-630"
+    },
+    {
+      "key": "KR1-636",
+      "summary": "[F2080-S01] 결제·청구·구독 갱신 및 PG 연동 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-635"
+    },
+    {
+      "key": "KR1-637",
+      "summary": "[F2080-S02] 결제·청구·구독 갱신 및 PG 연동 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-635"
+    },
+    {
+      "key": "KR1-638",
+      "summary": "[F2080-S03] 결제·청구·구독 갱신 및 PG 연동 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-635"
+    },
+    {
+      "key": "KR1-639",
+      "summary": "[F2080-S04] 결제·청구·구독 갱신 및 PG 연동 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-635"
+    },
+    {
+      "key": "KR1-641",
+      "summary": "[F2081-S01] 콘텐츠 추천 및 구독 서비스 분석 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-640"
+    },
+    {
+      "key": "KR1-642",
+      "summary": "[F2081-S02] 콘텐츠 추천 및 구독 서비스 분석 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-640"
+    },
+    {
+      "key": "KR1-643",
+      "summary": "[F2081-S03] 콘텐츠 추천 및 구독 서비스 분석 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-640"
+    },
+    {
+      "key": "KR1-644",
+      "summary": "[F2081-S04] 콘텐츠 추천 및 구독 서비스 분석 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-640"
+    },
+    {
+      "key": "KR1-646",
+      "summary": "[F2158-S01] Fashion·Accessory 상품·Catalog 운영 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-645"
+    },
+    {
+      "key": "KR1-647",
+      "summary": "[F2158-S02] Fashion·Accessory 상품·Catalog 운영 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-645"
+    },
+    {
+      "key": "KR1-648",
+      "summary": "[F2158-S03] Fashion·Accessory 상품·Catalog 운영 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-645"
+    },
+    {
+      "key": "KR1-649",
+      "summary": "[F2158-S04] Fashion·Accessory 상품·Catalog 운영 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-645"
+    },
+    {
+      "key": "KR1-651",
+      "summary": "[F2163-S01] 사용량 기반 구독·추가 Service Recommendation 사용 흐름·Data Model·API 설계",
+      "status": "To Do",
+      "parent": "KR1-650"
+    },
+    {
+      "key": "KR1-652",
+      "summary": "[F2163-S02] 사용량 기반 구독·추가 Service Recommendation 서비스·App·자동화 구현",
+      "status": "To Do",
+      "parent": "KR1-650"
+    },
+    {
+      "key": "KR1-653",
+      "summary": "[F2163-S03] 사용량 기반 구독·추가 Service Recommendation 통합·보안·부하·복구 시험",
+      "status": "To Do",
+      "parent": "KR1-650"
+    },
+    {
+      "key": "KR1-654",
+      "summary": "[F2163-S04] 사용량 기반 구독·추가 Service Recommendation 운영 Dashboard·SLA·Release",
+      "status": "To Do",
+      "parent": "KR1-650"
+    },
+    {
+      "key": "KR1-657",
+      "summary": "[F2082-S01] 높이 조절 본체 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-656"
+    },
+    {
+      "key": "KR1-658",
+      "summary": "[F2082-S02] 높이 조절 본체 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-656"
+    },
+    {
+      "key": "KR1-659",
+      "summary": "[F2082-S03] 높이 조절 본체 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-656"
+    },
+    {
+      "key": "KR1-660",
+      "summary": "[F2082-S04] 높이 조절 본체 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-656"
+    },
+    {
+      "key": "KR1-662",
+      "summary": "[F2083-S01] 생활 공간 의미 지도 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-661"
+    },
+    {
+      "key": "KR1-663",
+      "summary": "[F2083-S02] 생활 공간 의미 지도 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-661"
+    },
+    {
+      "key": "KR1-664",
+      "summary": "[F2083-S03] 생활 공간 의미 지도 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-661"
+    },
+    {
+      "key": "KR1-665",
+      "summary": "[F2083-S04] 생활 공간 의미 지도 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-661"
+    },
+    {
+      "key": "KR1-667",
+      "summary": "[F2084-S01] 가사 작업 계획 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-666"
+    },
+    {
+      "key": "KR1-668",
+      "summary": "[F2084-S02] 가사 작업 계획 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-666"
+    },
+    {
+      "key": "KR1-669",
+      "summary": "[F2084-S03] 가사 작업 계획 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-666"
+    },
+    {
+      "key": "KR1-670",
+      "summary": "[F2084-S04] 가사 작업 계획 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-666"
+    },
+    {
+      "key": "KR1-672",
+      "summary": "[F2085-S01] 스마트홈 기기 연동 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-671"
+    },
+    {
+      "key": "KR1-673",
+      "summary": "[F2085-S02] 스마트홈 기기 연동 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-671"
+    },
+    {
+      "key": "KR1-674",
+      "summary": "[F2085-S03] 스마트홈 기기 연동 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-671"
+    },
+    {
+      "key": "KR1-675",
+      "summary": "[F2085-S04] 스마트홈 기기 연동 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-671"
+    },
+    {
+      "key": "KR1-677",
+      "summary": "[F2086-S01] 장애인·고령자 접근성 보조 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-676"
+    },
+    {
+      "key": "KR1-678",
+      "summary": "[F2086-S02] 장애인·고령자 접근성 보조 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-676"
+    },
+    {
+      "key": "KR1-679",
+      "summary": "[F2086-S03] 장애인·고령자 접근성 보조 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-676"
+    },
+    {
+      "key": "KR1-680",
+      "summary": "[F2086-S04] 장애인·고령자 접근성 보조 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-676"
+    },
+    {
+      "key": "KR1-682",
+      "summary": "[F2087-S01] 장기 자율 생활 서비스 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-681"
+    },
+    {
+      "key": "KR1-683",
+      "summary": "[F2087-S02] 장기 자율 생활 서비스 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-681"
+    },
+    {
+      "key": "KR1-684",
+      "summary": "[F2087-S03] 장기 자율 생활 서비스 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-681"
+    },
+    {
+      "key": "KR1-685",
+      "summary": "[F2087-S04] 장기 자율 생활 서비스 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-681"
+    },
+    {
+      "key": "KR1-687",
+      "summary": "[F2137-S01] Stage4 가변 높이 범위·승강 Mechanism 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-686"
+    },
+    {
+      "key": "KR1-688",
+      "summary": "[F2137-S02] Stage4 가변 높이 범위·승강 Mechanism 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-686"
+    },
+    {
+      "key": "KR1-689",
+      "summary": "[F2137-S03] Stage4 가변 높이 범위·승강 Mechanism 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-686"
+    },
+    {
+      "key": "KR1-690",
+      "summary": "[F2137-S04] Stage4 가변 높이 범위·승강 Mechanism 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-686"
+    },
+    {
+      "key": "KR1-692",
+      "summary": "[F2138-S01] 높이별 무게중심·전도·작업영역 안전 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-691"
+    },
+    {
+      "key": "KR1-693",
+      "summary": "[F2138-S02] 높이별 무게중심·전도·작업영역 안전 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-691"
+    },
+    {
+      "key": "KR1-694",
+      "summary": "[F2138-S03] 높이별 무게중심·전도·작업영역 안전 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-691"
+    },
+    {
+      "key": "KR1-695",
+      "summary": "[F2138-S04] 높이별 무게중심·전도·작업영역 안전 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-691"
+    },
+    {
+      "key": "KR1-697",
+      "summary": "[F2147-S01] Matter·Wi-Fi Device Discovery·Gateway 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-696"
+    },
+    {
+      "key": "KR1-698",
+      "summary": "[F2147-S02] Matter·Wi-Fi Device Discovery·Gateway 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-696"
+    },
+    {
+      "key": "KR1-699",
+      "summary": "[F2147-S03] Matter·Wi-Fi Device Discovery·Gateway 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-696"
+    },
+    {
+      "key": "KR1-700",
+      "summary": "[F2147-S04] Matter·Wi-Fi Device Discovery·Gateway 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-696"
+    },
+    {
+      "key": "KR1-702",
+      "summary": "[F2148-S01] 자연어 IoT 제어·실행 확인 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-701"
+    },
+    {
+      "key": "KR1-703",
+      "summary": "[F2148-S02] 자연어 IoT 제어·실행 확인 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-701"
+    },
+    {
+      "key": "KR1-704",
+      "summary": "[F2148-S03] 자연어 IoT 제어·실행 확인 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-701"
+    },
+    {
+      "key": "KR1-705",
+      "summary": "[F2148-S04] 자연어 IoT 제어·실행 확인 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-701"
+    },
+    {
+      "key": "KR1-707",
+      "summary": "[F2149-S01] Scene 자동화·공간 위치 기반 제어 요구사항·Interface·Simulation 설계",
+      "status": "To Do",
+      "parent": "KR1-706"
+    },
+    {
+      "key": "KR1-708",
+      "summary": "[F2149-S02] Scene 자동화·공간 위치 기반 제어 알고리즘·제어기·HW 연동 구현",
+      "status": "To Do",
+      "parent": "KR1-706"
+    },
+    {
+      "key": "KR1-709",
+      "summary": "[F2149-S03] Scene 자동화·공간 위치 기반 제어 통합·경계조건·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-706"
+    },
+    {
+      "key": "KR1-710",
+      "summary": "[F2149-S04] Scene 자동화·공간 위치 기반 제어 실환경 임무 검증·Parameter Freeze",
+      "status": "To Do",
+      "parent": "KR1-706"
+    },
+    {
+      "key": "KR1-713",
+      "summary": "[F2090-S01] Stage1 HW 요구사양 및 시스템 Architecture 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-712"
+    },
+    {
+      "key": "KR1-714",
+      "summary": "[F2090-S02] Stage1 HW 요구사양 및 시스템 Architecture CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-712"
+    },
+    {
+      "key": "KR1-715",
+      "summary": "[F2090-S03] Stage1 HW 요구사양 및 시스템 Architecture Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-712"
+    },
+    {
+      "key": "KR1-716",
+      "summary": "[F2090-S04] Stage1 HW 요구사양 및 시스템 Architecture DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-712"
+    },
+    {
+      "key": "KR1-718",
+      "summary": "[F2091-S01] Main Computing HW 선정 및 인터페이스 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-717"
+    },
+    {
+      "key": "KR1-719",
+      "summary": "[F2091-S02] Main Computing HW 선정 및 인터페이스 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-717"
+    },
+    {
+      "key": "KR1-720",
+      "summary": "[F2091-S03] Main Computing HW 선정 및 인터페이스 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-717"
+    },
+    {
+      "key": "KR1-721",
+      "summary": "[F2091-S04] Main Computing HW 선정 및 인터페이스 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-717"
+    },
+    {
+      "key": "KR1-723",
+      "summary": "[F2092-S01] Safety MCU·Motor Interface·I/O 제어 Architecture 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-722"
+    },
+    {
+      "key": "KR1-724",
+      "summary": "[F2092-S02] Safety MCU·Motor Interface·I/O 제어 Architecture CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-722"
+    },
+    {
+      "key": "KR1-725",
+      "summary": "[F2092-S03] Safety MCU·Motor Interface·I/O 제어 Architecture Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-722"
+    },
+    {
+      "key": "KR1-726",
+      "summary": "[F2092-S04] Safety MCU·Motor Interface·I/O 제어 Architecture DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-722"
+    },
+    {
+      "key": "KR1-728",
+      "summary": "[F2093-S01] 목·팔·허리·손 구동 HW 및 Actuator 선정 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-727"
+    },
+    {
+      "key": "KR1-729",
+      "summary": "[F2093-S02] 목·팔·허리·손 구동 HW 및 Actuator 선정 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-727"
+    },
+    {
+      "key": "KR1-730",
+      "summary": "[F2093-S03] 목·팔·허리·손 구동 HW 및 Actuator 선정 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-727"
+    },
+    {
+      "key": "KR1-731",
+      "summary": "[F2093-S04] 목·팔·허리·손 구동 HW 및 Actuator 선정 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-727"
+    },
+    {
+      "key": "KR1-733",
+      "summary": "[F2094-S01] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-732"
+    },
+    {
+      "key": "KR1-734",
+      "summary": "[F2094-S02] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-732"
+    },
+    {
+      "key": "KR1-735",
+      "summary": "[F2094-S03] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-732"
+    },
+    {
+      "key": "KR1-736",
+      "summary": "[F2094-S04] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-732"
+    },
+    {
+      "key": "KR1-738",
+      "summary": "[F2095-S01] 얼굴 Display·Touch LCD·Audio HW 구축 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-737"
+    },
+    {
+      "key": "KR1-739",
+      "summary": "[F2095-S02] 얼굴 Display·Touch LCD·Audio HW 구축 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-737"
+    },
+    {
+      "key": "KR1-740",
+      "summary": "[F2095-S03] 얼굴 Display·Touch LCD·Audio HW 구축 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-737"
+    },
+    {
+      "key": "KR1-741",
+      "summary": "[F2095-S04] 얼굴 Display·Touch LCD·Audio HW 구축 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-737"
+    },
+    {
+      "key": "KR1-743",
+      "summary": "[F2096-S01] Battery·BMS·전용 전원·안전 Board 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-742"
+    },
+    {
+      "key": "KR1-744",
+      "summary": "[F2096-S02] Battery·BMS·전용 전원·안전 Board 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-742"
+    },
+    {
+      "key": "KR1-745",
+      "summary": "[F2096-S03] Battery·BMS·전용 전원·안전 Board 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-742"
+    },
+    {
+      "key": "KR1-746",
+      "summary": "[F2096-S04] Battery·BMS·전용 전원·안전 Board 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-742"
+    },
+    {
+      "key": "KR1-748",
+      "summary": "[F2097-S01] 내부 Frame 및 기구 Architecture 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-747"
+    },
+    {
+      "key": "KR1-749",
+      "summary": "[F2097-S02] 내부 Frame 및 기구 Architecture 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-747"
+    },
+    {
+      "key": "KR1-750",
+      "summary": "[F2097-S03] 내부 Frame 및 기구 Architecture 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-747"
+    },
+    {
+      "key": "KR1-751",
+      "summary": "[F2097-S04] 내부 Frame 및 기구 Architecture 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-747"
+    },
+    {
+      "key": "KR1-753",
+      "summary": "[F2098-S01] 내부 배치·배선·Connector·Harness 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-752"
+    },
+    {
+      "key": "KR1-754",
+      "summary": "[F2098-S02] 내부 배치·배선·Connector·Harness 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-752"
+    },
+    {
+      "key": "KR1-755",
+      "summary": "[F2098-S03] 내부 배치·배선·Connector·Harness 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-752"
+    },
+    {
+      "key": "KR1-756",
+      "summary": "[F2098-S04] 내부 배치·배선·Connector·Harness 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-752"
+    },
+    {
+      "key": "KR1-758",
+      "summary": "[F2099-S01] 열·소음·진동·EMI 대응 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-757"
+    },
+    {
+      "key": "KR1-759",
+      "summary": "[F2099-S02] 열·소음·진동·EMI 대응 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-757"
+    },
+    {
+      "key": "KR1-760",
+      "summary": "[F2099-S03] 열·소음·진동·EMI 대응 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-757"
+    },
+    {
+      "key": "KR1-761",
+      "summary": "[F2099-S04] 열·소음·진동·EMI 대응 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-757"
+    },
+    {
+      "key": "KR1-763",
+      "summary": "[F2100-S01] HW Prototype #1 제작 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-762"
+    },
+    {
+      "key": "KR1-764",
+      "summary": "[F2100-S02] HW Prototype #1 제작 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-762"
+    },
+    {
+      "key": "KR1-765",
+      "summary": "[F2100-S03] HW Prototype #1 제작 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-762"
+    },
+    {
+      "key": "KR1-766",
+      "summary": "[F2100-S04] HW Prototype #1 제작 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-762"
+    },
+    {
+      "key": "KR1-768",
+      "summary": "[F2101-S01] ROS2/HW 통합 및 Bring-up 시험 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-767"
+    },
+    {
+      "key": "KR1-769",
+      "summary": "[F2101-S02] ROS2/HW 통합 및 Bring-up 시험 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-767"
+    },
+    {
+      "key": "KR1-770",
+      "summary": "[F2101-S03] ROS2/HW 통합 및 Bring-up 시험 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-767"
+    },
+    {
+      "key": "KR1-771",
+      "summary": "[F2101-S04] ROS2/HW 통합 및 Bring-up 시험 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-767"
+    },
+    {
+      "key": "KR1-773",
+      "summary": "[F2102-S01] HW Prototype #2 개선 및 제품화 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-772"
+    },
+    {
+      "key": "KR1-774",
+      "summary": "[F2102-S02] HW Prototype #2 개선 및 제품화 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-772"
+    },
+    {
+      "key": "KR1-775",
+      "summary": "[F2102-S03] HW Prototype #2 개선 및 제품화 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-772"
+    },
+    {
+      "key": "KR1-776",
+      "summary": "[F2102-S04] HW Prototype #2 개선 및 제품화 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-772"
+    },
+    {
+      "key": "KR1-778",
+      "summary": "[F2103-S01] HW 신뢰성·안전·양산성 검증 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-777"
+    },
+    {
+      "key": "KR1-779",
+      "summary": "[F2103-S02] HW 신뢰성·안전·양산성 검증 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-777"
+    },
+    {
+      "key": "KR1-780",
+      "summary": "[F2103-S03] HW 신뢰성·안전·양산성 검증 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-777"
+    },
+    {
+      "key": "KR1-781",
+      "summary": "[F2103-S04] HW 신뢰성·안전·양산성 검증 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-777"
+    },
+    {
+      "key": "KR1-783",
+      "summary": "[F2125-S01] 4~6채널 MEMS Mic Array HW 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-782"
+    },
+    {
+      "key": "KR1-784",
+      "summary": "[F2125-S02] 4~6채널 MEMS Mic Array HW CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-782"
+    },
+    {
+      "key": "KR1-785",
+      "summary": "[F2125-S03] 4~6채널 MEMS Mic Array HW Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-782"
+    },
+    {
+      "key": "KR1-786",
+      "summary": "[F2125-S04] 4~6채널 MEMS Mic Array HW DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-782"
+    },
+    {
+      "key": "KR1-788",
+      "summary": "[F2132-S01] Main Camera 사양·위치·시야각 검증 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-787"
+    },
+    {
+      "key": "KR1-789",
+      "summary": "[F2132-S02] Main Camera 사양·위치·시야각 검증 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-787"
+    },
+    {
+      "key": "KR1-790",
+      "summary": "[F2132-S03] Main Camera 사양·위치·시야각 검증 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-787"
+    },
+    {
+      "key": "KR1-791",
+      "summary": "[F2132-S04] Main Camera 사양·위치·시야각 검증 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-787"
+    },
+    {
+      "key": "KR1-793",
+      "summary": "[F2135-S01] Stage 확장 Modular Interface 표준 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-792"
+    },
+    {
+      "key": "KR1-794",
+      "summary": "[F2135-S02] Stage 확장 Modular Interface 표준 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-792"
+    },
+    {
+      "key": "KR1-795",
+      "summary": "[F2135-S03] Stage 확장 Modular Interface 표준 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-792"
+    },
+    {
+      "key": "KR1-796",
+      "summary": "[F2135-S04] Stage 확장 Modular Interface 표준 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-792"
+    },
+    {
+      "key": "KR1-798",
+      "summary": "[F2136-S01] 관절 Motor Bench·열·소음·수명 검증 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-797"
+    },
+    {
+      "key": "KR1-799",
+      "summary": "[F2136-S02] 관절 Motor Bench·열·소음·수명 검증 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-797"
+    },
+    {
+      "key": "KR1-800",
+      "summary": "[F2136-S03] 관절 Motor Bench·열·소음·수명 검증 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-797"
+    },
+    {
+      "key": "KR1-801",
+      "summary": "[F2136-S04] 관절 Motor Bench·열·소음·수명 검증 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-797"
+    },
+    {
+      "key": "KR1-803",
+      "summary": "[F2156-S01] NFC Fashion·Accessory 인식 HW 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-802"
+    },
+    {
+      "key": "KR1-804",
+      "summary": "[F2156-S02] NFC Fashion·Accessory 인식 HW CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-802"
+    },
+    {
+      "key": "KR1-805",
+      "summary": "[F2156-S03] NFC Fashion·Accessory 인식 HW Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-802"
+    },
+    {
+      "key": "KR1-806",
+      "summary": "[F2156-S04] NFC Fashion·Accessory 인식 HW DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-802"
+    },
+    {
+      "key": "KR1-808",
+      "summary": "[F2221-S01] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-807"
+    },
+    {
+      "key": "KR1-809",
+      "summary": "[F2221-S02] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-807"
+    },
+    {
+      "key": "KR1-810",
+      "summary": "[F2221-S03] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-807"
+    },
+    {
+      "key": "KR1-811",
+      "summary": "[F2221-S04] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-807"
+    },
+    {
+      "key": "KR1-813",
+      "summary": "[F2222-S01] COTS 70%·Custom 30% 전자구성 및 전환 Gate 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-812"
+    },
+    {
+      "key": "KR1-814",
+      "summary": "[F2222-S02] COTS 70%·Custom 30% 전자구성 및 전환 Gate CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-812"
+    },
+    {
+      "key": "KR1-815",
+      "summary": "[F2222-S03] COTS 70%·Custom 30% 전자구성 및 전환 Gate Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-812"
+    },
+    {
+      "key": "KR1-816",
+      "summary": "[F2222-S04] COTS 70%·Custom 30% 전자구성 및 전환 Gate DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-812"
+    },
+    {
+      "key": "KR1-818",
+      "summary": "[F2223-S01] 전용 Power·Safety Board 개발 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-817"
+    },
+    {
+      "key": "KR1-819",
+      "summary": "[F2223-S02] 전용 Power·Safety Board 개발 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-817"
+    },
+    {
+      "key": "KR1-820",
+      "summary": "[F2223-S03] 전용 Power·Safety Board 개발 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-817"
+    },
+    {
+      "key": "KR1-821",
+      "summary": "[F2223-S04] 전용 Power·Safety Board 개발 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-817"
+    },
+    {
+      "key": "KR1-823",
+      "summary": "[F2224-S01] STM32 Motion·I/O·Safety Controller Board 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-822"
+    },
+    {
+      "key": "KR1-824",
+      "summary": "[F2224-S02] STM32 Motion·I/O·Safety Controller Board CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-822"
+    },
+    {
+      "key": "KR1-825",
+      "summary": "[F2224-S03] STM32 Motion·I/O·Safety Controller Board Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-822"
+    },
+    {
+      "key": "KR1-826",
+      "summary": "[F2224-S04] STM32 Motion·I/O·Safety Controller Board DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-822"
+    },
+    {
+      "key": "KR1-828",
+      "summary": "[F2225-S01] RK3588 SoM 양산 Carrier Board 개발 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-827"
+    },
+    {
+      "key": "KR1-829",
+      "summary": "[F2225-S02] RK3588 SoM 양산 Carrier Board 개발 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-827"
+    },
+    {
+      "key": "KR1-830",
+      "summary": "[F2225-S03] RK3588 SoM 양산 Carrier Board 개발 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-827"
+    },
+    {
+      "key": "KR1-831",
+      "summary": "[F2225-S04] RK3588 SoM 양산 Carrier Board 개발 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-827"
+    },
+    {
+      "key": "KR1-834",
+      "summary": "[F2104-S01] 제품 Concept 및 Target User 정의 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-833"
+    },
+    {
+      "key": "KR1-835",
+      "summary": "[F2104-S02] 제품 Concept 및 Target User 정의 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-833"
+    },
+    {
+      "key": "KR1-836",
+      "summary": "[F2104-S03] 제품 Concept 및 Target User 정의 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-833"
+    },
+    {
+      "key": "KR1-837",
+      "summary": "[F2104-S04] 제품 Concept 및 Target User 정의 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-833"
+    },
+    {
+      "key": "KR1-839",
+      "summary": "[F2105-S01] Stage1 제품 기능 Requirement 정의 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-838"
+    },
+    {
+      "key": "KR1-840",
+      "summary": "[F2105-S02] Stage1 제품 기능 Requirement 정의 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-838"
+    },
+    {
+      "key": "KR1-841",
+      "summary": "[F2105-S03] Stage1 제품 기능 Requirement 정의 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-838"
+    },
+    {
+      "key": "KR1-842",
+      "summary": "[F2105-S04] Stage1 제품 기능 Requirement 정의 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-838"
+    },
+    {
+      "key": "KR1-844",
+      "summary": "[F2106-S01] 사용자 Scenario·Journey·Use Case 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-843"
+    },
+    {
+      "key": "KR1-845",
+      "summary": "[F2106-S02] 사용자 Scenario·Journey·Use Case 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-843"
+    },
+    {
+      "key": "KR1-846",
+      "summary": "[F2106-S03] 사용자 Scenario·Journey·Use Case 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-843"
+    },
+    {
+      "key": "KR1-847",
+      "summary": "[F2106-S04] 사용자 Scenario·Journey·Use Case 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-843"
+    },
+    {
+      "key": "KR1-849",
+      "summary": "[F2107-S01] Human-Robot Interaction 기본 원칙 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-848"
+    },
+    {
+      "key": "KR1-850",
+      "summary": "[F2107-S02] Human-Robot Interaction 기본 원칙 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-848"
+    },
+    {
+      "key": "KR1-851",
+      "summary": "[F2107-S03] Human-Robot Interaction 기본 원칙 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-848"
+    },
+    {
+      "key": "KR1-852",
+      "summary": "[F2107-S04] Human-Robot Interaction 기본 원칙 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-848"
+    },
+    {
+      "key": "KR1-854",
+      "summary": "[F2108-S01] 로봇 Size·비례·자세·동작 영역 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-853"
+    },
+    {
+      "key": "KR1-855",
+      "summary": "[F2108-S02] 로봇 Size·비례·자세·동작 영역 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-853"
+    },
+    {
+      "key": "KR1-856",
+      "summary": "[F2108-S03] 로봇 Size·비례·자세·동작 영역 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-853"
+    },
+    {
+      "key": "KR1-857",
+      "summary": "[F2108-S04] 로봇 Size·비례·자세·동작 영역 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-853"
+    },
+    {
+      "key": "KR1-859",
+      "summary": "[F2109-S01] 외관 Industrial Design Concept 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-858"
+    },
+    {
+      "key": "KR1-860",
+      "summary": "[F2109-S02] 외관 Industrial Design Concept CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-858"
+    },
+    {
+      "key": "KR1-861",
+      "summary": "[F2109-S03] 외관 Industrial Design Concept Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-858"
+    },
+    {
+      "key": "KR1-862",
+      "summary": "[F2109-S04] 외관 Industrial Design Concept DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-858"
+    },
+    {
+      "key": "KR1-864",
+      "summary": "[F2110-S01] 얼굴 Display·표정 UX Design 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-863"
+    },
+    {
+      "key": "KR1-865",
+      "summary": "[F2110-S02] 얼굴 Display·표정 UX Design CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-863"
+    },
+    {
+      "key": "KR1-866",
+      "summary": "[F2110-S03] 얼굴 Display·표정 UX Design Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-863"
+    },
+    {
+      "key": "KR1-867",
+      "summary": "[F2110-S04] 얼굴 Display·표정 UX Design DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-863"
+    },
+    {
+      "key": "KR1-869",
+      "summary": "[F2111-S01] 가슴 Touch LCD UI/UX 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-868"
+    },
+    {
+      "key": "KR1-870",
+      "summary": "[F2111-S02] 가슴 Touch LCD UI/UX CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-868"
+    },
+    {
+      "key": "KR1-871",
+      "summary": "[F2111-S03] 가슴 Touch LCD UI/UX Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-868"
+    },
+    {
+      "key": "KR1-872",
+      "summary": "[F2111-S04] 가슴 Touch LCD UI/UX DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-868"
+    },
+    {
+      "key": "KR1-874",
+      "summary": "[F2112-S01] 음성·표정·Gesture Interaction UX 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-873"
+    },
+    {
+      "key": "KR1-875",
+      "summary": "[F2112-S02] 음성·표정·Gesture Interaction UX CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-873"
+    },
+    {
+      "key": "KR1-876",
+      "summary": "[F2112-S03] 음성·표정·Gesture Interaction UX Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-873"
+    },
+    {
+      "key": "KR1-877",
+      "summary": "[F2112-S04] 음성·표정·Gesture Interaction UX DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-873"
+    },
+    {
+      "key": "KR1-879",
+      "summary": "[F2113-S01] 버튼·터치·충전·전원 등 Physical UX 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-878"
+    },
+    {
+      "key": "KR1-880",
+      "summary": "[F2113-S02] 버튼·터치·충전·전원 등 Physical UX CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-878"
+    },
+    {
+      "key": "KR1-881",
+      "summary": "[F2113-S03] 버튼·터치·충전·전원 등 Physical UX Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-878"
+    },
+    {
+      "key": "KR1-882",
+      "summary": "[F2113-S04] 버튼·터치·충전·전원 등 Physical UX DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-878"
+    },
+    {
+      "key": "KR1-884",
+      "summary": "[F2114-S01] CMF(Material/Color/Finish) 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-883"
+    },
+    {
+      "key": "KR1-885",
+      "summary": "[F2114-S02] CMF(Material/Color/Finish) 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-883"
+    },
+    {
+      "key": "KR1-886",
+      "summary": "[F2114-S03] CMF(Material/Color/Finish) 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-883"
+    },
+    {
+      "key": "KR1-887",
+      "summary": "[F2114-S04] CMF(Material/Color/Finish) 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-883"
+    },
+    {
+      "key": "KR1-889",
+      "summary": "[F2115-S01] 3D CAD Exterior 및 Packaging 설계 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-888"
+    },
+    {
+      "key": "KR1-890",
+      "summary": "[F2115-S02] 3D CAD Exterior 및 Packaging 설계 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-888"
+    },
+    {
+      "key": "KR1-891",
+      "summary": "[F2115-S03] 3D CAD Exterior 및 Packaging 설계 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-888"
+    },
+    {
+      "key": "KR1-892",
+      "summary": "[F2115-S04] 3D CAD Exterior 및 Packaging 설계 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-888"
+    },
+    {
+      "key": "KR1-894",
+      "summary": "[F2116-S01] Design Mock-up 제작 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-893"
+    },
+    {
+      "key": "KR1-895",
+      "summary": "[F2116-S02] Design Mock-up 제작 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-893"
+    },
+    {
+      "key": "KR1-896",
+      "summary": "[F2116-S03] Design Mock-up 제작 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-893"
+    },
+    {
+      "key": "KR1-897",
+      "summary": "[F2116-S04] Design Mock-up 제작 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-893"
+    },
+    {
+      "key": "KR1-899",
+      "summary": "[F2117-S01] 사용자 사용성 Test 및 UX 평가 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-898"
+    },
+    {
+      "key": "KR1-900",
+      "summary": "[F2117-S02] 사용자 사용성 Test 및 UX 평가 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-898"
+    },
+    {
+      "key": "KR1-901",
+      "summary": "[F2117-S03] 사용자 사용성 Test 및 UX 평가 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-898"
+    },
+    {
+      "key": "KR1-902",
+      "summary": "[F2117-S04] 사용자 사용성 Test 및 UX 평가 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-898"
+    },
+    {
+      "key": "KR1-904",
+      "summary": "[F2118-S01] 디자인 개선 및 최종 Design Freeze 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-903"
+    },
+    {
+      "key": "KR1-905",
+      "summary": "[F2118-S02] 디자인 개선 및 최종 Design Freeze CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-903"
+    },
+    {
+      "key": "KR1-906",
+      "summary": "[F2118-S03] 디자인 개선 및 최종 Design Freeze Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-903"
+    },
+    {
+      "key": "KR1-907",
+      "summary": "[F2118-S04] 디자인 개선 및 최종 Design Freeze DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-903"
+    },
+    {
+      "key": "KR1-909",
+      "summary": "[F2119-S01] 양산 Design/DFM 및 외장 구조 확정 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-908"
+    },
+    {
+      "key": "KR1-910",
+      "summary": "[F2119-S02] 양산 Design/DFM 및 외장 구조 확정 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-908"
+    },
+    {
+      "key": "KR1-911",
+      "summary": "[F2119-S03] 양산 Design/DFM 및 외장 구조 확정 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-908"
+    },
+    {
+      "key": "KR1-912",
+      "summary": "[F2119-S04] 양산 Design/DFM 및 외장 구조 확정 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-908"
+    },
+    {
+      "key": "KR1-914",
+      "summary": "[F2128-S01] 캐릭터형·리얼형 Face UI 사용자 평가 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-913"
+    },
+    {
+      "key": "KR1-915",
+      "summary": "[F2128-S02] 캐릭터형·리얼형 Face UI 사용자 평가 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-913"
+    },
+    {
+      "key": "KR1-916",
+      "summary": "[F2128-S03] 캐릭터형·리얼형 Face UI 사용자 평가 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-913"
+    },
+    {
+      "key": "KR1-917",
+      "summary": "[F2128-S04] 캐릭터형·리얼형 Face UI 사용자 평가 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-913"
+    },
+    {
+      "key": "KR1-919",
+      "summary": "[F2134-S01] Stage1~4 공통 Body Size·Work Envelope 규격 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-918"
+    },
+    {
+      "key": "KR1-920",
+      "summary": "[F2134-S02] Stage1~4 공통 Body Size·Work Envelope 규격 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-918"
+    },
+    {
+      "key": "KR1-921",
+      "summary": "[F2134-S03] Stage1~4 공통 Body Size·Work Envelope 규격 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-918"
+    },
+    {
+      "key": "KR1-922",
+      "summary": "[F2134-S04] Stage1~4 공통 Body Size·Work Envelope 규격 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-918"
+    },
+    {
+      "key": "KR1-924",
+      "summary": "[F2154-S01] Robot Fashion 기계 Interface·안전 표준 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-923"
+    },
+    {
+      "key": "KR1-925",
+      "summary": "[F2154-S02] Robot Fashion 기계 Interface·안전 표준 CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-923"
+    },
+    {
+      "key": "KR1-926",
+      "summary": "[F2154-S03] Robot Fashion 기계 Interface·안전 표준 Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-923"
+    },
+    {
+      "key": "KR1-927",
+      "summary": "[F2154-S04] Robot Fashion 기계 Interface·안전 표준 DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-923"
+    },
+    {
+      "key": "KR1-929",
+      "summary": "[F2155-S01] 고객군별 Robot Fashion·CMF·Accessory Design 요구사양·Interface·BOM 설계",
+      "status": "To Do",
+      "parent": "KR1-928"
+    },
+    {
+      "key": "KR1-930",
+      "summary": "[F2155-S02] 고객군별 Robot Fashion·CMF·Accessory Design CAD·회로·Prototype 제작",
+      "status": "To Do",
+      "parent": "KR1-928"
+    },
+    {
+      "key": "KR1-931",
+      "summary": "[F2155-S03] 고객군별 Robot Fashion·CMF·Accessory Design Bench·통합·안전 시험",
+      "status": "To Do",
+      "parent": "KR1-928"
+    },
+    {
+      "key": "KR1-932",
+      "summary": "[F2155-S04] 고객군별 Robot Fashion·CMF·Accessory Design DFM·Design Freeze·양산 인계",
+      "status": "To Do",
+      "parent": "KR1-928"
+    }
+  ]
+}

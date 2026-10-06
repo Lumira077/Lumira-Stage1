@@ -1,0 +1,27 @@
+{
+  "source_commit": "local-uncommitted",
+  "scope": "synthetic_local_contract_prototype",
+  "tests": 63,
+  "per_feature_tests": {
+    "F2015": 13,
+    "F2016": 12,
+    "F2017": 11,
+    "F2018": 12,
+    "F2019": 15
+  },
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "actual_models": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "release_ready": false,
+  "pending": [
+    "trained_models_and_licensed_weights",
+    "consented_subject_split_evaluation_calibration",
+    "physical_camera_microphone_robot",
+    "production_auth_consent_epoch_events",
+    "approved_thresholds",
+    "Q1_R1_user_release_validation"
+  ]
+}

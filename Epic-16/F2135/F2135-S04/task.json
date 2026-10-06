@@ -1,0 +1,21 @@
+{
+  "id": "F2135-S04",
+  "jira": "KR1-796",
+  "parent": "KR1-792",
+  "title": "[F2135-S04] Stage 확장 Modular Interface 표준 DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: Stage확장 모듈의 기계/전원/통신/하중 interface를 표준화",
+  "data": "interface revision·connector·load·module id",
+  "boundary": "비호환·오결선·hotplug·초과하중",
+  "metrics": "호환mock-up·ICD coverage·safe reject",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

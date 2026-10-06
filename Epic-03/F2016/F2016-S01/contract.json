@@ -1,0 +1,18 @@
+{
+  "schema": "emotion-v1",
+  "feature": "F2016",
+  "data": "사용자/동의 epoch, audio window timestamp, sample rate/channel, voice activity·pitch/rate/energy/silence 특징, noise/clipping/overlap/TTS echo quality, 모델/언어/label schema 버전. 원본 음성 기본 비저장.",
+  "interface": "AudioFrame/quality → prosody extractor → external emotion model → EmotionObservation; F2126 reference/AEC 및 F2009 STT 시간축 연동 계약. 실제 driver/stream 미구현.",
+  "labels": [
+    "happy",
+    "sad",
+    "angry",
+    "anxious",
+    "neutral"
+  ],
+  "unknown": "abstention, not a trained class",
+  "metrics": "조건별 UAR/macro-F1·ECE·SNR/음성 coverage·silence/echo 오탐·unknown·p50/p95 end-to-end 지연",
+  "approval": "pending",
+  "thresholds": "example only: quality .5, confidence .6, margin .15, TTL 2 sec, skew .3 sec; retention 60 sec, min samples 3",
+  "evaluation": "subject-separated train/calibration/test; subgroup and confusion matrix; no clinical ground truth claim"
+}

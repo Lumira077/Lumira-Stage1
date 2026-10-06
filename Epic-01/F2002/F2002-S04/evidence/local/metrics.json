@@ -1,0 +1,19 @@
+{
+  "period": {
+    "start": 0,
+    "end": 1790953707.4223962
+  },
+  "unit": "persisted operation events; not unique users",
+  "counts": {
+    "profile_created": 1,
+    "profile_updated": 100,
+    "activation_requested": 100,
+    "apply_attempt": 100,
+    "apply_succeeded": 100
+  },
+  "apply_failure_rate": 0.0,
+  "apply_attempts": 100,
+  "apply_failures": 0,
+  "mode": "simulated",
+  "baseline_status": "proposed"
+}

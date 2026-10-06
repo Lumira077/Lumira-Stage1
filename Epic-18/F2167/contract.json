@@ -1,0 +1,34 @@
+{
+  "feature": "F2167",
+  "jira": "KR1-944",
+  "epic": "Epic-18",
+  "epic_jira": "KR1-933",
+  "title": "[F2167] 핵심기술 Patent Portfolio·Claim Map 설계",
+  "work": "제품Feature→기술효과→발명군→독립/종속 claim map과 국가/예산을 구성",
+  "data": "Feature·invention·effect·claim element·priority",
+  "boundary": "증거없는효과·중복·회피설계·공백",
+  "metrics": "Feature coverage·claim support·승인",
+  "stage_work": [
+    "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+    "선행문헌/family/claim·차별/회피·검색 근거 조사",
+    "실시예/도면/claim·전문가검토·공식제출/접수증",
+    "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "WIPO PATENTSCOPE",
+      "https://www.wipo.int/en/web/patentscope/index"
+    ],
+    [
+      "KIPRIS",
+      "https://www.kipris.or.kr/"
+    ]
+  ],
+  "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+  "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

@@ -1,0 +1,224 @@
+{
+  "feature_id": "F2104",
+  "jira_key": "KR1-833",
+  "title": "[F2104] 제품 Concept 및 Target User 정의",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "대화 동반자 콘셉트와 고객·구매자 가설을 분리하고 고령자·성인 1인 가구의 필요를 검증한다.",
+  "specific_deliverables": [
+    "고객/구매자/환경/가치 가설과 근거 유형 및 조사 질문 정의",
+    "경청형 캐릭터·쉬운 설정·사용자 통제 콘셉트 카드 작성",
+    "첫 사용·일상 대화·설치성·구매 의향 인터뷰 과제 정의",
+    "선정/보류 근거와 F2105·F2108·F2109 인계 목록 작성"
+  ],
+  "gate": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+  "tools_and_dependencies": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=2-2",
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=6-2",
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-3"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2104-S01",
+      "jira_key": "KR1-834",
+      "source_scope": "고객·구매자·환경·성능/안전·Interface·BOM 요구 목록. 약 600mm 기준과 400mm 비교 가설의 근거 구분.",
+      "work_now": "고객/구매자/환경/가치 가설과 근거 유형 및 조사 질문 정의",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2104/F2104-S01/deliverable.json",
+      "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+      "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2104-S02",
+      "jira_key": "KR1-835",
+      "source_scope": "친근한 경청형 캐릭터, 존댓말·질문 하나·종료 존중. 첫인사/경청/공감/오류/종료 매핑과 콘셉트 보드.",
+      "work_now": "경청형 캐릭터·쉬운 설정·사용자 통제 콘셉트 카드 작성",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2104/F2104-S02/deliverable.json",
+      "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+      "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2104-S03",
+      "jira_key": "KR1-836",
+      "source_scope": "인터뷰와 첫 사용/일상 대화/알림 과제. 설치성·가시성·가격 수용성 기록.",
+      "work_now": "첫 사용·일상 대화·설치성·구매 의향 인터뷰 과제 정의",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2104/F2104-S03/deliverable.json",
+      "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+      "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2104-S04",
+      "jira_key": "KR1-837",
+      "source_scope": "콘셉트 결정·미결 목록과 F2105/F2108/F2109 전달.",
+      "work_now": "선정/보류 근거와 F2105·F2108·F2109 인계 목록 작성",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2104/F2104-S04/deliverable.json",
+      "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+      "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

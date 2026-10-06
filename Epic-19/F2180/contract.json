@@ -1,0 +1,34 @@
+{
+  "feature": "F2180",
+  "jira": "KR1-1007",
+  "epic": "Epic-19",
+  "epic_jira": "KR1-994",
+  "title": "[F2180] IR Deck·Executive Summary·기술 Demo Package",
+  "work": "IR story·제품Demo·실제시험근거·재무모델을 한version으로 묶기",
+  "data": "deck·onepager·demo video ref·claims·financial version",
+  "boundary": "과장효과·수치불일치·Demo미재현·공개IP",
+  "metrics": "메시지일관성·수치근거·검토승인",
+  "stage_work": [
+    "목표시장/자금·KPI·가정/예산·실행계획 확정",
+    "자료/CRM/재무/제안 Package·권한/근거 구축",
+    "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+    "실제성과/의사결정·개선/후속계획·승인 근거"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [
+    1,
+    2,
+    3
+  ],
+  "tools": [
+    [
+      "Python Decimal",
+      "https://docs.python.org/3/library/decimal.html"
+    ]
+  ],
+  "intervention": "최신 KER 자금/재무/주주/계약·판매/원가 가정·투자목표·검증된 Demo·동의 연락처/실제미팅·회계/법률 검토·공고 원문",
+  "dependencies": "목표round/use-of-funds → Data Room/재무/IR·Demo/PoC → 정부matching/검증 investor CRM → 승인접촉/실사/협상/계약 → 실제입금/집행. 첨부 과거 사업 가정은 최신 승인 재무계획과 구분하며 수요/LOI를 매출/투자확정으로 표시하지 않는다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

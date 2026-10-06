@@ -1,0 +1,44 @@
+{
+  "id": "F2107-S03",
+  "jira_key": "KR1-851",
+  "source_scope": "불편한 시선·음량·반복 동작·방해·감정 오판 기록. 안전 한계는 R3/R6 검토.",
+  "work_now": "음소거·발화 중단·충전·위험 상태의 동작 억제 점검",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2107/F2107-S03/deliverable.json",
+  "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+  "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

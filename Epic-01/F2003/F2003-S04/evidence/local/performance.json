@@ -1,0 +1,48 @@
+{
+  "paths": {
+    "extract": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.012603999948623823,
+      "p95": 0.019738999981200323,
+      "max": 0.32559400005993666,
+      "failed": 0
+    },
+    "candidate_save": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.15273249982783454,
+      "p95": 0.27288599994790275,
+      "max": 0.44275700020079967,
+      "failed": 0
+    },
+    "search": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.7886164999035827,
+      "p95": 0.9605159993952839,
+      "max": 1.2691950005319086,
+      "failed": 0
+    },
+    "context_prepare": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.9014535003188939,
+      "p95": 1.1510499998621526,
+      "max": 1.5205429999696207,
+      "failed": 0
+    },
+    "context_release": {
+      "samples": 100,
+      "unit": "ms",
+      "p50": 0.13417950003713486,
+      "p95": 0.19889600025635445,
+      "max": 0.5806529998153565,
+      "failed": 0
+    }
+  },
+  "scope": "in-process SQLite + rule extraction + lexical retrieval; no LLM/network/audio/motion",
+  "confirmed_memory_count": 100,
+  "fixture_content": "short synthetic Korean strings",
+  "failure_rate": 0
+}

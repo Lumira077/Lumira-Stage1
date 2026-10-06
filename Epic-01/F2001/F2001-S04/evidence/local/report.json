@@ -1,0 +1,19 @@
+{
+  "work_item": "KR1-6",
+  "mode": "simulated",
+  "software_gate": "passed",
+  "tests": {
+    "run": 51,
+    "failures": 0,
+    "errors": 0
+  },
+  "dependency_hashes_verified": true,
+  "logging_dropped_events": 0,
+  "real_user_study": "not_run",
+  "hardware_tests": "not_run",
+  "production_deployment": "not_run",
+  "production_restore": "not_run",
+  "release_ready": false,
+  "source_commit": "local-uncommitted",
+  "version": "0.4.0"
+}

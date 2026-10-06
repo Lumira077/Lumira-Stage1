@@ -1,0 +1,44 @@
+{
+  "id": "F2115-S03",
+  "jira_key": "KR1-891",
+  "source_scope": "조립/간섭/분해/열 경로·의상 가림 검토. STEP/STL/도면은 CAD 생성·검증 후 출력.",
+  "work_now": "Onshape 오류 부품·중공/두께·간섭·공차 검증 계획",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2115/F2115-S03/deliverable.json",
+  "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+  "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "시험 계획·합성 검증 범위 정리"
+}

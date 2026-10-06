@@ -1,0 +1,10 @@
+{
+  "schema": "perception-v1",
+  "feature": "F2133",
+  "data": "owner/epoch·track id·DOA/camera extrinsics/FOV·normalized face center·measured joint yaw/time/dt·quality·joint limits/velocity/acceleration/jerk·clearance/stop/watchdog feedback.",
+  "interface": "F2127 track/DOA → measured yaw/vision geometry → bounded target proposal → Epic-06 ROS safety controller/FollowJointTrajectory feedback; Epic-04 gaze와 시선 계약. 현재 executable=false.",
+  "metrics": "face center/angle tracking error·jitter/settling/획득 p95·joint limit/velocity/가감속/jerk·lost/stop/clearance·전류/온도",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

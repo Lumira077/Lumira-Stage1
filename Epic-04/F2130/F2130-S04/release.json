@@ -1,0 +1,16 @@
+{
+  "feature": "F2130",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "lip/audio skew p95·gaze error·blink 자연성·missing cue fallback·취소 residual·사용자 불편",
+  "pending": "actual tracking/TTS alignment·한국어 viseme mapping·blink generator·mask compositor·실제 display timing 미구현. Rhubarb는 후속 오프라인 후보로 live 한국어 품질 검증이 필요하다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

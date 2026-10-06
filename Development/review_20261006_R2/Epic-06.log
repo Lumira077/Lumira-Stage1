@@ -1,0 +1,64 @@
+{"source_commit": "local-uncommitted", "scope": "synthetic_local_contract_prototype", "tests": 58, "per_feature_tests": {"F2030": 8, "F2031": 8, "F2032": 8, "F2033": 8, "F2034": 8, "F2035": 8, "F2120": 10}, "passed": true, "failures": 0, "errors": 0, "actual_hardware_calls": 0, "actual_participants": 0, "actual_robot_tests": 0, "release_ready": false, "pending": ["real_board_drivers_motors_sensors_BMS", "URDF_calibration_feedback_safety_controller", "real_time_QoS_clock_failures", "production_auth_privacy_epoch_events", "approved_parameters_and_freeze", "actual_mission_Q1_R1_rollback"]}
+test_accept (test_F2030.TestF2030.test_accept) ... ok
+test_cancel (test_F2030.TestF2030.test_cancel) ... ok
+test_duplicate (test_F2030.TestF2030.test_duplicate) ... ok
+test_future (test_F2030.TestF2030.test_future) ... ok
+test_nan (test_F2030.TestF2030.test_nan) ... ok
+test_schema (test_F2030.TestF2030.test_schema) ... ok
+test_scope (test_F2030.TestF2030.test_scope) ... ok
+test_stale (test_F2030.TestF2030.test_stale) ... ok
+test_active_cleanup (test_F2031.TestF2031.test_active_cleanup) ... ok
+test_arch (test_F2031.TestF2031.test_arch) ... ok
+test_copy (test_F2031.TestF2031.test_copy) ... ok
+test_fault (test_F2031.TestF2031.test_fault) ... ok
+test_lifecycle (test_F2031.TestF2031.test_lifecycle) ... ok
+test_missing (test_F2031.TestF2031.test_missing) ... ok
+test_real_denied (test_F2031.TestF2031.test_real_denied) ... ok
+test_state (test_F2031.TestF2031.test_state) ... ok
+test_clock (test_F2032.TestF2032.test_clock) ... ok
+test_nan (test_F2032.TestF2032.test_nan) ... ok
+test_position_limit (test_F2032.TestF2032.test_position_limit) ... ok
+test_reset_evidence (test_F2032.TestF2032.test_reset_evidence) ... ok
+test_step_limit (test_F2032.TestF2032.test_step_limit) ... ok
+test_stop_latch (test_F2032.TestF2032.test_stop_latch) ... ok
+test_stopped_hold (test_F2032.TestF2032.test_stopped_hold) ... ok
+test_watchdog (test_F2032.TestF2032.test_watchdog) ... ok
+test_duplicate (test_F2033.TestF2033.test_duplicate) ... ok
+test_one_use (test_F2033.TestF2033.test_one_use) ... ok
+test_pair (test_F2033.TestF2033.test_pair) ... ok
+test_reset (test_F2033.TestF2033.test_reset) ... ok
+test_reverse (test_F2033.TestF2033.test_reverse) ... ok
+test_skew (test_F2033.TestF2033.test_skew) ... ok
+test_stale (test_F2033.TestF2033.test_stale) ... ok
+test_unknown (test_F2033.TestF2033.test_unknown) ... ok
+test_charging (test_F2034.TestF2034.test_charging) ... ok
+test_critical (test_F2034.TestF2034.test_critical) ... ok
+test_low (test_F2034.TestF2034.test_low) ... ok
+test_normal (test_F2034.TestF2034.test_normal) ... ok
+test_overcurrent (test_F2034.TestF2034.test_overcurrent) ... ok
+test_soc (test_F2034.TestF2034.test_soc) ... ok
+test_stale (test_F2034.TestF2034.test_stale) ... ok
+test_thermal (test_F2034.TestF2034.test_thermal) ... ok
+test_clear (test_F2035.TestF2035.test_clear) ... ok
+test_clock (test_F2035.TestF2035.test_clock) ... ok
+test_fault_latch (test_F2035.TestF2035.test_fault_latch) ... ok
+test_healthy (test_F2035.TestF2035.test_healthy) ... ok
+test_missing (test_F2035.TestF2035.test_missing) ... ok
+test_not_physical (test_F2035.TestF2035.test_not_physical) ... ok
+test_stale (test_F2035.TestF2035.test_stale) ... ok
+test_unknown_code (test_F2035.TestF2035.test_unknown_code) ... ok
+test_budget (test_F2120.TestF2120.test_budget) ... ok
+test_cloud (test_F2120.TestF2120.test_cloud) ... ok
+test_complete (test_F2120.TestF2120.test_complete) ... ok
+test_control_local (test_F2120.TestF2120.test_control_local) ... ok
+test_control_no_cloud (test_F2120.TestF2120.test_control_no_cloud) ... ok
+test_no_consent (test_F2120.TestF2120.test_no_consent) ... ok
+test_offline (test_F2120.TestF2120.test_offline) ... ok
+test_private_edge (test_F2120.TestF2120.test_private_edge) ... ok
+test_stale_result (test_F2120.TestF2120.test_stale_result) ... ok
+test_wrong_result (test_F2120.TestF2120.test_wrong_result) ... ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 0.002s
+
+OK

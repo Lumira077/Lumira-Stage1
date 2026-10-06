@@ -1,0 +1,382 @@
+{
+  "epic": "Epic-13",
+  "jira": "KR1-528",
+  "features": [
+    {
+      "feature": "F2071",
+      "jira": "KR1-529",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2071] 사용자 동의 및 개인정보 설정",
+      "work": "목적별 consent version·철회·보유·삭제 전파를 구성",
+      "data": "subject·purpose·consent version·epoch·retention",
+      "boundary": "철회 후 queued job·다른 사용자·백업 복원",
+      "metrics": "철회 반영시간·삭제 검증·목적외 수집 0건",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2072",
+      "jira": "KR1-534",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2072] 전송·저장 데이터 암호화",
+      "work": "TLS/mTLS·저장 암호화·key lifecycle·rotation/복구를 설계",
+      "data": "cipher policy·key ref·cert expiry·encryption envelope",
+      "boundary": "잘못된 cert·revoked key·평문 cache·backup",
+      "metrics": "평문 노출 0건·rotation 성공·복호화권한",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2073",
+      "jira": "KR1-539",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2073] 인증·권한·기기 신뢰",
+      "work": "사용자/기기 인증·tenant/owner scope·RBAC·세션 revoke를 구성",
+      "data": "principal·role·device/tenant·token ref·epoch",
+      "boundary": "cross-tenant·replay·expired·owner 변경",
+      "metrics": "권한우회 0건·revoke 지연·session 감사",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "scoped_access",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2074",
+      "jira": "KR1-544",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2074] API 키 및 비밀정보 중앙 관리",
+      "work": "Secret 참조만 배포하고 최소권한·rotate·유출 대응을 설계",
+      "data": "secret ref·version·scope·expiry·audit",
+      "boundary": "로그유출·CI fork·폐기key·권한확대",
+      "metrics": "Secret 원문 0건·rotation·접근추적",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2075",
+      "jira": "KR1-549",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2075] 감사 로그 및 이상 접근 탐지",
+      "work": "최소 감사 event·무결성/시간·보존·접근 이상 경보를 구성",
+      "data": "actor ref·action·resource·result·trace·stamp",
+      "boundary": "삭제/변조·burst access·PII 로그·clock drift",
+      "metrics": "감사coverage·탐지 precision·추적성",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2076",
+      "jira": "KR1-554",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2076] 관절·주행 비상 정지",
+      "work": "관절/주행 stop latch·local 우선순위·물리 ACK·검토 reset을 연결",
+      "data": "stop source·safety epoch·velocity·torque feedback",
+      "boundary": "AI hang·통신단절·늦은명령·자동재시작",
+      "metrics": "정지시간/거리·안전상태·restart 차단",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2139",
+      "jira": "KR1-559",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2139] 경량 Arm·연질 외장·라운드 Mechanical Safety",
+      "work": "경량 팔·연질 외장·라운드·끼임 간격·낙하 구조를 기구로 설계",
+      "data": "mass·radius·gap·material·drawing revision",
+      "boundary": "접촉·모서리·손끼임·낙하",
+      "metrics": "위험평가·접촉/끼임 시험·도면 추적",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2140",
+      "jira": "KR1-564",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2140] Torque·Current 충돌 감지 및 가변 제한",
+      "work": "torque/current·근접·속도에 따른 충돌 후보 및 제한도를 구성",
+      "data": "torque·current·distance·speed·threshold version",
+      "boundary": "센서단선·정상충격·오탐·과부하",
+      "metrics": "검출지연·오탐/미탐·limit 변경추적",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2141",
+      "jira": "KR1-569",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2141] Safety MCU 독립 Torque 차단·검증",
+      "work": "Safety MCU의 독립 watchdog·torque disable·feedback·reset을 검증",
+      "data": "MCU heartbeat·hardware enable·feedback·fault",
+      "boundary": "Linux freeze·bus 단절·sensor fault·reset glitch",
+      "metrics": "독립 차단시간·실제 torque 0·fault coverage",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2150",
+      "jira": "KR1-574",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2150] 민감 IoT 기기 권한·재확인·감사",
+      "work": "도어/락 등 민감 IoT의 user/device scope·재확인·감사·취소를 구성",
+      "data": "device·action·one-time confirmation·scope·expiry",
+      "boundary": "낯선명령·replay·권한변경·원격취소",
+      "metrics": "미승인 실행 0건·결과 감사·취소반영",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "scene_proposal",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2164",
+      "jira": "KR1-579",
+      "epic": "Epic-13",
+      "epic_jira": "KR1-528",
+      "title": "[F2164] Fleet 최소 Metadata·Privacy·Security Policy",
+      "work": "fleet 최소 metadata와 목적/보유/접근·raw 비전송을 구성",
+      "data": "metadata allowlist·consent epoch·tenant·retention",
+      "boundary": "raw 영상/대화/집배치·cross-tenant·철회",
+      "metrics": "원문전송 0건·삭제전파·접근검증",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "minimal_event",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ],
+        [
+          "ros2_control",
+          "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+        ]
+      ],
+      "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+      "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 44,
+  "release_ready": false
+}

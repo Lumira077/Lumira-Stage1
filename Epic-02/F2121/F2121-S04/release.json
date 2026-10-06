@@ -1,0 +1,18 @@
+{
+  "feature": "F2121",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "offline 성공률·stop ACK 지연·명령 오실행 0건",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 정확 문구 parser와 proposal. 실제 제어·삭제·긴급 연락·물리 안전 경로 미연결"
+}

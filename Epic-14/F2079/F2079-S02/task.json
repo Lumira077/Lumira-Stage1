@@ -1,0 +1,21 @@
+{
+  "id": "F2079-S02",
+  "jira": "KR1-632",
+  "parent": "KR1-630",
+  "title": "[F2079-S02] AI 사용량 계측 및 비용 제어 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 토큰/음성/영상/Cloud 사용량을 idempotent 원가계측으로 구성",
+  "data": "usage id·units·price version·credit·budget",
+  "boundary": "중복계측·추정/확정 차이·할당초과",
+  "metrics": "원가오차·집계지연·한도차단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "UsageLedger",
+  "actual_external_calls": 0
+}

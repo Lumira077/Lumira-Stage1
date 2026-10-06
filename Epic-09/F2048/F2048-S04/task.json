@@ -1,0 +1,21 @@
+{
+  "id": "F2048-S04",
+  "jira": "KR1-379",
+  "parent": "KR1-375",
+  "title": "[F2048-S04] 복약 및 일정 알림 운영·지표·Release 전환",
+  "work": "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단: 사용자 승인 복약/일정의 timezone 반복·snooze·확인·재알림을 구현",
+  "data": "schedule id·local time·timezone·occurrence·ack",
+  "boundary": "DST·시계변경·중복전달·연결 단절",
+  "metrics": "중복 알림 0건·누락률·도달시간",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "Reminder",
+  "actual_external_calls": 0
+}

@@ -1,0 +1,18 @@
+{
+  "feature": "F2122",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "peak RAM·tokens/s·TTFT·온도/전력·fallback·Tool 거절",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 자원/Tool gate만 구현; 모델 다운로드·실제 추론·RK3588 NPU/Jetson 가속·실물 benchmark 미실시"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2148-S01",
+  "jira": "KR1-702",
+  "parent": "KR1-701",
+  "title": "[F2148-S01] 자연어 IoT 제어·실행 확인 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: 자연어를 allowlisted IoT intent로 변환하고 민감명령 확인·receipt를 구성",
+  "data": "intent·device/room·action·confirmation·receipt",
+  "boundary": "ambiguous target·prompt injection·late ACK",
+  "metrics": "intent 정확성·실행확인·미승인 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

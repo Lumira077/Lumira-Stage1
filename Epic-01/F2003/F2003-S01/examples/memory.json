@@ -1,0 +1,8 @@
+{
+  "kind": "preference",
+  "topic": "favorite_activity",
+  "content": "산책",
+  "source_ref": "11111111111111111111111111111111",
+  "confidence": 0.8,
+  "ttl_seconds": 2592000
+}

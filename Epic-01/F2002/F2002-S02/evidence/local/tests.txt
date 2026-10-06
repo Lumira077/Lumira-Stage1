@@ -1,0 +1,28 @@
+{"run": 22, "failed": 0, "errors": 0}
+test_authenticated_real_http_cycle (test_service.HTTP.test_authenticated_real_http_cycle) ... ok
+test_bool_revision_rejected (test_service.Storage.test_bool_revision_rejected) ... ok
+test_conflicting_create_key (test_service.Storage.test_conflicting_create_key) ... ok
+test_create_idempotent (test_service.Storage.test_create_idempotent) ... ok
+test_delete_clears_data_operations_bindings (test_service.Storage.test_delete_clears_data_operations_bindings) ... ok
+test_delete_conflict_preserves_profile (test_service.Storage.test_delete_conflict_preserves_profile) ... ok
+test_device_disconnected (test_service.Storage.test_device_disconnected) ... ok
+test_device_other_owner (test_service.Storage.test_device_other_owner) ... ok
+test_foreign_profile_hidden (test_service.Storage.test_foreign_profile_hidden) ... ok
+test_guardian_requires_authority (test_service.Storage.test_guardian_requires_authority) ... ok
+test_guardian_trusted_subject (test_service.Storage.test_guardian_trusted_subject) ... ok
+test_key_reuse_other_profile_rejected (test_service.Storage.test_key_reuse_other_profile_rejected) ... ok
+test_logs_no_user_data (test_service.Storage.test_logs_no_user_data) ... ok
+test_old_key_never_returns_old_data (test_service.Storage.test_old_key_never_returns_old_data) ... ok
+test_reopen_persists (test_service.Storage.test_reopen_persists) ... ok
+test_reset_keeps_consent (test_service.Storage.test_reset_keeps_consent) ... ok
+test_revision_conflict (test_service.Storage.test_revision_conflict) ... ok
+test_stop_invalidates_pending (test_service.Storage.test_stop_invalidates_pending) ... ok
+test_switch_invalidates_old_activation (test_service.Storage.test_switch_invalidates_old_activation) ... ok
+test_two_connections_conflict (test_service.Storage.test_two_connections_conflict) ... ok
+test_update_and_idempotency (test_service.Storage.test_update_and_idempotency) ... ok
+test_update_invalidates_activation (test_service.Storage.test_update_invalidates_activation) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.547s
+
+OK

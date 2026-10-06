@@ -1,0 +1,42 @@
+{
+  "feature": "F2002",
+  "source_commit": "local-uncommitted",
+  "python": "3.12.14",
+  "mode": "simulated",
+  "tests": {
+    "F2002-S01": {
+      "run": 15,
+      "failed": 0,
+      "errors": 0
+    },
+    "F2002-S02": {
+      "run": 22,
+      "failed": 0,
+      "errors": 0
+    },
+    "F2002-S03": {
+      "run": 14,
+      "failed": 0,
+      "errors": 0
+    },
+    "F2002-S04": {
+      "run": 16,
+      "failed": 0,
+      "errors": 0
+    }
+  },
+  "total": 67,
+  "failed": 0,
+  "errors": 0,
+  "hardware_tests": "not_run",
+  "actual_user_study": "not_run",
+  "production_rollback": "not_run",
+  "release_ready": false,
+  "software_gate": "passed",
+  "dependency_hashes_verified": true,
+  "proposed_latency_targets": {
+    "save_p95_ms": 500,
+    "apply_p95_ms": 1000,
+    "status": "passed"
+  }
+}

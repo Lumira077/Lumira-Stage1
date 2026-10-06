@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2212",
+  "data_proposal": "Attempt: turn_id, epoch, provider, failure_class, emitted; Recovery: chosen_backend, attempts, final_state",
+  "interface_proposal": "Recovery.complete(ordered_adapters,turn); 각 호출 전 F2211·F2209 재확인, 실제 stream 복구는 별도",
+  "acceptance": "원인과 attempt를 기록하고 목표 복구시간 내 전환하며 동일 turn의 최종 출력이 중복되지 않는다.",
+  "metrics": "복구 시간·대체율·중복 출력 0건·auth/429 오류·circuit 상태",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

@@ -1,0 +1,34 @@
+{
+  "feature": "F2169",
+  "jira": "KR1-954",
+  "epic": "Epic-18",
+  "epic_jira": "KR1-933",
+  "title": "[F2169] HRI·Face UI·감정표현·Persona 특허 발굴·출원",
+  "work": "시선/표정/음성/제스처·Persona 전환의HRI흐름/상태/효과 발명을 정리",
+  "data": "state graph·cue·UI figure·experiment·claim",
+  "boundary": "단순디자인·선행UI·효과근거없음",
+  "metrics": "차별구성·도면일치·사용효과근거",
+  "stage_work": [
+    "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표",
+    "선행문헌/family/claim·차별/회피·검색 근거 조사",
+    "실시예/도면/claim·전문가검토·공식제출/접수증",
+    "OA/해외/연차료·FTO/라이선스·권리상태 후속관리"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "WIPO PATENTSCOPE",
+      "https://www.wipo.int/en/web/patentscope/index"
+    ],
+    [
+      "KIPRIS",
+      "https://www.kipris.or.kr/"
+    ]
+  ],
+  "intervention": "발명자/권리자·비공개 기술자료·선행문헌/claim·국가/제품 version·변리사 검토·공식 기한/접수증·IP 예산",
+  "dependencies": "발명신고/공개gate → 검색/family/claim map → 국내/해외/심사/유지 → 국가·출시버전별 FTO/라이선스. Epic-01~17 기술 증적과 Epic-19 실사·Epic-20 공개일정 연결. 검색결과·법적상태·기한·특허가능성/FTO 결론은 실제 조사와 변리사 검토가 필요하다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

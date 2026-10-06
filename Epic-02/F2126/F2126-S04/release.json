@@ -1,0 +1,18 @@
+{
+  "feature": "F2126",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "ERLE·double-talk 왜곡·DOA MAE·STT CER/WER 개선·frame loss",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 기초 DSP 계산·계약 시험. adaptive AEC·실제 beamformer·TDOA 추정·마이크 배열·실물 성능 미구현"
+}

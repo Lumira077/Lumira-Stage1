@@ -1,0 +1,18 @@
+{
+  "feature": "F2211",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "금지 전송 0건·분류 오누락·동의 철회 반영 지연·reason 분포",
+  "metric_scope": "local simulated operations only",
+  "pending": "분류 등급은 신뢰된 호출자 입력. 실제 PII 탐지·동의 이벤트·완전한 익명화·전송 감사 미구현"
+}

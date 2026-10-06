@@ -1,0 +1,21 @@
+{
+  "id": "F2178-S03",
+  "jira": "KR1-1001",
+  "parent": "KR1-999",
+  "title": "[F2178-S03] 투자 준비도 점검·Data Room 구축 접촉·상담·PoC·협상 실행",
+  "work": "승인받은 접촉/상담/PoC/협상·실제결과 기록: 법인/주주/재무/계약/인력/기술/IP자료 index와 접근권한을 구성",
+  "data": "document id·version·classification·owner·expiry",
+  "boundary": "과거자료·권한초과·민감정보·미제출",
+  "metrics": "필수자료coverage·version·접근감사",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

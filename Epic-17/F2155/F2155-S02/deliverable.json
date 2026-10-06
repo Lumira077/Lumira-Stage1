@@ -1,0 +1,44 @@
+{
+  "id": "F2155-S02",
+  "jira_key": "KR1-930",
+  "source_scope": "20종 분류 초안: 물리18종/디지털2종. 모자·헤어밴드·헤드폰·의류·가방·헤어·밴드·테마의상과 UI/애니메이션팩.",
+  "work_now": "초기 SKU 후보·보류·데이터팩 버전 카탈로그 작성",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2155/F2155-S02/deliverable.json",
+  "acceptance": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+  "remaining": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "프로토타입 또는 설계 입력 작성"
+}

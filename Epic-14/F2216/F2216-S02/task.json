@@ -1,0 +1,21 @@
+{
+  "id": "F2216-S02",
+  "jira": "KR1-597",
+  "parent": "KR1-595",
+  "title": "[F2216-S02] Subscription Plan Management 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: plan version·trial·upgrade/downgrade·proration·권한시점을 관리",
+  "data": "plan id·effective time·credit·price·entitlement",
+  "boundary": "월중변경·취소·가격버전·과거요금제",
+  "metrics": "변경일관성·일할계산·권한시점",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

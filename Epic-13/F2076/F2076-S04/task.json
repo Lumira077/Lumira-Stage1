@@ -1,0 +1,21 @@
+{
+  "id": "F2076-S04",
+  "jira": "KR1-558",
+  "parent": "KR1-554",
+  "title": "[F2076-S04] 관절·주행 비상 정지 Evidence·Compliance·Release 승인",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: 관절/주행 stop latch·local 우선순위·물리 ACK·검토 reset을 연결",
+  "data": "stop source·safety epoch·velocity·torque feedback",
+  "boundary": "AI hang·통신단절·늦은명령·자동재시작",
+  "metrics": "정지시간/거리·안전상태·restart 차단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

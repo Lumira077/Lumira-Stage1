@@ -1,0 +1,21 @@
+{
+  "id": "F2068-S02",
+  "jira": "KR1-490",
+  "parent": "KR1-488",
+  "title": "[F2068-S02] OTA 소프트웨어 업데이트 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 서명·hash·호환성·version·전원/안전 preflight와 A/B 설치를 설계",
+  "data": "manifest·signature ref·digest·HW revision·slot",
+  "boundary": "서명위조·다운그레이드·전원단절·용량부족",
+  "metrics": "검증 실패 차단·부팅 성공·복구시간",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "ota_preflight",
+  "actual_external_calls": 0
+}

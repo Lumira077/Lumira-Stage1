@@ -1,0 +1,16 @@
+{
+  "feature": "F2015",
+  "release_ready": false,
+  "actual_models": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "조명/각도/가림/연령별 coverage·macro-F1/UAR·ECE·unknown 비율·p50/p95 지연; 사용자 혼선/철회 후 처리 0건",
+  "pending": "실제 카메라/감지/추적/landmark/감정 모델·가중치/라이선스·calibration·동의된 평가 dataset·실기 시험 미연결. MediaPipe blendshape는 표정 계수이며 감정 정답이나 준비된 심리 분류기가 아니다.",
+  "required": [
+    "actual_model_quality_calibration",
+    "privacy_auth_epoch_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

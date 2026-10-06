@@ -1,0 +1,21 @@
+{
+  "id": "F2202-S04",
+  "jira": "KR1-1093",
+  "parent": "KR1-1089",
+  "title": "[F2202-S04] Stage 4 가족·보호자 구독·Care Channel 판매 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: 가족/보호자제품·서비스·A/S·지원권한의Care판매 구성을 설계",
+  "data": "plan·care channel·guardian scopes·SLA·price",
+  "boundary": "권한혼동·과장보장·해지·지원미준비",
+  "metrics": "가입/활성/유지·권한·채널계약",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

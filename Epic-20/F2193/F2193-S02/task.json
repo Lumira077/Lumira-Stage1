@@ -1,0 +1,21 @@
+{
+  "id": "F2193-S02",
+  "jira": "KR1-1052",
+  "parent": "KR1-1051",
+  "title": "[F2193-S02] Stage 1 사전 Community·Beta User 모집 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: Beta 모집·동의·배포/회수·보상·VOC를 설계",
+  "data": "participant consent·device assignment·trial·VOC",
+  "boundary": "미성년동의·안전미준비·미회수·개인정보",
+  "metrics": "모집/활성·회수율·VOC·안전gate",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

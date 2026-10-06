@@ -1,0 +1,21 @@
+{
+  "id": "F2055-S03",
+  "jira": "KR1-414",
+  "parent": "KR1-411",
+  "title": "[F2055-S03] 퀴즈·학습 대화 전문가·사용자 Pilot 검증",
+  "work": "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가: 검수 문제은행의 난이도·힌트·정답 feedback·중단을 구성",
+  "data": "question id·difficulty·answer·attempt·hint",
+  "boundary": "오답 연속·ASR 불확실·금지내용·시간초과",
+  "metrics": "정답처리 정확성·학습흐름·피로/중단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

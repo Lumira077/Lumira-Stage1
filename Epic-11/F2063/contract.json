@@ -1,0 +1,30 @@
+{
+  "feature": "F2063",
+  "jira": "KR1-452",
+  "epic": "Epic-11",
+  "epic_jira": "KR1-436",
+  "title": "[F2063] 사용 시간 및 부모 통제",
+  "work": "보호자 승인 시간·콘텐츠·camera·결제 정책을 앱/로봇에 적용",
+  "data": "policy version·time budget·content scope",
+  "boundary": "시간우회·권한 철회·다중앱 충돌",
+  "metrics": "제한 위반 0건·정책전파·감사추적",
+  "stage_work": [
+    "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+    "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+    "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+    "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "OWASP ASVS",
+      "https://owasp.org/projects/asvs"
+    ]
+  ],
+  "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+  "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

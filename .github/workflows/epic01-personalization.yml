@@ -1,0 +1,22 @@
+name: Epic-01 personalization simulation
+on:
+  push:
+    paths: ['Epic-01/**', '.github/workflows/epic01-personalization.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run source-bound simulation
+        run: python Epic-01/integration/run.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: epic01-personalization-evidence
+          path: Epic-01/integration/evidence/

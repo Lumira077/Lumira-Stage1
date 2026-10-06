@@ -1,0 +1,21 @@
+{
+  "id": "F2143-S04",
+  "jira": "KR1-358",
+  "parent": "KR1-354",
+  "title": "[F2143-S04] 물체 재질·취약성 추정 및 Unknown 안전정책 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: vision/접촉으로 재질·취약성을 추정하고 Unknown일 때 보수적인 파지 정책을 적용",
+  "data": "material·fragility·confidence·approved force",
+  "boundary": "유리/도자기/연질·충돌 정보·낮은 신뢰",
+  "metrics": "재질 분류·Unknown 거절·파손 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "grasp_proposal",
+  "actual_external_calls": 0
+}

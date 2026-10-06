@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2031",
+  "data": "board id/arch/OS/ROS distro·CPU/RAM/GPU/NPU·driver/bus/device mapping·capability/version·boot/health·lifecycle/state·resource/temp/power.",
+  "interface": "BoardProfile → capability check/lifecycle → actual camera/mic/joint/BMS/display driver adapters. 현재 mock/x86_64/aarch64 profile만 허용한다.",
+  "metrics": "보드 교체 계약 호환·boot/driver recovery·CPU/RAM/GPU/NPU/온도·bus latency·device fault isolation",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

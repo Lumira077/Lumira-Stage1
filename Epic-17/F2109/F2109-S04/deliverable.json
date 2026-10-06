@@ -1,0 +1,44 @@
+{
+  "id": "F2109-S04",
+  "jira_key": "KR1-862",
+  "source_scope": "외관 선정 근거와 정면/측면/후면 참고를 F2114/F2115에 전달.",
+  "work_now": "정면/측면/후면 콘셉트와 변경 이유를 CMF/CAD에 전달",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2109/F2109-S04/deliverable.json",
+  "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+  "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+}

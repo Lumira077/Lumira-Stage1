@@ -1,0 +1,21 @@
+{
+  "id": "F2058-S03",
+  "jira": "KR1-429",
+  "parent": "KR1-426",
+  "title": "[F2058-S03] 노래·춤·체조 놀이 전문가·사용자 Pilot 검증",
+  "work": "사용자/보호자/전문가 Pilot·안전/이해/실패 Case 평가: 노래/춤/체조 cue를 검수 콘텐츠 및 승인 motion envelope와 연결",
+  "data": "music id·license·cue·motion·space state",
+  "boundary": "공간 부족·관절 fault·음량/시간 제한·취소",
+  "metrics": "동기오차·motion 제한·권리 확인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

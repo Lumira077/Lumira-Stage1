@@ -1,0 +1,21 @@
+{
+  "id": "F2049-S02",
+  "jira": "KR1-382",
+  "parent": "KR1-380",
+  "title": "[F2049-S02] 비접촉 rPPG 생체신호 측정 기능·콘텐츠 Package 구현",
+  "work": "서비스 로직·콘텐츠/화면·대화/연동 Package 구현: rPPG capture 품질·움직임/조명 평가와 품질 미달 시 값 보류를 구성",
+  "data": "ROI·signal quality·duration·estimate·timestamp",
+  "boundary": "가림·motion·조명·피부톤·frame drop",
+  "metrics": "참조센서 비교오차·측정가능률·quality reject",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "wellness_value",
+  "actual_external_calls": 0
+}

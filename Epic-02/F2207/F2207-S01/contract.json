@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2207",
+  "data_proposal": "RealtimeSession: session_id, epoch, media_consent, visual_needed, frame_seq, state; frame 원문은 기본 미저장",
+  "interface_proposal": "RealtimeGate.accept(modality,seq,epoch); 실제 transport는 승인된 Realtime/Live 어댑터",
+  "acceptance": "실제 음성·영상의 시각 동기화와 종료·재연결을 확인하고 필요 없는 영상 전송을 차단한다.",
+  "metrics": "음성/영상 timestamp 차이, 영상 차단율·전송량·재연결 시간",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

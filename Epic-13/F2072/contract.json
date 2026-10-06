@@ -1,0 +1,34 @@
+{
+  "feature": "F2072",
+  "jira": "KR1-534",
+  "epic": "Epic-13",
+  "epic_jira": "KR1-528",
+  "title": "[F2072] 전송·저장 데이터 암호화",
+  "work": "TLS/mTLS·저장 암호화·key lifecycle·rotation/복구를 설계",
+  "data": "cipher policy·key ref·cert expiry·encryption envelope",
+  "boundary": "잘못된 cert·revoked key·평문 cache·backup",
+  "metrics": "평문 노출 0건·rotation 성공·복호화권한",
+  "stage_work": [
+    "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+    "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+    "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+    "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "OWASP ASVS",
+      "https://owasp.org/projects/asvs"
+    ],
+    [
+      "ros2_control",
+      "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html"
+    ]
+  ],
+  "intervention": "제품 threat/hazard model·전문 보안/개인정보 검토·KMS/PKI·인증 서버·독립 safety HW·실제 정지feedback·시험/승인 기준",
+  "dependencies": "목적별 동의/epoch·최소metadata → 인증/암호화/Secret/감사 → local E-stop/MCU·기구/torque 보호. Epic-01~16 전체 서비스/제어의 공통 gate. ASVS는 앱 보안 검토 참조이며 물리 안전/법규 인증 증거를 대체하지 않는다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

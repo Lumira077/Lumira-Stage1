@@ -1,0 +1,21 @@
+{
+  "id": "F2084-S01",
+  "jira": "KR1-667",
+  "parent": "KR1-666",
+  "title": "[F2084-S01] 가사 작업 계획 요구사항·Interface·Simulation 설계",
+  "work": "Interface/TF·clock·state·제어주기·QoS·Simulation 설계: 가사 요청을 자원/안전 precondition·navigation/manipulation 단계로 분해",
+  "data": "task DAG·resources·preconditions·cancel epoch",
+  "boundary": "불가능 작업·partial failure·열/날카로운 물체",
+  "metrics": "완료율·재계획·미승인 작업 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

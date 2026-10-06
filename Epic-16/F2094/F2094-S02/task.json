@@ -1,0 +1,21 @@
+{
+  "id": "F2094-S02",
+  "jira": "KR1-734",
+  "parent": "KR1-732",
+  "title": "[F2094-S02] Camera·Mic·IMU·Touch·근접 Sensor HW 구성 CAD·회로·Prototype 제작",
+  "work": "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리: UVC/RGB-D·mic/IMU/touch/proximity의 위치/전원/USB/시각을 설계",
+  "data": "sensor SKU·FOV·calibration·bus·power",
+  "boundary": "대역폭초과·사각·진동·interference",
+  "metrics": "인지거리·대역폭·동기·노이즈",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

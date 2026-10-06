@@ -1,0 +1,18 @@
+{
+  "feature": "F2008",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "FAR/시간·FRR·wake 지연·중복 세션 0건",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 detector score 입력 gate만 구현; 실제 wakeword 모델·발음 학습·마이크·AEC 필요"
+}

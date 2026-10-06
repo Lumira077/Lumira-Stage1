@@ -1,0 +1,4 @@
+participant_id,task_id,consent,withdrawn,completed,assistance_count,duration_s,evidence_ref
+SYN-01,UC-01,true,false,true,0,20,synthetic
+SYN-02,UC-01,true,false,false,1,40,synthetic
+SYN-03,UC-01,false,false,true,0,10,synthetic

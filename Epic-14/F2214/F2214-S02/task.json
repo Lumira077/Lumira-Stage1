@@ -1,0 +1,21 @@
+{
+  "id": "F2214-S02",
+  "jira": "KR1-587",
+  "parent": "KR1-585",
+  "title": "[F2214-S02] AI Router 및 Model Cost Optimization 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: route/model 가격버전·품질 gate·Local 확대의 비용 정책을 설계",
+  "data": "model/route·price version·units·quality·budget",
+  "boundary": "가격누락·품질미달·budget 소진·network outage",
+  "metrics": "단위비용·품질 유지·Local 비중",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

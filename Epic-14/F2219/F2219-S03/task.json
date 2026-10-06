@@ -1,0 +1,21 @@
+{
+  "id": "F2219-S03",
+  "jira": "KR1-613",
+  "parent": "KR1-610",
+  "title": "[F2219-S03] Billing Anomaly Detection 통합·보안·부하·복구 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: 중복청구·비정상 credit·결제실패율·정산차이 룰을 구성",
+  "data": "billing event·rule version·severity·amount",
+  "boundary": "의도적 retry·false positive·late settlement",
+  "metrics": "탐지 정확성·금액영향·중복 event",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

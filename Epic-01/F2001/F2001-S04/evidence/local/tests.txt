@@ -1,0 +1,56 @@
+test_alert_small_sample_suppressed (test_ops.Events.test_alert_small_sample_suppressed) ... ok
+test_bad_enum_or_numeric (test_ops.Events.test_bad_enum_or_numeric) ... ok
+test_cancel_not_error_or_dropout (test_ops.Events.test_cancel_not_error_or_dropout) ... ok
+test_cohort_excludes_start_outside_period (test_ops.Events.test_cohort_excludes_start_outside_period) ... ok
+test_dashboard_escapes_external_text (test_ops.Events.test_dashboard_escapes_external_text) ... ok
+test_dropouts_only_mature_entries (test_ops.Events.test_dropouts_only_mature_entries) ... ok
+test_duplicate_is_blocker_alert (test_ops.Events.test_duplicate_is_blocker_alert) ... ok
+test_empty_denominator_is_null (test_ops.Events.test_empty_denominator_is_null) ... ok
+test_event_conflict (test_ops.Events.test_event_conflict) ... ok
+test_event_idempotency (test_ops.Events.test_event_idempotency) ... ok
+test_guest_excluded_from_registration_denominator (test_ops.Events.test_guest_excluded_from_registration_denominator) ... ok
+test_key_required (test_ops.Events.test_key_required) ... ok
+test_last_known_route (test_ops.Events.test_last_known_route) ... ok
+test_latest_step_entry_invalidates_old_completion (test_ops.Events.test_latest_step_entry_invalidates_old_completion) ... ok
+test_orphan_failure_not_in_denominator (test_ops.Events.test_orphan_failure_not_in_denominator) ... ok
+test_pseudonym_no_raw_session_or_token (test_ops.Events.test_pseudonym_no_raw_session_or_token) ... ok
+test_raw_personal_fields_rejected (test_ops.Events.test_raw_personal_fields_rejected) ... ok
+test_resume_matching_attempt (test_ops.Events.test_resume_matching_attempt) ... ok
+test_retention (test_ops.Events.test_retention) ... ok
+test_retry_attempts_are_distinct (test_ops.Events.test_retry_attempts_are_distinct) ... ok
+test_support_is_unique_session (test_ops.Events.test_support_is_unique_session) ... ok
+test_unique_session_completion (test_ops.Events.test_unique_session_completion) ... ok
+test_version_and_mode_filter (test_ops.Events.test_version_and_mode_filter) ... ok
+test_changed_evidence_invalidates_signatures (test_ops.Release.test_changed_evidence_invalidates_signatures) ... ok
+test_duplicate_observation_rejected (test_ops.Release.test_duplicate_observation_rejected) ... ok
+test_hardware_not_run_blocks_even_signed (test_ops.Release.test_hardware_not_run_blocks_even_signed) ... ok
+test_independent_5min_threshold (test_ops.Release.test_independent_5min_threshold) ... ok
+test_missing_reviewers_blocks (test_ops.Release.test_missing_reviewers_blocks) ... ok
+test_multiple_versions_not_pooled (test_ops.Release.test_multiple_versions_not_pooled) ... ok
+test_non_ascii_signature_blocks_cleanly (test_ops.Release.test_non_ascii_signature_blocks_cleanly) ... ok
+test_real_name_field_rejected (test_ops.Release.test_real_name_field_rejected) ... ok
+test_release_version_matches_study (test_ops.Release.test_release_version_matches_study) ... ok
+test_simulated_users_never_eligible (test_ops.Release.test_simulated_users_never_eligible) ... ok
+test_unknown_defect_count_blocks (test_ops.Release.test_unknown_defect_count_blocks) ... ok
+test_valid_synthetic_signed_bundle (test_ops.Release.test_valid_synthetic_signed_bundle) ... ok
+test_wrong_key_or_forged_approval (test_ops.Release.test_wrong_key_or_forged_approval) ... ok
+test_duplicate_create_and_complete_do_not_double_count (test_service_restore.Instrumentation.test_duplicate_create_and_complete_do_not_double_count) ... ok
+test_logger_failure_does_not_roll_back_registration (test_service_restore.Instrumentation.test_logger_failure_does_not_roll_back_registration) ... ok
+test_persisted_transitions_and_retry_metrics (test_service_restore.Instrumentation.test_persisted_transitions_and_retry_metrics) ... ok
+test_resume_instrumentation (test_service_restore.Instrumentation.test_resume_instrumentation) ... ok
+test_support_unique_and_cancel_separate (test_service_restore.Instrumentation.test_support_unique_and_cancel_separate) ... ok
+test_unauthorized_requests_produce_no_victim_events (test_service_restore.Instrumentation.test_unauthorized_requests_produce_no_victim_events) ... ok
+test_malformed_ledger_sequence_rejected (test_service_restore.Restore.test_malformed_ledger_sequence_rejected) ... ok
+test_missing_ledger_blocks_restore (test_service_restore.Restore.test_missing_ledger_blocks_restore) ... ok
+test_missing_sandbox_marker_rejected (test_service_restore.Restore.test_missing_sandbox_marker_rejected) ... ok
+test_newer_deletion_not_resurrected (test_service_restore.Restore.test_newer_deletion_not_resurrected) ... ok
+test_restore_is_repeatable_and_never_production_approval (test_service_restore.Restore.test_restore_is_repeatable_and_never_production_approval) ... ok
+test_revocation_reapplied_to_all_contexts (test_service_restore.Restore.test_revocation_reapplied_to_all_contexts) ... ok
+test_snapshot_preserves_registered_and_in_progress (test_service_restore.Restore.test_snapshot_preserves_registered_and_in_progress) ... ok
+test_symlink_destination_rejected (test_service_restore.Restore.test_symlink_destination_rejected) ... ok
+test_unsupported_schema_blocks_simple_rollback (test_service_restore.Restore.test_unsupported_schema_blocks_simple_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.068s
+
+OK

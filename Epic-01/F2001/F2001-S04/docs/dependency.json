@@ -1,0 +1,21 @@
+{
+  "S02": {
+    "commit": "2043fbca9248d8a7043bdaec7b7418721f655b97",
+    "sha256": {
+      "ker_onboarding/core.py": "ad9ed6a228d1862f61e1a0f93902c4145c2ac85db31eb673770d1444882b8077",
+      "ker_onboarding/service.py": "1bf76bd12ae3edb3374f48eec86ead01a36e1033cc6b0ab0507fcf9c4aeee6ba",
+      "ker_onboarding/adapters.py": "024947e5568aaff2408c15be9cfc92f9135e8260823af25c30133f05c2f7cb70",
+      "ker_onboarding/api.py": "ba3e79317c3d6f133b6a6825aa6e57e0bb69c1b7ab6a77eed68dc9234e374ff5"
+    }
+  },
+  "S03": {
+    "commit": "9ee6ca3a9693b87f455a6489cb1d1355e53af4ec",
+    "sha256": {
+      "onboarding_lab/adapters.py": "cea462a7d80c7c4119cbd08f4d59835a8c973aa04a2e2b028d3b7e0490e992be",
+      "onboarding_lab/safety.py": "fbf74da8b31c14965afc50af080203d0c295c976e041be398c5137e52900aaeb",
+      "onboarding_lab/dependency.py": "def2a2e268604d4ee4e9ca85ccd891de405234bf44695e53293ee3c2edb08959",
+      "onboarding_lab/runner.py": "247159424319e3e8f7bd203d19e0e1731759b87f57e760deab66b7df6a901463",
+      "docs/dependency.json": "deaac08bfc212475920238cfd2a7e0ee263dfb9848f9281c47590e4d093cbd88"
+    }
+  }
+}

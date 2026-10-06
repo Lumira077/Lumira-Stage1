@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2154",
+  "jira_key": "KR1-923",
+  "title": "[F2154] Robot Fashion 기계 Interface·안전 표준",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "의상/액세서리는 마이크·카메라·터치·통풍·관절·센서·충전 접근을 가리지 않는다.",
+  "specific_deliverables": [
+    "장착 구역·금지 구역·질량·탈락·끈·세척 요구",
+    "keep-out 겹침 점검 도구와 인터페이스 manifest 구현",
+    "겹침/미확인/가동·열·음향·센서·탈착 시험 계획",
+    "호환표·증적·라벨·검토 후 판매 가능한 SKU 목록"
+  ],
+  "gate": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+  "tools_and_dependencies": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-57"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2154-S01",
+      "jira_key": "KR1-924",
+      "source_scope": "체결/질량/탈락/끈·끼임/센서 시야/열/세탁/재료 요구. 자석·클립 등 방식은 미확정 후보.",
+      "work_now": "장착 구역·금지 구역·질량·탈락·끈·세척 요구",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2154/F2154-S01/deliverable.json",
+      "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+      "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2154-S02",
+      "jira_key": "KR1-925",
+      "source_scope": "Accessory Interface 초안: head/torso/back 장착 구역, sensor/vent/joint/button/charge keep-out, 베이스별 호환 표시.",
+      "work_now": "keep-out 겹침 점검 도구와 인터페이스 manifest 구현",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2154/F2154-S02/deliverable.json",
+      "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+      "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2154-S03",
+      "jira_key": "KR1-926",
+      "source_scope": "착용/탈착·관절 가동·온도/음향/카메라·세척·작은 부품·끈 위험 실물 평가.",
+      "work_now": "겹침/미확인/가동·열·음향·센서·탈착 시험 계획",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2154/F2154-S03/deliverable.json",
+      "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+      "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2154-S04",
+      "jira_key": "KR1-927",
+      "source_scope": "호환표·안전 확인·재료/세탁 표시와 판매 가능 SKU 구분.",
+      "work_now": "호환표·증적·라벨·검토 후 판매 가능한 SKU 목록",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2154/F2154-S04/deliverable.json",
+      "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+      "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

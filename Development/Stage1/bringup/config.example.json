@@ -1,0 +1,11 @@
+{
+  "schema": "lumira-bringup-v1",
+  "stage": 1,
+  "compute": {"model": "PI5", "ram_gb": 8, "accelerator": "HAILO8L_13TOPS"},
+  "motion_enabled": false,
+  "boards": {
+    "A": {"model": "UNO_R4_MINIMA", "confirmed": false, "port": "/dev/serial/by-id/REPLACE_UNO_A"},
+    "B": {"model": "UNO_R4_MINIMA", "confirmed": false, "port": "/dev/serial/by-id/REPLACE_UNO_B"}
+  },
+  "network": {"subnet": "192.168.10.0/24", "pc": "192.168.10.10", "pi": "192.168.10.20", "nas": "192.168.10.30"}
+}

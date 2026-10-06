@@ -1,0 +1,21 @@
+{
+  "id": "F2153-S01",
+  "jira": "KR1-468",
+  "parent": "KR1-467",
+  "title": "[F2153-S01] 사용자·IoT·권한 부분 재설정 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 사용자·IoT·권한의 선택 변경과 참조 무결성·소유권 epoch 갱신을 구성",
+  "data": "reset scope·revision·dependent ids·epoch",
+  "boundary": "이사·가구변경·사용자 추가·기기 교체",
+  "metrics": "비대상 데이터 보존·참조 일치·권한 revoke",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

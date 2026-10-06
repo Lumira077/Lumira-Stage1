@@ -1,0 +1,16 @@
+{
+  "feature": "F2021",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "first audio/p50/p95·MOS/명료도·언어/style 지원·audio underrun·취소 잔여재생·Cloud 미동의 전송 0건",
+  "pending": "실제 TTS/voice weights/Provider·스피커/driver/playback·alignment·emotion prosody 품질·캐시·AEC reference 미연결. demo voice/style는 API 계획 fixture이다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

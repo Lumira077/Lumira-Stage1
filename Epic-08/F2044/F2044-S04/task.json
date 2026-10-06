@@ -1,0 +1,21 @@
+{
+  "id": "F2044-S04",
+  "jira": "KR1-333",
+  "parent": "KR1-329",
+  "title": "[F2044-S04] 조작 대상 물체 인식 및 자세 추정 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: RGB-D 기반 물체 종류·6D pose·uncertainty와 파지 후보를 구성",
+  "data": "object id·pose·frame·mask·size·confidence",
+  "boundary": "투명/반사·가림·frame 불일치·Unknown",
+  "metrics": "pose 오차·인식률·오파지 후보",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

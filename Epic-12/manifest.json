@@ -1,0 +1,382 @@
+{
+  "epic": "Epic-12",
+  "jira": "KR1-472",
+  "features": [
+    {
+      "feature": "F2065",
+      "jira": "KR1-473",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2065] 로봇 등록 및 디지털 자산 관리",
+      "work": "device identity·serial·모델/HW/SW·고객 등록과 lifecycle을 구성",
+      "data": "device id·serial·model·version·tenant",
+      "boundary": "중복 serial·위조 등록·교체·폐기",
+      "metrics": "중복 자산 0건·등록 감사·소유자 일치",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2066",
+      "jira": "KR1-478",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2066] 원격 상태 모니터링",
+      "work": "heartbeat/배터리/온도/장애의 freshness·경보·offline를 구성",
+      "data": "device metadata·heartbeat·metrics·TTL",
+      "boundary": "중복/지연·network partition·온도 Unknown",
+      "metrics": "수집지연·availability·stale 오표시",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2067",
+      "jira": "KR1-483",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2067] 로그·이벤트·진단 수집",
+      "work": "최소 telemetry allowlist·buffer·재전송·retention·삭제를 구성",
+      "data": "event id·schema·code·stamp·retention",
+      "boundary": "원문/Secret 포함·overflow·중복·offline",
+      "metrics": "유실률·중복률·민감원문 0건",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "minimal_event",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2068",
+      "jira": "KR1-488",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2068] OTA 소프트웨어 업데이트",
+      "work": "서명·hash·호환성·version·전원/안전 preflight와 A/B 설치를 설계",
+      "data": "manifest·signature ref·digest·HW revision·slot",
+      "boundary": "서명위조·다운그레이드·전원단절·용량부족",
+      "metrics": "검증 실패 차단·부팅 성공·복구시간",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "ota_preflight",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2069",
+      "jira": "KR1-493",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2069] 단계적 배포 및 롤백",
+      "work": "canary/cohort·건강 gate·중단·이전 검증 이미지 롤백을 구성",
+      "data": "rollout id·cohort·health·slot·rollback target",
+      "boundary": "오류급증·오프라인 fleet·partial install",
+      "metrics": "성공률·오류율·rollback 실제 ACK",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2070",
+      "jira": "KR1-498",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2070] 원격 지원 및 설정 관리",
+      "work": "동의한 원격진단 세션·허용 설정 patch·TTL·감사·회수 기능을 구성",
+      "data": "support session·scope·config version·expires",
+      "boundary": "시간초과·운영자 권한상승·충돌·철회",
+      "metrics": "세션 회수·설정검증·감사 완전성",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2124",
+      "jira": "KR1-503",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2124] AI 비용·지연·품질 운영 모니터링",
+      "work": "AI route별 비용/지연/오류/품질·예산 경보를 집계",
+      "data": "usage id·provider/model version·units·latency",
+      "boundary": "중복 usage·가격버전 없음·quota 초과",
+      "metrics": "집계오차·p50/p95·예산 초과·품질coverage",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2159",
+      "jira": "KR1-508",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2159] Device-Customer Mapping·Lifecycle 관리",
+      "work": "device/고객/계약/설치/보증·양도/교체/폐기 이력을 연결",
+      "data": "device id·customer ref·contract·lifecycle epoch",
+      "boundary": "양도·폐기·기기 교체·권한 잔존",
+      "metrics": "mapping 정합성·이력추적·revoke 반영",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2160",
+      "jira": "KR1-513",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2160] Robot Fleet 운영 Dashboard",
+      "work": "고객/모델/지역/버전별 fleet 상태·경보·지원 drilldown을 설계",
+      "data": "fleet filter·device state·permissions·KPI",
+      "boundary": "cross-tenant·대량 fleet·stale·필터 오류",
+      "metrics": "권한별 집계·freshness·탐색시간",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2161",
+      "jira": "KR1-518",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2161] 원격 진단·Predictive Maintenance",
+      "work": "전원/배터리/모터/온도 이력과 근거로 정비 후보를 제안",
+      "data": "device series·fault·maintenance threshold·evidence",
+      "boundary": "센서 누락·오탐·cold start·모델 drift",
+      "metrics": "예측 precision/recall·정비lead time·coverage",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2162",
+      "jira": "KR1-523",
+      "epic": "Epic-12",
+      "epic_jira": "KR1-472",
+      "title": "[F2162] A/S Ticket·부품·정비 이력 관리",
+      "work": "A/S ticket·device/부품/방문/수리/교체·고객 승인 이력을 관리",
+      "data": "ticket id·device·part serial·status·SLA",
+      "boundary": "중복 ticket·오부품·재고 부족·미승인 교체",
+      "metrics": "처리시간·재발률·부품 추적·상태일치",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OpenTelemetry",
+          "https://opentelemetry.io/docs/collector/"
+        ],
+        [
+          "Uptane",
+          "https://uptane.org/docs/2.0.0/standard/uptane-standard"
+        ]
+      ],
+      "intervention": "클라우드/DB/배포환경·device cert/ownership·signing/KMS·실제 A/B bootloader·SLO·retention·service 운영자·A/S 부품자료",
+      "dependencies": "등록/고객mapping → 최소 telemetry/관제 → 서명 검증 OTA/canary/rollback → 비용품질/예지정비/A/S. Epic-06 진단·Epic-13 신뢰/비밀·Epic-14 사용량·Epic-16 HW·Epic-20 고객 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 44,
+  "release_ready": false
+}

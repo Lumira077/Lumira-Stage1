@@ -1,0 +1,21 @@
+{
+  "id": "F2170-S02",
+  "jira": "KR1-961",
+  "parent": "KR1-959",
+  "title": "[F2170-S02] 구동·센서·전원·기계안전 특허 발굴·출원 선행기술·경쟁권리 조사",
+  "work": "선행문헌/family/claim·차별/회피·검색 근거 조사: 구동/센서/전원/독립Safety MCU 구조와효과를 claim 후보로 정리",
+  "data": "circuit/mechanical revision·fault experiment·effect",
+  "boundary": "일반구성·미검증안전효과·권리귀속",
+  "metrics": "구조/효과근거·도면·발명자확인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

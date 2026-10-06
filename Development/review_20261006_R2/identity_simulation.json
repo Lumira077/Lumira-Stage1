@@ -1,0 +1,28 @@
+{
+  "mode": "simulate",
+  "boards": [
+    {
+      "role": "A",
+      "model_confirmed": false,
+      "mode": "simulate",
+      "model": "UNO_R4_MINIMA",
+      "firmware": "probe-1",
+      "identity_matched": true,
+      "motion_enabled": false,
+      "physical_stop_verified": false
+    },
+    {
+      "role": "B",
+      "model_confirmed": false,
+      "mode": "simulate",
+      "model": "UNO_R4_MINIMA",
+      "firmware": "probe-1",
+      "identity_matched": true,
+      "motion_enabled": false,
+      "physical_stop_verified": false
+    }
+  ],
+  "physical_transport_exercised": false,
+  "motion_enabled": false,
+  "release_ready": false
+}

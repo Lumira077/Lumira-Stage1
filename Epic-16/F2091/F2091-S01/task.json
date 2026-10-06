@@ -1,0 +1,21 @@
+{
+  "id": "F2091-S01",
+  "jira": "KR1-718",
+  "parent": "KR1-717",
+  "title": "[F2091-S01] Main Computing HW 선정 및 인터페이스 설계 요구사양·Interface·BOM 설계",
+  "work": "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: RK3588 기준 후보와 Jetson 비교·CPU/GPU/NPU·열/전력 benchmark 및 interface를 설계",
+  "data": "board spec·RAM·power·benchmark·USB/HDMI/Ethernet",
+  "boundary": "thermal throttle·bandwidth·driver 지원·공급",
+  "metrics": "benchmark·전력·온도·장기공급 근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

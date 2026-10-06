@@ -1,0 +1,21 @@
+{
+  "id": "F2081-S02",
+  "jira": "KR1-642",
+  "parent": "KR1-640",
+  "title": "[F2081-S02] 콘텐츠 추천 및 구독 서비스 분석 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 동의/age/권한·비용·사용량에 기반한 추천과 분석을 구성",
+  "data": "content/plan candidate·consent·reason·cost",
+  "boundary": "동의없음·아동 과금유도·권리만료·cold start",
+  "metrics": "추천근거·노출/수락/이탈·적합성",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

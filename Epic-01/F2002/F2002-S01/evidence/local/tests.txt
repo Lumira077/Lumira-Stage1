@@ -1,0 +1,21 @@
+{"run": 15, "failed": 0, "errors": 0}
+test_blank_name (test_contract.Contract.test_blank_name) ... ok
+test_bool_volume_rejected (test_contract.Contract.test_bool_volume_rejected) ... ok
+test_context_minimal (test_contract.Contract.test_context_minimal) ... ok
+test_control_characters (test_contract.Contract.test_control_characters) ... ok
+test_high_volume_rejected (test_contract.Contract.test_high_volume_rejected) ... ok
+test_missing_consent (test_contract.Contract.test_missing_consent) ... ok
+test_nan_rate_rejected (test_contract.Contract.test_nan_rate_rejected) ... ok
+test_no_mutation_of_input (test_contract.Contract.test_no_mutation_of_input) ... ok
+test_partial_nested_patch_rejected (test_contract.Contract.test_partial_nested_patch_rejected) ... ok
+test_policy_version (test_contract.Contract.test_policy_version) ... ok
+test_trim_names (test_contract.Contract.test_trim_names) ... ok
+test_unknown_field_rejected (test_contract.Contract.test_unknown_field_rejected) ... ok
+test_unsupported_language (test_contract.Contract.test_unsupported_language) ... ok
+test_unsupported_voice (test_contract.Contract.test_unsupported_voice) ... ok
+test_valid (test_contract.Contract.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+OK

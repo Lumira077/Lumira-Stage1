@@ -1,0 +1,44 @@
+{
+  "id": "F2108-S01",
+  "jira_key": "KR1-854",
+  "source_scope": "머리/몸통/팔/베이스 치수와 질량·무게중심·시야·작업영역 요구. 실제 부품 치수 우선.",
+  "work_now": "높이/폭/깊이·부품 외형·관절축·질량·무게중심 입력 양식",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2108/F2108-S01/deliverable.json",
+  "acceptance": "폭·깊이·내부 공간·무게중심은 미실측; 400mm는 비교 가설",
+  "remaining": "Onshape 오류 수정·SKU 도면·질량; Onshape·기구 계측",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "요구·입출력·검증 초안 작성"
+}

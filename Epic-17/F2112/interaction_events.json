@@ -1,0 +1,58 @@
+[
+  {
+    "event": "listen",
+    "face_state": "경청",
+    "gesture_proposal": "작은 끄덕임 제안",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "reply",
+    "face_state": "응답",
+    "gesture_proposal": "작은 팔 반응 제안",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "stop",
+    "face_state": "종료",
+    "gesture_proposal": "동작 대기",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "mute",
+    "face_state": "음소거",
+    "gesture_proposal": "동작 대기",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "charge",
+    "face_state": "충전",
+    "gesture_proposal": "이동 금지",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "cliff",
+    "face_state": "추락 감지",
+    "gesture_proposal": "정지",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "estop",
+    "face_state": "비상정지",
+    "gesture_proposal": "정지",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  },
+  {
+    "event": "disconnect",
+    "face_state": "연결 끊김",
+    "gesture_proposal": "대화 중단·재연결",
+    "hardware_executable": false,
+    "timing_ms": "TBD; synchronize measured events"
+  }
+]

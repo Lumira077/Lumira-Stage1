@@ -1,0 +1,67 @@
+{"source_commit": "local-uncommitted", "scope": "synthetic_local_contract_prototype", "tests": 61, "per_feature_tests": {"F2026": 11, "F2027": 10, "F2028": 10, "F2029": 9, "F2127": 10, "F2133": 11}, "passed": true, "failures": 0, "errors": 0, "actual_model_calls": 0, "actual_participants": 0, "actual_robot_tests": 0, "release_ready": false, "pending": ["actual_camera_microphone_touch_head_sensors", "trained_perception_models_licensed_weights", "consented_evaluation_and_calibration", "production_auth_consent_epoch_delete_events", "approved_perception_tracking_motion_limits", "actual_user_Q1_R1_release_validation"]}
+test_ambiguity (test_F2026.TestF2026.test_ambiguity) ... ok
+test_authorized (test_F2026.TestF2026.test_authorized) ... ok
+test_candidate (test_F2026.TestF2026.test_candidate) ... ok
+test_multiple (test_F2026.TestF2026.test_multiple) ... ok
+test_no_consent (test_F2026.TestF2026.test_no_consent) ... ok
+test_no_live (test_F2026.TestF2026.test_no_live) ... ok
+test_revoke (test_F2026.TestF2026.test_revoke) ... ok
+test_stale (test_F2026.TestF2026.test_stale) ... ok
+test_unknown (test_F2026.TestF2026.test_unknown) ... ok
+test_vector (test_F2026.TestF2026.test_vector) ... ok
+test_version (test_F2026.TestF2026.test_version) ... ok
+test_dedup (test_F2027.TestF2027.test_dedup) ... ok
+test_epoch (test_F2027.TestF2027.test_epoch) ... ok
+test_frame_order (test_F2027.TestF2027.test_frame_order) ... ok
+test_gap (test_F2027.TestF2027.test_gap) ... ok
+test_low_confidence (test_F2027.TestF2027.test_low_confidence) ... ok
+test_pose_angle (test_F2027.TestF2027.test_pose_angle) ... ok
+test_pose_degenerate (test_F2027.TestF2027.test_pose_degenerate) ... ok
+test_revoke (test_F2027.TestF2027.test_revoke) ... ok
+test_stable (test_F2027.TestF2027.test_stable) ... ok
+test_unsupported (test_F2027.TestF2027.test_unsupported) ... ok
+test_debounce (test_F2028.TestF2028.test_debounce) ... ok
+test_duplicate_down (test_F2028.TestF2028.test_duplicate_down) ... ok
+test_duplicate_release (test_F2028.TestF2028.test_duplicate_release) ... ok
+test_long (test_F2028.TestF2028.test_long) ... ok
+test_region (test_F2028.TestF2028.test_region) ... ok
+test_revoke (test_F2028.TestF2028.test_revoke) ... ok
+test_seq (test_F2028.TestF2028.test_seq) ... ok
+test_stuck (test_F2028.TestF2028.test_stuck) ... ok
+test_tap (test_F2028.TestF2028.test_tap) ... ok
+test_time_reverse (test_F2028.TestF2028.test_time_reverse) ... ok
+test_absent (test_F2029.TestF2029.test_absent) ... ok
+test_consent (test_F2029.TestF2029.test_consent) ... ok
+test_gap (test_F2029.TestF2029.test_gap) ... ok
+test_hysteresis (test_F2029.TestF2029.test_hysteresis) ... ok
+test_nan (test_F2029.TestF2029.test_nan) ... ok
+test_order (test_F2029.TestF2029.test_order) ... ok
+test_sensor_failure (test_F2029.TestF2029.test_sensor_failure) ... ok
+test_stable (test_F2029.TestF2029.test_stable) ... ok
+test_stale (test_F2029.TestF2029.test_stale) ... ok
+test_ambiguous (test_F2127.TestF2127.test_ambiguous) ... ok
+test_associate (test_F2127.TestF2127.test_associate) ... ok
+test_consent (test_F2127.TestF2127.test_consent) ... ok
+test_duplicate (test_F2127.TestF2127.test_duplicate) ... ok
+test_echo (test_F2127.TestF2127.test_echo) ... ok
+test_epoch (test_F2127.TestF2127.test_epoch) ... ok
+test_no_vad (test_F2127.TestF2127.test_no_vad) ... ok
+test_outside (test_F2127.TestF2127.test_outside) ... ok
+test_skew (test_F2127.TestF2127.test_skew) ... ok
+test_stale (test_F2127.TestF2127.test_stale) ... ok
+test_audio_step (test_F2133.TestF2133.test_audio_step) ... ok
+test_clearance (test_F2133.TestF2133.test_clearance) ... ok
+test_deadband (test_F2133.TestF2133.test_deadband) ... ok
+test_dt (test_F2133.TestF2133.test_dt) ... ok
+test_limit (test_F2133.TestF2133.test_limit) ... ok
+test_lost (test_F2133.TestF2133.test_lost) ... ok
+test_quality (test_F2133.TestF2133.test_quality) ... ok
+test_range (test_F2133.TestF2133.test_range) ... ok
+test_stale (test_F2133.TestF2133.test_stale) ... ok
+test_stop (test_F2133.TestF2133.test_stop) ... ok
+test_visual_step (test_F2133.TestF2133.test_visual_step) ... ok
+
+----------------------------------------------------------------------
+Ran 61 tests in 0.002s
+
+OK

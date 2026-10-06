@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2123",
+  "data_proposal": "RoutePacket: decision, policy/consent/price_version, epoch, budget_state, network_state, reason_codes",
+  "interface_proposal": "HybridRouter.route(RouteInput,snapshot) → packet; F2010/F2206 소비자가 호출 직전 재검증",
+  "acceptance": "대표 Case별 사유가 기록되고 개인화·품질·비용·프라이버시·안전 기준을 함께 충족한다.",
+  "metrics": "경로 일치율·개인정보 위반 0건·budget overshoot·fallback·지연",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

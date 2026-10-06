@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2107",
+  "jira_key": "KR1-848",
+  "title": "[F2107] Human-Robot Interaction 기본 원칙 설계",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "대화 중 경청·종료 존중·감정 비단정·사용자 발화 우선의 HRI 원칙을 정의한다.",
+  "specific_deliverables": [
+    "상황별 음성·표정·제스처·프라이버시 규칙 정리",
+    "대화 상태에 따른 표정/동작 제안과 중단 규칙 구현",
+    "음소거·발화 중단·충전·위험 상태의 동작 억제 점검",
+    "표현 매핑·예외·안전 우선순위를 제어팀에 전달"
+  ],
+  "gate": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+  "tools_and_dependencies": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-12"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2107-S01",
+      "jira_key": "KR1-849",
+      "source_scope": "상황별 발화/표정/자세/개입/종료 원칙. 거리·각도·속도·힘은 시험 전 TBD.",
+      "work_now": "상황별 음성·표정·제스처·프라이버시 규칙 정리",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2107/F2107-S01/deliverable.json",
+      "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+      "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2107-S02",
+      "jira_key": "KR1-850",
+      "source_scope": "경청은 작은 끄덕임, 기쁨은 미소와 작은 팔 반응, 오류는 중립·동작 대기. 사용자 발화 중 큰 동작 제한.",
+      "work_now": "대화 상태에 따른 표정/동작 제안과 중단 규칙 구현",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2107/F2107-S02/deliverable.json",
+      "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+      "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2107-S03",
+      "jira_key": "KR1-851",
+      "source_scope": "불편한 시선·음량·반복 동작·방해·감정 오판 기록. 안전 한계는 R3/R6 검토.",
+      "work_now": "음소거·발화 중단·충전·위험 상태의 동작 억제 점검",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2107/F2107-S03/deliverable.json",
+      "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+      "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2107-S04",
+      "jira_key": "KR1-852",
+      "source_scope": "HRI 매핑 버전과 예외 규칙을 F2110/F2112로 전달.",
+      "work_now": "표현 매핑·예외·안전 우선순위를 제어팀에 전달",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2107/F2107-S04/deliverable.json",
+      "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+      "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

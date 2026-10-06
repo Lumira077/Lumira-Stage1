@@ -1,0 +1,34 @@
+{
+  "feature": "F2152",
+  "jira": "KR1-313",
+  "epic": "Epic-07",
+  "epic_jira": "KR1-282",
+  "title": "[F2152] Network·SLAM Mapping·방 이름 설정 Wizard",
+  "work": "연결→지도 작성→방 이름/금지구역→저장·재개 Wizard를 구성",
+  "data": "network ref·map revision·room id·zone·step",
+  "boundary": "불완전지도·가구변경·네트워크 끊김·중복 방 이름",
+  "metrics": "온보딩 완료율·재개 일관성·설정 보존",
+  "stage_work": [
+    "Interface/TF·clock·state·제어주기·QoS·Simulation 설계",
+    "ROS2/제어/센서·actuator adapter 구현 및 version 관리",
+    "실물/통신/한계·고장주입·물리 ACK·안전 시험",
+    "실환경 반복임무·Parameter Freeze·운용제한/rollback"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "Nav2",
+      "https://docs.nav2.org/"
+    ],
+    [
+      "SLAM Toolbox",
+      "https://github.com/SteveMacenski/slam_toolbox"
+    ]
+  ],
+  "intervention": "실제 이동베이스·LiDAR/Depth/IMU/encoder·URDF/footprint·TF/clock·승인 속도/정지거리·cliff 센서·dock/BMS·실내 지도·시험 공간",
+  "dependencies": "센서/TF → 지도/위치 → 경로/장애물 → 도킹 → 공간 Wizard. Epic-06 코어·Epic-16 HW·Epic-13 독립 안전·Epic-11 앱·Epic-15 공간과 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

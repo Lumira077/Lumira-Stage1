@@ -1,0 +1,26 @@
+{"run": 20, "failed": 0, "errors": 0}
+test_dashboard_escapes (test_operations.Operations.test_dashboard_escapes) ... ok
+test_duplicate_observation (test_operations.Operations.test_duplicate_observation) ... ok
+test_empty_events (test_operations.Operations.test_empty_events) ... ok
+test_event_period (test_operations.Operations.test_event_period) ... ok
+test_nan_period (test_operations.Operations.test_nan_period) ... ok
+test_no_approval_from_test_pass (test_operations.Operations.test_no_approval_from_test_pass) ... ok
+test_private_fields_rejected (test_operations.Operations.test_private_fields_rejected) ... ok
+test_synthetic_is_not_real (test_operations.Operations.test_synthetic_is_not_real) ... ok
+test_expired_memory_not_restored (test_restore.Restore.test_expired_memory_not_restored) ... ok
+test_invalid_sequence (test_restore.Restore.test_invalid_sequence) ... ok
+test_ledger_anchor_missing_prefix (test_restore.Restore.test_ledger_anchor_missing_prefix) ... ok
+test_missing_latest_ledger_blocks (test_restore.Restore.test_missing_latest_ledger_blocks) ... ok
+test_newer_correction_does_not_revive_old_content (test_restore.Restore.test_newer_correction_does_not_revive_old_content) ... ok
+test_newer_deletion_not_resurrected (test_restore.Restore.test_newer_deletion_not_resurrected) ... ok
+test_newer_revoke_blocks_stale_true_profile (test_restore.Restore.test_newer_revoke_blocks_stale_true_profile) ... ok
+test_preserves_valid_memory_not_ticket (test_restore.Restore.test_preserves_valid_memory_not_ticket) ... ok
+test_repeated_restore_is_safe (test_restore.Restore.test_repeated_restore_is_safe) ... ok
+test_restore_preserves_retired_request_barrier (test_restore.Restore.test_restore_preserves_retired_request_barrier) ... ok
+test_schema_incompatible (test_restore.Restore.test_schema_incompatible) ... ok
+test_symlink_output (test_restore.Restore.test_symlink_output) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.051s
+
+OK

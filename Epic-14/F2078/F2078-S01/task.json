@@ -1,0 +1,21 @@
+{
+  "id": "F2078-S01",
+  "jira": "KR1-626",
+  "parent": "KR1-625",
+  "title": "[F2078-S01] 콘텐츠 카탈로그 및 배포 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 콘텐츠 license·age band·검수·version·cache/rollback을 구성",
+  "data": "content id·license·rating·version·manifest",
+  "boundary": "권리만료·유해콘텐츠·손상파일·호환성",
+  "metrics": "배포정합성·검수coverage·rollback",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

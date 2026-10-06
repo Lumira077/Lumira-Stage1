@@ -1,0 +1,21 @@
+{
+  "id": "F2090-S04",
+  "jira": "KR1-716",
+  "parent": "KR1-712",
+  "title": "[F2090-S04] Stage1 HW 요구사양 및 시스템 Architecture DFM·Design Freeze·양산 인계",
+  "work": "공차/조립/검사/DFM·Design Freeze·양산/정비 인계: Stage1 HW block/전원domain/AI와Safety MCU·인터페이스 baseline을 확정",
+  "data": "system blocks·ICD·requirements·BOM revision",
+  "boundary": "fail-safe·전력budget·확장성·단일장애",
+  "metrics": "요구추적·interface coverage·검토승인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

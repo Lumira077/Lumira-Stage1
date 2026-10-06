@@ -1,0 +1,218 @@
+{
+  "epic": "Epic-11",
+  "jira": "KR1-436",
+  "features": [
+    {
+      "feature": "F2060",
+      "jira": "KR1-437",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2060] 모바일 앱 계정 및 로봇 연결",
+      "work": "계정 인증·일회 pairing·기기 소유권·가족 초대/해제를 구성",
+      "data": "account·robot id·pair token ref·owner epoch",
+      "boundary": "토큰 재사용·소유권 변경·분실·권한 상승",
+      "metrics": "pairing 성공률·cross-owner 차단·해제 반영",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2061",
+      "jira": "KR1-442",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2061] 로봇 상태 및 알림 조회",
+      "work": "상태 TTL·알림 이력/확인·중복 억제와 offline 표시를 구성",
+      "data": "status stamp·battery·error·alert id·receipt",
+      "boundary": "stale 상태·중복 push·offline·권한 없음",
+      "metrics": "상태 freshness·알림 지연·중복률",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2062",
+      "jira": "KR1-447",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2062] 일정·복약·콘텐츠 원격 설정",
+      "work": "일정/복약/콘텐츠의 versioned 설정·검증·device ACK를 구성",
+      "data": "settings version·patch·request id·ACK",
+      "boundary": "동시변경·오프라인 큐·구버전 ACK·재시도",
+      "metrics": "충돌처리·동기화 지연·일관성",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": "VersionedSettings",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2063",
+      "jira": "KR1-452",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2063] 사용 시간 및 부모 통제",
+      "work": "보호자 승인 시간·콘텐츠·camera·결제 정책을 앱/로봇에 적용",
+      "data": "policy version·time budget·content scope",
+      "boundary": "시간우회·권한 철회·다중앱 충돌",
+      "metrics": "제한 위반 0건·정책전파·감사추적",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2064",
+      "jira": "KR1-457",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2064] 보호자 음성·영상 통화",
+      "work": "사용자 수락·camera/mic 표시·암호화 통화·즉시 종료를 설계",
+      "data": "call id·participants·consent·signaling·ICE",
+      "boundary": "수락 없음·네트워크 전환·권한 철회·도청",
+      "metrics": "연결성·종료반영·원문 비저장",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2151",
+      "jira": "KR1-462",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2151] Stage2 User & Space Onboarding App",
+      "work": "Stage2 계정/로봇/네트워크/공간/사용자/IoT 온보딩 재개 흐름을 구성",
+      "data": "wizard version·step·map ref·owner epoch",
+      "boundary": "중단·재개·기기 복구·로봇과 상태 불일치",
+      "metrics": "필수 설정 완료율·복구 일치·동의 보존",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2153",
+      "jira": "KR1-467",
+      "epic": "Epic-11",
+      "epic_jira": "KR1-436",
+      "title": "[F2153] 사용자·IoT·권한 부분 재설정",
+      "work": "사용자·IoT·권한의 선택 변경과 참조 무결성·소유권 epoch 갱신을 구성",
+      "data": "reset scope·revision·dependent ids·epoch",
+      "boundary": "이사·가구변경·사용자 추가·기기 교체",
+      "metrics": "비대상 데이터 보존·참조 일치·권한 revoke",
+      "stage_work": [
+        "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+        "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+        "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+        "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "OWASP ASVS",
+          "https://owasp.org/projects/asvs"
+        ]
+      ],
+      "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+      "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 28,
+  "release_ready": false
+}

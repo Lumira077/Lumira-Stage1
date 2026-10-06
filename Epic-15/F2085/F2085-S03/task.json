@@ -1,0 +1,21 @@
+{
+  "id": "F2085-S03",
+  "jira": "KR1-674",
+  "parent": "KR1-671",
+  "title": "[F2085-S03] 스마트홈 기기 연동 통합·경계조건·안전 시험",
+  "work": "실물/통신/한계·고장주입·물리 ACK·안전 시험: 승인 기기 목록의 상태조회·제어·결과확인을 Stage2부터 구성",
+  "data": "device id·capability·command·state revision",
+  "boundary": "미승인기기·offline·state mismatch·민감기기",
+  "metrics": "호환성·실행확인·권한차단",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

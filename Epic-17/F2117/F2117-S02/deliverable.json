@@ -1,0 +1,44 @@
+{
+  "id": "F2117-S02",
+  "jira_key": "KR1-900",
+  "source_scope": "과제: 첫 설정, 대화 종료, 알림 저장, 음량 변경, 기록 삭제, 액세서리 탈착. 성공/시간/도움/불편 기록 양식.",
+  "work_now": "비식별 기록 CSV와 집계 도구 구현",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2117/F2117-S02/deliverable.json",
+  "acceptance": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+  "remaining": "참여자 모집·동의·실물/UI시험; Python·CSV",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "프로토타입 또는 설계 입력 작성"
+}

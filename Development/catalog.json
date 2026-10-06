@@ -1,0 +1,742 @@
+[
+  {
+    "feature": "F2036",
+    "jira": "KR1-283",
+    "path": "Epic-07/F2036/contract.json"
+  },
+  {
+    "feature": "F2037",
+    "jira": "KR1-288",
+    "path": "Epic-07/F2037/contract.json"
+  },
+  {
+    "feature": "F2038",
+    "jira": "KR1-293",
+    "path": "Epic-07/F2038/contract.json"
+  },
+  {
+    "feature": "F2039",
+    "jira": "KR1-298",
+    "path": "Epic-07/F2039/contract.json"
+  },
+  {
+    "feature": "F2040",
+    "jira": "KR1-303",
+    "path": "Epic-07/F2040/contract.json"
+  },
+  {
+    "feature": "F2041",
+    "jira": "KR1-308",
+    "path": "Epic-07/F2041/contract.json"
+  },
+  {
+    "feature": "F2152",
+    "jira": "KR1-313",
+    "path": "Epic-07/F2152/contract.json"
+  },
+  {
+    "feature": "F2042",
+    "jira": "KR1-319",
+    "path": "Epic-08/F2042/contract.json"
+  },
+  {
+    "feature": "F2043",
+    "jira": "KR1-324",
+    "path": "Epic-08/F2043/contract.json"
+  },
+  {
+    "feature": "F2044",
+    "jira": "KR1-329",
+    "path": "Epic-08/F2044/contract.json"
+  },
+  {
+    "feature": "F2045",
+    "jira": "KR1-334",
+    "path": "Epic-08/F2045/contract.json"
+  },
+  {
+    "feature": "F2046",
+    "jira": "KR1-339",
+    "path": "Epic-08/F2046/contract.json"
+  },
+  {
+    "feature": "F2047",
+    "jira": "KR1-344",
+    "path": "Epic-08/F2047/contract.json"
+  },
+  {
+    "feature": "F2142",
+    "jira": "KR1-349",
+    "path": "Epic-08/F2142/contract.json"
+  },
+  {
+    "feature": "F2143",
+    "jira": "KR1-354",
+    "path": "Epic-08/F2143/contract.json"
+  },
+  {
+    "feature": "F2144",
+    "jira": "KR1-359",
+    "path": "Epic-08/F2144/contract.json"
+  },
+  {
+    "feature": "F2145",
+    "jira": "KR1-364",
+    "path": "Epic-08/F2145/contract.json"
+  },
+  {
+    "feature": "F2146",
+    "jira": "KR1-369",
+    "path": "Epic-08/F2146/contract.json"
+  },
+  {
+    "feature": "F2048",
+    "jira": "KR1-375",
+    "path": "Epic-09/F2048/contract.json"
+  },
+  {
+    "feature": "F2049",
+    "jira": "KR1-380",
+    "path": "Epic-09/F2049/contract.json"
+  },
+  {
+    "feature": "F2050",
+    "jira": "KR1-385",
+    "path": "Epic-09/F2050/contract.json"
+  },
+  {
+    "feature": "F2051",
+    "jira": "KR1-390",
+    "path": "Epic-09/F2051/contract.json"
+  },
+  {
+    "feature": "F2052",
+    "jira": "KR1-395",
+    "path": "Epic-09/F2052/contract.json"
+  },
+  {
+    "feature": "F2053",
+    "jira": "KR1-400",
+    "path": "Epic-09/F2053/contract.json"
+  },
+  {
+    "feature": "F2054",
+    "jira": "KR1-406",
+    "path": "Epic-10/F2054/contract.json"
+  },
+  {
+    "feature": "F2055",
+    "jira": "KR1-411",
+    "path": "Epic-10/F2055/contract.json"
+  },
+  {
+    "feature": "F2056",
+    "jira": "KR1-416",
+    "path": "Epic-10/F2056/contract.json"
+  },
+  {
+    "feature": "F2057",
+    "jira": "KR1-421",
+    "path": "Epic-10/F2057/contract.json"
+  },
+  {
+    "feature": "F2058",
+    "jira": "KR1-426",
+    "path": "Epic-10/F2058/contract.json"
+  },
+  {
+    "feature": "F2059",
+    "jira": "KR1-431",
+    "path": "Epic-10/F2059/contract.json"
+  },
+  {
+    "feature": "F2060",
+    "jira": "KR1-437",
+    "path": "Epic-11/F2060/contract.json"
+  },
+  {
+    "feature": "F2061",
+    "jira": "KR1-442",
+    "path": "Epic-11/F2061/contract.json"
+  },
+  {
+    "feature": "F2062",
+    "jira": "KR1-447",
+    "path": "Epic-11/F2062/contract.json"
+  },
+  {
+    "feature": "F2063",
+    "jira": "KR1-452",
+    "path": "Epic-11/F2063/contract.json"
+  },
+  {
+    "feature": "F2064",
+    "jira": "KR1-457",
+    "path": "Epic-11/F2064/contract.json"
+  },
+  {
+    "feature": "F2151",
+    "jira": "KR1-462",
+    "path": "Epic-11/F2151/contract.json"
+  },
+  {
+    "feature": "F2153",
+    "jira": "KR1-467",
+    "path": "Epic-11/F2153/contract.json"
+  },
+  {
+    "feature": "F2065",
+    "jira": "KR1-473",
+    "path": "Epic-12/F2065/contract.json"
+  },
+  {
+    "feature": "F2066",
+    "jira": "KR1-478",
+    "path": "Epic-12/F2066/contract.json"
+  },
+  {
+    "feature": "F2067",
+    "jira": "KR1-483",
+    "path": "Epic-12/F2067/contract.json"
+  },
+  {
+    "feature": "F2068",
+    "jira": "KR1-488",
+    "path": "Epic-12/F2068/contract.json"
+  },
+  {
+    "feature": "F2069",
+    "jira": "KR1-493",
+    "path": "Epic-12/F2069/contract.json"
+  },
+  {
+    "feature": "F2070",
+    "jira": "KR1-498",
+    "path": "Epic-12/F2070/contract.json"
+  },
+  {
+    "feature": "F2124",
+    "jira": "KR1-503",
+    "path": "Epic-12/F2124/contract.json"
+  },
+  {
+    "feature": "F2159",
+    "jira": "KR1-508",
+    "path": "Epic-12/F2159/contract.json"
+  },
+  {
+    "feature": "F2160",
+    "jira": "KR1-513",
+    "path": "Epic-12/F2160/contract.json"
+  },
+  {
+    "feature": "F2161",
+    "jira": "KR1-518",
+    "path": "Epic-12/F2161/contract.json"
+  },
+  {
+    "feature": "F2162",
+    "jira": "KR1-523",
+    "path": "Epic-12/F2162/contract.json"
+  },
+  {
+    "feature": "F2071",
+    "jira": "KR1-529",
+    "path": "Epic-13/F2071/contract.json"
+  },
+  {
+    "feature": "F2072",
+    "jira": "KR1-534",
+    "path": "Epic-13/F2072/contract.json"
+  },
+  {
+    "feature": "F2073",
+    "jira": "KR1-539",
+    "path": "Epic-13/F2073/contract.json"
+  },
+  {
+    "feature": "F2074",
+    "jira": "KR1-544",
+    "path": "Epic-13/F2074/contract.json"
+  },
+  {
+    "feature": "F2075",
+    "jira": "KR1-549",
+    "path": "Epic-13/F2075/contract.json"
+  },
+  {
+    "feature": "F2076",
+    "jira": "KR1-554",
+    "path": "Epic-13/F2076/contract.json"
+  },
+  {
+    "feature": "F2139",
+    "jira": "KR1-559",
+    "path": "Epic-13/F2139/contract.json"
+  },
+  {
+    "feature": "F2140",
+    "jira": "KR1-564",
+    "path": "Epic-13/F2140/contract.json"
+  },
+  {
+    "feature": "F2141",
+    "jira": "KR1-569",
+    "path": "Epic-13/F2141/contract.json"
+  },
+  {
+    "feature": "F2150",
+    "jira": "KR1-574",
+    "path": "Epic-13/F2150/contract.json"
+  },
+  {
+    "feature": "F2164",
+    "jira": "KR1-579",
+    "path": "Epic-13/F2164/contract.json"
+  },
+  {
+    "feature": "F2214",
+    "jira": "KR1-585",
+    "path": "Epic-14/F2214/contract.json"
+  },
+  {
+    "feature": "F2215",
+    "jira": "KR1-590",
+    "path": "Epic-14/F2215/contract.json"
+  },
+  {
+    "feature": "F2216",
+    "jira": "KR1-595",
+    "path": "Epic-14/F2216/contract.json"
+  },
+  {
+    "feature": "F2217",
+    "jira": "KR1-600",
+    "path": "Epic-14/F2217/contract.json"
+  },
+  {
+    "feature": "F2218",
+    "jira": "KR1-605",
+    "path": "Epic-14/F2218/contract.json"
+  },
+  {
+    "feature": "F2219",
+    "jira": "KR1-610",
+    "path": "Epic-14/F2219/contract.json"
+  },
+  {
+    "feature": "F2220",
+    "jira": "KR1-615",
+    "path": "Epic-14/F2220/contract.json"
+  },
+  {
+    "feature": "F2077",
+    "jira": "KR1-620",
+    "path": "Epic-14/F2077/contract.json"
+  },
+  {
+    "feature": "F2078",
+    "jira": "KR1-625",
+    "path": "Epic-14/F2078/contract.json"
+  },
+  {
+    "feature": "F2079",
+    "jira": "KR1-630",
+    "path": "Epic-14/F2079/contract.json"
+  },
+  {
+    "feature": "F2080",
+    "jira": "KR1-635",
+    "path": "Epic-14/F2080/contract.json"
+  },
+  {
+    "feature": "F2081",
+    "jira": "KR1-640",
+    "path": "Epic-14/F2081/contract.json"
+  },
+  {
+    "feature": "F2158",
+    "jira": "KR1-645",
+    "path": "Epic-14/F2158/contract.json"
+  },
+  {
+    "feature": "F2163",
+    "jira": "KR1-650",
+    "path": "Epic-14/F2163/contract.json"
+  },
+  {
+    "feature": "F2082",
+    "jira": "KR1-656",
+    "path": "Epic-15/F2082/contract.json"
+  },
+  {
+    "feature": "F2083",
+    "jira": "KR1-661",
+    "path": "Epic-15/F2083/contract.json"
+  },
+  {
+    "feature": "F2084",
+    "jira": "KR1-666",
+    "path": "Epic-15/F2084/contract.json"
+  },
+  {
+    "feature": "F2085",
+    "jira": "KR1-671",
+    "path": "Epic-15/F2085/contract.json"
+  },
+  {
+    "feature": "F2086",
+    "jira": "KR1-676",
+    "path": "Epic-15/F2086/contract.json"
+  },
+  {
+    "feature": "F2087",
+    "jira": "KR1-681",
+    "path": "Epic-15/F2087/contract.json"
+  },
+  {
+    "feature": "F2137",
+    "jira": "KR1-686",
+    "path": "Epic-15/F2137/contract.json"
+  },
+  {
+    "feature": "F2138",
+    "jira": "KR1-691",
+    "path": "Epic-15/F2138/contract.json"
+  },
+  {
+    "feature": "F2147",
+    "jira": "KR1-696",
+    "path": "Epic-15/F2147/contract.json"
+  },
+  {
+    "feature": "F2148",
+    "jira": "KR1-701",
+    "path": "Epic-15/F2148/contract.json"
+  },
+  {
+    "feature": "F2149",
+    "jira": "KR1-706",
+    "path": "Epic-15/F2149/contract.json"
+  },
+  {
+    "feature": "F2090",
+    "jira": "KR1-712",
+    "path": "Epic-16/F2090/contract.json"
+  },
+  {
+    "feature": "F2091",
+    "jira": "KR1-717",
+    "path": "Epic-16/F2091/contract.json"
+  },
+  {
+    "feature": "F2092",
+    "jira": "KR1-722",
+    "path": "Epic-16/F2092/contract.json"
+  },
+  {
+    "feature": "F2093",
+    "jira": "KR1-727",
+    "path": "Epic-16/F2093/contract.json"
+  },
+  {
+    "feature": "F2094",
+    "jira": "KR1-732",
+    "path": "Epic-16/F2094/contract.json"
+  },
+  {
+    "feature": "F2095",
+    "jira": "KR1-737",
+    "path": "Epic-16/F2095/contract.json"
+  },
+  {
+    "feature": "F2096",
+    "jira": "KR1-742",
+    "path": "Epic-16/F2096/contract.json"
+  },
+  {
+    "feature": "F2097",
+    "jira": "KR1-747",
+    "path": "Epic-16/F2097/contract.json"
+  },
+  {
+    "feature": "F2098",
+    "jira": "KR1-752",
+    "path": "Epic-16/F2098/contract.json"
+  },
+  {
+    "feature": "F2099",
+    "jira": "KR1-757",
+    "path": "Epic-16/F2099/contract.json"
+  },
+  {
+    "feature": "F2100",
+    "jira": "KR1-762",
+    "path": "Epic-16/F2100/contract.json"
+  },
+  {
+    "feature": "F2101",
+    "jira": "KR1-767",
+    "path": "Epic-16/F2101/contract.json"
+  },
+  {
+    "feature": "F2102",
+    "jira": "KR1-772",
+    "path": "Epic-16/F2102/contract.json"
+  },
+  {
+    "feature": "F2103",
+    "jira": "KR1-777",
+    "path": "Epic-16/F2103/contract.json"
+  },
+  {
+    "feature": "F2125",
+    "jira": "KR1-782",
+    "path": "Epic-16/F2125/contract.json"
+  },
+  {
+    "feature": "F2132",
+    "jira": "KR1-787",
+    "path": "Epic-16/F2132/contract.json"
+  },
+  {
+    "feature": "F2135",
+    "jira": "KR1-792",
+    "path": "Epic-16/F2135/contract.json"
+  },
+  {
+    "feature": "F2136",
+    "jira": "KR1-797",
+    "path": "Epic-16/F2136/contract.json"
+  },
+  {
+    "feature": "F2156",
+    "jira": "KR1-802",
+    "path": "Epic-16/F2156/contract.json"
+  },
+  {
+    "feature": "F2221",
+    "jira": "KR1-807",
+    "path": "Epic-16/F2221/contract.json"
+  },
+  {
+    "feature": "F2222",
+    "jira": "KR1-812",
+    "path": "Epic-16/F2222/contract.json"
+  },
+  {
+    "feature": "F2223",
+    "jira": "KR1-817",
+    "path": "Epic-16/F2223/contract.json"
+  },
+  {
+    "feature": "F2224",
+    "jira": "KR1-822",
+    "path": "Epic-16/F2224/contract.json"
+  },
+  {
+    "feature": "F2225",
+    "jira": "KR1-827",
+    "path": "Epic-16/F2225/contract.json"
+  },
+  {
+    "feature": "F2165",
+    "jira": "KR1-934",
+    "path": "Epic-18/F2165/contract.json"
+  },
+  {
+    "feature": "F2166",
+    "jira": "KR1-939",
+    "path": "Epic-18/F2166/contract.json"
+  },
+  {
+    "feature": "F2167",
+    "jira": "KR1-944",
+    "path": "Epic-18/F2167/contract.json"
+  },
+  {
+    "feature": "F2168",
+    "jira": "KR1-949",
+    "path": "Epic-18/F2168/contract.json"
+  },
+  {
+    "feature": "F2169",
+    "jira": "KR1-954",
+    "path": "Epic-18/F2169/contract.json"
+  },
+  {
+    "feature": "F2170",
+    "jira": "KR1-959",
+    "path": "Epic-18/F2170/contract.json"
+  },
+  {
+    "feature": "F2171",
+    "jira": "KR1-964",
+    "path": "Epic-18/F2171/contract.json"
+  },
+  {
+    "feature": "F2172",
+    "jira": "KR1-969",
+    "path": "Epic-18/F2172/contract.json"
+  },
+  {
+    "feature": "F2173",
+    "jira": "KR1-974",
+    "path": "Epic-18/F2173/contract.json"
+  },
+  {
+    "feature": "F2174",
+    "jira": "KR1-979",
+    "path": "Epic-18/F2174/contract.json"
+  },
+  {
+    "feature": "F2175",
+    "jira": "KR1-984",
+    "path": "Epic-18/F2175/contract.json"
+  },
+  {
+    "feature": "F2176",
+    "jira": "KR1-989",
+    "path": "Epic-18/F2176/contract.json"
+  },
+  {
+    "feature": "F2177",
+    "jira": "KR1-995",
+    "path": "Epic-19/F2177/contract.json"
+  },
+  {
+    "feature": "F2178",
+    "jira": "KR1-999",
+    "path": "Epic-19/F2178/contract.json"
+  },
+  {
+    "feature": "F2179",
+    "jira": "KR1-1003",
+    "path": "Epic-19/F2179/contract.json"
+  },
+  {
+    "feature": "F2180",
+    "jira": "KR1-1007",
+    "path": "Epic-19/F2180/contract.json"
+  },
+  {
+    "feature": "F2181",
+    "jira": "KR1-1009",
+    "path": "Epic-19/F2181/contract.json"
+  },
+  {
+    "feature": "F2182",
+    "jira": "KR1-1012",
+    "path": "Epic-19/F2182/contract.json"
+  },
+  {
+    "feature": "F2183",
+    "jira": "KR1-1016",
+    "path": "Epic-19/F2183/contract.json"
+  },
+  {
+    "feature": "F2184",
+    "jira": "KR1-1019",
+    "path": "Epic-19/F2184/contract.json"
+  },
+  {
+    "feature": "F2185",
+    "jira": "KR1-1023",
+    "path": "Epic-19/F2185/contract.json"
+  },
+  {
+    "feature": "F2186",
+    "jira": "KR1-1024",
+    "path": "Epic-19/F2186/contract.json"
+  },
+  {
+    "feature": "F2187",
+    "jira": "KR1-1028",
+    "path": "Epic-19/F2187/contract.json"
+  },
+  {
+    "feature": "F2188",
+    "jira": "KR1-1032",
+    "path": "Epic-19/F2188/contract.json"
+  },
+  {
+    "feature": "F2189",
+    "jira": "KR1-1036",
+    "path": "Epic-19/F2189/contract.json"
+  },
+  {
+    "feature": "F2190",
+    "jira": "KR1-1040",
+    "path": "Epic-20/F2190/contract.json"
+  },
+  {
+    "feature": "F2191",
+    "jira": "KR1-1044",
+    "path": "Epic-20/F2191/contract.json"
+  },
+  {
+    "feature": "F2192",
+    "jira": "KR1-1048",
+    "path": "Epic-20/F2192/contract.json"
+  },
+  {
+    "feature": "F2193",
+    "jira": "KR1-1051",
+    "path": "Epic-20/F2193/contract.json"
+  },
+  {
+    "feature": "F2194",
+    "jira": "KR1-1055",
+    "path": "Epic-20/F2194/contract.json"
+  },
+  {
+    "feature": "F2195",
+    "jira": "KR1-1058",
+    "path": "Epic-20/F2195/contract.json"
+  },
+  {
+    "feature": "F2196",
+    "jira": "KR1-1062",
+    "path": "Epic-20/F2196/contract.json"
+  },
+  {
+    "feature": "F2197",
+    "jira": "KR1-1064",
+    "path": "Epic-20/F2197/contract.json"
+  },
+  {
+    "feature": "F2198",
+    "jira": "KR1-1069",
+    "path": "Epic-20/F2198/contract.json"
+  },
+  {
+    "feature": "F2199",
+    "jira": "KR1-1074",
+    "path": "Epic-20/F2199/contract.json"
+  },
+  {
+    "feature": "F2200",
+    "jira": "KR1-1079",
+    "path": "Epic-20/F2200/contract.json"
+  },
+  {
+    "feature": "F2201",
+    "jira": "KR1-1084",
+    "path": "Epic-20/F2201/contract.json"
+  },
+  {
+    "feature": "F2202",
+    "jira": "KR1-1089",
+    "path": "Epic-20/F2202/contract.json"
+  },
+  {
+    "feature": "F2203",
+    "jira": "KR1-1094",
+    "path": "Epic-20/F2203/contract.json"
+  },
+  {
+    "feature": "F2204",
+    "jira": "KR1-1098",
+    "path": "Epic-20/F2204/contract.json"
+  }
+]

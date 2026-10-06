@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "feature": "F2006",
+  "proposed_data": "CompanionSession에 session_id, user_id, session_epoch, mode, conversation_state, intent, context_revision, memory_refs, backend, turn_id를 둔다. 감정 추정은 observation과 confidence로 별도 관리한다.",
+  "proposed_interfaces": "내부 compose_dialogue_context 및 plan_response를 사용한다. 출력 계획은 utterance, affect_hint, expression_id, gesture_id, priority, interruptible, turn_id, session_epoch를 포함하고 표현·제어 모듈이 허용 목록을 검사한다.",
+  "acceptance": "대표 대화에서 사용자 선호와 기억 근거가 반영되고 중단·취침·Quiet Hours를 지킨다. 클라우드 단절·응답 지연·사용자 전환 시 중복 발화 및 이전 사용자 응답이 발생하지 않는다.",
+  "requirements": [
+    "인사·일상 대화·회상·취침 전 이야기·기분 확인·대화 종료 시나리오를 정의하고 사용자가 먼저 끝내면 즉시 종료한다.",
+    "관찰한 감정은 확정하지 않고 확인 질문에 활용한다. 동반자 모드는 현실의 가족·사회적 관계를 방해하거나 배타적 의존을 유도하지 않도록 한다.",
+    "로컬과 클라우드가 같은 사용자 Context·정책 버전을 사용한다. 연결 실패 시 중복 응답·중복 동작 없이 로컬 기본 대화로 전환한다."
+  ],
+  "error_codes": [
+    "INVALID_INPUT",
+    "NOT_AUTHORIZED",
+    "STALE_CONTEXT",
+    "NOT_READY",
+    "NOT_SUPPORTED"
+  ],
+  "status": "design_proposal"
+}

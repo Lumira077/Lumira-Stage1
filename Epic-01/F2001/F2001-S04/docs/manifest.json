@@ -1,0 +1,12 @@
+{
+  "work_item": "KR1-6", "candidate_version": "0.4.0", "status": "development_candidate",
+  "source_commit": "resolve_from_CI_GITHUB_SHA_or_git", "python": ">=3.11",
+  "s02_commit": "2043fbca9248d8a7043bdaec7b7418721f655b97",
+  "s03_commit": "9ee6ca3a9693b87f455a6489cb1d1355e53af4ec",
+  "dependency_hashes": "dependency.json", "service_schema_version": 2,
+  "telemetry_schema": "onboarding_ops.telemetry.Sink events v1",
+  "firmware": null, "robot_model": null, "control_model": null,
+  "production_config": null, "conversation_assets": null,
+  "compatibility": "software fixtures only; real hardware compatibility unverified",
+  "deployment_executed": false, "release_ready": false
+}

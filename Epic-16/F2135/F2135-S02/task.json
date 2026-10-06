@@ -1,0 +1,21 @@
+{
+  "id": "F2135-S02",
+  "jira": "KR1-794",
+  "parent": "KR1-792",
+  "title": "[F2135-S02] Stage 확장 Modular Interface 표준 CAD·회로·Prototype 제작",
+  "work": "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리: Stage확장 모듈의 기계/전원/통신/하중 interface를 표준화",
+  "data": "interface revision·connector·load·module id",
+  "boundary": "비호환·오결선·hotplug·초과하중",
+  "metrics": "호환mock-up·ICD coverage·safe reject",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

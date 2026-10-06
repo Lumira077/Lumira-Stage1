@@ -1,0 +1,18 @@
+{
+  "feature": "F2014",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "유해 응답·오차단·위기 안내 품질·정책 버전·평가 일치율",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 태그 기반 정책 gate; 실제 의미 분류·유해성 검출·전문가 검토·긴급 연락 서비스 미연결"
+}

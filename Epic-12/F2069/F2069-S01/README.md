@@ -1,0 +1,13 @@
+# [F2069-S01] 단계적 배포 및 롤백 사용 흐름·Data Model·API 설계
+
+Jira: https://lumira077.atlassian.net/browse/KR1-494
+
+요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: canary/cohort·건강 gate·중단·이전 검증 이미지 롤백을 구성
+
+데이터: rollout id·cohort·health·slot·rollback target
+
+검증: 오류급증·오프라인 fleet·partial install
+
+지표: 성공률·오류율·rollback 실제 ACK
+
+현재는 task.json 작업계약/증적 요구입니다. 실제 단계 수행 완료는 아닙니다. 상위 contract.json 및 Development/runtime/review.py를 함께 사용합니다. 실제 대상에 맞춘 adapter·검토·시험·승인은 후속입니다.

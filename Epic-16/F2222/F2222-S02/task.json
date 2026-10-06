@@ -1,0 +1,21 @@
+{
+  "id": "F2222-S02",
+  "jira": "KR1-814",
+  "parent": "KR1-812",
+  "title": "[F2222-S02] COTS 70%·Custom 30% 전자구성 및 전환 Gate CAD·회로·Prototype 제작",
+  "work": "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리: COTS70/Custom30 구상 및make/buy·공급/원가·EVT/DVT전환 gate를 관리",
+  "data": "module·make/buy·supplier·cost·lifecycle·gate",
+  "boundary": "단종·공급부족·자체화미승인·BOM변경",
+  "metrics": "대체품·configuration 추적·gate승인",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

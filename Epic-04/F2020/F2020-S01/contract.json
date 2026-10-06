@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2020",
+  "data": "expression id·intensity·smile/brow/mouth/gaze normalized pose, asset/policy version, resolution/FPS·turn/epoch·transition duration·state 우선순위.",
+  "interface": "ExpressionRequest → expression pose/interpolation → SVG/offline renderer. 실제 디스플레이 frame loop/Qt adapter 및 상태 event bus는 후속 연결.",
+  "metrics": "표정/상태 이해율·transition 가독성·FPS/dropped frame·render p50/p95·취소 후 residual frame·장시간 발열",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

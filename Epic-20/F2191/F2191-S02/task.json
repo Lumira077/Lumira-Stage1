@@ -1,0 +1,21 @@
+{
+  "id": "F2191-S02",
+  "jira": "KR1-1045",
+  "parent": "KR1-1044",
+  "title": "[F2191-S02] Customer CRM·동의·선호·접점 Data 구축 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: 고객중복통제·목적별동의·선호·상담/구매/A/S접점을 관리",
+  "data": "customer id·purpose consent·touchpoint·retention",
+  "boundary": "동의철회·중복·무단공유·stale contact",
+  "metrics": "동의/삭제·중복률·접점추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

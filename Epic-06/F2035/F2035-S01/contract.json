@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2035",
+  "data": "device/source/version·heartbeat time·severity/code/latched state·bounded error metadata·operator/healthy evidence·hardware watchdog·fault isolation/recovery ACK·privacy.",
+  "interface": "HAL/motor/sensor/power·resource telemetry → DiagnosticArray·bounded fault registry → safety controller/운영 모니터링. 현재 소프트웨어 report이며 실제 hardware watchdog/복귀 실행 없음.",
+  "metrics": "fault detection/격리/복귀 p95·heartbeat stale·오류코드 coverage·실제 stop/healthy ACK·fault recurrence·민감 로그 0건",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

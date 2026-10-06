@@ -1,0 +1,44 @@
+{
+  "id": "F2118-S04",
+  "jira_key": "KR1-907",
+  "source_scope": "승인자·기준 Version·잔여 위험/변경 정책 기록 후 DFM 전달.",
+  "work_now": "승인 패키지·미결·변경 정책 작성; 실제 동결은 보류",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2118/F2118-S04/deliverable.json",
+  "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+  "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+}

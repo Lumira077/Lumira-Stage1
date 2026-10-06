@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2009",
+  "data_proposal": "Transcript: utterance_id, sequence, text, is_final, language, epoch; audio bytes는 기본 미저장",
+  "interface_proposal": "TranscriptAssembler.update/final; 실제 whisper.cpp 또는 승인 STT adapter를 연결",
+  "acceptance": "환경/언어별 CER/WER와 partial/final 지연 목표를 충족하고 확정 결과가 중복 처리되지 않는다.",
+  "metrics": "CER/WER·partial/final p95·endpoint 지연·무음 오인식",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

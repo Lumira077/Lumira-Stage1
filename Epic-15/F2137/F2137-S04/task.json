@@ -1,0 +1,21 @@
+{
+  "id": "F2137-S04",
+  "jira": "KR1-690",
+  "parent": "KR1-686",
+  "title": "[F2137-S04] Stage4 가변 높이 범위·승강 Mechanism 실환경 임무 검증·Parameter Freeze",
+  "work": "실환경 반복임무·Parameter Freeze·운용제한/rollback: 700~1200mm 구상 목표의 승강·limit·position·구조를 설계 검증",
+  "data": "stroke·height·load·drawing·limit·calibration",
+  "boundary": "끼임·중간전원단절·기울기·과부하",
+  "metrics": "강성·위치오차·승강수명·정지",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

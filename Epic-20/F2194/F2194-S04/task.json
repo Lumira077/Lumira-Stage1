@@ -1,0 +1,21 @@
+{
+  "id": "F2194-S04",
+  "jira": "KR1-1057",
+  "parent": "KR1-1055",
+  "title": "[F2194-S04] Stage 1 Brand Content·PR·KOL 홍보 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: 검증된제품효과의브랜드/PR/KOL콘텐츠·권리/공개전검토를 준비",
+  "data": "asset·channel·claims evidence·license·review",
+  "boundary": "과장·IP공개·무동의사진·미승인게시",
+  "metrics": "근거coverage·검수·도달/문의",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

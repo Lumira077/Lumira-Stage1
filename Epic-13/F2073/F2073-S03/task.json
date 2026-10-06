@@ -1,0 +1,21 @@
+{
+  "id": "F2073-S03",
+  "jira": "KR1-542",
+  "parent": "KR1-539",
+  "title": "[F2073-S03] 인증·권한·기기 신뢰 Fault Injection·침투·안전 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: 사용자/기기 인증·tenant/owner scope·RBAC·세션 revoke를 구성",
+  "data": "principal·role·device/tenant·token ref·epoch",
+  "boundary": "cross-tenant·replay·expired·owner 변경",
+  "metrics": "권한우회 0건·revoke 지연·session 감사",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "scoped_access",
+  "actual_external_calls": 0
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scope": "development_sandbox",
+  "newer_ledger_records": 3,
+  "expired_memories_removed": 0,
+  "prepared_contexts_reused": false,
+  "production_restore_verified": false,
+  "deletion_not_resurrected": true
+}

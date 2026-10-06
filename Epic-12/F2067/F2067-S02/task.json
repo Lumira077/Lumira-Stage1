@@ -1,0 +1,21 @@
+{
+  "id": "F2067-S02",
+  "jira": "KR1-485",
+  "parent": "KR1-483",
+  "title": "[F2067-S02] 로그·이벤트·진단 수집 서비스·App·자동화 구현",
+  "work": "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시: 최소 telemetry allowlist·buffer·재전송·retention·삭제를 구성",
+  "data": "event id·schema·code·stamp·retention",
+  "boundary": "원문/Secret 포함·overflow·중복·offline",
+  "metrics": "유실률·중복률·민감원문 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "minimal_event",
+  "actual_external_calls": 0
+}

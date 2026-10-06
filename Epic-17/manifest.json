@@ -1,0 +1,4464 @@
+[
+  {
+    "feature_id": "F2104",
+    "jira_key": "KR1-833",
+    "title": "[F2104] 제품 Concept 및 Target User 정의",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "대화 동반자 콘셉트와 고객·구매자 가설을 분리하고 고령자·성인 1인 가구의 필요를 검증한다.",
+    "specific_deliverables": [
+      "고객/구매자/환경/가치 가설과 근거 유형 및 조사 질문 정의",
+      "경청형 캐릭터·쉬운 설정·사용자 통제 콘셉트 카드 작성",
+      "첫 사용·일상 대화·설치성·구매 의향 인터뷰 과제 정의",
+      "선정/보류 근거와 F2105·F2108·F2109 인계 목록 작성"
+    ],
+    "gate": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+    "tools_and_dependencies": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=2-2",
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=6-2",
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-3"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2104-S01",
+        "jira_key": "KR1-834",
+        "source_scope": "고객·구매자·환경·성능/안전·Interface·BOM 요구 목록. 약 600mm 기준과 400mm 비교 가설의 근거 구분.",
+        "work_now": "고객/구매자/환경/가치 가설과 근거 유형 및 조사 질문 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2104/F2104-S01/deliverable.json",
+        "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+        "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2104-S02",
+        "jira_key": "KR1-835",
+        "source_scope": "친근한 경청형 캐릭터, 존댓말·질문 하나·종료 존중. 첫인사/경청/공감/오류/종료 매핑과 콘셉트 보드.",
+        "work_now": "경청형 캐릭터·쉬운 설정·사용자 통제 콘셉트 카드 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2104/F2104-S02/deliverable.json",
+        "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+        "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2104-S03",
+        "jira_key": "KR1-836",
+        "source_scope": "인터뷰와 첫 사용/일상 대화/알림 과제. 설치성·가시성·가격 수용성 기록.",
+        "work_now": "첫 사용·일상 대화·설치성·구매 의향 인터뷰 과제 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2104/F2104-S03/deliverable.json",
+        "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+        "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2104-S04",
+        "jira_key": "KR1-837",
+        "source_scope": "콘셉트 결정·미결 목록과 F2105/F2108/F2109 전달.",
+        "work_now": "선정/보류 근거와 F2105·F2108·F2109 인계 목록 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2104/F2104-S04/deliverable.json",
+        "acceptance": "실제 고객 인터뷰·구매자 검토 전 고객 확정 금지",
+        "remaining": "고객 모집·가격/운영비 근거; PowerPoint·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2105",
+    "jira_key": "KR1-838",
+    "title": "[F2105] Stage1 제품 기능 Requirement 정의",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "Stage1 요구 기준을 대화·두 화면·자연스러운 표현·제한 이동·유선 충전으로 갱신한다.",
+    "specific_deliverables": [
+      "요구 ID·우선순위·입출력·오류·검증 방법과 HW 연결 정의",
+      "대기/듣기/처리/말하기/음소거/오류/충전 UI 상태 구현",
+      "네트워크 끊김·충전·음소거·추락·비상정지 조합 테스트",
+      "제외 범위(SLAM·손가락·팔꿈치 구동)와 기준 revision 인계"
+    ],
+    "gate": "로컬 상태 테스트는 실제 HW 안전 시험을 대체하지 않음",
+    "tools_and_dependencies": "HW 이벤트/제어 API·전원 피드백; Python·브라우저",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-6"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2105-S01",
+        "jira_key": "KR1-839",
+        "source_scope": "기능별 입력/출력/우선순위/실패 대응/검증 방법 작성. 화면·센서·모터·통신 요구 연결.",
+        "work_now": "요구 ID·우선순위·입출력·오류·검증 방법과 HW 연결 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2105/F2105-S01/deliverable.json",
+        "acceptance": "로컬 상태 테스트는 실제 HW 안전 시험을 대체하지 않음",
+        "remaining": "HW 이벤트/제어 API·전원 피드백; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2105-S02",
+        "jira_key": "KR1-840",
+        "source_scope": "MVP 상태 초안: 대기/듣기/처리/말하기/오류/프라이버시/충전. 기능과 화면·동작 반응 표.",
+        "work_now": "대기/듣기/처리/말하기/음소거/오류/충전 UI 상태 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2105/F2105-S02/deliverable.json",
+        "acceptance": "로컬 상태 테스트는 실제 HW 안전 시험을 대체하지 않음",
+        "remaining": "HW 이벤트/제어 API·전원 피드백; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2105-S03",
+        "jira_key": "KR1-841",
+        "source_scope": "호출 실패·네트워크 단절·알림 저장 실패·전원 중단 사례로 요구 누락 검토.",
+        "work_now": "네트워크 끊김·충전·음소거·추락·비상정지 조합 테스트",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2105/F2105-S03/deliverable.json",
+        "acceptance": "로컬 상태 테스트는 실제 HW 안전 시험을 대체하지 않음",
+        "remaining": "HW 이벤트/제어 API·전원 피드백; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2105-S04",
+        "jira_key": "KR1-842",
+        "source_scope": "MVP 요구 버전과 보류 기능 확정 후 Epic16 전달.",
+        "work_now": "제외 범위(SLAM·손가락·팔꿈치 구동)와 기준 revision 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2105/F2105-S04/deliverable.json",
+        "acceptance": "로컬 상태 테스트는 실제 HW 안전 시험을 대체하지 않음",
+        "remaining": "HW 이벤트/제어 API·전원 피드백; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2106",
+    "jira_key": "KR1-843",
+    "title": "[F2106] 사용자 Scenario·Journey·Use Case 설계",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "설치→동의→대화→종료→충전까지 사용자 여정과 실패 복구 경로를 설계한다.",
+    "specific_deliverables": [
+      "첫 설정/대화/음량/연결 실패/삭제/충전 Use Case 정의",
+      "클릭형 시작·종료·음소거·연결 상태 흐름 작성",
+      "각 과제의 성공·시간·도움·오류 수집 양식 작성",
+      "UX 실패 복구·취소·재시도 경로를 F2111·F2117로 전달"
+    ],
+    "gate": "알림 저장·개인정보 삭제는 실제 API 성공 확인 후 완료 표시",
+    "tools_and_dependencies": "서비스/API 계약·동의 정책; PowerPoint·브라우저",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-9"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2106-S01",
+        "jira_key": "KR1-844",
+        "source_scope": "행동/기대/상태/데이터/접점/실패/복구로 Use Case 양식 작성.",
+        "work_now": "첫 설정/대화/음량/연결 실패/삭제/충전 Use Case 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2106/F2106-S01/deliverable.json",
+        "acceptance": "알림 저장·개인정보 삭제는 실제 API 성공 확인 후 완료 표시",
+        "remaining": "서비스/API 계약·동의 정책; PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2106-S02",
+        "jira_key": "KR1-845",
+        "source_scope": "초안: 전원→상태 안내→동의·호칭·음량→대화→종료. 단절 시 재설정, 저장 실패 시 재확인.",
+        "work_now": "클릭형 시작·종료·음소거·연결 상태 흐름 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2106/F2106-S02/deliverable.json",
+        "acceptance": "알림 저장·개인정보 삭제는 실제 API 성공 확인 후 완료 표시",
+        "remaining": "서비스/API 계약·동의 정책; PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2106-S03",
+        "jira_key": "KR1-846",
+        "source_scope": "과제별 성공/도움/시간/오류 관찰. 사용자가 상태를 설명할 수 있는지 평가.",
+        "work_now": "각 과제의 성공·시간·도움·오류 수집 양식 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2106/F2106-S03/deliverable.json",
+        "acceptance": "알림 저장·개인정보 삭제는 실제 API 성공 확인 후 완료 표시",
+        "remaining": "서비스/API 계약·동의 정책; PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2106-S04",
+        "jira_key": "KR1-847",
+        "source_scope": "개선 흐름과 요구사항 ID를 F2111/F2112/F2117에 전달.",
+        "work_now": "UX 실패 복구·취소·재시도 경로를 F2111·F2117로 전달",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2106/F2106-S04/deliverable.json",
+        "acceptance": "알림 저장·개인정보 삭제는 실제 API 성공 확인 후 완료 표시",
+        "remaining": "서비스/API 계약·동의 정책; PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2107",
+    "jira_key": "KR1-848",
+    "title": "[F2107] Human-Robot Interaction 기본 원칙 설계",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "대화 중 경청·종료 존중·감정 비단정·사용자 발화 우선의 HRI 원칙을 정의한다.",
+    "specific_deliverables": [
+      "상황별 음성·표정·제스처·프라이버시 규칙 정리",
+      "대화 상태에 따른 표정/동작 제안과 중단 규칙 구현",
+      "음소거·발화 중단·충전·위험 상태의 동작 억제 점검",
+      "표현 매핑·예외·안전 우선순위를 제어팀에 전달"
+    ],
+    "gate": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+    "tools_and_dependencies": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-12"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2107-S01",
+        "jira_key": "KR1-849",
+        "source_scope": "상황별 발화/표정/자세/개입/종료 원칙. 거리·각도·속도·힘은 시험 전 TBD.",
+        "work_now": "상황별 음성·표정·제스처·프라이버시 규칙 정리",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2107/F2107-S01/deliverable.json",
+        "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+        "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2107-S02",
+        "jira_key": "KR1-850",
+        "source_scope": "경청은 작은 끄덕임, 기쁨은 미소와 작은 팔 반응, 오류는 중립·동작 대기. 사용자 발화 중 큰 동작 제한.",
+        "work_now": "대화 상태에 따른 표정/동작 제안과 중단 규칙 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2107/F2107-S02/deliverable.json",
+        "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+        "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2107-S03",
+        "jira_key": "KR1-851",
+        "source_scope": "불편한 시선·음량·반복 동작·방해·감정 오판 기록. 안전 한계는 R3/R6 검토.",
+        "work_now": "음소거·발화 중단·충전·위험 상태의 동작 억제 점검",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2107/F2107-S03/deliverable.json",
+        "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+        "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2107-S04",
+        "jira_key": "KR1-852",
+        "source_scope": "HRI 매핑 버전과 예외 규칙을 F2110/F2112로 전달.",
+        "work_now": "표현 매핑·예외·안전 우선순위를 제어팀에 전달",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2107/F2107-S04/deliverable.json",
+        "acceptance": "각도·속도·토크는 실물 시험 전 확정하지 않음",
+        "remaining": "모션/음성 이벤트·사용자 평가; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2108",
+    "jira_key": "KR1-853",
+    "title": "[F2108] 로봇 Size·비례·자세·동작 영역 설계",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "600mm 외형 기준으로 내부 부품·관절·하네스·작업 영역의 미결 치수를 추적한다.",
+    "specific_deliverables": [
+      "높이/폭/깊이·부품 외형·관절축·질량·무게중심 입력 양식",
+      "전체 및 부위별 배치 그림과 확인/추정/미정 치수표 연결",
+      "자세별 간섭·전도·시야·서비스·탁상 안전 검토 계획",
+      "확정 치수와 추정 공간을 분리한 envelope revision 인계"
+    ],
+    "gate": "폭·깊이·내부 공간·무게중심은 미실측; 400mm는 비교 가설",
+    "tools_and_dependencies": "Onshape 오류 수정·SKU 도면·질량; Onshape·기구 계측",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-15"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2108-S01",
+        "jira_key": "KR1-854",
+        "source_scope": "머리/몸통/팔/베이스 치수와 질량·무게중심·시야·작업영역 요구. 실제 부품 치수 우선.",
+        "work_now": "높이/폭/깊이·부품 외형·관절축·질량·무게중심 입력 양식",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2108/F2108-S01/deliverable.json",
+        "acceptance": "폭·깊이·내부 공간·무게중심은 미실측; 400mm는 비교 가설",
+        "remaining": "Onshape 오류 수정·SKU 도면·질량; Onshape·기구 계측",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2108-S02",
+        "jira_key": "KR1-855",
+        "source_scope": "A600/B400 비교 양식: 설치면적/얼굴 가시성/팔 간섭/정비/배선/전도. 소형만으로 안정 판정 금지.",
+        "work_now": "전체 및 부위별 배치 그림과 확인/추정/미정 치수표 연결",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2108/F2108-S02/deliverable.json",
+        "acceptance": "폭·깊이·내부 공간·무게중심은 미실측; 400mm는 비교 가설",
+        "remaining": "Onshape 오류 수정·SKU 도면·질량; Onshape·기구 계측",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2108-S03",
+        "jira_key": "KR1-856",
+        "source_scope": "실제 책상·침대 환경과 자세별 CAD/실물 검증. 의상 착용 상태도 비교.",
+        "work_now": "자세별 간섭·전도·시야·서비스·탁상 안전 검토 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2108/F2108-S03/deliverable.json",
+        "acceptance": "폭·깊이·내부 공간·무게중심은 미실측; 400mm는 비교 가설",
+        "remaining": "Onshape 오류 수정·SKU 도면·질량; Onshape·기구 계측",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2108-S04",
+        "jira_key": "KR1-857",
+        "source_scope": "선정안 파라미터와 가정·실측 구분 후 F2134/F2115 전달.",
+        "work_now": "확정 치수와 추정 공간을 분리한 envelope revision 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2108/F2108-S04/deliverable.json",
+        "acceptance": "폭·깊이·내부 공간·무게중심은 미실측; 400mm는 비교 가설",
+        "remaining": "Onshape 오류 수정·SKU 도면·질량; Onshape·기구 계측",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2109",
+    "jira_key": "KR1-858",
+    "title": "[F2109] 외관 Industrial Design Concept",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "기존 둥근 캐릭터 외형을 유지하며 화면·음향·통풍·서비스·하네스와 조화시킨다.",
+    "specific_deliverables": [
+      "외관 요구: 친근함·화면 가시성·접근·센서·흡배기",
+      "기본 외장/색상 변형/액세서리 착용 대안을 비교",
+      "표정·터치·센서·관절·서비스 접근이 가려지는지 검토",
+      "정면/측면/후면 콘셉트와 변경 이유를 CMF/CAD에 전달"
+    ],
+    "gate": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+    "tools_and_dependencies": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-18"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2109-S01",
+        "jira_key": "KR1-859",
+        "source_scope": "브랜드 KER/Lumira, 비례·친근함·제조성·센서/흡기 가림·액세서리 호환 요구.",
+        "work_now": "외관 요구: 친근함·화면 가시성·접근·센서·흡배기",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2109/F2109-S01/deliverable.json",
+        "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+        "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2109-S02",
+        "jira_key": "KR1-860",
+        "source_scope": "대안 A 기본 외장, B 동일 본체+의상, C 얼굴 스킨 차이. 모자/헤드폰/가방 체결 위치 가설.",
+        "work_now": "기본 외장/색상 변형/액세서리 착용 대안을 비교",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2109/F2109-S02/deliverable.json",
+        "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+        "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2109-S03",
+        "jira_key": "KR1-861",
+        "source_scope": "사용자 선호와 가시성·센서/열·관절 간섭을 함께 평가. 그림을 제조 도면으로 취급하지 않음.",
+        "work_now": "표정·터치·센서·관절·서비스 접근이 가려지는지 검토",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2109/F2109-S03/deliverable.json",
+        "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+        "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2109-S04",
+        "jira_key": "KR1-862",
+        "source_scope": "외관 선정 근거와 정면/측면/후면 참고를 F2114/F2115에 전달.",
+        "work_now": "정면/측면/후면 콘셉트와 변경 이유를 CMF/CAD에 전달",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2109/F2109-S04/deliverable.json",
+        "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+        "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2110",
+    "jira_key": "KR1-863",
+    "title": "[F2110] 얼굴 Display·표정 UX Design",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "얼굴 전용 화면에 대기·경청·처리·말하기·오류·음소거 표정과 상태를 분리한다.",
+    "specific_deliverables": [
+      "상태/표정/아이콘·기본 스킨·접근성 매핑 정의",
+      "SVG 캐릭터 표정과 상태 연동 화면 프로토타입 구현",
+      "표정 의미·밝기·동작·오류 기본 스킨·가시성 확인",
+      "자산 이름·매핑·버전·라이선스·복귀 정책 인계"
+    ],
+    "gate": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+    "tools_and_dependencies": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-21"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2110-S01",
+        "jira_key": "KR1-864",
+        "source_scope": "대기/경청/말하기/기쁨/공감/오류/충전/프라이버시 상태, 눈·입·아이콘 의미 정의.",
+        "work_now": "상태/표정/아이콘·기본 스킨·접근성 매핑 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2110/F2110-S01/deliverable.json",
+        "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+        "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2110-S02",
+        "jira_key": "KR1-865",
+        "source_scope": "정적 표정 명세: 경청=중립 눈, 기쁨=미소, 오류=중립+상태, 충전=배터리 상태. 팩 교체 시 오류 기본 스킨 복귀.",
+        "work_now": "SVG 캐릭터 표정과 상태 연동 화면 프로토타입 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2110/F2110-S02/deliverable.json",
+        "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+        "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2110-S03",
+        "jira_key": "KR1-866",
+        "source_scope": "감정 전달·가독·깜박임·상태 혼동·표시 성능 비교. 스킨과 카메라 동작 상태 구분.",
+        "work_now": "표정 의미·밝기·동작·오류 기본 스킨·가시성 확인",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2110/F2110-S03/deliverable.json",
+        "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+        "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2110-S04",
+        "jira_key": "KR1-867",
+        "source_scope": "표정 자산 이름·상태 매핑·버전·기본 스킨 및 팩 호환 규칙 확정.",
+        "work_now": "자산 이름·매핑·버전·라이선스·복귀 정책 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2110/F2110-S04/deliverable.json",
+        "acceptance": "표정은 감정 진단이나 카메라 실제 작동 상태가 아님",
+        "remaining": "실제 얼굴 화면·렌더러·고객 평가; SVG·PowerPoint·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2111",
+    "jira_key": "KR1-868",
+    "title": "[F2111] 가슴 Touch LCD UI/UX",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "가슴 7인치 터치에 대화·음소거·음량·연결·충전 상태와 오류 복구를 배치한다.",
+    "specific_deliverables": [
+      "화면별 입력·피드백·상태·권한·삭제/동의 요구",
+      "로컬 터치형 화면 및 안전 이벤트 시나리오 구현",
+      "키보드/터치·중단·단절·에러·읽기 쉬운 상태 표시 시험",
+      "화면·컴포넌트·문구·HW 연결 계약과 미결 API 인계"
+    ],
+    "gate": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+    "tools_and_dependencies": "PowerPoint 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-24"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2111-S01",
+        "jira_key": "KR1-869",
+        "source_scope": "각 화면의 입력/피드백/오류/권한/개인정보 요구. 동의·삭제·마이크 상태 우선.",
+        "work_now": "화면별 입력·피드백·상태·권한·삭제/동의 요구",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2111/F2111-S01/deliverable.json",
+        "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+        "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2111-S02",
+        "jira_key": "KR1-870",
+        "source_scope": "와이어프레임 명세: 홈 대화 시작·알림·설정, 설정 음량·속도·Wi-Fi·기록, 오류 재시도·도움.",
+        "work_now": "로컬 터치형 화면 및 안전 이벤트 시나리오 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2111/F2111-S02/deliverable.json",
+        "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+        "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2111-S03",
+        "jira_key": "KR1-871",
+        "source_scope": "설정 찾기·터치 오조작·복귀·삭제 확인·고령자 이해도. 실제 화면 크기에서 평가.",
+        "work_now": "키보드/터치·중단·단절·에러·읽기 쉬운 상태 표시 시험",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2111/F2111-S03/deliverable.json",
+        "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+        "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2111-S04",
+        "jira_key": "KR1-872",
+        "source_scope": "화면 목록·상태/오류·접근성 체크와 개발 전달 규칙.",
+        "work_now": "화면·컴포넌트·문구·HW 연결 계약과 미결 API 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2111/F2111-S04/deliverable.json",
+        "acceptance": "로컬 UI는 실제 음성/네트워크/충전 제어와 미연결",
+        "remaining": "Figma 편집 접근·실제 터치 모듈·백엔드; 브라우저·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2112",
+    "jira_key": "KR1-873",
+    "title": "[F2112] 음성·표정·Gesture Interaction UX",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "음성·표정·목/팔 제스처의 의미와 이벤트 시간을 함께 추적한다.",
+    "specific_deliverables": [
+      "발화/듣기/생성/말하기/중단/오류 이벤트 계약",
+      "표정·제스처 제안 타임라인과 상태 전환 구현",
+      "중단·음소거·위험·충전 시 제스처 취소 점검",
+      "동기화 로그 형식·타임스탬프·fallback 규칙 인계"
+    ],
+    "gate": "100ms 동기화 초안 목표는 실제 로봇 측정 전",
+    "tools_and_dependencies": "ASR/TTS·모션 피드백·시간 기준; Python·브라우저",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-27"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2112-S01",
+        "jira_key": "KR1-874",
+        "source_scope": "명령/상태/타임아웃/중단/복구 및 표시·모션 매핑. R2/R3/R5 Interface 검토.",
+        "work_now": "발화/듣기/생성/말하기/중단/오류 이벤트 계약",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2112/F2112-S01/deliverable.json",
+        "acceptance": "100ms 동기화 초안 목표는 실제 로봇 측정 전",
+        "remaining": "ASR/TTS·모션 피드백·시간 기준; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2112-S02",
+        "jira_key": "KR1-875",
+        "source_scope": "이벤트 표: speech_start=입 표현, user_interrupt=발화/모션 중단 요청, network_error=중립·안내, motion_fault=안전 대기.",
+        "work_now": "표정·제스처 제안 타임라인과 상태 전환 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2112/F2112-S02/deliverable.json",
+        "acceptance": "100ms 동기화 초안 목표는 실제 로봇 측정 전",
+        "remaining": "ASR/TTS·모션 피드백·시간 기준; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2112-S03",
+        "jira_key": "KR1-876",
+        "source_scope": "음성 지연·표정 지연·모션 실패·중단 이벤트를 시간 로그로 검증. 타이밍 수치는 TBD.",
+        "work_now": "중단·음소거·위험·충전 시 제스처 취소 점검",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2112/F2112-S03/deliverable.json",
+        "acceptance": "100ms 동기화 초안 목표는 실제 로봇 측정 전",
+        "remaining": "ASR/TTS·모션 피드백·시간 기준; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2112-S04",
+        "jira_key": "KR1-877",
+        "source_scope": "매핑과 우선순위·오류 정책 버전 기록.",
+        "work_now": "동기화 로그 형식·타임스탬프·fallback 규칙 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2112/F2112-S04/deliverable.json",
+        "acceptance": "100ms 동기화 초안 목표는 실제 로봇 측정 전",
+        "remaining": "ASR/TTS·모션 피드백·시간 기준; Python·브라우저",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2113",
+    "jira_key": "KR1-878",
+    "title": "[F2113] 버튼·터치·충전·전원 등 Physical UX",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "음소거·비상정지·전원·유선 충전의 물리 조작과 상태 확인 UX를 정의한다.",
+    "specific_deliverables": [
+      "버튼 의미·눌림/해제·충전 케이블·오류 요구",
+      "충전 이동 억제·비상정지 우선 UI 상태 구현",
+      "케이블·위험·비상정지 해제 후 자동 재구동 방지 시험",
+      "라벨·전원 상태·서비스 접근·실제 회로 검증 항목 인계"
+    ],
+    "gate": "SW 플래그는 하드웨어 차단 증적이 아님",
+    "tools_and_dependencies": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-30"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2113-S01",
+        "jira_key": "KR1-879",
+        "source_scope": "누름/길게 누름 등 조작은 후보로 표시. 전원/음소거/정지의 의미와 상태 요구 정의.",
+        "work_now": "버튼 의미·눌림/해제·충전 케이블·오류 요구",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2113/F2113-S01/deliverable.json",
+        "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+        "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2113-S02",
+        "jira_key": "KR1-880",
+        "source_scope": "전원·음소거·동작 정지·충전 상태별 행동/피드백 표. 의상 착용 시 버튼 접근 유지.",
+        "work_now": "충전 이동 억제·비상정지 우선 UI 상태 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2113/F2113-S02/deliverable.json",
+        "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+        "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2113-S03",
+        "jira_key": "KR1-881",
+        "source_scope": "잘못 누름·손 접근·케이블 걸림·충전 접촉·전원 상실 대응 시험 계획.",
+        "work_now": "케이블·위험·비상정지 해제 후 자동 재구동 방지 시험",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2113/F2113-S03/deliverable.json",
+        "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+        "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2113-S04",
+        "jira_key": "KR1-882",
+        "source_scope": "위치·표식·피드백·안전 제어 전달. 일반 버튼을 안전 인증 정지장치로 단정하지 않음.",
+        "work_now": "라벨·전원 상태·서비스 접근·실제 회로 검증 항목 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2113/F2113-S04/deliverable.json",
+        "acceptance": "SW 플래그는 하드웨어 차단 증적이 아님",
+        "remaining": "버튼·BMS·전원경로·안전 MCU; Python·실물 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2114",
+    "jira_key": "KR1-883",
+    "title": "[F2114] CMF(Material/Color/Finish) 설계",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "외장 플라스틱과 유연 손의 소재·색상·마감 후보를 표면/세척/제조 조건과 연결한다.",
+    "specific_deliverables": [
+      "기본 5mm와 경량 후보·재료·세척·표면 요구",
+      "몸체/머리/팔/손·그릴·버튼 소재/마감 매트릭스 작성",
+      "샘플 청소·마찰·손촉감·음향·변색·접근성 시험 계획",
+      "재료·색 코드·마감·증적·업체 승인 양식 인계"
+    ],
+    "gate": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+    "tools_and_dependencies": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-33"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2114-S01",
+        "jira_key": "KR1-884",
+        "source_scope": "청소·내구·광택·열·오염·접촉·의상 마찰 요구. 후보 소재와 검증 자료 구분.",
+        "work_now": "기본 5mm와 경량 후보·재료·세척·표면 요구",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2114/F2114-S01/deliverable.json",
+        "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+        "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2114-S02",
+        "jira_key": "KR1-885",
+        "source_scope": "CMF 후보표: 외장 ABS/PC계 후보, 연질부 후보, 직물 액세서리. 실제 재료 등급·도장·코팅 미확정.",
+        "work_now": "몸체/머리/팔/손·그릴·버튼 소재/마감 매트릭스 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2114/F2114-S02/deliverable.json",
+        "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+        "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2114-S03",
+        "jira_key": "KR1-886",
+        "source_scope": "샘플로 색·표면·스크래치·세척·열·접착/마찰 확인. 난연 등급은 성적서 확인 전 미확정.",
+        "work_now": "샘플 청소·마찰·손촉감·음향·변색·접근성 시험 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2114/F2114-S03/deliverable.json",
+        "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+        "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2114-S04",
+        "jira_key": "KR1-887",
+        "source_scope": "부위별 소재/색/마감·샘플 번호·공급 증적·보류 항목.",
+        "work_now": "재료·색 코드·마감·증적·업체 승인 양식 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2114/F2114-S04/deliverable.json",
+        "acceptance": "소재명만으로 강도·난연·피부 접촉 적합 판정 금지",
+        "remaining": "재료 샘플·공법·공급사 자료; Onshape·재료 시험",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2115",
+    "jira_key": "KR1-888",
+    "title": "[F2115] 3D CAD Exterior 및 Packaging 설계",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "외장 분할·내부 프레임·관절·부품·하네스 배치의 후속 CAD 입력을 정리한다.",
+    "specific_deliverables": [
+      "부품 ID·revision·확인/추정 치수·고정/서비스 공간 정의",
+      "개략 packaging/harness manifest와 CAD 오류 이슈표 작성",
+      "Onshape 오류 부품·중공/두께·간섭·공차 검증 계획",
+      "CAD/BOM/하네스/내보내기 버전과 오류 해결 증적 인계"
+    ],
+    "gate": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+    "tools_and_dependencies": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-36"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2115-S01",
+        "jira_key": "KR1-889",
+        "source_scope": "Master 치수·부품 envelope·체결/방열/배선/정비·가동영역·액세서리 keep-out 요구.",
+        "work_now": "부품 ID·revision·확인/추정 치수·고정/서비스 공간 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2115/F2115-S01/deliverable.json",
+        "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+        "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2115-S02",
+        "jira_key": "KR1-890",
+        "source_scope": "CAD 명세: head/body/armL/armR/waist/base, 화면·보드·배터리·모터 공간, 베이스 교체 Interface. 실제 모델 생성 전.",
+        "work_now": "개략 packaging/harness manifest와 CAD 오류 이슈표 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2115/F2115-S02/deliverable.json",
+        "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+        "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2115-S03",
+        "jira_key": "KR1-891",
+        "source_scope": "조립/간섭/분해/열 경로·의상 가림 검토. STEP/STL/도면은 CAD 생성·검증 후 출력.",
+        "work_now": "Onshape 오류 부품·중공/두께·간섭·공차 검증 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2115/F2115-S03/deliverable.json",
+        "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+        "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2115-S04",
+        "jira_key": "KR1-892",
+        "source_scope": "문서·Part/Assembly·Version·BOM·기준 치수와 검토 보고. 기준 모델은 Onshape로 통일.",
+        "work_now": "CAD/BOM/하네스/내보내기 버전과 오류 해결 증적 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2115/F2115-S04/deliverable.json",
+        "acceptance": "현재 단계는 배치 초안; STEP 가져오기 오류 존재; 제작 승인 없음",
+        "remaining": "Onshape 편집 세션/API·정상 CAD·SKU 도면; Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2116",
+    "jira_key": "KR1-893",
+    "title": "[F2116] Design Mock-up 제작",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "외형/UX 목업과 안전 구동 시제품을 구분하여 제작·평가 절차를 정의한다.",
+    "specific_deliverables": [
+      "외형/비구동/구동 목업별 목적·부품·위험·환경",
+      "브라우저 UX 목업과 실제 크기 비구동 목업 제작 계획",
+      "목업 조립·서비스·터치·하네스 및 실물 측정 양식",
+      "목업 revision·사진·질량·결함·사용성 조건 인계"
+    ],
+    "gate": "디지털 목업 완료가 실물 제작 완료가 아님",
+    "tools_and_dependencies": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-39"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2116-S01",
+        "jira_key": "KR1-894",
+        "source_scope": "축척/재료/표면/화면·버튼 더미/가동·배선·비용·발주 요구.",
+        "work_now": "외형/비구동/구동 목업별 목적·부품·위험·환경",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2116/F2116-S01/deliverable.json",
+        "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+        "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2116-S02",
+        "jira_key": "KR1-895",
+        "source_scope": "제작 브리프 초안: 외관 목업은 비례·착용, 기능 목업은 조작·가동·상태 반응. 식별/버전 표시.",
+        "work_now": "브라우저 UX 목업과 실제 크기 비구동 목업 제작 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2116/F2116-S02/deliverable.json",
+        "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+        "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2116-S03",
+        "jira_key": "KR1-896",
+        "source_scope": "치수·조립·운반·가시성·관절/의상 간섭·정비 평가. 목업 시험과 제품 시험 구분.",
+        "work_now": "목업 조립·서비스·터치·하네스 및 실물 측정 양식",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2116/F2116-S03/deliverable.json",
+        "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+        "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2116-S04",
+        "jira_key": "KR1-897",
+        "source_scope": "실물 사진·측정·결함·수정과 F2117 평가 조건.",
+        "work_now": "목업 revision·사진·질량·결함·사용성 조건 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2116/F2116-S04/deliverable.json",
+        "acceptance": "디지털 목업 완료가 실물 제작 완료가 아님",
+        "remaining": "제작 업체·재료·지그·안전 책임자; 브라우저·제작 도구",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2117",
+    "jira_key": "KR1-898",
+    "title": "[F2117] 사용자 사용성 Test 및 UX 평가",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "실제 사용자 과제의 성공률·도움·시간·불편을 수집하고 개선 우선순위를 정한다.",
+    "specific_deliverables": [
+      "모집/동의/환경·과제·분모·결측 처리·목표 정의",
+      "비식별 기록 CSV와 집계 도구 구현",
+      "합성 자료로 집계 오류·결측·철회 처리 검증",
+      "심각도·재현·빈도·개선/재시험 보고 양식 인계"
+    ],
+    "gate": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+    "tools_and_dependencies": "참여자 모집·동의·실물/UI시험; Python·CSV",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-42"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2117-S01",
+        "jira_key": "KR1-899",
+        "source_scope": "과제/표본/환경/관찰/질문/합격 기준. 탐색 조사와 출시 검증 구분.",
+        "work_now": "모집/동의/환경·과제·분모·결측 처리·목표 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2117/F2117-S01/deliverable.json",
+        "acceptance": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+        "remaining": "참여자 모집·동의·실물/UI시험; Python·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2117-S02",
+        "jira_key": "KR1-900",
+        "source_scope": "과제: 첫 설정, 대화 종료, 알림 저장, 음량 변경, 기록 삭제, 액세서리 탈착. 성공/시간/도움/불편 기록 양식.",
+        "work_now": "비식별 기록 CSV와 집계 도구 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2117/F2117-S02/deliverable.json",
+        "acceptance": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+        "remaining": "참여자 모집·동의·실물/UI시험; Python·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2117-S03",
+        "jira_key": "KR1-901",
+        "source_scope": "실제 참여자 평가 후 심각도/재현/빈도와 요구 ID 기록. 빈 양식을 시험 결과로 표시하지 않음.",
+        "work_now": "합성 자료로 집계 오류·결측·철회 처리 검증",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2117/F2117-S03/deliverable.json",
+        "acceptance": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+        "remaining": "참여자 모집·동의·실물/UI시험; Python·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2117-S04",
+        "jira_key": "KR1-902",
+        "source_scope": "개선 우선순위와 재시험 계획을 F2118에 전달.",
+        "work_now": "심각도·재현·빈도·개선/재시험 보고 양식 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2117/F2117-S04/deliverable.json",
+        "acceptance": "참여자 데이터는 아직 없고 fixture 결과는 합성",
+        "remaining": "참여자 모집·동의·실물/UI시험; Python·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2118",
+    "jira_key": "KR1-903",
+    "title": "[F2118] 디자인 개선 및 최종 Design Freeze",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "Design Freeze는 실제 증적·버전 일치·중대 미결 해소·책임 검토를 모두 요구한다.",
+    "specific_deliverables": [
+      "변경 ID·원인·영향·증적·기준 revision·검토 역할",
+      "동결 준비 점검 도구 및 변경 로그 양식 구현",
+      "누락/초안/버전 불일치/중대 이슈가 동결 준비를 막는지 시험",
+      "승인 패키지·미결·변경 정책 작성; 실제 동결은 보류"
+    ],
+    "gate": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+    "tools_and_dependencies": "실제 검증·승인자 지정; Python·Jira·Onshape",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-45"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2118-S01",
+        "jira_key": "KR1-904",
+        "source_scope": "변경 요청/원인/영향/비용/검증/승인·미결 목록 및 중대 문제 기준.",
+        "work_now": "변경 ID·원인·영향·증적·기준 revision·검토 역할",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2118/F2118-S01/deliverable.json",
+        "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+        "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2118-S02",
+        "jira_key": "KR1-905",
+        "source_scope": "변경 로그 양식과 동결 체크: CAD·BOM·CMF·UI·표정·액세서리 호환 버전 일치.",
+        "work_now": "동결 준비 점검 도구 및 변경 로그 양식 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2118/F2118-S02/deliverable.json",
+        "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+        "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2118-S03",
+        "jira_key": "KR1-906",
+        "source_scope": "중대 안전·조립·사용성 문제의 수정·재시험 확인. 승인 전 동결 완료 금지.",
+        "work_now": "누락/초안/버전 불일치/중대 이슈가 동결 준비를 막는지 시험",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2118/F2118-S03/deliverable.json",
+        "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+        "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2118-S04",
+        "jira_key": "KR1-907",
+        "source_scope": "승인자·기준 Version·잔여 위험/변경 정책 기록 후 DFM 전달.",
+        "work_now": "승인 패키지·미결·변경 정책 작성; 실제 동결은 보류",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2118/F2118-S04/deliverable.json",
+        "acceptance": "점검 ready는 승인 아님; 현재 CAD/실물 증적 미충족",
+        "remaining": "실제 검증·승인자 지정; Python·Jira·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2119",
+    "jira_key": "KR1-908",
+    "title": "[F2119] 양산 Design/DFM 및 외장 구조 확정",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "공법·벽 두께·보스/리브·공차·조립·배선·검사 기준의 DFM 인계 준비를 한다.",
+    "specific_deliverables": [
+      "생산량·공법·소재·원가·서비스·검사 요구",
+      "DFM 체크리스트 및 조립/하네스 접근 점검표 작성",
+      "업체 검토·시험 제작·실측 치수/수율/재시험 계획",
+      "제조 도면/BOM/검사/서비스 revision 인계 양식"
+    ],
+    "gate": "금형·수율·양산 승인·견적 미실시",
+    "tools_and_dependencies": "제작업체·정상 CAD·실제 샘플·견적; Onshape·DFM 검토",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-48"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2119-S01",
+        "jira_key": "KR1-909",
+        "source_scope": "생산 수량·공법·소재·공차·검사·지그·원가·서비스 요구. NX/Creo/PLM은 전환 후보.",
+        "work_now": "생산량·공법·소재·원가·서비스·검사 요구",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2119/F2119-S01/deliverable.json",
+        "acceptance": "금형·수율·양산 승인·견적 미실시",
+        "remaining": "제작업체·정상 CAD·실제 샘플·견적; Onshape·DFM 검토",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2119-S02",
+        "jira_key": "KR1-910",
+        "source_scope": "DFM 체크 초안: 분할선/언더컷/벽두께/보스/체결/접근/배선/직물 간섭. 수치 업체 검토 전 TBD.",
+        "work_now": "DFM 체크리스트 및 조립/하네스 접근 점검표 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2119/F2119-S02/deliverable.json",
+        "acceptance": "금형·수율·양산 승인·견적 미실시",
+        "remaining": "제작업체·정상 CAD·실제 샘플·견적; Onshape·DFM 검토",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2119-S03",
+        "jira_key": "KR1-911",
+        "source_scope": "제작업체 검토·시험 사출/조립·검사·내구 증적 필요. 원가·수율 추정 구분.",
+        "work_now": "업체 검토·시험 제작·실측 치수/수율/재시험 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2119/F2119-S03/deliverable.json",
+        "acceptance": "금형·수율·양산 승인·견적 미실시",
+        "remaining": "제작업체·정상 CAD·실제 샘플·견적; Onshape·DFM 검토",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2119-S04",
+        "jira_key": "KR1-912",
+        "source_scope": "양산 도면/BOM·검사기준·서비스 자료·기준 모델. 툴 전환과 양산 승인 별도.",
+        "work_now": "제조 도면/BOM/검사/서비스 revision 인계 양식",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2119/F2119-S04/deliverable.json",
+        "acceptance": "금형·수율·양산 승인·견적 미실시",
+        "remaining": "제작업체·정상 CAD·실제 샘플·견적; Onshape·DFM 검토",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2128",
+    "jira_key": "KR1-913",
+    "title": "[F2128] 캐릭터형·리얼형 Face UI 사용자 평가",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "캐릭터형·리얼형 얼굴을 같은 과제·발화·밝기·시간 조건에서 비교한다.",
+    "specific_deliverables": [
+      "동일 조건·평가 항목·순서/이월 효과·자산 권리 정의",
+      "A/B 순서 배정과 평가 양식 구현; 리얼 자산 미확보",
+      "순서 균형·비식별 기록·결측/철회 처리 시험",
+      "실제 고객 평가 후 선택/보류 근거 인계"
+    ],
+    "gate": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+    "tools_and_dependencies": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-51"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2128-S01",
+        "jira_key": "KR1-914",
+        "source_scope": "동일 발화·밝기·감정·화면·노출시간·순서 조건과 평가 항목 정의.",
+        "work_now": "동일 조건·평가 항목·순서/이월 효과·자산 권리 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2128/F2128-S01/deliverable.json",
+        "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+        "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2128-S02",
+        "jira_key": "KR1-915",
+        "source_scope": "조건 A 캐릭터, B 리얼형, 기본 스킨/팩. 두 조건의 기능 차이를 통제하는 평가 브리프.",
+        "work_now": "A/B 순서 배정과 평가 양식 구현; 리얼 자산 미확보",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2128/F2128-S02/deliverable.json",
+        "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+        "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2128-S03",
+        "jira_key": "KR1-916",
+        "source_scope": "고객군별 동일 과제와 순서 효과 기록. 이미지 선호와 반복 사용을 별도 평가.",
+        "work_now": "순서 균형·비식별 기록·결측/철회 처리 시험",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2128/F2128-S03/deliverable.json",
+        "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+        "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2128-S04",
+        "jira_key": "KR1-917",
+        "source_scope": "Stage1 얼굴 방향과 팩 범위 결정. 실제 결과 전 우열 주장 금지.",
+        "work_now": "실제 고객 평가 후 선택/보류 근거 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2128/F2128-S04/deliverable.json",
+        "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+        "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2134",
+    "jira_key": "KR1-918",
+    "title": "[F2134] Stage1~4 공통 Body Size·Work Envelope 규격",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "Stage1 기준과 Stage2~4 미확정 확장 요구를 공통 body/interface 규격으로 분리한다.",
+    "specific_deliverables": [
+      "Stage별 높이/베이스/축/하중/전원/신호·호환 조건",
+      "Stage1=600mm·2륜제한이동·비구동손 행과 후속 TBD 작성",
+      "각 Stage 질량/안정/시야/가동/하네스 호환 시험 계획",
+      "호환/비호환·변경 영향·Stage별 승인 matrix 인계"
+    ],
+    "gate": "모든 Stage 공통 승인 또는 Stage2~4 확정 크기를 주장하지 않음",
+    "tools_and_dependencies": "후속 Stage 범위·부하·베이스 설계; Onshape·Jira",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-54"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2134-S01",
+        "jira_key": "KR1-919",
+        "source_scope": "공통 연결부·질량/부하·베이스·작업영역·전원·신호 요구. Stage별 차이 표.",
+        "work_now": "Stage별 높이/베이스/축/하중/전원/신호·호환 조건",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2134/F2134-S01/deliverable.json",
+        "acceptance": "모든 Stage 공통 승인 또는 Stage2~4 확정 크기를 주장하지 않음",
+        "remaining": "후속 Stage 범위·부하·베이스 설계; Onshape·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2134-S02",
+        "jira_key": "KR1-920",
+        "source_scope": "규격 초안: 공통 상체 Interface, 데스크 받침/주행 베이스, 정밀손/높이변화는 추가 검증. 400mm는 호환 비교안.",
+        "work_now": "Stage1=600mm·2륜제한이동·비구동손 행과 후속 TBD 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2134/F2134-S02/deliverable.json",
+        "acceptance": "모든 Stage 공통 승인 또는 Stage2~4 확정 크기를 주장하지 않음",
+        "remaining": "후속 Stage 범위·부하·베이스 설계; Onshape·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2134-S03",
+        "jira_key": "KR1-921",
+        "source_scope": "간섭·무게중심·전도·주행·작업반경을 Stage별 검증. 모든 Stage 공통 인증으로 해석 금지.",
+        "work_now": "각 Stage 질량/안정/시야/가동/하네스 호환 시험 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2134/F2134-S03/deliverable.json",
+        "acceptance": "모든 Stage 공통 승인 또는 Stage2~4 확정 크기를 주장하지 않음",
+        "remaining": "후속 Stage 범위·부하·베이스 설계; Onshape·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2134-S04",
+        "jira_key": "KR1-922",
+        "source_scope": "Stage별 envelope·호환/비호환·변경 규칙을 Epic16에 전달.",
+        "work_now": "호환/비호환·변경 영향·Stage별 승인 matrix 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2134/F2134-S04/deliverable.json",
+        "acceptance": "모든 Stage 공통 승인 또는 Stage2~4 확정 크기를 주장하지 않음",
+        "remaining": "후속 Stage 범위·부하·베이스 설계; Onshape·Jira",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2154",
+    "jira_key": "KR1-923",
+    "title": "[F2154] Robot Fashion 기계 Interface·안전 표준",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "의상/액세서리는 마이크·카메라·터치·통풍·관절·센서·충전 접근을 가리지 않는다.",
+    "specific_deliverables": [
+      "장착 구역·금지 구역·질량·탈락·끈·세척 요구",
+      "keep-out 겹침 점검 도구와 인터페이스 manifest 구현",
+      "겹침/미확인/가동·열·음향·센서·탈착 시험 계획",
+      "호환표·증적·라벨·검토 후 판매 가능한 SKU 목록"
+    ],
+    "gate": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+    "tools_and_dependencies": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-57"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2154-S01",
+        "jira_key": "KR1-924",
+        "source_scope": "체결/질량/탈락/끈·끼임/센서 시야/열/세탁/재료 요구. 자석·클립 등 방식은 미확정 후보.",
+        "work_now": "장착 구역·금지 구역·질량·탈락·끈·세척 요구",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2154/F2154-S01/deliverable.json",
+        "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+        "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2154-S02",
+        "jira_key": "KR1-925",
+        "source_scope": "Accessory Interface 초안: head/torso/back 장착 구역, sensor/vent/joint/button/charge keep-out, 베이스별 호환 표시.",
+        "work_now": "keep-out 겹침 점검 도구와 인터페이스 manifest 구현",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2154/F2154-S02/deliverable.json",
+        "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+        "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2154-S03",
+        "jira_key": "KR1-926",
+        "source_scope": "착용/탈착·관절 가동·온도/음향/카메라·세척·작은 부품·끈 위험 실물 평가.",
+        "work_now": "겹침/미확인/가동·열·음향·센서·탈착 시험 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2154/F2154-S03/deliverable.json",
+        "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+        "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2154-S04",
+        "jira_key": "KR1-927",
+        "source_scope": "호환표·안전 확인·재료/세탁 표시와 판매 가능 SKU 구분.",
+        "work_now": "호환표·증적·라벨·검토 후 판매 가능한 SKU 목록",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2154/F2154-S04/deliverable.json",
+        "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+        "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  },
+  {
+    "feature_id": "F2155",
+    "jira_key": "KR1-928",
+    "title": "[F2155] 고객군별 Robot Fashion·CMF·Accessory Design",
+    "baseline": {
+      "revision": "EP17-20261006-R1",
+      "overall_height_mm": 600,
+      "height_status": "reference_not_verified_internal_dimensions",
+      "screens": "face and chest touch separate",
+      "conversation_priority": true,
+      "stage1_slam": false,
+      "movement": "restricted small-area; obstacle/cliff detection",
+      "axes": {
+        "neck": 2,
+        "shoulder_per_arm": 2,
+        "wrist_per_arm": 1,
+        "waist": 1
+      },
+      "elbow": "fixed proposed connection in current layout",
+      "fingers": "flexible, non-actuated",
+      "charge": "wired; movement inhibited while cable connected",
+      "wall_mm": {
+        "original": 5,
+        "body_candidate": 3,
+        "head_arm_candidate": "2–2.5"
+      },
+      "detailed_cad": "next phase; existing Onshape import has faults",
+      "manufacturing_approved": false
+    },
+    "objective": "고객군별 물리/디지털 액세서리를 목적·호환·원가·권리·검증 상태로 관리한다.",
+    "specific_deliverables": [
+      "SKU/고객군/물리·디지털/호환·권리·가격 근거 정의",
+      "초기 SKU 후보·보류·데이터팩 버전 카탈로그 작성",
+      "착용/탈착·선호·세척·간섭·원가/구매의향 계획",
+      "검증 SKU·견적·재고·서비스·권리 자료 사업팀 인계"
+    ],
+    "gate": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+    "tools_and_dependencies": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+    "figma_links": [
+      "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-60"
+    ],
+    "status": "draft_prepared_local_prototype_not_product_complete",
+    "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+    "subtasks": [
+      {
+        "id": "F2155-S01",
+        "jira_key": "KR1-929",
+        "source_scope": "고객군별 목적·호환·원가·재고·IP·디지털팩 정책. 병원/키즈는 전용 안전·위생 검토.",
+        "work_now": "SKU/고객군/물리·디지털/호환·권리·가격 근거 정의",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2155/F2155-S01/deliverable.json",
+        "acceptance": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+        "remaining": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "요구·입출력·검증 초안 작성"
+      },
+      {
+        "id": "F2155-S02",
+        "jira_key": "KR1-930",
+        "source_scope": "20종 분류 초안: 물리18종/디지털2종. 모자·헤어밴드·헤드폰·의류·가방·헤어·밴드·테마의상과 UI/애니메이션팩.",
+        "work_now": "초기 SKU 후보·보류·데이터팩 버전 카탈로그 작성",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2155/F2155-S02/deliverable.json",
+        "acceptance": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+        "remaining": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "프로토타입 또는 설계 입력 작성"
+      },
+      {
+        "id": "F2155-S03",
+        "jira_key": "KR1-931",
+        "source_scope": "착용 선호·구매 의향·탈착·센서/열/간섭·반품/세척 조건 검증. 60~85% 마진·9,900~29,900원 구독은 자료 가설.",
+        "work_now": "착용/탈착·선호·세척·간섭·원가/구매의향 계획",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2155/F2155-S03/deliverable.json",
+        "acceptance": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+        "remaining": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "시험 계획·합성 검증 범위 정리"
+      },
+      {
+        "id": "F2155-S04",
+        "jira_key": "KR1-932",
+        "source_scope": "SKU·고객군·호환·견적·미결·초기 출시 후보/보류 표와 사업팀 전달.",
+        "work_now": "검증 SKU·견적·재고·서비스·권리 자료 사업팀 인계",
+        "input": {
+          "revision": "EP17-20261006-R1",
+          "overall_height_mm": 600,
+          "height_status": "reference_not_verified_internal_dimensions",
+          "screens": "face and chest touch separate",
+          "conversation_priority": true,
+          "stage1_slam": false,
+          "movement": "restricted small-area; obstacle/cliff detection",
+          "axes": {
+            "neck": 2,
+            "shoulder_per_arm": 2,
+            "wrist_per_arm": 1,
+            "waist": 1
+          },
+          "elbow": "fixed proposed connection in current layout",
+          "fingers": "flexible, non-actuated",
+          "charge": "wired; movement inhibited while cable connected",
+          "wall_mm": {
+            "original": 5,
+            "body_candidate": 3,
+            "head_arm_candidate": "2–2.5"
+          },
+          "detailed_cad": "next phase; existing Onshape import has faults",
+          "manufacturing_approved": false
+        },
+        "output_file": "F2155/F2155-S04/deliverable.json",
+        "acceptance": "가격/마진/구독은 미검증 가설; 판매 등록 미수행",
+        "remaining": "공급 견적·IP/라이선스·고객 검증; PowerPoint·CSV",
+        "status": "draft_artifact_created; physical_test_and_approval_pending",
+        "evidence_types_allowed": [
+          "draft",
+          "synthetic_test",
+          "physical_measurement",
+          "user_observation",
+          "supplier_quote",
+          "review_approval"
+        ],
+        "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+      }
+    ],
+    "current_design_tool": "PowerPoint selected instead of Figma on 2026-10-06"
+  }
+]

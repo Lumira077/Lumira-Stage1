@@ -1,0 +1,79 @@
+{
+  "connected": [
+    "Atlassian Jira",
+    "GitHub",
+    "Python unittest",
+    "GitHub Actions"
+  ],
+  "references": [
+    {
+      "feature": "F2026",
+      "name": "OpenCV FaceDetectorYN/FaceRecognizerSF",
+      "url": "https://docs.opencv.org/4.x/d0/dd4/tutorial_dnn_face.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2027",
+      "name": "MediaPipe Gesture Recognizer",
+      "url": "https://developers.google.com/edge/mediapipe/solutions/vision/gesture_recognizer",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2027",
+      "name": "MediaPipe Pose Landmarker",
+      "url": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2028",
+      "name": "Linux input event API (후속 driver 참조)",
+      "url": "https://www.kernel.org/doc/html/latest/input/input.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2029",
+      "name": "Ultralytics multi-object tracking (weight/runtime 라이선스 검토 필요)",
+      "url": "https://docs.ultralytics.com/modes/track/",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2127",
+      "name": "Ultralytics multi-object tracking (weight/runtime 라이선스 검토 필요)",
+      "url": "https://docs.ultralytics.com/modes/track/",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2127",
+      "name": "OpenCV FaceDetectorYN/FaceRecognizerSF",
+      "url": "https://docs.opencv.org/4.x/d0/dd4/tutorial_dnn_face.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2127",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2133",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_installed_or_connected"
+    },
+    {
+      "feature": "F2133",
+      "name": "OpenCV FaceDetectorYN/FaceRecognizerSF",
+      "url": "https://docs.opencv.org/4.x/d0/dd4/tutorial_dnn_face.html",
+      "status": "reference_only_not_installed_or_connected"
+    }
+  ],
+  "intervention": [
+    "camera_microphone_touch_head_specs_drivers_calibration",
+    "licensed_perception_models_and_hashes",
+    "consented_subject_separated_eval_data",
+    "production_auth_consent_epoch_delete_events",
+    "ROS_measured_state_stop_watchdog_adapters",
+    "approved_quality_motion_latency_thresholds",
+    "actual_users_Q1_R1_rollback_schedule_review"
+  ]
+}

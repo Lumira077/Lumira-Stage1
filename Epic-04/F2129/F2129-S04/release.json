@@ -1,0 +1,16 @@
+{
+  "feature": "F2129",
+  "release_ready": false,
+  "actual_tts_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "skin 전환 p95·FPS/memory·상태 의미 일치/이해율·변조/누락 fallback·권리 증거·접근성",
+  "pending": "2.5D/texture/sprite/shader·persona event/실제 theme asset·장비 FPS·rights 증거/OTA 서명 미구현. 메모리 atomic metadata switch만 구현한 개발 Prototype이다.",
+  "required": [
+    "actual_tts_render_motion_sync_quality",
+    "privacy_auth_cancel_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

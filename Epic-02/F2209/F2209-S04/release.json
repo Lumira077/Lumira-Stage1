@@ -1,0 +1,18 @@
+{
+  "feature": "F2209",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "credit 초과 0건·usage 미확정·예약/정산 차이·환불·가격 버전",
+  "metric_scope": "local simulated operations only",
+  "pending": "단일 프로세스 메모리 ledger. 실제 F2079/F2080·분산 원장·Provider usage·가격/환율·청구 미연결"
+}

@@ -1,0 +1,13 @@
+{
+  "release_ready": false,
+  "status": "blocked",
+  "blockers": [
+    "REAL_MODEL_QUALITY_PENDING",
+    "REAL_ROBOT_ACCEPTANCE_PENDING",
+    "REAL_USER_STUDY_PENDING",
+    "PRODUCTION_PRIVACY_SYNC_AND_RESTORE_PENDING",
+    "OPERATIONS_BASELINE_PENDING",
+    "AUTHORIZED_Q1_R1_APPROVAL_NOT_CONNECTED"
+  ],
+  "deployed": false
+}

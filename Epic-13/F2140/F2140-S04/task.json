@@ -1,0 +1,21 @@
+{
+  "id": "F2140-S04",
+  "jira": "KR1-568",
+  "parent": "KR1-564",
+  "title": "[F2140-S04] Torque·Current 충돌 감지 및 가변 제한 Evidence·Compliance·Release 승인",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: torque/current·근접·속도에 따른 충돌 후보 및 제한도를 구성",
+  "data": "torque·current·distance·speed·threshold version",
+  "boundary": "센서단선·정상충격·오탐·과부하",
+  "metrics": "검출지연·오탐/미탐·limit 변경추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

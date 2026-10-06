@@ -1,0 +1,21 @@
+{
+  "id": "F2176-S01",
+  "jira": "KR1-990",
+  "parent": "KR1-989",
+  "title": "[F2176-S01] FTO·경쟁사 Monitoring·라이선스 사업화 대상기술·권리화 목표 정의",
+  "work": "대상 발명·사업제품·발명자/권리자·공개일정·권리화목표: 제품/국가/출시버전별 claim chart·FTO검토·회피/라이선스를 관리",
+  "data": "product version·country·live claims·chart·opinion ref",
+  "boundary": "검색공백·status변화·기능변경·미검토",
+  "metrics": "전문가의견·잔여위험·회피/라이선스근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

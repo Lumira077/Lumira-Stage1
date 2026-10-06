@@ -1,0 +1,30 @@
+[
+  {
+    "stage": 1,
+    "height_reference_mm": 600,
+    "base": "2wheel+support rollers, restricted movement",
+    "hands": "flexible_nonactuated",
+    "verified": false
+  },
+  {
+    "stage": 2,
+    "height_reference_mm": null,
+    "base": "TBD",
+    "hands": "TBD",
+    "verified": false
+  },
+  {
+    "stage": 3,
+    "height_reference_mm": null,
+    "base": "TBD",
+    "hands": "TBD",
+    "verified": false
+  },
+  {
+    "stage": 4,
+    "height_reference_mm": null,
+    "base": "TBD",
+    "hands": "TBD",
+    "verified": false
+  }
+]

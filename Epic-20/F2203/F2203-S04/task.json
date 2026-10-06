@@ -1,0 +1,21 @@
+{
+  "id": "F2203-S04",
+  "jira": "KR1-1097",
+  "parent": "KR1-1094",
+  "title": "[F2203-S04] Customer Community·VOC·Referral·Retention 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: VOC분류/처리·커뮤니티·추천/재구매·retention을 설계",
+  "data": "ticket·consent·product revision·referral·cohort",
+  "boundary": "개인정보·중복VOC·무응답·부정추천",
+  "metrics": "처리SLA·재발·유지/재구매·피드백",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

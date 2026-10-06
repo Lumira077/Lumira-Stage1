@@ -1,0 +1,21 @@
+{
+  "id": "F2158-S04",
+  "jira": "KR1-649",
+  "parent": "KR1-645",
+  "title": "[F2158-S04] Fashion·Accessory 상품·Catalog 운영 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: Fashion/Accessory SKU·모델 호환·재고·NFC·테마권리를 관리",
+  "data": "SKU·compatibility·NFC tag ref·stock·license",
+  "boundary": "비호환·위조tag·재고0·테마권리 만료",
+  "metrics": "catalog 정합성·인증·적용이력",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

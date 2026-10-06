@@ -1,0 +1,21 @@
+{
+  "id": "F2063-S01",
+  "jira": "KR1-453",
+  "parent": "KR1-452",
+  "title": "[F2063-S01] 사용 시간 및 부모 통제 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: 보호자 승인 시간·콘텐츠·camera·결제 정책을 앱/로봇에 적용",
+  "data": "policy version·time budget·content scope",
+  "boundary": "시간우회·권한 철회·다중앱 충돌",
+  "metrics": "제한 위반 0건·정책전파·감사추적",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

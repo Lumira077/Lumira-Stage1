@@ -1,0 +1,12 @@
+{
+  "observations": 60,
+  "version": null,
+  "actual_retest_participants": 0,
+  "normal_basic_trials": 0,
+  "independent_within_5min": 0,
+  "independent_rate": null,
+  "representative_groups": [],
+  "covered_tasks": [],
+  "eligible": false,
+  "mode_note": "Simulated records never count as real participants; observed labels require signed reviewer evidence."
+}

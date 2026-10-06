@@ -1,0 +1,21 @@
+{
+  "id": "F2197-S03",
+  "jira": "KR1-1067",
+  "parent": "KR1-1064",
+  "title": "[F2197-S03] Stage 2 Home·Office 고객·Partner Channel 확장 접촉·상담·PoC·협상 실행",
+  "work": "승인받은 접촉/상담/PoC/협상·실제결과 기록: Home/Office 파트너의상품성/수수료/지원·공동판매를 설계",
+  "data": "partner id·terms·commission·channel·support",
+  "boundary": "무승인계약·책임공백·고객중복·지원부족",
+  "metrics": "채널조건·pipeline·유료전환",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

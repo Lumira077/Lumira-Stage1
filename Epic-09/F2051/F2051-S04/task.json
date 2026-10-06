@@ -1,0 +1,21 @@
+{
+  "id": "F2051-S04",
+  "jira": "KR1-394",
+  "parent": "KR1-390",
+  "title": "[F2051-S04] 긴급 호출 및 보호자 알림 운영·지표·Release 전환",
+  "work": "콘텐츠갱신/상담/신고·보유/삭제·KPI·Release/중단: 승인 보호자 경로의 긴급 이벤트·전송·재시도·수신 확인을 구성",
+  "data": "alert id·channel ref·attempt·delivery receipt·ack",
+  "boundary": "통신 단절·중복·수신 거절·미확인",
+  "metrics": "수신 확인률·전달지연·미확인 escalation",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

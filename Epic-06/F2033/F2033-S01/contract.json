@@ -1,0 +1,10 @@
+{
+  "schema": "robot-core-v1",
+  "feature": "F2033",
+  "data": "source/frame id·seq/timestamp/clock domain·epoch·common-clock transform/offset/drift·sensor schema/unit·calibration/extrinsics·metadata/raw 민감도·queue/skew bounds.",
+  "interface": "actual driver/clock calibration → bounded metadata synchronizer → Epic-03 fusion/Epic-05 track/Epic-04 audio clock. 현재 already-common timestamp에 latest sample pairing만 구현한다.",
+  "metrics": "sensor skew/drift p50/p95·frame loss/stale/queue depth·재연결/reset·단위/좌표 mismatch·개인정보 비저장",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

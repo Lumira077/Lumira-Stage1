@@ -1,0 +1,824 @@
+{
+  "epic": "Epic-16",
+  "jira": "KR1-711",
+  "features": [
+    {
+      "feature": "F2090",
+      "jira": "KR1-712",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2090] Stage1 HW 요구사양 및 시스템 Architecture",
+      "work": "Stage1 HW block/전원domain/AI와Safety MCU·인터페이스 baseline을 확정",
+      "data": "system blocks·ICD·requirements·BOM revision",
+      "boundary": "fail-safe·전력budget·확장성·단일장애",
+      "metrics": "요구추적·interface coverage·검토승인",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2091",
+      "jira": "KR1-717",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2091] Main Computing HW 선정 및 인터페이스 설계",
+      "work": "RK3588 기준 후보와 Jetson 비교·CPU/GPU/NPU·열/전력 benchmark 및 interface를 설계",
+      "data": "board spec·RAM·power·benchmark·USB/HDMI/Ethernet",
+      "boundary": "thermal throttle·bandwidth·driver 지원·공급",
+      "metrics": "benchmark·전력·온도·장기공급 근거",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2092",
+      "jira": "KR1-722",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2092] Safety MCU·Motor Interface·I/O 제어 Architecture",
+      "work": "Linux AI와 Safety MCU의 CAN-FD/RS485·enable/watchdog·I/O 책임을 분리",
+      "data": "ICD·message seq·fault·hardware enable·MCU version",
+      "boundary": "AI freeze·bus off·restart·watchdog",
+      "metrics": "독립정지·통신무결성·제어주기",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2093",
+      "jira": "KR1-727",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2093] 목·팔·허리·손 구동 HW 및 Actuator 선정",
+      "work": "DYNAMIXEL 후보의 torque/speed/current/heat/size와 BLDC 전환 gate를 검증",
+      "data": "actuator spec·load·gear·torque curve·bench",
+      "boundary": "stall·열·소음·수명·끼임",
+      "metrics": "torque margin·추종·열·소음·수명",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2094",
+      "jira": "KR1-732",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2094] Camera·Mic·IMU·Touch·근접 Sensor HW 구성",
+      "work": "UVC/RGB-D·mic/IMU/touch/proximity의 위치/전원/USB/시각을 설계",
+      "data": "sensor SKU·FOV·calibration·bus·power",
+      "boundary": "대역폭초과·사각·진동·interference",
+      "metrics": "인지거리·대역폭·동기·노이즈",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2095",
+      "jira": "KR1-737",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2095] 얼굴 Display·Touch LCD·Audio HW 구축",
+      "work": "Face/Touch display·Class-D/speaker chamber·AEC reference 경로를 설계",
+      "data": "display resolution·touch HID·audio path·amplifier",
+      "boundary": "발열·공진·volume·touch fault·Mic leakage",
+      "metrics": "frame latency·음질·AEC reference·온도",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2096",
+      "jira": "KR1-742",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2096] Battery·BMS·전용 전원·안전 Board 설계",
+      "work": "Battery/BMS·24/12/5/3.3V 예시 rail·e-fuse·역극성·종료 sequencing을 설계",
+      "data": "chemistry·ratings·rail·fault·power budget",
+      "boundary": "과전류·brownout·AI hang·충전고장",
+      "metrics": "보호차단·종료ordering·rail 측정",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2097",
+      "jira": "KR1-747",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2097] 내부 Frame 및 기구 Architecture 설계",
+      "work": "Fusion master frame·joint 지지·board/battery/sensor 배치를 parametric CAD로 설계",
+      "data": "CAD revision·mass·CoM·clearance·STEP",
+      "boundary": "간섭·하중·정비성·치수공차",
+      "metrics": "강성·가동범위·도면/BOM 정합성",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2098",
+      "jira": "KR1-752",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2098] 내부 배치·배선·Connector·Harness 설계",
+      "work": "전원/모터/고속data harness·keying·strain relief·service loop를 설계",
+      "data": "connector pinout·voltage·wire·harness length",
+      "boundary": "오결선·bend·RF/EMI·정비중 접촉",
+      "metrics": "pinout 검토·굽힘/인장·통신오류",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": "bom_review",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2099",
+      "jira": "KR1-757",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2099] 열·소음·진동·EMI 대응 설계",
+      "work": "열원·fan/motor/speaker진동·EMI/ESD 대책을 설계/측정",
+      "data": "temperature·noise·vibration·EMI test ref",
+      "boundary": "장시간열·전자파·공진·mic 오염",
+      "metrics": "열/소음/진동 KPI·EMI 사전시험",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2100",
+      "jira": "KR1-762",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2100] HW Prototype #1 제작",
+      "work": "COTS와전용보드 hybrid Prototype#1 조립·부품/firmware baseline을 구성",
+      "data": "BOM·serial·assembly·firmware·inspection",
+      "boundary": "오부품·오배선·bus fault·전원fault",
+      "metrics": "기능checklist·baseline 추적·fail-safe",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2101",
+      "jira": "KR1-767",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2101] ROS2/HW 통합 및 Bring-up 시험",
+      "work": "ROS2 Driver/topic/diagnostics·HW bring-up·통합 기능을 확인",
+      "data": "driver version·topic/TF·BOM·test evidence",
+      "boundary": "startup·hotplug·bus loss·fault isolation",
+      "metrics": "통합 기능·latency·복구·증적coverage",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2102",
+      "jira": "KR1-772",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2102] HW Prototype #2 개선 및 제품화 설계",
+      "work": "EVT결함→Rev.B 보드/배선/열/정비 개선→제품화 gate를 관리",
+      "data": "defect·change request·revision·retest",
+      "boundary": "원인미상·회귀·호환성·공급변경",
+      "metrics": "결함closure·재시험·제품화 승인",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2103",
+      "jira": "KR1-777",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2103] HW 신뢰성·안전·양산성 검증",
+      "work": "DVT신뢰성·안전·EMI/ESD·제조 jig 및 수리/검사 기준을 구성",
+      "data": "DVT case·serial·fixture·certificate ref",
+      "boundary": "장시간·열·진동·전원·E-stop·OTA 차단",
+      "metrics": "fail coverage·수율·수리성·증명서",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2125",
+      "jira": "KR1-782",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2125] 4~6채널 MEMS Mic Array HW",
+      "work": "4~6채널 MEMS Mic Array의 동기/beamforming/AEC/AGC/DOA 경로를 검증",
+      "data": "channel map·sample rate·reference·DOA",
+      "boundary": "speaker leakage·fan/motor·channel dropout",
+      "metrics": "SNR·AEC/DOA 오차·동기·지연",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2132",
+      "jira": "KR1-787",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2132] Main Camera 사양·위치·시야각 검증",
+      "work": "1080pHDR UVC 기본/RGB-D 옵션의 FOV·설치거리·calibration을 검증",
+      "data": "camera mode·FOV·pose·USB bandwidth·calibration",
+      "boundary": "역광·가림·근거리·camera 이동",
+      "metrics": "얼굴/손 coverage·depth 오차·bandwidth",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2135",
+      "jira": "KR1-792",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2135] Stage 확장 Modular Interface 표준",
+      "work": "Stage확장 모듈의 기계/전원/통신/하중 interface를 표준화",
+      "data": "interface revision·connector·load·module id",
+      "boundary": "비호환·오결선·hotplug·초과하중",
+      "metrics": "호환mock-up·ICD coverage·safe reject",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2136",
+      "jira": "KR1-797",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2136] 관절 Motor Bench·열·소음·수명 검증",
+      "work": "motor bench의 torque/speed/heat/noise/lifetime 근거와전환 gate를 구성",
+      "data": "bench series·load·duty·torque/current·temp",
+      "boundary": "stall·brake·sensor drift·장시간",
+      "metrics": "효율·발열·소음·수명·전환근거",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2156",
+      "jira": "KR1-802",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2156] NFC Fashion·Accessory 인식 HW",
+      "work": "NFC tag 인식·장착/교체·duplicate/위조·테마 안전모드를 구성",
+      "data": "reader·tag ref·SKU·mount state·license",
+      "boundary": "RF interference·duplicate·미인증tag·떨어짐",
+      "metrics": "인식률·안전모드·적용추적",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2221",
+      "jira": "KR1-807",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2221] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow",
+      "work": "Fusion masterCAD와Python parameter/BOM/drawing 검토 workflow를 구성",
+      "data": "CAD parameter·unit·revision·BOM·STEP/PDF/DXF",
+      "boundary": "unit mismatch·BOM drift·간섭·자동생성오류",
+      "metrics": "CAD/BOM/도면revision 일치·승인",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": "bom_review",
+      "scope": "partial_offline_utility",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2222",
+      "jira": "KR1-812",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2222] COTS 70%·Custom 30% 전자구성 및 전환 Gate",
+      "work": "COTS70/Custom30 구상 및make/buy·공급/원가·EVT/DVT전환 gate를 관리",
+      "data": "module·make/buy·supplier·cost·lifecycle·gate",
+      "boundary": "단종·공급부족·자체화미승인·BOM변경",
+      "metrics": "대체품·configuration 추적·gate승인",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2223",
+      "jira": "KR1-817",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2223] 전용 Power·Safety Board 개발",
+      "work": "Power/Safety PCB의 DC/DC·e-fuse·watchdog·전원분리/종료를 설계",
+      "data": "schematic·PCB revision·BMS·rail·test point",
+      "boundary": "역극성·surge·short·AI hang·brownout",
+      "metrics": "rail/보호측정·차단·종료검증",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2224",
+      "jira": "KR1-822",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2224] STM32 Motion·I/O·Safety Controller Board",
+      "work": "STM32G4/H7 Motion/I/O/Safety 보드의CAN-FD/RS485·timer·enable·fault를 설계",
+      "data": "MCU firmware·ICD·timer·I/O·watchdog",
+      "boundary": "bus off·AI hang·sensor fault·reset glitch",
+      "metrics": "jitter·독립정지·fault isolation·I/O",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2225",
+      "jira": "KR1-827",
+      "epic": "Epic-16",
+      "epic_jira": "KR1-711",
+      "title": "[F2225] RK3588 SoM 양산 Carrier Board 개발",
+      "work": "DVT 이후 RK3588 SoM Carrier의USB/MIPI/HDMI/DDR관련SI·Ethernet/M.2·전원/boot를 설계",
+      "data": "SoM pinout·carrier revision·interface·power·test point",
+      "boundary": "SI/EMI·부팅실패·OTA차단·thermal",
+      "metrics": "interface bring-up·SI/EMI·boot·공급gate",
+      "stage_work": [
+        "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+        "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+        "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+        "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "Fusion API",
+          "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+        ],
+        [
+          "DYNAMIXEL SDK",
+          "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+        ]
+      ],
+      "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+      "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 96,
+  "release_ready": false
+}

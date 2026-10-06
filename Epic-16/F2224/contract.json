@@ -1,0 +1,34 @@
+{
+  "feature": "F2224",
+  "jira": "KR1-822",
+  "epic": "Epic-16",
+  "epic_jira": "KR1-711",
+  "title": "[F2224] STM32 Motion·I/O·Safety Controller Board",
+  "work": "STM32G4/H7 Motion/I/O/Safety 보드의CAN-FD/RS485·timer·enable·fault를 설계",
+  "data": "MCU firmware·ICD·timer·I/O·watchdog",
+  "boundary": "bus off·AI hang·sensor fault·reset glitch",
+  "metrics": "jitter·독립정지·fault isolation·I/O",
+  "stage_work": [
+    "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토",
+    "CAD/회로/PCB/배선 Prototype·부품/firmware 형상관리",
+    "Bench·통합·열/소음/전원/내구/EMI·고장안전 시험",
+    "공차/조립/검사/DFM·Design Freeze·양산/정비 인계"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "Fusion API",
+      "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Introduction.htm"
+    ],
+    [
+      "DYNAMIXEL SDK",
+      "https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/"
+    ]
+  ],
+  "intervention": "CAD/회로/PCB master·보드/센서/actuator SKU·전기정격/chemistry·BOM/공급 견적·bench/jig·측정기·EVT/DVT·인증 검토",
+  "dependencies": "COTS70/Custom30 구상: 전원/안전 → STM32 Motion/I/O → DVT 이후 RK3588 SoM carrier 순서. Fusion masterCAD·중립 STEP/PDF/DXF·BOM revision, Stage1 UVC1080p HDR·4채널 USB mic·DYNAMIXEL, RGB-D 옵션 및 HW benchmark 후 단일 플랫폼 gate. 명세 수치/후보는 구매승인·물리성능 검증이 아니다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

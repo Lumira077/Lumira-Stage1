@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "feature": "F2208",
+  "data_proposal": "ContextItem: owner, id, text, confirmed, expires, cloud_share; ContextPacket: epoch, refs, scope, policy_revision",
+  "interface_proposal": "LocalContext.search(actor,query,cloud=False) → bounded references; F2003 release ticket 재검증 후 운영 출력",
+  "acceptance": "권한별 조회가 분리되고 미승인 기억이 Cloud로 전달되지 않으며 로컬 평가셋 검색 목표를 충족한다.",
+  "metrics": "검색 precision/recall·오반환·cross-user 노출 0건·Context 크기·검색 p95",
+  "approval": "pending",
+  "implementation_scope": "local prototype"
+}

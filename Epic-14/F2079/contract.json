@@ -1,0 +1,34 @@
+{
+  "feature": "F2079",
+  "jira": "KR1-630",
+  "epic": "Epic-14",
+  "epic_jira": "KR1-584",
+  "title": "[F2079] AI 사용량 계측 및 비용 제어",
+  "work": "토큰/음성/영상/Cloud 사용량을 idempotent 원가계측으로 구성",
+  "data": "usage id·units·price version·credit·budget",
+  "boundary": "중복계측·추정/확정 차이·할당초과",
+  "metrics": "원가오차·집계지연·한도차단",
+  "stage_work": [
+    "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+    "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+    "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+    "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+  ],
+  "implementation": "UsageLedger",
+  "scope": "partial_offline_utility",
+  "missing_stages": [],
+  "tools": [
+    [
+      "n8n Jira",
+      "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+    ],
+    [
+      "OpenTelemetry",
+      "https://opentelemetry.io/docs/collector/"
+    ]
+  ],
+  "intervention": "요금제/가격/credit/환불 승인정책·Test PG 계정/Secret·회계대사·콘텐츠 권리·n8n endpoint/인증·provider usage receipt",
+  "dependencies": "router cost/usage → quota/plan/entitlement → Test PG billing/renewal/refund → settlement/anomaly → 예외 automation/추천/catalog. F2216 요금제와 F2077 권한, F2217 PG adapter와 F2080 billing lifecycle, F2215 quota와 F2079 usage의 책임/원장을 분리한다.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

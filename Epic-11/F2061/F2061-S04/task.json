@@ -1,0 +1,21 @@
+{
+  "id": "F2061-S04",
+  "jira": "KR1-446",
+  "parent": "KR1-442",
+  "title": "[F2061-S04] 로봇 상태 및 알림 조회 운영 Dashboard·SLA·Release",
+  "work": "운영 지표·검토/배포·중단/rollback·완료증적 기준: 상태 TTL·알림 이력/확인·중복 억제와 offline 표시를 구성",
+  "data": "status stamp·battery·error·alert id·receipt",
+  "boundary": "stale 상태·중복 push·offline·권한 없음",
+  "metrics": "상태 freshness·알림 지연·중복률",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

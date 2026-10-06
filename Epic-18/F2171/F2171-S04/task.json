@@ -1,0 +1,21 @@
+{
+  "id": "F2171-S04",
+  "jira": "KR1-968",
+  "parent": "KR1-964",
+  "title": "[F2171-S04] 자율주행·조작·Smart Space 특허 발굴·출원 OA·해외·유지·사업화 관리",
+  "work": "OA/해외/연차료·FTO/라이선스·권리상태 후속관리: mapping/following/docking/grasp/IoT 작업의차별구성과효과 발명을 정리",
+  "data": "flow·planner version·interface·effect·evidence",
+  "boundary": "공개선행·미실증·software/HW 모순",
+  "metrics": "발명군coverage·실시예·claim map",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

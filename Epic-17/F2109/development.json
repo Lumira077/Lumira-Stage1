@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2109",
+  "jira_key": "KR1-858",
+  "title": "[F2109] 외관 Industrial Design Concept",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "기존 둥근 캐릭터 외형을 유지하며 화면·음향·통풍·서비스·하네스와 조화시킨다.",
+  "specific_deliverables": [
+    "외관 요구: 친근함·화면 가시성·접근·센서·흡배기",
+    "기본 외장/색상 변형/액세서리 착용 대안을 비교",
+    "표정·터치·센서·관절·서비스 접근이 가려지는지 검토",
+    "정면/측면/후면 콘셉트와 변경 이유를 CMF/CAD에 전달"
+  ],
+  "gate": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+  "tools_and_dependencies": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-18"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2109-S01",
+      "jira_key": "KR1-859",
+      "source_scope": "브랜드 KER/Lumira, 비례·친근함·제조성·센서/흡기 가림·액세서리 호환 요구.",
+      "work_now": "외관 요구: 친근함·화면 가시성·접근·센서·흡배기",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2109/F2109-S01/deliverable.json",
+      "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+      "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2109-S02",
+      "jira_key": "KR1-860",
+      "source_scope": "대안 A 기본 외장, B 동일 본체+의상, C 얼굴 스킨 차이. 모자/헤드폰/가방 체결 위치 가설.",
+      "work_now": "기본 외장/색상 변형/액세서리 착용 대안을 비교",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2109/F2109-S02/deliverable.json",
+      "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+      "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2109-S03",
+      "jira_key": "KR1-861",
+      "source_scope": "사용자 선호와 가시성·센서/열·관절 간섭을 함께 평가. 그림을 제조 도면으로 취급하지 않음.",
+      "work_now": "표정·터치·센서·관절·서비스 접근이 가려지는지 검토",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2109/F2109-S03/deliverable.json",
+      "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+      "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2109-S04",
+      "jira_key": "KR1-862",
+      "source_scope": "외관 선정 근거와 정면/측면/후면 참고를 F2114/F2115에 전달.",
+      "work_now": "정면/측면/후면 콘셉트와 변경 이유를 CMF/CAD에 전달",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2109/F2109-S04/deliverable.json",
+      "acceptance": "이미지 선호를 제조성이나 안전 적합으로 해석하지 않음",
+      "remaining": "디자인 선택·소재 샘플; PowerPoint·Onshape",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

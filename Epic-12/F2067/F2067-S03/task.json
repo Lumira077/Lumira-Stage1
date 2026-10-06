@@ -1,0 +1,21 @@
+{
+  "id": "F2067-S03",
+  "jira": "KR1-486",
+  "parent": "KR1-483",
+  "title": "[F2067-S03] 로그·이벤트·진단 수집 통합·보안·부하·복구 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: 최소 telemetry allowlist·buffer·재전송·retention·삭제를 구성",
+  "data": "event id·schema·code·stamp·retention",
+  "boundary": "원문/Secret 포함·overflow·중복·offline",
+  "metrics": "유실률·중복률·민감원문 0건",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": "minimal_event",
+  "actual_external_calls": 0
+}

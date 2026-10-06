@@ -1,0 +1,18 @@
+{
+  "feature": "F2011",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "노출 0건·history 크기·TTL 정리·Context hit·stale drop",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 단일 프로세스 일시 메모리; 인증·분산 세션·durable 요약·자동 동의 이벤트 미연결"
+}

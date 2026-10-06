@@ -1,0 +1,21 @@
+{
+  "id": "F2142-S02",
+  "jira": "KR1-351",
+  "parent": "KR1-349",
+  "title": "[F2142-S02] 손끝 Force·Tactile Sensor HW 통합 알고리즘·제어기·HW 연동 구현",
+  "work": "ROS2/제어/센서·actuator adapter 구현 및 version 관리: 손끝 force/tactile HW의 배선·sample·calibration·교체 가능 구조를 설계",
+  "data": "sensor id·N/kPa·raw ref·zero·scale·stamp",
+  "boundary": "포화·단선·drift·교체 후 오보정",
+  "metrics": "보정오차·대역폭·내구·stale 탐지",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

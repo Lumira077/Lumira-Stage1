@@ -1,0 +1,30 @@
+{
+  "feature": "F2061",
+  "jira": "KR1-442",
+  "epic": "Epic-11",
+  "epic_jira": "KR1-436",
+  "title": "[F2061] 로봇 상태 및 알림 조회",
+  "work": "상태 TTL·알림 이력/확인·중복 억제와 offline 표시를 구성",
+  "data": "status stamp·battery·error·alert id·receipt",
+  "boundary": "stale 상태·중복 push·offline·권한 없음",
+  "metrics": "상태 freshness·알림 지연·중복률",
+  "stage_work": [
+    "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안",
+    "핵심 서비스/adapter 계획·재현 환경·구현 범위와 미연동 표시",
+    "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험",
+    "운영 지표·검토/배포·중단/rollback·완료증적 기준"
+  ],
+  "implementation": null,
+  "scope": "spec_and_evidence_tooling_only",
+  "missing_stages": [],
+  "tools": [
+    [
+      "OWASP ASVS",
+      "https://owasp.org/projects/asvs"
+    ]
+  ],
+  "intervention": "iOS/Android 대상·앱/backend 환경·identity provider·Push/APNs/FCM·TURN/signaling·기기 pairing·동의/권한·설치/공간 환경",
+  "dependencies": "계정/pairing → versioned 설정/상태/알림 → 동의 통화 → 공간 onboarding/부분reset. Epic-01/09/10 서비스·Epic-07/15 공간·Epic-12 lifecycle·Epic-13 권한/회수 연결.",
+  "release_ready": false,
+  "actual_external_calls": 0
+}

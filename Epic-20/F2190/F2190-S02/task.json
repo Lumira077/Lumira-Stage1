@@ -1,0 +1,21 @@
+{
+  "id": "F2190-S02",
+  "jira": "KR1-1041",
+  "parent": "KR1-1040",
+  "title": "[F2190-S02] Stage별 고객 Segment·ICP·Persona 정의 자료·CRM·제안 Package 구축",
+  "work": "자료/CRM/재무/제안 Package·권한/근거 구축: Elder/Home/Kids/Hospital/Pet Stage별사용자/구매자/문제·선정근거를 구성",
+  "data": "segment·Stage·persona·need·buyer·source",
+  "boundary": "미검증수요·의료과장·사용자/구매자혼동",
+  "metrics": "ICP근거·우선순위·검증plan",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

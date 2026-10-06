@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "scope": "development_sandbox",
+  "ledger_records": 2,
+  "old_acks_reused": false,
+  "production_restore_verified": false,
+  "deletion_and_revocation_reapplied": true
+}

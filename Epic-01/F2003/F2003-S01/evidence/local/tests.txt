@@ -1,0 +1,25 @@
+{"run": 19, "failed": 0, "errors": 0}
+test_account (test_contract.Contract.test_account) ... ok
+test_arbitrary_chat_no_inference (test_contract.Contract.test_arbitrary_chat_no_inference) ... ok
+test_blank_content (test_contract.Contract.test_blank_content) ... ok
+test_bool_confidence (test_contract.Contract.test_bool_confidence) ... ok
+test_control_character (test_contract.Contract.test_control_character) ... ok
+test_english_extraction (test_contract.Contract.test_english_extraction) ... ok
+test_forbidden_field (test_contract.Contract.test_forbidden_field) ... ok
+test_house_layout (test_contract.Contract.test_house_layout) ... ok
+test_korean_extraction (test_contract.Contract.test_korean_extraction) ... ok
+test_nan_confidence (test_contract.Contract.test_nan_confidence) ... ok
+test_negation_no_positive_memory (test_contract.Contract.test_negation_no_positive_memory) ... ok
+test_numeric_identity (test_contract.Contract.test_numeric_identity) ... ok
+test_password (test_contract.Contract.test_password) ... ok
+test_prompt_instruction (test_contract.Contract.test_prompt_instruction) ... ok
+test_query_score (test_contract.Contract.test_query_score) ... ok
+test_retention_bounds (test_contract.Contract.test_retention_bounds) ... ok
+test_source_opaque (test_contract.Contract.test_source_opaque) ... ok
+test_valid (test_contract.Contract.test_valid) ... ok
+test_zero_width_obfuscation (test_contract.Contract.test_zero_width_obfuscation) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.001s
+
+OK

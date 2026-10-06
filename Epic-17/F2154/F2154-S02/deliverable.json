@@ -1,0 +1,44 @@
+{
+  "id": "F2154-S02",
+  "jira_key": "KR1-925",
+  "source_scope": "Accessory Interface 초안: head/torso/back 장착 구역, sensor/vent/joint/button/charge keep-out, 베이스별 호환 표시.",
+  "work_now": "keep-out 겹침 점검 도구와 인터페이스 manifest 구현",
+  "input": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "output_file": "F2154/F2154-S02/deliverable.json",
+  "acceptance": "bounding-box 겹침 점검은 CAD/실물 안전 적합 판정 아님",
+  "remaining": "실제 zone 좌표·재료·장착 방식·샘플; Python·Onshape",
+  "status": "draft_artifact_created; physical_test_and_approval_pending",
+  "evidence_types_allowed": [
+    "draft",
+    "synthetic_test",
+    "physical_measurement",
+    "user_observation",
+    "supplier_quote",
+    "review_approval"
+  ],
+  "performed": "프로토타입 또는 설계 입력 작성"
+}

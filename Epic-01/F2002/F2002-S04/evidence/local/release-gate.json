@@ -1,0 +1,12 @@
+{
+  "release_ready": false,
+  "status": "blocked",
+  "blockers": [
+    "REAL_HARDWARE_NOT_VERIFIED",
+    "PRODUCTION_DEPLOYMENT_AND_ROLLBACK_PENDING",
+    "OPERATIONS_BASELINE_PENDING",
+    "AUTHORIZED_Q1_R1_APPROVAL_NOT_CONNECTED",
+    "REAL_USER_STUDY_PENDING"
+  ],
+  "mode": "simulated"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "F2136-S01",
+  "jira": "KR1-798",
+  "parent": "KR1-797",
+  "title": "[F2136-S01] 관절 Motor Bench·열·소음·수명 검증 요구사양·Interface·BOM 설계",
+  "work": "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: motor bench의 torque/speed/heat/noise/lifetime 근거와전환 gate를 구성",
+  "data": "bench series·load·duty·torque/current·temp",
+  "boundary": "stall·brake·sensor drift·장시간",
+  "metrics": "효율·발열·소음·수명·전환근거",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

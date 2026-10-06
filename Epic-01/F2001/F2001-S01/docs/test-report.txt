@@ -1,0 +1,41 @@
+F2001-S01 local validation | 2026-10-02
+Python: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+
+Command: -m unittest discover -s tests -v
+test_cancel_clears_draft (test_onboarding.Tests.test_cancel_clears_draft) ... ok
+test_complete_and_false_consents (test_onboarding.Tests.test_complete_and_false_consents) ... ok
+test_device_scope (test_onboarding.Tests.test_device_scope) ... ok
+test_different_mutation_conflicts (test_onboarding.Tests.test_different_mutation_conflicts) ... ok
+test_edit_invalidates_review (test_onboarding.Tests.test_edit_invalidates_review) ... ok
+test_expiry_and_cleanup (test_onboarding.Tests.test_expiry_and_cleanup) ... ok
+test_http_auth_and_json (test_onboarding.Tests.test_http_auth_and_json) ... ok
+test_idempotent_complete (test_onboarding.Tests.test_idempotent_complete) ... ok
+test_invalid_preferences (test_onboarding.Tests.test_invalid_preferences) ... ok
+test_order (test_onboarding.Tests.test_order) ... ok
+test_registered_device_conflict (test_onboarding.Tests.test_registered_device_conflict) ... ok
+test_repeat_create_resumes (test_onboarding.Tests.test_repeat_create_resumes) ... ok
+test_resume_after_reopen (test_onboarding.Tests.test_resume_after_reopen) ... ok
+test_review_requires_boolean (test_onboarding.Tests.test_review_requires_boolean) ... ok
+test_revision_conflict (test_onboarding.Tests.test_revision_conflict) ... ok
+test_transaction_rollback (test_onboarding.Tests.test_transaction_rollback) ... ok
+test_unknown_fields (test_onboarding.Tests.test_unknown_fields) ... ok
+test_unknown_step (test_onboarding.Tests.test_unknown_step) ... ok
+test_wrong_actor_hidden (test_onboarding.Tests.test_wrong_actor_hidden) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.018s
+
+OK
+Exit code: 0
+
+Command: scripts/smoke.py
+{
+  "session_id": "fa964bbf-7912-4774-96aa-c0dda6fcfb42",
+  "profile_id": "f344979b-dc83-4daf-bd4c-661590b0c09f",
+  "registration_status": "committed",
+  "apply_status": "pending",
+  "hardware_connected": false,
+  "revision": 8
+}
+HTTP smoke PASS
+Exit code: 0

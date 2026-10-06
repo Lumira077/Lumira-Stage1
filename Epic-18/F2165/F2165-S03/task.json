@@ -1,0 +1,21 @@
+{
+  "id": "F2165-S03",
+  "jira": "KR1-937",
+  "parent": "KR1-934",
+  "title": "[F2165-S03] 특허 Governance·발명관리 Process 명세서·도면·Claim 작성·출원",
+  "work": "실시예/도면/claim·전문가검토·공식제출/접수증: 발명신고·발명자/권리자·공개전검토·분류/예산/책임 프로세스를 구성",
+  "data": "invention id·inventors·owner·disclosure·evidence",
+  "boundary": "공개 선행·권리귀속 불명·기한누락",
+  "metrics": "승인추적·공개전검토coverage·책임자",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

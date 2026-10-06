@@ -1,0 +1,10 @@
+{
+  "schema": "expression-v1",
+  "feature": "F2130",
+  "data": "normalized gaze target/quality·owner/epoch·word/phoneme/viseme start/end·audio playback time·blink schedule·face mask/blend priority·cancel.",
+  "interface": "F2021 alignment/playback + 사용자 방향 → gaze/viseme pose → F2020 renderer/F2023 clock. 현재 supplied cues 기반 pose이며 actual camera/forced aligner 없음.",
+  "metrics": "lip/audio skew p95·gaze error·blink 자연성·missing cue fallback·취소 residual·사용자 불편",
+  "approval": "pending",
+  "thresholds": "development example only; device/provider/user calibration and approvals required",
+  "evaluation": "source/model/asset/config/policy/hash/license versions; environment/user/device and Q1/R1 evidence"
+}

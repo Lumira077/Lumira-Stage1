@@ -1,0 +1,21 @@
+{
+  "id": "F2217-S01",
+  "jira": "KR1-601",
+  "parent": "KR1-600",
+  "title": "[F2217-S01] Payment Gateway Integration 사용 흐름·Data Model·API 설계",
+  "work": "요구사항·데이터/API·오류/동의·시험 기준 및 검토 초안: Test PG 승인/실패/취소/환불·webhook 서명·idempotency를 연결",
+  "data": "payment id·order·currency·amount·provider receipt",
+  "boundary": "중복/역순 webhook·timeout·부분환불",
+  "metrics": "중복청구 0건·금액일치·실제 receipt",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

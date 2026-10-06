@@ -1,0 +1,16 @@
+{
+  "feature": "F2028",
+  "release_ready": false,
+  "actual_model_calls": 0,
+  "actual_participants": 0,
+  "actual_robot_tests": 0,
+  "metrics": "tap/long 오탐/누락·중복 이벤트·debounce/release p95·고착/재연결·region 혼선·사용자 접근성",
+  "pending": "실제 touch driver/sensor calibration·double-tap/pressure·contact watchdog/즉시 long 이벤트·자동 사용자/철회 event 미연결. release 기반 Prototype은 고착 중 자동 알림/정지를 구현하지 않는다.",
+  "required": [
+    "actual_perception_tracking_quality",
+    "privacy_auth_consent_epoch_delete_events",
+    "physical_robot_integration",
+    "actual_user_validation",
+    "Q1_R1_review_rollback"
+  ]
+}

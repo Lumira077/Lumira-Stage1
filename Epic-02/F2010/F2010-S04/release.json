@@ -1,0 +1,18 @@
+{
+  "feature": "F2010",
+  "version": "0.1.0-prototype",
+  "release_ready": false,
+  "actual_participants": 0,
+  "actual_provider_calls": 0,
+  "required_evidence": [
+    "physical_robot_and_audio",
+    "real_model_quality",
+    "actual_user_study",
+    "security_privacy_review",
+    "operational_rollback",
+    "Q1_R1_approval"
+  ],
+  "metrics": "응답 적합성·문맥 유지·first token/end-to-end p95·중복/위험 출력",
+  "metric_scope": "local simulated operations only",
+  "pending": "현재 고정 응답 가상 Gateway 통합; 실제 자연어 생성·prompt 평가·TTS·기억/콘텐츠 Tool 미연결"
+}

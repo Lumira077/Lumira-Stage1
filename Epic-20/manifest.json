@@ -1,0 +1,481 @@
+{
+  "epic": "Epic-20",
+  "jira": "KR1-1039",
+  "features": [
+    {
+      "feature": "F2190",
+      "jira": "KR1-1040",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2190] Stage별 고객 Segment·ICP·Persona 정의",
+      "work": "Elder/Home/Kids/Hospital/Pet Stage별사용자/구매자/문제·선정근거를 구성",
+      "data": "segment·Stage·persona·need·buyer·source",
+      "boundary": "미검증수요·의료과장·사용자/구매자혼동",
+      "metrics": "ICP근거·우선순위·검증plan",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2191",
+      "jira": "KR1-1044",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2191] Customer CRM·동의·선호·접점 Data 구축",
+      "work": "고객중복통제·목적별동의·선호·상담/구매/A/S접점을 관리",
+      "data": "customer id·purpose consent·touchpoint·retention",
+      "boundary": "동의철회·중복·무단공유·stale contact",
+      "metrics": "동의/삭제·중복률·접점추적",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2192",
+      "jira": "KR1-1048",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2192] Stage 1~4 Go-to-Market·Launch Calendar",
+      "work": "Stage별기술준비 gate·고객모집/전시/출시/온보딩 calendar를 구성",
+      "data": "Stage·release gate·campaign·budget·verified dates",
+      "boundary": "기술지연·미확정행사·예산초과·공급지연",
+      "metrics": "gate일치·예산/책임·일정근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2193",
+      "jira": "KR1-1051",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2193] Stage 1 사전 Community·Beta User 모집",
+      "work": "Beta 모집·동의·배포/회수·보상·VOC를 설계",
+      "data": "participant consent·device assignment·trial·VOC",
+      "boundary": "미성년동의·안전미준비·미회수·개인정보",
+      "metrics": "모집/활성·회수율·VOC·안전gate",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2194",
+      "jira": "KR1-1055",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2194] Stage 1 Brand Content·PR·KOL 홍보",
+      "work": "검증된제품효과의브랜드/PR/KOL콘텐츠·권리/공개전검토를 준비",
+      "data": "asset·channel·claims evidence·license·review",
+      "boundary": "과장·IP공개·무동의사진·미승인게시",
+      "metrics": "근거coverage·검수·도달/문의",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2195",
+      "jira": "KR1-1058",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2195] Stage 1 D2C 판매·예약·결제·구독 운영",
+      "work": "예약/주문/결제/배송/설치/구독/환불의D2C상태를 설계",
+      "data": "order id·customer consent·SKU·payment·device",
+      "boundary": "재고0·중복결제·해지·설치미완료",
+      "metrics": "주문/계약/기기정합성·환불·활성",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2196",
+      "jira": "KR1-1062",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2196] Stage 1 출시 Campaign·Sales Operation",
+      "work": "기술출시 gate에따라Demo/예약전환/주문/설치/초기VOC운영을 준비",
+      "data": "release checklist·campaign·order·install·VOC",
+      "boundary": "미검증출시·공급지연·환불·행사지연",
+      "metrics": "전환/매출·배송/활성·초기VOC",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1,
+        2,
+        3
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2197",
+      "jira": "KR1-1064",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2197] Stage 2 Home·Office 고객·Partner Channel 확장",
+      "work": "Home/Office 파트너의상품성/수수료/지원·공동판매를 설계",
+      "data": "partner id·terms·commission·channel·support",
+      "boundary": "무승인계약·책임공백·고객중복·지원부족",
+      "metrics": "채널조건·pipeline·유료전환",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2198",
+      "jira": "KR1-1069",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2198] Stage 2 체험·공간 Onboarding·Upgrade Promotion",
+      "work": "Stage2공간진단/IoT연동·체험/upgrade·설치/해지근거를 관리",
+      "data": "trial·map consent·install·upgrade·outcome",
+      "boundary": "불완전지도·장비미준비·권한·비용오해",
+      "metrics": "설치완료·체험전환·해지사유",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2199",
+      "jira": "KR1-1074",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2199] Stage 3 Helper·병원·기관 Solution Marketing",
+      "work": "병원/기관 Helper 사용사례·업무ROI·안전범위의근거자료를 준비",
+      "data": "usecase·workflow·ROI assumptions·evidence",
+      "boundary": "의료효과과장·미검증조작·현장미적합",
+      "metrics": "사용사례검토·안전gate·PoC근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2200",
+      "jira": "KR1-1079",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2200] Stage 3 B2B PoC·제안·계약·배치 운영",
+      "work": "B2B현장진단→PoC KPI→견적/계약→설치/교육/SLA를 설계",
+      "data": "site·PoC scope·KPI·proposal·SLA·device fleet",
+      "boundary": "권한·납기·보안·미검증기술·성과미달",
+      "metrics": "PoC성공·유료계약·설치/지원근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2201",
+      "jira": "KR1-1084",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2201] Stage 4 고령자·접근성·생활보조 Marketing",
+      "work": "Stage4고령자/접근성/생활보조 가치와 실제평가근거를 준비",
+      "data": "audience·accessibility needs·claims·evidence",
+      "boundary": "미검증승강·사용자피로·의료과장",
+      "metrics": "대상별사용평가·접근성·안전근거",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2202",
+      "jira": "KR1-1089",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2202] Stage 4 가족·보호자 구독·Care Channel 판매",
+      "work": "가족/보호자제품·서비스·A/S·지원권한의Care판매 구성을 설계",
+      "data": "plan·care channel·guardian scopes·SLA·price",
+      "boundary": "권한혼동·과장보장·해지·지원미준비",
+      "metrics": "가입/활성/유지·권한·채널계약",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2203",
+      "jira": "KR1-1094",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2203] Customer Community·VOC·Referral·Retention",
+      "work": "VOC분류/처리·커뮤니티·추천/재구매·retention을 설계",
+      "data": "ticket·consent·product revision·referral·cohort",
+      "boundary": "개인정보·중복VOC·무응답·부정추천",
+      "metrics": "처리SLA·재발·유지/재구매·피드백",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": null,
+      "scope": "spec_and_evidence_tooling_only",
+      "missing_stages": [
+        1
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    },
+    {
+      "feature": "F2204",
+      "jira": "KR1-1098",
+      "epic": "Epic-20",
+      "epic_jira": "KR1-1039",
+      "title": "[F2204] Marketing·Sales Funnel·Attribution Dashboard",
+      "work": "유입/lead/체험/견적/주문/구독/유지의동의 집계·귀속을 계산",
+      "data": "event id·customer ref·Stage·channel·cost·order",
+      "boundary": "중복event·교차기기·환불·무동의tracking",
+      "metrics": "funnel전환·CAC·cohort retention·대사",
+      "stage_work": [
+        "목표시장/자금·KPI·가정/예산·실행계획 확정",
+        "자료/CRM/재무/제안 Package·권한/근거 구축",
+        "승인받은 접촉/상담/PoC/협상·실제결과 기록",
+        "실제성과/의사결정·개선/후속계획·승인 근거"
+      ],
+      "implementation": "funnel",
+      "scope": "partial_offline_utility",
+      "missing_stages": [
+        1,
+        2
+      ],
+      "tools": [
+        [
+          "n8n Jira",
+          "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira"
+        ]
+      ],
+      "intervention": "Stage별준비gate·최신 고객/가격/권한·동의CRM·채널계정·실제행사 일정/예산·승인홍보물/계약·주문/설치/회수 증적",
+      "dependencies": "Stage1 Community/Beta/D2C → Stage2 Home/Office·공간/Upgrade → Stage3 Helper 기관PoC/B2B → Stage4 접근성/Care. 공통 consentCRM·VOC/retention·집계funnel 연결. 행사/채널 일정은 공식 근거 확인 후 운영하며 현재 게시/접촉/주문/매출은 실행하지 않았다.",
+      "release_ready": false,
+      "actual_external_calls": 0
+    }
+  ],
+  "subtasks": 46,
+  "release_ready": false
+}

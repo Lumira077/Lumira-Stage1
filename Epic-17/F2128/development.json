@@ -1,0 +1,222 @@
+{
+  "feature_id": "F2128",
+  "jira_key": "KR1-913",
+  "title": "[F2128] 캐릭터형·리얼형 Face UI 사용자 평가",
+  "baseline": {
+    "revision": "EP17-20261006-R1",
+    "overall_height_mm": 600,
+    "height_status": "reference_not_verified_internal_dimensions",
+    "screens": "face and chest touch separate",
+    "conversation_priority": true,
+    "stage1_slam": false,
+    "movement": "restricted small-area; obstacle/cliff detection",
+    "axes": {
+      "neck": 2,
+      "shoulder_per_arm": 2,
+      "wrist_per_arm": 1,
+      "waist": 1
+    },
+    "elbow": "fixed proposed connection in current layout",
+    "fingers": "flexible, non-actuated",
+    "charge": "wired; movement inhibited while cable connected",
+    "wall_mm": {
+      "original": 5,
+      "body_candidate": 3,
+      "head_arm_candidate": "2–2.5"
+    },
+    "detailed_cad": "next phase; existing Onshape import has faults",
+    "manufacturing_approved": false
+  },
+  "objective": "캐릭터형·리얼형 얼굴을 같은 과제·발화·밝기·시간 조건에서 비교한다.",
+  "specific_deliverables": [
+    "동일 조건·평가 항목·순서/이월 효과·자산 권리 정의",
+    "A/B 순서 배정과 평가 양식 구현; 리얼 자산 미확보",
+    "순서 균형·비식별 기록·결측/철회 처리 시험",
+    "실제 고객 평가 후 선택/보류 근거 인계"
+  ],
+  "gate": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+  "tools_and_dependencies": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+  "figma_links": [
+    "https://www.figma.com/design/cKkMtkqaysG73OCCZabGoD?node-id=12-51"
+  ],
+  "status": "draft_prepared_local_prototype_not_product_complete",
+  "source_commit": "96c628563544f10c4d53a6b41e36785ff59e462d",
+  "subtasks": [
+    {
+      "id": "F2128-S01",
+      "jira_key": "KR1-914",
+      "source_scope": "동일 발화·밝기·감정·화면·노출시간·순서 조건과 평가 항목 정의.",
+      "work_now": "동일 조건·평가 항목·순서/이월 효과·자산 권리 정의",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2128/F2128-S01/deliverable.json",
+      "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+      "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "요구·입출력·검증 초안 작성"
+    },
+    {
+      "id": "F2128-S02",
+      "jira_key": "KR1-915",
+      "source_scope": "조건 A 캐릭터, B 리얼형, 기본 스킨/팩. 두 조건의 기능 차이를 통제하는 평가 브리프.",
+      "work_now": "A/B 순서 배정과 평가 양식 구현; 리얼 자산 미확보",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2128/F2128-S02/deliverable.json",
+      "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+      "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "프로토타입 또는 설계 입력 작성"
+    },
+    {
+      "id": "F2128-S03",
+      "jira_key": "KR1-916",
+      "source_scope": "고객군별 동일 과제와 순서 효과 기록. 이미지 선호와 반복 사용을 별도 평가.",
+      "work_now": "순서 균형·비식별 기록·결측/철회 처리 시험",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2128/F2128-S03/deliverable.json",
+      "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+      "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "시험 계획·합성 검증 범위 정리"
+    },
+    {
+      "id": "F2128-S04",
+      "jira_key": "KR1-917",
+      "source_scope": "Stage1 얼굴 방향과 팩 범위 결정. 실제 결과 전 우열 주장 금지.",
+      "work_now": "실제 고객 평가 후 선택/보류 근거 인계",
+      "input": {
+        "revision": "EP17-20261006-R1",
+        "overall_height_mm": 600,
+        "height_status": "reference_not_verified_internal_dimensions",
+        "screens": "face and chest touch separate",
+        "conversation_priority": true,
+        "stage1_slam": false,
+        "movement": "restricted small-area; obstacle/cliff detection",
+        "axes": {
+          "neck": 2,
+          "shoulder_per_arm": 2,
+          "wrist_per_arm": 1,
+          "waist": 1
+        },
+        "elbow": "fixed proposed connection in current layout",
+        "fingers": "flexible, non-actuated",
+        "charge": "wired; movement inhibited while cable connected",
+        "wall_mm": {
+          "original": 5,
+          "body_candidate": 3,
+          "head_arm_candidate": "2–2.5"
+        },
+        "detailed_cad": "next phase; existing Onshape import has faults",
+        "manufacturing_approved": false
+      },
+      "output_file": "F2128/F2128-S04/deliverable.json",
+      "acceptance": "캐릭터 우수성·리얼 우수성 결론이나 실험 완료 주장 없음",
+      "remaining": "권리 확인된 리얼 얼굴 자산·참여자; Python·PowerPoint",
+      "status": "draft_artifact_created; physical_test_and_approval_pending",
+      "evidence_types_allowed": [
+        "draft",
+        "synthetic_test",
+        "physical_measurement",
+        "user_observation",
+        "supplier_quote",
+        "review_approval"
+      ],
+      "performed": "인계 초안·미결 목록 작성; 승인/동결 미실시"
+    }
+  ]
+}

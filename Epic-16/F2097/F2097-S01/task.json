@@ -1,0 +1,21 @@
+{
+  "id": "F2097-S01",
+  "jira": "KR1-748",
+  "parent": "KR1-747",
+  "title": "[F2097-S01] 내부 Frame 및 기구 Architecture 설계 요구사양·Interface·BOM 설계",
+  "work": "성능/환경/안전·전기/기구/통신 ICD·목표 BOM 검토: Fusion master frame·joint 지지·board/battery/sensor 배치를 parametric CAD로 설계",
+  "data": "CAD revision·mass·CoM·clearance·STEP",
+  "boundary": "간섭·하중·정비성·치수공차",
+  "metrics": "강성·가동범위·도면/BOM 정합성",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

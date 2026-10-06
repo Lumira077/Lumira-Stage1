@@ -1,0 +1,28 @@
+name: Epic-02 dialogue contract simulation
+on:
+  push:
+    paths: ['Epic-02/**', '.github/workflows/epic02-dialogue.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prototype:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Epic-02 synthetic suite
+        run: python Epic-02/runtime/run.py
+      - name: Fake dialogue pipeline demo
+        run: python Epic-02/runtime/demo.py
+      - name: Epic-01 profile and policy regression
+        run: python Epic-01/integration/run.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: epic02-dialogue-evidence
+          path: |
+            Epic-02/runtime/evidence/
+            Epic-01/integration/evidence/

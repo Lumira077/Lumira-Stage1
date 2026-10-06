@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "feature": "F2007",
+  "proposed_data": "PetPersona에 character_id, asset_version, behavior_catalog, sound_catalog, allowed_models를 두고 PetState는 session_epoch, state, last_trigger, cooldown_until, interaction_count를 포함한다. 인격 연출 값은 실제 사용자의 감정 진단에 사용하지 않는다.",
+  "proposed_interfaces": "/ker/interaction/event에 event_id, type, source, timestamp, session_epoch를 전달한다. Pet Engine 출력은 승인된 expression_id·sound_id·gesture_id와 duration·interruptible을 사용한다. POST /v1/sessions/{id}/interaction-mode로 전환한다.",
+  "acceptance": "등록된 이벤트·상태 조합이 캐릭터 정의대로 반응하고 반복 이벤트는 cooldown으로 제한된다. 사용자 중단·모드 전환·비상정지가 모든 놀이 동작보다 우선한다.",
+  "requirements": [
+    "Pet는 로봇 안의 캐릭터 상호작용 모드로 정의한다. 실제 동물 인식·돌봄 기능과 구분하여 범위를 정한다.",
+    "idle·curious·happy·play·rest 상태를 두고 터치·호출·반복 자극·Quiet Hours에 대한 전이를 정의한다.",
+    "캐릭터 성장·감정은 연출 상태임을 설명하고 자극 반복에 과도한 동작·음량·사용 유도를 만들지 않는다."
+  ],
+  "error_codes": [
+    "INVALID_INPUT",
+    "NOT_AUTHORIZED",
+    "STALE_CONTEXT",
+    "NOT_READY",
+    "NOT_SUPPORTED"
+  ],
+  "status": "design_proposal"
+}

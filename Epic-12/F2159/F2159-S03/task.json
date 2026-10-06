@@ -1,0 +1,21 @@
+{
+  "id": "F2159-S03",
+  "jira": "KR1-511",
+  "parent": "KR1-508",
+  "title": "[F2159-S03] Device-Customer Mapping·Lifecycle 관리 통합·보안·부하·복구 시험",
+  "work": "정상/예외/경계조건·실제 통합 검증 계획·근거/재시험: device/고객/계약/설치/보증·양도/교체/폐기 이력을 연결",
+  "data": "device id·customer ref·contract·lifecycle epoch",
+  "boundary": "양도·폐기·기기 교체·권한 잔존",
+  "metrics": "mapping 정합성·이력추적·revoke 반영",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}

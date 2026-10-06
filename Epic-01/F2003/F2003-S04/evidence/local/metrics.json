@@ -1,0 +1,16 @@
+{
+  "period": {
+    "start": 0,
+    "end": 1790957632.4443028
+  },
+  "mode": "synthetic_local",
+  "version": "0.1.0",
+  "unit": "persisted operation events, not unique participants",
+  "counts": {
+    "candidate_created": 100,
+    "memory_confirmed": 100,
+    "search_completed": 200,
+    "context_released": 100
+  },
+  "operational_baseline": "pending"
+}

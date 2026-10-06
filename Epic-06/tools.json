@@ -1,0 +1,87 @@
+{
+  "connected": [
+    "Atlassian Jira",
+    "GitHub",
+    "Python unittest",
+    "GitHub Actions"
+  ],
+  "execution_candidates": [
+    "ROS2 Jazzy DDS CI container; result in ROS artifact"
+  ],
+  "references": [
+    {
+      "feature": "F2030",
+      "name": "ROS2 Jazzy QoS 계약",
+      "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Quality-of-Service-Settings.html",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2030",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2031",
+      "name": "ros2_control Hardware Component",
+      "url": "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2032",
+      "name": "ros2_control Hardware Component",
+      "url": "https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/writing_new_hardware_component.html",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2032",
+      "name": "ros2_control Joint Trajectory Controller",
+      "url": "https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2033",
+      "name": "ROS2 Jazzy QoS 계약",
+      "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Quality-of-Service-Settings.html",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2033",
+      "name": "ROS2 message_filters",
+      "url": "https://github.com/ros2/message_filters",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2034",
+      "name": "sensor_msgs BatteryState 계약",
+      "url": "https://github.com/ros2/common_interfaces/blob/jazzy/sensor_msgs/msg/BatteryState.msg",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2035",
+      "name": "ROS2 diagnostics",
+      "url": "https://github.com/ros/diagnostics",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2120",
+      "name": "ONNX Runtime",
+      "url": "https://onnxruntime.ai/docs/",
+      "status": "reference_only_not_hardware_connected"
+    },
+    {
+      "feature": "F2120",
+      "name": "ROS2 Jazzy QoS 계약",
+      "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Quality-of-Service-Settings.html",
+      "status": "reference_only_not_hardware_connected"
+    }
+  ],
+  "intervention": [
+    "target_board_OS_ROS_RMW_bus_driver_specs",
+    "URDF_joint_calibration_limits_feedback_Estop",
+    "BMS_chemistry_charger_rails_protection",
+    "clock_frames_QoS_real_time_targets",
+    "production_auth_privacy_secrets",
+    "actual_mission_parameter_freeze_Q1_R1_rollback"
+  ]
+}

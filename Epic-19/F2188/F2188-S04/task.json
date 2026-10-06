@@ -1,0 +1,21 @@
+{
+  "id": "F2188-S04",
+  "jira": "KR1-1035",
+  "parent": "KR1-1032",
+  "title": "[F2188-S04] 투자계약·법률검토·Closing·자금입금 성과분석·의사결정·개선",
+  "work": "실제성과/의사결정·개선/후속계획·승인 근거: 계약/선행조건/승인/납입/등기·cap table reconciliation을 관리",
+  "data": "contract version·conditions·approval·receipt ref",
+  "boundary": "미서명·조건미충족·미입금·날짜불일치",
+  "metrics": "법률검토·서명/입금근거·cap table일치",
+  "required_evidence": [
+    "source/config/assumptions version",
+    "actual environment/sample and scope",
+    "results and failures/retests",
+    "responsible reviewer and approval",
+    "actual receipts/feedback/records for claimed execution"
+  ],
+  "completed": false,
+  "current_artifact": "작업명세·데이터/시험/검토 초안; 공통 utility 범위만 로컬 실행",
+  "implementation": null,
+  "actual_external_calls": 0
+}
