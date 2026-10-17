@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lumira Care Dev</string>
+    <string name="title_activity_main">Lumira Care Dev</string>
+    <string name="package_name">kr.lumira.caregiver.dev</string>
+    <string name="custom_url_scheme">kr.lumira.caregiver.dev</string>
+</resources>

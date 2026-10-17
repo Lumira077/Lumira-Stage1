@@ -1,0 +1,1 @@
+{"appId":"kr.lumira.caregiver.dev","appName":"Lumira Care Dev","webDir":"www","server":{"androidScheme":"https","cleartext":false},"android":{"allowMixedContent":false,"webContentsDebuggingEnabled":false},"ios":{"contentInset":"automatic","allowsLinkPreview":false},"plugins":{"CapacitorHttp":{"enabled":false}}}
