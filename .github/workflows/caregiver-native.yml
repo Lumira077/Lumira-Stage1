@@ -73,12 +73,12 @@ jobs:
           -derivedDataPath build/ios-simulator ARCHS=arm64 ONLY_ACTIVE_ARCH=YES
           CODE_SIGNING_ALLOWED=NO build
       - name: Boot iPhone simulator and launch app
-        timeout-minutes: 7
+        timeout-minutes: 10
         run: |
           xcrun simctl list devices available -j > build/simulator-devices.json
           device_id=$(python3 -c 'import json;d=json.load(open("build/simulator-devices.json"))["devices"];k=sorted((k for k in d if ".iOS-" in k),reverse=True)[0];print(next(x["udid"] for x in d[k] if "iPhone" in x["name"]))')
           xcrun simctl boot "$device_id" || true
-          SIM_DEVICE_ID="$device_id" python3 -c 'import os,subprocess;f=open("build/simulator-boot.log","w");subprocess.run(["xcrun","simctl","bootstatus",os.environ["SIM_DEVICE_ID"],"-b"],stdout=f,stderr=subprocess.STDOUT,check=True,timeout=240)'
+          SIM_DEVICE_ID="$device_id" python3 -c 'import os,subprocess;f=open("build/simulator-boot.log","w");subprocess.run(["xcrun","simctl","bootstatus",os.environ["SIM_DEVICE_ID"],"-b"],stdout=f,stderr=subprocess.STDOUT,check=True,timeout=420)'
           xcrun simctl install "$device_id" build/ios-simulator/Build/Products/Debug-iphonesimulator/App.app
           xcrun simctl launch "$device_id" kr.lumira.caregiver.dev
           sleep 5
