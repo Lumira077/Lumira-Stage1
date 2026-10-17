@@ -1,6 +1,6 @@
 {
   "name": "lumira-caregiver-mobile",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "description": "Lumira guardian iOS/Android development app",
   "scripts": {
@@ -17,5 +17,10 @@
   "devDependencies": {
     "@capacitor/cli": "8.5.3",
     "@fontsource-variable/noto-sans-kr": "5.3.1"
+  },
+  "overrides": {
+    "xcode": {
+      "uuid": "11.1.1"
+    }
   }
 }

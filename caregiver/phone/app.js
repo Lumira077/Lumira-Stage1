@@ -1,14 +1,16 @@
 import {initUi,resetUi,setLocalUi,showTab,closeMessage,updateDashboard,updateCommands,updateAlerts,setCallUi,setMediaUi,remoteReady} from './ui.js';
 import {readOrigin,saveOrigin} from './mobile-config.js';
+const webBase=window.Capacitor?'':new URL('.',import.meta.url).pathname.replace(/\/$/,'');
 const $=id=>document.getElementById(id);
 let apiOrigin=readOrigin(), mediaGeneration=0, sessionGeneration=0;
 let token='', robot='', local=false, version=0, call=null, peer=null, stream=null, cursor=0, pollBusy=false;
 let pendingIce=[], pollingMedia=false, runtimeBusy=false, connectTimer=null;
 let robotSettings={}, robotEpoch=null;
 const stoppedCalls=new Set();
+const roleName=r=>({owner:'소유자',caregiver:'보호자',viewer:'조회 전용'}[r]||'미지정');
 const text=(id,value)=>{$(id).textContent=value;};
 async function api(path,method='GET',body,extra={}){
- const r=await fetch(apiOrigin+'/v1'+path,{method,signal:AbortSignal.timeout(8000),headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{}),...extra},body:body===undefined?undefined:JSON.stringify(body)});
+ const r=await fetch((apiOrigin||webBase)+'/v1'+path,{method,signal:AbortSignal.timeout(8000),headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{}),...extra},body:body===undefined?undefined:JSON.stringify(body)});
  const data=await r.json();if(!r.ok)throw new Error(data.error||'요청 실패');return data;
 }
 const base=()=>'/robots/'+encodeURIComponent(robot);
@@ -17,14 +19,19 @@ function item(list,label,action){const li=document.createElement('li');li.textCo
 async function loginReady(){ sessionGeneration++;resetUi();setLocalUi(local); $('login').hidden=true;$('app').hidden=false;$('logout').hidden=false;$('selectLabel').hidden=local;$('pair').hidden=local;await refresh();}
 $('apiOrigin').value=apiOrigin;
 $('saveOrigin').onclick=run(async()=>{apiOrigin=saveOrigin($('apiOrigin').value);text('error','서버 주소를 저장했습니다. 로그인해 주세요.');});
+$('registerForm').onsubmit=run(async()=>{
+ const pw=$('registerPassword').value;if(pw!==$('registerPasswordConfirm').value)throw new Error('비밀번호 확인이 일치하지 않습니다.');
+ try{const r=await api('/register','POST',{name:$('registerName').value.trim(),email:$('registerEmail').value.trim(),password:pw,role:$('registerRole').value,robot_id:$('registerRobot').value.trim()});text('registrationResult','가입 완료 · 신청번호 '+r.registration_id+' · 로그인 후 승인 상태를 확인하세요.');$('email').value=$('registerEmail').value.trim();}
+ finally{$('registerPassword').value='';$('registerPasswordConfirm').value='';}
+});
 $('loginForm').onsubmit=run(async()=>{const r=await api('/login','POST',{email:$('email').value,password:$('password').value});token=r.token;$('password').value='';local=false;await loginReady();});
 $('robotLogin').onclick=run(async()=>{robot=$('robotId').value.trim();token=$('robotToken').value.trim();$('robotToken').value='';local=true;await api(base()+'/status');await loginReady();$('robotRuntime').hidden=false;});
 $('logout').onclick=run(async()=>{sessionGeneration++;try{try{await endCall('ended');}catch{}await api('/logout','POST',{});}finally{stopMedia();resetUi();token='';robot='';call=null;$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;}});
 $('claim').onclick=run(async()=>{await api('/pairings/claim','POST',{code:$('pairCode').value.trim()});$('pairCode').value='';text('error','로봇 현장에서 연결을 승인해 주세요.');});
 $('acceptInvite').onclick=run(async()=>{await api('/invitations/accept','POST',{code:$('inviteCode').value.trim()});$('inviteCode').value='';await refresh();});
-$('refresh').onclick=run(refresh);$('robots').onchange=run(async()=>{sessionGeneration++;await endCall('ended');robot=$('robots').value;await panels();});
+$('refresh').onclick=run(refresh);$('robots').onchange=run(async()=>{sessionGeneration++;await endCall('ended');robot=$('robots').value;await refresh();});
 async function refresh(){
- if(!local){const rows=await api('/robots');$('robots').replaceChildren();for(const r of rows){const o=document.createElement('option');o.value=r.id;o.textContent=r.id+' · '+r.model+' · '+r.role;$('robots').append(o);}if(!rows.some(r=>r.id===robot))robot=rows[0]?.id||'';$('robots').value=robot;const role=rows.find(r=>r.id===robot)?.role;for(const id of ['settings','family'])$(id).hidden=role!=='owner';$('actions').hidden=role==='viewer';for(const id of ['audioCall','videoCall']){$(id).disabled=role==='viewer';$(id).hidden=false;}$('quickMessage').disabled=role==='viewer';$('openSchedule').disabled=role==='viewer';}
+ if(!local){const me=await api('/me');text('sessionSummary',(me.user.name||me.user.email)+' · 내 계정');text('registrationId','신청번호 '+me.user.id);text('assignmentStatus',me.robots.length?'승인된 로봇만 연결됩니다.':me.requests.map(r=>r.device+' · '+roleName(r.requested_role)+' · '+({pending:'승인 대기',approved:'승인됨',rejected:'반려',revoked:'권한 회수'}[r.status]||r.status)).join(' / ')||'지정된 로봇이 없습니다.');text('pendingSummary',$('assignmentStatus').textContent+' · 신청번호 '+me.user.id);const rows=me.robots;$('robots').replaceChildren();for(const r of rows){const o=document.createElement('option');o.value=r.id;o.textContent=r.id+' · '+r.model+' · '+roleName(r.role);$('robots').append(o);}if(!rows.some(r=>r.id===robot))robot=rows[0]?.id||'';$('robots').value=robot;const role=rows.find(r=>r.id===robot)?.role;for(const id of ['settings','family'])$(id).hidden=role!=='owner';if(role)text('assignmentStatus',robot+' · '+roleName(role)+' 권한으로 연결');$('actions').hidden=role==='viewer';for(const id of ['audioCall','videoCall']){$(id).disabled=role==='viewer';$(id).hidden=false;}$('quickMessage').disabled=role==='viewer';$('openSchedule').disabled=role==='viewer';}
  $('robotPanels').hidden=!robot;$('noRobot').hidden=!!robot;if(robot)await panels();
 }
 async function panels(){
@@ -40,7 +47,11 @@ async function panels(){
  else{
  const commandRows=await api(base()+'/commands');updateCommands(commandRows);$('commands').replaceChildren();for(const c of commandRows)item('commands',`${c.kind} · ${c.state} · ${c.result||''}`);
  const alertRows=await api(base()+'/alerts');updateAlerts(alertRows);$('alerts').replaceChildren();for(const a of alertRows)item('alerts',`${a.payload.kind} · ${a.read?'확인함':'미확인'} · ${new Date(a.created*1000).toLocaleString()}`,a.read?null:{label:'확인',fn:async()=>{await api(base()+'/alerts','PATCH',{id:a.id});await panels();}});
- if(!$('family').hidden){$('members').replaceChildren();for(const m of await api(base()+'/members'))item('members',`${m.email} · ${m.role}`,m.role==='owner'?null:{label:'권한 회수',fn:async()=>{await api(base()+'/members','DELETE',{user:m.user});await panels();}});}
+ if(!$('family').hidden){$('accessRequests').replaceChildren();for(const q of await api(base()+'/access-requests')){
+ const li=document.createElement('li');li.textContent=q.name+' · '+q.email+' · '+roleName(q.requested_role)+' · 신청번호 '+q.registration_id;
+ if(q.requested_role==='caregiver')for(const [decision,label] of [['approve','신원 확인 후 승인'],['reject','반려']]){const b=document.createElement('button');b.textContent=label;b.onclick=run(async()=>{if(!confirm(q.email+' · 신청번호 '+q.registration_id+'의 '+label+'을 진행할까요?'))return;await api(base()+'/access-requests','PATCH',{registration_id:q.registration_id,decision});await refresh();});li.append(' ',b);}
+ $('accessRequests').append(li);
+ }$('members').replaceChildren();for(const m of await api(base()+'/members'))item('members',`${m.email} · ${roleName(m.role)}`,m.role==='owner'?null:{label:'권한 회수',fn:async()=>{await api(base()+'/members','DELETE',{user:m.user});await panels();}});}
  }
  await pollCall();
 }
@@ -97,9 +108,9 @@ async function pollCall(){
  }
  }catch(e){stopMedia();text('error','통화 중단: '+e.message);throw e;}finally{pollingMedia=false;}
 }
-setInterval(async()=>{if(!token||pollBusy)return;pollBusy=true;try{if(robot)await panels();else await refresh();}catch(e){stopMedia();text('error',e.message);}finally{pollBusy=false;}},3000);
+setInterval(async()=>{if(!token||pollBusy)return;pollBusy=true;try{if(local&&robot)await panels();else await refresh();}catch(e){stopMedia();text('error',e.message);}finally{pollBusy=false;}},3000);
 window.addEventListener('pagehide',stopMedia);document.addEventListener('visibilitychange',()=>{if(document.hidden&&stream){endCall('ended').catch(stopMedia);}});
-if(!window.Capacitor&&'serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
+if(!window.Capacitor&&'serviceWorker' in navigator)navigator.serviceWorker.register(new URL('./sw.js',import.meta.url)).catch(()=>{});
 
 // Browser runtime: one executor per device. Do not run the Python simulation agent concurrently.
 function ledger(){return new Promise((resolve,reject)=>{const req=indexedDB.open('lumira-executions',1);req.onupgradeneeded=()=>req.result.createObjectStore('commands');req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}

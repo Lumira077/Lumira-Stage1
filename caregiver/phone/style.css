@@ -5,3 +5,5 @@
 .avatar-halo img{max-height:102px;object-fit:contain}.status-detail{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.robot-summary>.muted{margin:4px 0 8px}.summary-card{padding:12px;gap:6px}.quick-action{min-height:92px;gap:9px;padding:12px 7px}.greeting-row{margin:5px 0 12px}.connection-banner{margin-bottom:12px}
 
 html[data-platform=ios] .call-control.hangup>.icon{background:#e8423c;color:white}html[data-platform=ios] .call-control[aria-pressed=true]>.icon{background:#786368;color:white}
+
+#registrationId,#pendingSummary{overflow-wrap:anywhere}
