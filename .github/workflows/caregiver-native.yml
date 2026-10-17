@@ -26,6 +26,10 @@ jobs:
           distribution: temurin
           java-version: '21'
       - uses: android-actions/setup-android@v3
+        with:
+          cmdline-tools-version: 13114758
+          packages: 'platform-tools platforms;android-36 build-tools;35.0.0'
+          log-accepted-android-sdk-licenses: false
       - run: npm ci && npm run sync && npm run check
       - run: chmod +x android/gradlew && cd android && ./gradlew --no-daemon assembleDebug
       - uses: actions/upload-artifact@v4
@@ -64,6 +68,7 @@ jobs:
           xcrun simctl bootstatus "$device_id" -b
           xcrun simctl install "$device_id" build/ios-simulator/Build/Products/Debug-iphonesimulator/App.app
           xcrun simctl launch "$device_id" kr.lumira.caregiver.dev
+          sleep 5
           xcrun simctl io "$device_id" screenshot build/ios-simulator.png
       - uses: actions/upload-artifact@v4
         if: always()
