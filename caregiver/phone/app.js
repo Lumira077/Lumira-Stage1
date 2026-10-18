@@ -10,7 +10,8 @@ let robotSettings={}, robotEpoch=null;
 const stoppedCalls=new Set();
 const translatedOutputs=new Map();
 function translatedText(id,key,values={}){translatedOutputs.set(id,{key,values});text(id,t(key,values));}
-let languageRefresh=false,lastError=null;
+let languageRefresh=false,lastError=null,settingsDirty=false;
+for(const id of ['volume','quiet','camera','microphone','remote_actions'])$(id).addEventListener('input',()=>{settingsDirty=true;});
 window.addEventListener('lumira:language',async()=>{for(const [id,{key,values}] of translatedOutputs)text(id,t(key,values));if(lastError)text('error',translateError(lastError));if(!token)return;languageRefresh=true;try{await refresh();}catch(e){text('error',translateError(e));}finally{languageRefresh=false;}});
 const roleName=r=>({owner:t("소유자"),caregiver:t("보호자"),viewer:t("조회 전용")}[r]||t("미지정"));
 const text=(id,value)=>{$(id).textContent=value;};
@@ -34,7 +35,7 @@ $('robotLogin').onclick=run(async()=>{robot=$('robotId').value.trim();token=$('r
 $('logout').onclick=run(async()=>{sessionGeneration++;try{try{await endCall('ended');}catch{}await api('/logout','POST',{});}finally{stopMedia();resetUi();token='';robot='';call=null;$('login').hidden=false;$('app').hidden=true;$('logout').hidden=true;}});
 $('claim').onclick=run(async()=>{await api('/pairings/claim','POST',{code:$('pairCode').value.trim()});$('pairCode').value='';text('error',t("로봇 현장에서 연결을 승인해 주세요."));});
 $('acceptInvite').onclick=run(async()=>{await api('/invitations/accept','POST',{code:$('inviteCode').value.trim()});$('inviteCode').value='';await refresh();});
-$('refresh').onclick=run(refresh);$('robots').onchange=run(async()=>{sessionGeneration++;await endCall('ended');robot=$('robots').value;await refresh();});
+$('refresh').onclick=run(refresh);$('robots').onchange=run(async()=>{sessionGeneration++;await endCall('ended');robot=$('robots').value;settingsDirty=false;await refresh();});
 async function refresh(){
  if(!local){const me=await api('/me');text('sessionSummary',(me.user.name||me.user.email)+t(" · 내 계정"));text('registrationId',t("신청번호 ")+me.user.id);text('assignmentStatus',me.robots.length?t("승인된 로봇만 연결됩니다."):me.requests.map(r=>r.device+' · '+roleName(r.requested_role)+' · '+({pending:t("승인 대기"),approved:t("승인됨"),rejected:t("반려"),revoked:t("권한 회수")}[r.status]||r.status)).join(' / ')||t("지정된 로봇이 없습니다."));text('pendingSummary',$('assignmentStatus').textContent+t(" · 신청번호 ")+me.user.id);const rows=me.robots;$('robots').replaceChildren();for(const r of rows){const o=document.createElement('option');o.value=r.id;o.textContent=r.id+' · '+r.model+' · '+roleName(r.role);$('robots').append(o);}if(!rows.some(r=>r.id===robot))robot=rows[0]?.id||'';$('robots').value=robot;const role=rows.find(r=>r.id===robot)?.role;for(const id of ['settings','family'])$(id).hidden=role!=='owner';if(role)text('assignmentStatus',t('{robot} · {role} 권한으로 연결',{robot,role:roleName(role)}));$('actions').hidden=role==='viewer';for(const id of ['audioCall','videoCall']){$(id).disabled=role==='viewer';$(id).hidden=false;}$('quickMessage').disabled=role==='viewer';$('openSchedule').disabled=role==='viewer';}
  $('robotPanels').hidden=!robot;$('noRobot').hidden=!!robot;if(robot)await panels();
@@ -45,7 +46,7 @@ async function panels(){
  updateDashboard(r);
  const s=await api(base()+'/settings');version=s.version;text('settingsStatus',t('설정 요청 버전 {version} · 보고 설정 {reported}',{version,reported:s.reported?JSON.stringify(s.reported):t('미수신')}));
  // Preserve unsaved settings while editing.
- if(!languageRefresh&&!$('settings').contains(document.activeElement)){for(const k of ['quiet','camera','microphone','remote_actions'])$(k).checked=s.desired[k];$('volume').value=s.desired.volume;}
+ if(!languageRefresh&&!settingsDirty&&!$('settings').contains(document.activeElement)){for(const k of ['quiet','camera','microphone','remote_actions'])$(k).checked=s.desired[k];$('volume').value=s.desired.volume;}
  $('localPair').hidden=!local;
  if(local){robotSettings=s.desired;robotEpoch=r.epoch;}
  if(local){for(const id of ['actions','settings','family','audioCall','videoCall'])$(id).hidden=true;const p=await api(base()+'/pairing');if(p.length)text('generatedPair',t("연결 요청이 있습니다. 현장 사용자 확인 후 승인해 주세요."));}
@@ -63,7 +64,7 @@ async function panels(){
 async function command(kind,payload){await api(base()+'/commands','POST',{kind,payload},{'Idempotency-Key':crypto.randomUUID()});await panels();closeMessage();}
 $('sendMessage').onclick=run(()=>command('message',{text:$('message').value}));$('sendReminder').onclick=run(()=>command('reminder',{text:$('message').value,...($('reminderAt').value?{not_before:new Date($('reminderAt').value).getTime()/1000}:{})}));
 for(const b of document.querySelectorAll('[data-kind]'))b.onclick=run(()=>command(b.dataset.kind,{name:b.dataset.name}));
-$('saveSettings').onclick=run(async()=>{const patch={volume:Number($('volume').value)};for(const k of ['quiet','camera','microphone','remote_actions'])patch[k]=$(k).checked;await api(base()+'/settings','PATCH',{patch},{'If-Match':String(version)});await panels();});
+$('saveSettings').onclick=run(async()=>{const patch={volume:Number($('volume').value)};for(const k of ['quiet','camera','microphone','remote_actions'])patch[k]=$(k).checked;await api(base()+'/settings','PATCH',{patch},{'If-Match':String(version)});settingsDirty=false;await panels();});
 $('invite').onclick=run(async()=>{const r=await api(base()+'/invitations','POST',{role:$('inviteRole').value});translatedText('generatedInvite','10분 안에 사용할 초대 코드: {code}',{code:r.code});});
 $('reset').onclick=run(async()=>{if(confirm(t("모든 보호자 연결을 해제하고 대기 명령과 통화를 종료할까요?"))){await api(base()+'/reset','POST',{});await refresh();}});
 $('makePair').onclick=run(async()=>{const r=await api(base()+'/pairing','POST',{});text('generatedPair',t("5분 이내 연결 코드: ")+r.code);});
