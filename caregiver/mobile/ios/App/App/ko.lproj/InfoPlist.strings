@@ -1,0 +1,2 @@
+"NSCameraUsageDescription" = "보호자가 요청하고 현장에서 수락한 영상 통화에 카메라를 사용합니다.";
+"NSMicrophoneUsageDescription" = "현장에서 수락한 보호자 음성·영상 통화에 마이크를 사용합니다.";

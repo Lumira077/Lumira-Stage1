@@ -2,7 +2,7 @@
 export function normalizeOrigin(value){
  if(!value.trim())return '';
  const u=new URL(value.trim());
- if(u.protocol!=='https:'||u.username||u.password||u.pathname!=='/'||u.search||u.hash)throw new Error('HTTPS 서버 주소만 입력하세요. 경로·계정·쿼리는 허용하지 않습니다.');
+ if(u.protocol!=='https:'||u.username||u.password||u.pathname!=='/'||u.search||u.hash)throw new Error("HTTPS 서버 주소만 입력하세요. 경로·계정·쿼리는 허용하지 않습니다.");
  return u.origin;
 }
 export function readOrigin(){try{return normalizeOrigin(localStorage.getItem('lumira.api.origin')||((typeof window!=='undefined'&&window.Capacitor)?'https://www.ker.it.kr':''));}catch{return '';}}

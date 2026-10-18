@@ -12,7 +12,7 @@ check(ios.includes('NSCameraUsageDescription')&&ios.includes('NSMicrophoneUsageD
 check(!ios.includes('NSAllowsArbitraryLoads')&&!ios.includes('UIBackgroundModes'),'no ATS exception or unimplemented background calling');
 const html=await readFile('www/index.html','utf8');
 check(html.includes('Content-Security-Policy')&&html.includes('/native.js'),'packaged CSP and lifecycle module');
-for(const file of ['app.js','mobile-config.js','native.js','capacitor-core.js','ui.js','style.css','robot-face.svg']){
+for(const file of ['app.js','mobile-config.js','native.js','capacitor-core.js','ui.js','i18n.js','style.css','robot-face.svg']){
  const canonical=await readFile('www/'+file,'utf8');
  for(const prefix of ['android/app/src/main/assets/public/','ios/App/App/public/'])check(canonical===await readFile(prefix+file,'utf8'),prefix+file+' synchronized');
 }

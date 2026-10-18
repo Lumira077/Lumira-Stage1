@@ -25,9 +25,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>보호자가 요청하고 현장에서 수락한 영상 통화에 카메라를 사용합니다.</string>
+	<string>Use the camera for video calls requested by caregivers and accepted on site.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>현장에서 수락한 보호자 음성·영상 통화에 마이크를 사용합니다.</string>
+	<string>Use the microphone for caregiver calls accepted on site.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -70,5 +70,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>ko</string>
+	</array>
 </dict>
 </plist>

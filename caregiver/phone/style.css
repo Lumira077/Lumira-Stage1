@@ -7,3 +7,5 @@
 html[data-platform=ios] .call-control.hangup>.icon{background:#e8423c;color:white}html[data-platform=ios] .call-control[aria-pressed=true]>.icon{background:#786368;color:white}
 
 #registrationId,#pendingSummary{overflow-wrap:anywhere}
+
+.language-picker{margin-left:auto;max-width:125px}.language-picker select{width:100%;min-height:40px;padding:6px;font-size:13px}.header-caption{flex-shrink:1}html[lang="en"] .quick-action span{font-size:13px}html[lang="en"] .quick-action{min-width:0}html[lang="en"] .call-control{font-size:12px}.status-detail,.note,.muted{overflow-wrap:anywhere}@media(max-width:420px){.header-caption{display:none}.language-picker{max-width:120px}}
