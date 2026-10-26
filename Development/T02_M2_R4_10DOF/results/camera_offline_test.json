@@ -1,0 +1,77 @@
+{
+  "opencv_version": "4.14.0",
+  "physical_camera_tested": false,
+  "blank_frame_returns_no_target": true,
+  "reference_segment_start_s": 50,
+  "frames_read": 30,
+  "frames_with_detection": 5,
+  "frames_quality_pass": 2,
+  "note": "prototype test only; no accuracy, identity or emotion inference",
+  "detections": [
+    {
+      "ts_ms": 800.0,
+      "bearing_deg": 13.8352484434862,
+      "quality_pass": false,
+      "bbox_xywh": [
+        1194,
+        13,
+        351,
+        351
+      ],
+      "detector": "OpenCV Haar prototype",
+      "quality_is_probability": false
+    },
+    {
+      "ts_ms": 866.6666666666666,
+      "bearing_deg": 14.062438524132165,
+      "quality_pass": false,
+      "bbox_xywh": [
+        1205,
+        19,
+        343,
+        343
+      ],
+      "detector": "OpenCV Haar prototype",
+      "quality_is_probability": false
+    },
+    {
+      "ts_ms": 900.0,
+      "bearing_deg": 14.013792655165373,
+      "quality_pass": false,
+      "bbox_xywh": [
+        1204,
+        20,
+        342,
+        342
+      ],
+      "detector": "OpenCV Haar prototype",
+      "quality_is_probability": false
+    },
+    {
+      "ts_ms": 933.3333333333334,
+      "bearing_deg": 14.062438524132165,
+      "quality_pass": true,
+      "bbox_xywh": [
+        1205,
+        19,
+        343,
+        343
+      ],
+      "detector": "OpenCV Haar prototype",
+      "quality_is_probability": false
+    },
+    {
+      "ts_ms": 966.6666666666666,
+      "bearing_deg": 14.256814610283383,
+      "quality_pass": true,
+      "bbox_xywh": [
+        1210,
+        17,
+        345,
+        345
+      ],
+      "detector": "OpenCV Haar prototype",
+      "quality_is_probability": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "fresh_ms": 500,
+  "hold_confirm_ms": 250,
+  "release_confirm_ms": 350,
+  "near_stop_m": 0.25,
+  "gaze_confidence": 0.7,
+  "gaze_limit_deg": 30,
+  "gaze_deadband_deg": 3
+}

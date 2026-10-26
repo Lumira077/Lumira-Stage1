@@ -1,0 +1,18 @@
+{
+  "status": "offline_simulation_only",
+  "motor_output_enabled": false,
+  "drive": "differential",
+  "wheel_track_nominal_m": 0.3339228192208056,
+  "wheel_radius_measured_m": null,
+  "grid_resolution_m": 0.1,
+  "robot_radius_assumed_m": 0.27,
+  "max_linear_m_s": 0.2,
+  "max_angular_rad_s": 0.6,
+  "sensor_max_age_s": 0.3,
+  "follow_distance_m": 1.2,
+  "follow_max_distance_m": 3,
+  "resume_after_loss": "explicit_reconfirmation",
+  "hands_held": "cancel_mission_and_stop",
+  "physical_slam_implemented": false,
+  "physical_person_tracker_implemented": false
+}

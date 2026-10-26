@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "before": {
+    "lower_shell_max_width_mm": 353.9058268070221,
+    "chest_width_mm": 249.99030232429507,
+    "right_wheel_width_mm": 28.243064880371094,
+    "wheel_pivot_spacing_mm": 360.99764240087086
+  },
+  "after": {
+    "lower_shell_max_width_mm": 327.3628897964955,
+    "chest_width_mm": 249.99030232429507,
+    "right_wheel_width_mm": 28.243064880371094,
+    "wheel_pivot_spacing_mm": 333.9228192208056
+  },
+  "motor_count_without_wheels": 10,
+  "preview_clips": 3,
+  "hand_held_preview_arm_motion": false,
+  "collision_validation": false,
+  "hardware_validation": false,
+  "RL_retrained": false
+}

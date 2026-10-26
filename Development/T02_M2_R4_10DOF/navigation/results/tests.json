@@ -1,0 +1,9 @@
+{
+  "navigation_tests_passed": 12,
+  "integration_tests_passed": 2,
+  "scenarios": 4,
+  "video_duration_s": 30,
+  "video_decode_verified": true,
+  "physical_sensors_connected": false,
+  "motor_output_enabled": false
+}

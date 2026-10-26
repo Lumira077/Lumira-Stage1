@@ -1,0 +1,275 @@
+[
+  {
+    "input": {
+      "ts_ms": 0,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 0
+    },
+    "output": {
+      "state": "IDLE",
+      "event": null,
+      "face": "neutral",
+      "speech_ko": "",
+      "neck_target_deg": null,
+      "arm_mode": {
+        "left": "NO_NEW_MOTION",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": false
+    }
+  },
+  {
+    "input": {
+      "ts_ms": 100,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": true,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 100
+    },
+    "output": {
+      "state": "CONTACT_CONFIRMING",
+      "event": null,
+      "face": "listening",
+      "speech_ko": "",
+      "neck_target_deg": null,
+      "arm_mode": {
+        "left": "CONTACT_YIELD_REQUEST",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": true
+    }
+  },
+  {
+    "input": {
+      "ts_ms": 200,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": true,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 200
+    },
+    "output": {
+      "state": "CONTACT_CONFIRMING",
+      "event": null,
+      "face": "listening",
+      "speech_ko": "",
+      "neck_target_deg": null,
+      "arm_mode": {
+        "left": "CONTACT_YIELD_REQUEST",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": true
+    }
+  },
+  {
+    "input": {
+      "ts_ms": 350,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": true,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 350
+    },
+    "output": {
+      "state": "HAND_HELD",
+      "event": "hold_started",
+      "face": "affection",
+      "speech_ko": "손을 잡아 주셨네요. 반가워요.",
+      "neck_target_deg": -15,
+      "arm_mode": {
+        "left": "CONTACT_YIELD_REQUEST",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": true
+    }
+  },
+  {
+    "input": {
+      "ts_ms": 500,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": true,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 500
+    },
+    "output": {
+      "state": "HAND_HELD",
+      "event": "hold_continues",
+      "face": "affection",
+      "speech_ko": "",
+      "neck_target_deg": null,
+      "arm_mode": {
+        "left": "CONTACT_YIELD_REQUEST",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": true
+    }
+  },
+  {
+    "input": {
+      "ts_ms": 600,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 600
+    },
+    "output": {
+      "state": "HAND_HELD",
+      "event": "hold_continues",
+      "face": "affection",
+      "speech_ko": "",
+      "neck_target_deg": null,
+      "arm_mode": {
+        "left": "CONTACT_YIELD_REQUEST",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": true
+    }
+  },
+  {
+    "input": {
+      "ts_ms": 950,
+      "estop": false,
+      "edge": false,
+      "collision": false,
+      "distance_m": 0.6,
+      "hands": {
+        "left": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        },
+        "right": {
+          "valid": true,
+          "touch": false,
+          "pressure_contact": false,
+          "overload": false
+        }
+      },
+      "now_ms": 950
+    },
+    "output": {
+      "state": "RELEASE_WAIT",
+      "event": "released_no_retraction",
+      "face": "grateful",
+      "speech_ko": "고마워요.",
+      "neck_target_deg": null,
+      "arm_mode": {
+        "left": "NO_NEW_MOTION",
+        "right": "NO_NEW_MOTION"
+      },
+      "waist_mode": "NO_NEW_MOTION",
+      "wheel_command": "STOP",
+      "motor_output_enabled": false,
+      "contact_compliance_requires_hardware_controller": false
+    }
+  }
+]
