@@ -1,0 +1,7 @@
+{
+  "tests_run": 10,
+  "passed": 10,
+  "physical_camera_connected": false,
+  "physical_sensors_connected": false,
+  "motor_output_enabled": false
+}

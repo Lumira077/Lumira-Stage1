@@ -1,0 +1,52 @@
+[
+  {
+    "case": "home_solo",
+    "arrived": true,
+    "final_state": "IDLE",
+    "states": [
+      "ARRIVED",
+      "IDLE",
+      "SOLO_MOVING"
+    ],
+    "collision_free_in_inflated_grid": true,
+    "motor_output_enabled": false
+  },
+  {
+    "case": "home_follow",
+    "arrived": false,
+    "final_state": "FOLLOW_DISTANCE_HOLD",
+    "states": [
+      "FOLLOW_DISTANCE_HOLD",
+      "FOLLOW_MOVING",
+      "TARGET_LOST_WAIT"
+    ],
+    "collision_free_in_inflated_grid": true,
+    "motor_output_enabled": false,
+    "final_follow_distance_m": 1.22506885228802
+  },
+  {
+    "case": "office_solo",
+    "arrived": true,
+    "final_state": "IDLE",
+    "states": [
+      "ARRIVED",
+      "IDLE",
+      "SOLO_MOVING"
+    ],
+    "collision_free_in_inflated_grid": true,
+    "motor_output_enabled": false
+  },
+  {
+    "case": "office_follow",
+    "arrived": false,
+    "final_state": "FOLLOW_DISTANCE_HOLD",
+    "states": [
+      "FOLLOW_DISTANCE_HOLD",
+      "FOLLOW_MOVING",
+      "TARGET_LOST_WAIT"
+    ],
+    "collision_free_in_inflated_grid": true,
+    "motor_output_enabled": false,
+    "final_follow_distance_m": 1.2296589520352503
+  }
+]

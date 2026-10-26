@@ -1,0 +1,35 @@
+{
+  "version": "R4-10DOF-0.1",
+  "upper_body_motor_count": 10,
+  "wheel_drive_motors_excluded": 2,
+  "lower_shell_width_factor": 0.925,
+  "wheel_geometry_scaled": false,
+  "wheel_lateral_positions_factor": 0.925,
+  "neck_pitch_motor": false,
+  "upper_arm_twist_motors": false,
+  "status": "kinematic and interaction software prototype; no hardware fit or RL approval",
+  "joints": [
+    "waist",
+    "neck",
+    "R_J1",
+    "R_J2",
+    "R_J3",
+    "R_J4_WRIST",
+    "L_J1",
+    "L_J2",
+    "L_J3",
+    "L_J4_WRIST"
+  ],
+  "axes_xyz": [
+    1,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ]
+}
