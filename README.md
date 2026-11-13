@@ -4,7 +4,7 @@
 
 ![PC–Pi–UNO 연결](docs/images/network.svg)
 
-빠른 검증: `python3 scripts/verify_all.py`. 현재 로컬595개 시험 통과, 실제 모터 펌웨어/실기 시험은 미완료입니다.
+빠른 검증: `python3 scripts/verify_all.py`. 2026-11-14 로컬896개 시험 통과(22개 묶음), 실제 모터 펌웨어/실기 시험은 미완료입니다. [Jira 설계 대비 S/W 점검·수정 결과](Development/review_20261114/README_KO.md).
 
 ---
 

@@ -1,0 +1,135 @@
+{
+  "source_commit": "c658d2d00dd35205285ea3f48977fcbb7c0c7fbd",
+  "worktree_status": "M .github/workflows/development-batch.yml\n M Epic-01/F2003/F2003-S02/README.md\n M Epic-01/F2003/F2003-S02/memory_service/service.py\n M Epic-01/F2003/F2003-S02/tests/test_memory.py\n M Epic-01/F2003/F2003-S03/dependencies.json\n M Epic-01/F2003/F2003-S04/dependencies.json\n M README.md\n M scripts/verify_all.py\n?? Development/review_20261114/",
+  "suites": [
+    {
+      "suite": "Epic01",
+      "exit_code": 0,
+      "tests": 65
+    },
+    {
+      "suite": "Epic02",
+      "exit_code": 0,
+      "tests": 132
+    },
+    {
+      "suite": "Epic03",
+      "exit_code": 0,
+      "tests": 63
+    },
+    {
+      "suite": "Epic04",
+      "exit_code": 0,
+      "tests": 78
+    },
+    {
+      "suite": "Epic05",
+      "exit_code": 0,
+      "tests": 61
+    },
+    {
+      "suite": "Epic06",
+      "exit_code": 0,
+      "tests": 58
+    },
+    {
+      "suite": "Common",
+      "exit_code": 0,
+      "tests": 80
+    },
+    {
+      "suite": "Epic17",
+      "exit_code": 0,
+      "tests": 22
+    },
+    {
+      "suite": "Stage1",
+      "exit_code": 0,
+      "tests": 16
+    },
+    {
+      "suite": "Bringup",
+      "exit_code": 0,
+      "tests": 20
+    },
+    {
+      "suite": "F2001-S01",
+      "exit_code": 0,
+      "tests": 19
+    },
+    {
+      "suite": "F2001-S02",
+      "exit_code": 0,
+      "tests": 36
+    },
+    {
+      "suite": "F2001-S03",
+      "exit_code": 0,
+      "tests": 42
+    },
+    {
+      "suite": "F2001-S04",
+      "exit_code": 0,
+      "tests": 51
+    },
+    {
+      "suite": "F2002-S01",
+      "exit_code": 0,
+      "tests": 15
+    },
+    {
+      "suite": "F2002-S02",
+      "exit_code": 0,
+      "tests": 22
+    },
+    {
+      "suite": "F2002-S03",
+      "exit_code": 0,
+      "tests": 14
+    },
+    {
+      "suite": "F2002-S04",
+      "exit_code": 0,
+      "tests": 16
+    },
+    {
+      "suite": "F2003-S01",
+      "exit_code": 0,
+      "tests": 19
+    },
+    {
+      "suite": "F2003-S02",
+      "exit_code": 0,
+      "tests": 34
+    },
+    {
+      "suite": "F2003-S03",
+      "exit_code": 0,
+      "tests": 13
+    },
+    {
+      "suite": "F2003-S04",
+      "exit_code": 0,
+      "tests": 20
+    }
+  ],
+  "tests": 896,
+  "passed": true,
+  "actual_robot_test": false,
+  "release_ready": false,
+  "checked_at": "2026-11-14 Asia/Seoul",
+  "baseline_tests": 595,
+  "new_regressions": 3,
+  "previously_unwired_tests": 298,
+  "t02_separate_branch": {
+    "commit": "e0f22fc01a879acf1adf902f8e415851870a8d8a",
+    "tests": 24,
+    "passed": true,
+    "hardware": false
+  },
+  "source_sha256": {
+    "scripts/verify_all.py": "851d585715ae71efcf41cedcf18bfcdd1f1498171d8b5272096c87f8e71975e1",
+    "Epic-01/F2003/F2003-S02/memory_service/service.py": "98a71bed5bb865c543045f5f9d193745d1fd66e70335df3c3797da1d2a8dee5c",
+    "Epic-01/F2003/F2003-S02/tests/test_memory.py": "09dd90e905648ba59907c23f27830855770eca284619cb4fe5055f3ca30f5d05"
+  }
+}

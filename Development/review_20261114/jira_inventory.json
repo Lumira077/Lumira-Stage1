@@ -1,0 +1,1313 @@
+{
+  "checked_at": "2026-11-14 Asia/Seoul",
+  "scope": "Epic and Story inventory; not a complete subtask acceptance audit",
+  "epics": [
+    {
+      "key": "KR1-1",
+      "summary": "EPIC-01 제품 모델 및 사용자 개인화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-42",
+      "summary": "EPIC-02 AI 대화 및 음성 인터랙션",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-143",
+      "summary": "EPIC-03 멀티모달 감정 인식",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-169",
+      "summary": "EPIC-04 얼굴 표정·음성·동작 표현",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-215",
+      "summary": "EPIC-05 사용자·환경 인지",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-246",
+      "summary": "EPIC-06 ROS2 로봇 코어 및 하드웨어 제어",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-282",
+      "summary": "EPIC-07 Stage 2 실내 자율주행",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-318",
+      "summary": "EPIC-08 Stage 3 5-Finger 조작 및 심부름",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-374",
+      "summary": "EPIC-09 Care 건강·안전 서비스",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-405",
+      "summary": "EPIC-10 Kids 교육·놀이 서비스",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-436",
+      "summary": "EPIC-11 보호자 앱 및 원격 상호작용",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-472",
+      "summary": "EPIC-12 클라우드·관제·OTA 운영",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-528",
+      "summary": "EPIC-13 보안·개인정보·제품 안전",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-584",
+      "summary": "EPIC-14 콘텐츠·구독·서비스 운영",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-655",
+      "summary": "EPIC-15 Stage 2~4 스마트 공간·가사·생활 보조",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-711",
+      "summary": "EPIC-16 로봇 하드웨어 시스템 구축",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-832",
+      "summary": "EPIC-17 제품 기능·디자인·사용성 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-933",
+      "summary": "EPIC-18 지식재산권·특허 전략 및 권리화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-994",
+      "summary": "EPIC-19 개발·초기 사업화 투자유치",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1039",
+      "summary": "EPIC-20 Stage별 고객그룹·홍보·판매 운영",
+      "status": "In Progress"
+    }
+  ],
+  "stories": [
+    {
+      "key": "KR1-2",
+      "summary": "[F2001] 초기 사용자 온보딩",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-7",
+      "summary": "[F2002] 사용자 프로필 및 선호 설정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-12",
+      "summary": "[F2003] 개인화 장기 기억",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-17",
+      "summary": "[F2004] 다중 사용자 및 가족 식별",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-22",
+      "summary": "[F2005] 제품 모델별 서비스 모드",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-27",
+      "summary": "[F2006] Companion/Friend 동반자 모드",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-32",
+      "summary": "[F2007] Pet 캐릭터 상호작용 모드",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-37",
+      "summary": "[F2157] 의상 연동 Persona Theme 전환",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-43",
+      "summary": "[F2205] Hybrid AI Policy Engine",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-48",
+      "summary": "[F2206] Multi-Cloud LLM Gateway",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-53",
+      "summary": "[F2207] Real-time Multimodal Cloud Session",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-58",
+      "summary": "[F2208] Local Conversation Context 및 RAG",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-63",
+      "summary": "[F2209] AI Cost 및 Quota Awareness",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-68",
+      "summary": "[F2210] Network Quality Adaptive Routing",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-73",
+      "summary": "[F2211] Privacy 및 Safety Routing",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-78",
+      "summary": "[F2212] LLM Failover 및 Session Recovery",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-83",
+      "summary": "[F2213] AI Quality Telemetry",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-88",
+      "summary": "[F2008] 호출어 및 대화 시작",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-93",
+      "summary": "[F2009] 실시간 음성 인식(STT)",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-98",
+      "summary": "[F2010] Multi-LLM 자연어 대화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-103",
+      "summary": "[F2011] 대화 세션 문맥 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-108",
+      "summary": "[F2012] 대화 중 끼어들기와 중단",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-113",
+      "summary": "[F2013] 다국어 대화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-118",
+      "summary": "[F2014] 연령·상황별 안전 대화 정책",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-123",
+      "summary": "[F2121] Stage1 오프라인 기본 명령·Local 안전 응답",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-128",
+      "summary": "[F2122] Stage2 Small Local LLM·RAG·NPU 실행",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-133",
+      "summary": "[F2123] Stage3 Hybrid AI Router 및 개인화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-138",
+      "summary": "[F2126] AEC·Beamforming·음원 방향 추정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-144",
+      "summary": "[F2015] 얼굴 표정 기반 감정 추정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-149",
+      "summary": "[F2016] 음성 톤 기반 감정 추정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-154",
+      "summary": "[F2017] 대화 내용 기반 감정 추정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-159",
+      "summary": "[F2018] 멀티모달 감정 융합",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-164",
+      "summary": "[F2019] 감정 변화 추세 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-170",
+      "summary": "[F2020] 디스플레이 얼굴 표정 엔진",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-175",
+      "summary": "[F2021] 감정형 TTS 음성 출력",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-180",
+      "summary": "[F2022] 목·팔·허리 제스처 라이브러리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-185",
+      "summary": "[F2023] 표정·음성·동작 동기화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-190",
+      "summary": "[F2024] 대화 의미 기반 제스처 선택",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-195",
+      "summary": "[F2025] 춤·노래 퍼포먼스",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-200",
+      "summary": "[F2129] 2D·2.5D Character Face Engine 및 Persona Skin",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-205",
+      "summary": "[F2130] Eye Gaze·Lip Sync·표정 동기화 고도화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-210",
+      "summary": "[F2131] Stage2~3 리얼형 Face R&D 옵션",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-216",
+      "summary": "[F2026] 얼굴 등록 및 사용자 인식",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-221",
+      "summary": "[F2027] 손짓·포즈 인식",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-226",
+      "summary": "[F2028] 터치 상호작용",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-231",
+      "summary": "[F2029] 주변 상황 및 사람 존재 감지",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-236",
+      "summary": "[F2127] Audio-Vision 능동 화자 추적",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-241",
+      "summary": "[F2133] 음원 유도 Face Tracking·Head 미세 정렬",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-247",
+      "summary": "[F2030] ROS2 노드 및 토픽 아키텍처",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-252",
+      "summary": "[F2031] 메인 컴퓨팅 보드 추상화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-257",
+      "summary": "[F2032] 관절 및 서보 모터 제어",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-262",
+      "summary": "[F2033] 센서 통합 및 시간 동기화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-267",
+      "summary": "[F2034] 배터리·충전·전원 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-272",
+      "summary": "[F2035] 로봇 자가진단 및 장애 코드",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-277",
+      "summary": "[F2120] Edge-Cloud AI Orchestrator",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-283",
+      "summary": "[F2036] LiDAR·Depth·Odometry 센서 융합",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-288",
+      "summary": "[F2037] 실내 지도 작성(SLAM)",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-293",
+      "summary": "[F2038] 자기 위치 추정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-298",
+      "summary": "[F2039] 목적지 경로 계획 및 추종",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-303",
+      "summary": "[F2040] 동적 장애물 회피",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-308",
+      "summary": "[F2041] 자동 복귀 및 무선 충전 도킹",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-313",
+      "summary": "[F2152] Network·SLAM Mapping·방 이름 설정 Wizard",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-319",
+      "summary": "[F2042] Dynamixel 기반 다관절 팔 제어",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-324",
+      "summary": "[F2043] 5-Finger 손가락 독립 제어",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-329",
+      "summary": "[F2044] 조작 대상 물체 인식 및 자세 추정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-334",
+      "summary": "[F2045] 안전 파지 및 놓기",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-339",
+      "summary": "[F2046] 간단 심부름 임무 실행",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-344",
+      "summary": "[F2047] 사람 근접 조작 안전",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-349",
+      "summary": "[F2142] 손끝 Force·Tactile Sensor HW 통합",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-354",
+      "summary": "[F2143] 물체 재질·취약성 추정 및 Unknown 안전정책",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-359",
+      "summary": "[F2144] Force·Slip 기반 Adaptive Soft Grasp",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-364",
+      "summary": "[F2145] One-Hand·Two-Hand 조작 판단",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-369",
+      "summary": "[F2146] 양팔 협조 제어·재파지·지원 요청",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-375",
+      "summary": "[F2048] 복약 및 일정 알림",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-380",
+      "summary": "[F2049] 비접촉 rPPG 생체신호 측정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-385",
+      "summary": "[F2050] 낙상 및 이상행동 감지",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-390",
+      "summary": "[F2051] 긴급 호출 및 보호자 알림",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-395",
+      "summary": "[F2052] 정서 케어와 명상 안내",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-400",
+      "summary": "[F2053] 건강·정서 리포트",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-406",
+      "summary": "[F2054] 연령별 교육 프로필",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-411",
+      "summary": "[F2055] 퀴즈·학습 대화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-416",
+      "summary": "[F2056] 동화 스토리텔링",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-421",
+      "summary": "[F2057] 외국어 대화 학습",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-426",
+      "summary": "[F2058] 노래·춤·체조 놀이",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-431",
+      "summary": "[F2059] 학습 진도 및 성취 기록",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-437",
+      "summary": "[F2060] 모바일 앱 계정 및 로봇 연결",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-442",
+      "summary": "[F2061] 로봇 상태 및 알림 조회",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-447",
+      "summary": "[F2062] 일정·복약·콘텐츠 원격 설정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-452",
+      "summary": "[F2063] 사용 시간 및 부모 통제",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-457",
+      "summary": "[F2064] 보호자 음성·영상 통화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-462",
+      "summary": "[F2151] Stage2 User & Space Onboarding App",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-467",
+      "summary": "[F2153] 사용자·IoT·권한 부분 재설정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-473",
+      "summary": "[F2065] 로봇 등록 및 디지털 자산 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-478",
+      "summary": "[F2066] 원격 상태 모니터링",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-483",
+      "summary": "[F2067] 로그·이벤트·진단 수집",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-488",
+      "summary": "[F2068] OTA 소프트웨어 업데이트",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-493",
+      "summary": "[F2069] 단계적 배포 및 롤백",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-498",
+      "summary": "[F2070] 원격 지원 및 설정 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-503",
+      "summary": "[F2124] AI 비용·지연·품질 운영 모니터링",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-508",
+      "summary": "[F2159] Device-Customer Mapping·Lifecycle 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-513",
+      "summary": "[F2160] Robot Fleet 운영 Dashboard",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-518",
+      "summary": "[F2161] 원격 진단·Predictive Maintenance",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-523",
+      "summary": "[F2162] A/S Ticket·부품·정비 이력 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-529",
+      "summary": "[F2071] 사용자 동의 및 개인정보 설정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-534",
+      "summary": "[F2072] 전송·저장 데이터 암호화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-539",
+      "summary": "[F2073] 인증·권한·기기 신뢰",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-544",
+      "summary": "[F2074] API 키 및 비밀정보 중앙 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-549",
+      "summary": "[F2075] 감사 로그 및 이상 접근 탐지",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-554",
+      "summary": "[F2076] 관절·주행 비상 정지",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-559",
+      "summary": "[F2139] 경량 Arm·연질 외장·라운드 Mechanical Safety",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-564",
+      "summary": "[F2140] Torque·Current 충돌 감지 및 가변 제한",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-569",
+      "summary": "[F2141] Safety MCU 독립 Torque 차단·검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-574",
+      "summary": "[F2150] 민감 IoT 기기 권한·재확인·감사",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-579",
+      "summary": "[F2164] Fleet 최소 Metadata·Privacy·Security Policy",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-585",
+      "summary": "[F2214] AI Router 및 Model Cost Optimization",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-590",
+      "summary": "[F2215] AI Credit 및 Quota Management",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-595",
+      "summary": "[F2216] Subscription Plan Management",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-600",
+      "summary": "[F2217] Payment Gateway Integration",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-605",
+      "summary": "[F2218] Monthly Settlement 및 Revenue Analytics",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-610",
+      "summary": "[F2219] Billing Anomaly Detection",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-615",
+      "summary": "[F2220] Jira 및 n8n Billing Exception Automation",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-620",
+      "summary": "[F2077] 구독 플랜 및 권한 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-625",
+      "summary": "[F2078] 콘텐츠 카탈로그 및 배포",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-630",
+      "summary": "[F2079] AI 사용량 계측 및 비용 제어",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-635",
+      "summary": "[F2080] 결제·청구·구독 갱신 및 PG 연동",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-640",
+      "summary": "[F2081] 콘텐츠 추천 및 구독 서비스 분석",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-645",
+      "summary": "[F2158] Fashion·Accessory 상품·Catalog 운영",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-650",
+      "summary": "[F2163] 사용량 기반 구독·추가 Service Recommendation",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-656",
+      "summary": "[F2082] 높이 조절 본체",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-661",
+      "summary": "[F2083] 생활 공간 의미 지도",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-666",
+      "summary": "[F2084] 가사 작업 계획",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-671",
+      "summary": "[F2085] 스마트홈 기기 연동",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-676",
+      "summary": "[F2086] 장애인·고령자 접근성 보조",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-681",
+      "summary": "[F2087] 장기 자율 생활 서비스",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-686",
+      "summary": "[F2137] Stage4 가변 높이 범위·승강 Mechanism",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-691",
+      "summary": "[F2138] 높이별 무게중심·전도·작업영역 안전",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-696",
+      "summary": "[F2147] Matter·Wi-Fi Device Discovery·Gateway",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-701",
+      "summary": "[F2148] 자연어 IoT 제어·실행 확인",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-706",
+      "summary": "[F2149] Scene 자동화·공간 위치 기반 제어",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-712",
+      "summary": "[F2090] Stage1 HW 요구사양 및 시스템 Architecture",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-717",
+      "summary": "[F2091] Main Computing HW 선정 및 인터페이스 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-722",
+      "summary": "[F2092] Safety MCU·Motor Interface·I/O 제어 Architecture",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-727",
+      "summary": "[F2093] 목·팔·허리·손 구동 HW 및 Actuator 선정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-732",
+      "summary": "[F2094] Camera·Mic·IMU·Touch·근접 Sensor HW 구성",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-737",
+      "summary": "[F2095] 얼굴 Display·Touch LCD·Audio HW 구축",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-742",
+      "summary": "[F2096] Battery·BMS·전용 전원·안전 Board 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-747",
+      "summary": "[F2097] 내부 Frame 및 기구 Architecture 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-752",
+      "summary": "[F2098] 내부 배치·배선·Connector·Harness 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-757",
+      "summary": "[F2099] 열·소음·진동·EMI 대응 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-762",
+      "summary": "[F2100] HW Prototype #1 제작",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-767",
+      "summary": "[F2101] ROS2/HW 통합 및 Bring-up 시험",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-772",
+      "summary": "[F2102] HW Prototype #2 개선 및 제품화 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-777",
+      "summary": "[F2103] HW 신뢰성·안전·양산성 검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-782",
+      "summary": "[F2125] 4~6채널 MEMS Mic Array HW",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-787",
+      "summary": "[F2132] Main Camera 사양·위치·시야각 검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-792",
+      "summary": "[F2135] Stage 확장 Modular Interface 표준",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-797",
+      "summary": "[F2136] 관절 Motor Bench·열·소음·수명 검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-802",
+      "summary": "[F2156] NFC Fashion·Accessory 인식 HW",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-807",
+      "summary": "[F2221] Fusion·AI 기반 Mechanical CAD·BOM·도면 Workflow",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-812",
+      "summary": "[F2222] COTS 70%·Custom 30% 전자구성 및 전환 Gate",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-817",
+      "summary": "[F2223] 전용 Power·Safety Board 개발",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-822",
+      "summary": "[F2224] STM32 Motion·I/O·Safety Controller Board",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-827",
+      "summary": "[F2225] RK3588 SoM 양산 Carrier Board 개발",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-833",
+      "summary": "[F2104] 제품 Concept 및 Target User 정의",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-838",
+      "summary": "[F2105] Stage1 제품 기능 Requirement 정의",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-843",
+      "summary": "[F2106] 사용자 Scenario·Journey·Use Case 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-848",
+      "summary": "[F2107] Human-Robot Interaction 기본 원칙 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-853",
+      "summary": "[F2108] 로봇 Size·비례·자세·동작 영역 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-858",
+      "summary": "[F2109] 외관 Industrial Design Concept",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-863",
+      "summary": "[F2110] 얼굴 Display·표정 UX Design",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-868",
+      "summary": "[F2111] 가슴 Touch LCD UI/UX",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-873",
+      "summary": "[F2112] 음성·표정·Gesture Interaction UX",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-878",
+      "summary": "[F2113] 버튼·터치·충전·전원 등 Physical UX",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-883",
+      "summary": "[F2114] CMF(Material/Color/Finish) 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-888",
+      "summary": "[F2115] 3D CAD Exterior 및 Packaging 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-893",
+      "summary": "[F2116] Design Mock-up 제작",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-898",
+      "summary": "[F2117] 사용자 사용성 Test 및 UX 평가",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-903",
+      "summary": "[F2118] 디자인 개선 및 최종 Design Freeze",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-908",
+      "summary": "[F2119] 양산 Design/DFM 및 외장 구조 확정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-913",
+      "summary": "[F2128] 캐릭터형·리얼형 Face UI 사용자 평가",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-918",
+      "summary": "[F2134] Stage1~4 공통 Body Size·Work Envelope 규격",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-923",
+      "summary": "[F2154] Robot Fashion 기계 Interface·안전 표준",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-928",
+      "summary": "[F2155] 고객군별 Robot Fashion·CMF·Accessory Design",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-934",
+      "summary": "[F2165] 특허 Governance·발명관리 Process",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-939",
+      "summary": "[F2166] 기술·경쟁사 Patent Landscape 및 선행기술 조사",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-944",
+      "summary": "[F2167] 핵심기술 Patent Portfolio·Claim Map 설계",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-949",
+      "summary": "[F2168] 대화·감정인식·Local AI 특허 발굴·출원",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-954",
+      "summary": "[F2169] HRI·Face UI·감정표현·Persona 특허 발굴·출원",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-959",
+      "summary": "[F2170] 구동·센서·전원·기계안전 특허 발굴·출원",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-964",
+      "summary": "[F2171] 자율주행·조작·Smart Space 특허 발굴·출원",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-969",
+      "summary": "[F2172] 국내 우선권 출원·명세서·도면 품질관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-974",
+      "summary": "[F2173] PCT·미국·유럽·일본·중국 해외출원 전략",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-979",
+      "summary": "[F2174] 심사청구·OA 대응·보정·분할출원 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-984",
+      "summary": "[F2175] 등록·연차료·권리평가·영업비밀 관리",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-989",
+      "summary": "[F2176] FTO·경쟁사 Monitoring·라이선스 사업화",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-995",
+      "summary": "[F2177] 투자유치 목표·Round·Milestone Financing 전략",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-999",
+      "summary": "[F2178] 투자 준비도 점검·Data Room 구축",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1003",
+      "summary": "[F2179] 5개년 재무모델·자금사용계획·Unit Economics",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1007",
+      "summary": "[F2180] IR Deck·Executive Summary·기술 Demo Package",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1009",
+      "summary": "[F2181] PoC·고객 Interview·LOI·초기매출 Evidence",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1012",
+      "summary": "[F2182] 특허·규제·인증·사업 Risk Readiness",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1016",
+      "summary": "[F2183] 정부 R&D·정책자금·보증·민간투자 Matching",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1019",
+      "summary": "[F2184] VC·CVC·전략투자자 Target List·CRM",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1023",
+      "summary": "[F2185] 투자자 Outreach·미팅·Follow-up Pipeline",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1024",
+      "summary": "[F2186] 투자 Due Diligence·Q&A 대응",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1028",
+      "summary": "[F2187] Valuation·Cap Table·Term Sheet 조건협상",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1032",
+      "summary": "[F2188] 투자계약·법률검토·Closing·자금입금",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1036",
+      "summary": "[F2189] 투자금 집행·KPI 보고·후속투자 준비",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1040",
+      "summary": "[F2190] Stage별 고객 Segment·ICP·Persona 정의",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1044",
+      "summary": "[F2191] Customer CRM·동의·선호·접점 Data 구축",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1048",
+      "summary": "[F2192] Stage 1~4 Go-to-Market·Launch Calendar",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1051",
+      "summary": "[F2193] Stage 1 사전 Community·Beta User 모집",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1055",
+      "summary": "[F2194] Stage 1 Brand Content·PR·KOL 홍보",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1058",
+      "summary": "[F2195] Stage 1 D2C 판매·예약·결제·구독 운영",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1062",
+      "summary": "[F2196] Stage 1 출시 Campaign·Sales Operation",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1064",
+      "summary": "[F2197] Stage 2 Home·Office 고객·Partner Channel 확장",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1069",
+      "summary": "[F2198] Stage 2 체험·공간 Onboarding·Upgrade Promotion",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1074",
+      "summary": "[F2199] Stage 3 Helper·병원·기관 Solution Marketing",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1079",
+      "summary": "[F2200] Stage 3 B2B PoC·제안·계약·배치 운영",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1084",
+      "summary": "[F2201] Stage 4 고령자·접근성·생활보조 Marketing",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1089",
+      "summary": "[F2202] Stage 4 가족·보호자 구독·Care Channel 판매",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1094",
+      "summary": "[F2203] Customer Community·VOC·Referral·Retention",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1098",
+      "summary": "[F2204] Marketing·Sales Funnel·Attribution Dashboard",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1101",
+      "summary": "[KR1-SP1-01] Stage 1 대상 사용자와 핵심 사용 시나리오 확정",
+      "status": "Done"
+    },
+    {
+      "key": "KR1-1102",
+      "summary": "[KR1-SP1-02] Stage 1 시스템 경계와 모듈 인터페이스 초안",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1103",
+      "summary": "[KR1-SP1-03] ROS 2 노드와 토픽 계약 v0.1 작성",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1104",
+      "summary": "[KR1-SP1-04] Stage 1 하드웨어 요구사양과 COTS 후보 비교",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1105",
+      "summary": "[KR1-SP1-05] 전원과 구동 안전의 초기 위험 검토",
+      "status": "Done"
+    },
+    {
+      "key": "KR1-1106",
+      "summary": "[KR1-SP1-06] Sprint 1 설계 검토와 다음 개발 우선순위 확정",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1108",
+      "summary": "[KR1-SP2-C01] Pi5·Hailo·ROS2 환경 및 DDS 계약 통합 검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1109",
+      "summary": "[KR1-SP2-C02] UNO 모델·단일축 DYNAMIXEL·휠·센서 Bring-up",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1110",
+      "summary": "[KR1-SP2-C03] 전원·충전 인터록 및 탁상 이동 안전 지그 검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1111",
+      "summary": "[KR1-SP2-C04] 사용자 2군 시나리오·음향·터치 사용성 검증",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1120",
+      "summary": "Lumira 온라인 커뮤니티·공동 활동 서비스",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1121",
+      "summary": "Lumira 개인화 정보 서비스·출처 및 이용량 연계",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1122",
+      "summary": "실제 반려동물 온라인 확인·보호자 소통 서비스",
+      "status": "To Do"
+    },
+    {
+      "key": "KR1-1135",
+      "summary": "Lumira T10 — 허리 Pan·2륜 구동 Stage1~4 A/B 개발 및 실기 통합",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1140",
+      "summary": "[T01/T10] 네트워크·통신 R1 공통 소스 및 통합 검증",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1142",
+      "summary": "[Kids T01/T10] 생활습관 교육·완료 칭찬·시간 알림",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1146",
+      "summary": "[Kids T01/T10 R3] 한·영 콘텐츠 2,600건 및 NAS 배포 — T01 연결 대기",
+      "status": "In Progress"
+    },
+    {
+      "key": "KR1-1159",
+      "summary": "[T02 M2 R4] 10DOF 교감·자율주행 시제품 및 동작학습 이력 통합",
+      "status": "In Progress"
+    }
+  ]
+}

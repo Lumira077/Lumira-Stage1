@@ -32,6 +32,26 @@ class Memory(unittest.TestCase):
     def test_regrant_old_request_replay_blocked(self):
         self.confirmed();self.s.revoke('demo-owner',self.pid);self.s.grant('demo-owner',self.pid);self.assertRaises(Error,self.create);self.create('음악','fresh-request')
     def test_expiry(self):self.confirmed();self.now+=2592001;self.assertEqual(self.s.search('demo-owner',self.pid,'demo-device','산책'),[]);self.assertEqual(self.s.db.execute('SELECT count(*) FROM search_index').fetchone()[0],0)
+    def test_expired_get_commits_erasure_despite_not_found(self):
+        r=self.confirmed();self.now+=2592001
+        with self.assertRaises(Error):self.s.get('demo-owner',self.pid,'demo-device',r['memory_id'])
+        self.assertEqual(self.s.db.execute('SELECT count(*) FROM memories').fetchone()[0],0)
+        self.assertEqual(self.s.db.execute('SELECT count(*) FROM search_index').fetchone()[0],0)
+        self.assertEqual(self.s.db.execute('SELECT count(*) FROM mutations').fetchone()[0],0)
+
+    def test_expired_replay_erasure_survives_restart(self):
+        self.confirmed();self.now+=2592001
+        with self.assertRaises(Error):self.create()
+        self.s.close();self.s=Service(str(self.root/'current.sqlite3'),self.s.policy,clock=lambda:self.now)
+        self.assertEqual(self.s.db.execute('SELECT count(*) FROM memories').fetchone()[0],0)
+        with self.assertRaises(Error):self.create()
+        self.create('음악','new-request')
+
+    def test_expired_candidate_failed_confirmation_keeps_privacy_ledger(self):
+        r=self.create();self.now+=604801
+        with self.assertRaises(Error):self.s.confirm('demo-owner',self.pid,'demo-device',r['memory_id'],1,'confirm')
+        self.assertEqual(self.s.db.execute("SELECT count(*) FROM privacy_ledger WHERE operation='expire'").fetchone()[0],1)
+        self.assertEqual(self.s.db.execute('SELECT count(*) FROM memories').fetchone()[0],0)
     def test_candidate_shorter_retention(self):r=self.create();self.assertEqual(r['expires_at'],self.now+604800)
     def test_restart_persists(self):r=self.confirmed();self.s.close();self.s=Service(str(self.root/'current.sqlite3'),self.s.policy,clock=lambda:self.now);self.assertEqual(self.s.search('demo-owner',self.pid,'demo-device','산책')[0]['memory_id'],r['memory_id'])
     def test_logs_no_content_identity(self):r=self.confirmed();self.s.search('demo-owner',self.pid,'demo-device','산책');raw=json.dumps(self.s.db.execute('SELECT * FROM events').fetchall(),ensure_ascii=False);self.assertNotIn('산책',raw);self.assertNotIn(self.pid,raw);self.assertNotIn('demo-owner',raw)

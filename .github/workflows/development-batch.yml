@@ -2,6 +2,12 @@ name: Epic 01-17 offline verification
 on:
   push:
     paths:
+      - 'Epic-01/**'
+      - 'Epic-02/**'
+      - 'Epic-03/**'
+      - 'Epic-04/**'
+      - 'Epic-05/**'
+      - 'Epic-06/**'
       - 'Development/**'
       - 'scripts/**'
       - 'Epic-07/**'
@@ -19,6 +25,7 @@ on:
       - 'Epic-19/**'
       - 'Epic-20/**'
       - '.github/workflows/development-batch.yml'
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read

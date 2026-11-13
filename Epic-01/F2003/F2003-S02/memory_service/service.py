@@ -55,7 +55,17 @@ class Service:
                 self._purge(pid);self.db.execute("INSERT OR REPLACE INTO scope_blocks VALUES(?,'CONSENT_REVOKED')",(pid,))
             raise Error('MEMORY_CONSENT_REQUIRED',403)
         if consent:require(not self.db.execute('SELECT 1 FROM scope_blocks WHERE profile=?',(pid,)).fetchone(),'SCOPE_REGRANT_REQUIRED',403)
+        # Commit retention cleanup before the requested operation. NOT_FOUND or
+        # a rejected replay must not roll erased content back into the database.
+        self.prune_expired()
         return stamp
+    def prune_expired(self):
+        """Local retention maintenance; also usable by an in-process scheduler.
+
+        No content is returned. This service remains single-threaded; callers
+        must not invoke maintenance inside an existing transaction.
+        """
+        with self.tx():self._expire()
     def _expire(self):
         expired=self.db.execute('SELECT id,profile FROM memories WHERE expires<=?',(self.clock(),)).fetchall()
         for mid,pid in expired:
@@ -74,7 +84,7 @@ class Service:
     def create(self,actor,pid,device,data,key):
         self._authorize(actor,pid,device);d=validate(data)
         with self.tx():
-            self._expire();h,old=self._mutation(actor,pid,key,{'op':'create','data':d})
+            h,old=self._mutation(actor,pid,key,{'op':'create','data':d})
             if old:return old
             duplicate=next(((mid,) for mid,content in self.db.execute("SELECT id,content FROM memories WHERE profile=? AND kind=? AND topic=? AND state IN ('candidate','confirmed')",(pid,d['kind'],d['topic'])) if normalized(content)==normalized(d['content'])),None)
             if duplicate:
@@ -87,11 +97,11 @@ class Service:
         return [self.create(actor,pid,device,d,key+':'+str(i)) for i,d in enumerate(candidates)]
     def get(self,actor,pid,device,mid):
         self._authorize(actor,pid,device)
-        with self.tx():self._expire();return self._row(mid,actor,pid)
+        with self.tx():return self._row(mid,actor,pid)
     def list(self,actor,pid,device):
         self._authorize(actor,pid,device)
         with self.tx():
-            self._expire();return [self._row(r[0],actor,pid) for r in self.db.execute("SELECT id FROM memories WHERE profile=? AND state IN ('candidate','confirmed') ORDER BY created,id",(pid,)).fetchall()]
+            return [self._row(r[0],actor,pid) for r in self.db.execute("SELECT id FROM memories WHERE profile=? AND state IN ('candidate','confirmed') ORDER BY created,id",(pid,)).fetchall()]
     def _supersede(self,pid,kind,topic,except_mid):
         ids=self.db.execute("SELECT id FROM memories WHERE profile=? AND kind=? AND topic=? AND id!=? AND state='confirmed'",(pid,kind,topic,except_mid)).fetchall()
         for (mid,) in ids:
@@ -99,7 +109,7 @@ class Service:
     def confirm(self,actor,pid,device,mid,revision,key,ttl_seconds=2592000):
         self._authorize(actor,pid,device);require(type(revision) is int and revision>0,'INVALID_REVISION');require(type(ttl_seconds) is int and 60<=ttl_seconds<=31536000)
         with self.tx():
-            self._expire();h,old=self._mutation(actor,pid,key,{'op':'confirm','mid':mid,'revision':revision,'ttl':ttl_seconds})
+            h,old=self._mutation(actor,pid,key,{'op':'confirm','mid':mid,'revision':revision,'ttl':ttl_seconds})
             if old:return old
             r=self._row(mid,actor,pid);require(r['revision']==revision,'REVISION_CONFLICT',409);require(r['state']=='candidate','CANDIDATE_REQUIRED',409);content_policy(r['content'])
             self._supersede(pid,r['kind'],r['topic'],mid)
@@ -108,7 +118,7 @@ class Service:
     def correct(self,actor,pid,device,mid,content,revision,key):
         self._authorize(actor,pid,device);content=text(content);content_policy(content);require(type(revision) is int and revision>0,'INVALID_REVISION')
         with self.tx():
-            self._expire();h,old=self._mutation(actor,pid,key,{'op':'correct','mid':mid,'content':content,'revision':revision})
+            h,old=self._mutation(actor,pid,key,{'op':'correct','mid':mid,'content':content,'revision':revision})
             if old:return old
             r=self._row(mid,actor,pid);require(r['state']=='confirmed','CONFIRMED_REQUIRED',409);require(r['revision']==revision,'REVISION_CONFLICT',409)
             self._retire(pid,mid);self.db.execute('DELETE FROM mutations WHERE memory=?',(mid,))
@@ -139,7 +149,7 @@ class Service:
     def search(self,actor,pid,device,query,limit=5):
         self._authorize(actor,pid,device);query=text(query,200);require(type(limit) is int and 1<=limit<=10)
         with self.tx():
-            self._expire();rows=self.db.execute("SELECT m.id,i.terms FROM memories m JOIN search_index i ON i.memory=m.id WHERE m.profile=? AND m.state='confirmed' ORDER BY m.updated DESC,m.id",(pid,)).fetchall();ranked=[]
+            rows=self.db.execute("SELECT m.id,i.terms FROM memories m JOIN search_index i ON i.memory=m.id WHERE m.profile=? AND m.state='confirmed' ORDER BY m.updated DESC,m.id",(pid,)).fetchall();ranked=[]
             for mid,terms in rows:
                 score=relevance(query,terms)
                 if score>=.25:ranked.append((score,self._row(mid,actor,pid)))
@@ -153,7 +163,7 @@ class Service:
     def release_context(self,actor,pid,device,ticket):
         stamp=self._authorize(actor,pid,device)
         with self.tx():
-            self._expire();row=self.db.execute('SELECT * FROM tickets WHERE id=? AND owner=? AND profile=?',(ticket,actor,pid)).fetchone();require(row is not None,'STALE_CONTEXT',409)
+            row=self.db.execute('SELECT * FROM tickets WHERE id=? AND owner=? AND profile=?',(ticket,actor,pid)).fetchone();require(row is not None,'STALE_CONTEXT',409)
             require(json.loads(row[3])==stamp,'STALE_CONTEXT',409);memories=[]
             for mid,revision in json.loads(row[4]):
                 r=self._row(mid,actor,pid);require(r['state']=='confirmed' and r['revision']==revision,'STALE_CONTEXT',409)
